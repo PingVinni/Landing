@@ -13,8 +13,8 @@
       "hero_archetype": "H006",
       "hero_cluster": "GT24_EDITORIAL_SPREAD",
       "footer_archetype": "F013",
-      "page_rhythm": "R16_MEDIA_TRIPTYCH_PROOF_RAIL_EDITORIAL_RUNWAY_DIRECTORY_CTA",
-      "site_fingerprint": "dorevita-org-v1:H006-T004-C036-P017-C032-M005-C035-C029-A005"
+      "page_rhythm": "R17_PREMIUM_MEDIA_VALUE_TABS_EDITORIAL_RUNWAY_MECHANICS_LEVELS_METRICS_ART_TESTING_CTA",
+      "site_fingerprint": "dorevita-org-v3:H006-T004-T009-C041-D014-C036-P017-C032-M005-T011-C035-C029-A005"
     }
   ],
   "frequency": {
@@ -29,44 +29,57 @@
     },
     "topology_clusters": {
       "GT24_EDITORIAL_SPREAD": 2,
-      "GT16_LEDGER_ROWS": 1,
+      "GT16_LEDGER_ROWS": 2,
+      "GT22_VARIABLE_WIDTH_BANDS": 3,
+      "GT08_THREE_ZONE_ASYMMETRIC": 1,
+      "GT12_RAIL_AND_STAGE": 2,
       "GT19_CROSS_AXIS": 1,
       "GT17_TIMELINE_RUNWAY": 1,
-      "GT12_RAIL_AND_STAGE": 1,
-      "GT22_VARIABLE_WIDTH_BANDS": 2,
       "GT02_BALANCED_SPLIT": 1
     },
     "section_archetypes": {
       "H006": 1,
       "T004": 1,
+      "T009": 1,
+      "C041": 1,
+      "D014": 1,
       "C036": 1,
       "P017": 1,
       "C032": 1,
       "M005": 1,
+      "T011": 1,
       "C035": 1,
       "C029": 1,
       "A005": 1
     },
     "page_rhythms": {
-      "R16_MEDIA_TRIPTYCH_PROOF_RAIL_EDITORIAL_RUNWAY_DIRECTORY_CTA": 1
+      "R17_PREMIUM_MEDIA_VALUE_TABS_EDITORIAL_RUNWAY_MECHANICS_LEVELS_METRICS_ART_TESTING_CTA": 1
     },
     "home_bigrams": {
       "H006>T004": 1,
-      "T004>C036": 1,
+      "T004>T009": 1,
+      "T009>C041": 1,
+      "C041>D014": 1,
+      "D014>C036": 1,
       "C036>P017": 1,
       "P017>C032": 1,
       "C032>M005": 1,
-      "M005>C035": 1,
+      "M005>T011": 1,
+      "T011>C035": 1,
       "C035>C029": 1,
       "C029>A005": 1
     },
     "home_trigrams": {
-      "H006>T004>C036": 1,
-      "T004>C036>P017": 1,
+      "H006>T004>T009": 1,
+      "T004>T009>C041": 1,
+      "T009>C041>D014": 1,
+      "C041>D014>C036": 1,
+      "D014>C036>P017": 1,
       "C036>P017>C032": 1,
       "P017>C032>M005": 1,
-      "C032>M005>C035": 1,
-      "M005>C035>C029": 1,
+      "C032>M005>T011": 1,
+      "M005>T011>C035": 1,
+      "T011>C035>C029": 1,
       "C035>C029>A005": 1
     }
   }
