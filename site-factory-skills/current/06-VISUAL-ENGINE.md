@@ -1,7 +1,7 @@
 # 06 VISUAL ENGINE
 
 **Bundle format:** Source Bundle v1.5  
-**Policy baseline:** Site Factory v4.9.15  
+**Policy baseline:** Site Factory v4.9.16  
 **Bundling rule:** logical module boundaries and aliases are preserved inside bundles. Source Bundle v1.5 applies the Site Factory v4.9.14 interaction, micro-motion, hover/focus and semantic interactive-section expansion while preserving v1.4 rich-content, live UI/UX research, morphological section variation, v1.3 adult-premium visuals and the 7-file Project Source architecture.
 
 ## Module aliases in this bundle
@@ -3595,3 +3595,26 @@ Generated photorealistic images must pass:
 - coherent lighting/crop;
 - enough resolution for intended display size;
 - unique composition across major sections.
+
+
+---
+
+## 60. CONTENT-ASSET-ONLY GENERATION MODE (v4.9.2)
+
+Normal BUILD image generation operates in `CONTENT_ASSET_ONLY` mode.
+
+Allowed by default:
+- standalone editorial / photoreal content photography;
+- environment, people, sports and product-context imagery;
+- section-specific production media;
+- secondary diagrams only when the media mix allows them.
+
+Not allowed by default:
+- full webpage mockups;
+- landing-page screenshots;
+- baked-in navigation, headings, buttons or whole UI compositions;
+- generated fake gameplay screenshots.
+
+Before generation, record the intended `target_page`, `target_section`, semantic role, crop/orientation and truth constraints. After generation, the file must be integrated into the real theme or discarded. Unused concept renders do not count toward media density.
+
+HTML/CSS/JS owns layout, typography, responsiveness and section geometry. Browser rendering owns visual acceptance.

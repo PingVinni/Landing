@@ -1,5 +1,12 @@
 # Site Factory Skills Changelog
 
+## 2026-10-02 — content-photo-only-build-discipline-v5.1
+- Added CONTENT_ASSET_ONLY image-generation mode for normal BUILD.
+- Full-page/landing-page mockups are forbidden by default unless the user explicitly requests one.
+- Every generated image counted in media QA must be a packaged, actually rendered content asset.
+- Generated mockups can never satisfy browser/composition/mobile/GEO QA.
+- Carries forward browser-proof GEO, no-dead-space, rendered-diversity and adult-photography hard gates.
+
 ## 2026-10-02 — browser-proof-geo-photo-diversity-v5
 - Added GEO/locale hard gate against the final rendered HTML; PL builds now require `html lang=pl-PL`, `og:locale=pl_PL`, matching schema language and production canonical host.
 - Made real browser screenshot QA mandatory for visual release; static/manifests alone can no longer claim composition PASS.

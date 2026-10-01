@@ -1,7 +1,7 @@
 # 07 QA RELEASE
 
 **Bundle format:** Source Bundle v1.5  
-**Policy baseline:** Site Factory v4.9.15  
+**Policy baseline:** Site Factory v4.9.16  
 **Bundling rule:** logical module boundaries and aliases are preserved inside bundles. Source Bundle v1.5 applies the Site Factory v4.9.14 interaction, micro-motion, hover/focus and semantic interactive-section expansion while preserving v1.4 rich-content, live UI/UX research, morphological section variation, v1.3 adult-premium visuals and the 7-file Project Source architecture.
 
 ## Module aliases in this bundle
@@ -3478,3 +3478,23 @@ MOBILE_BROWSER_PASS
 ```
 
 Any missing browser dimension keeps the build blocked.
+
+
+---
+
+## 60. IMAGE-BUDGET / IMPLEMENTATION QA (v7.2)
+
+For a normal BUILD require:
+
+```text
+generated_full_page_mockup_count = 0
+unless user_explicitly_requested_mockup = true
+```
+
+Every generated production image counted in release QA must:
+- exist as a packaged theme asset;
+- map to a real page/section;
+- be referenced by final rendered HTML;
+- satisfy the adult-premium media rules.
+
+A generated website mockup can never satisfy `COMPOSITION_BROWSER_PASS`, `MOBILE_BROWSER_PASS`, GEO/SEO runtime proof or rendered-diversity checks. Only the implemented site rendered in a browser can satisfy those gates.

@@ -1,7 +1,7 @@
 # 01 CORE GOVERNANCE
 
 **Bundle format:** Source Bundle v1.5  
-**Policy baseline:** Site Factory v4.9.15  
+**Policy baseline:** Site Factory v4.9.16  
 **Bundling rule:** logical module boundaries and aliases are preserved inside bundles. Source Bundle v1.5 applies the Site Factory v4.9.14 interaction, micro-motion, hover/focus and semantic interactive-section expansion while preserving v1.4 rich-content, live UI/UX research, morphological section variation, v1.3 adult-premium visuals and the 7-file Project Source architecture.
 
 ## Module aliases in this bundle
@@ -4597,3 +4597,26 @@ When source-owned photography/screenshot rights are unavailable, generate origin
 `DIVERSITY-RENDER-001` — section IDs differ but rendered geometry remains materially repetitive = `FAIL`.
 
 `MEDIA-ADULT-001` — abstract/vector/doodle visuals dominate a build that calls for adult premium photography = `FAIL`.
+
+
+---
+
+## 16.26. BUILD IMAGE-SCOPE DISCIPLINE (v4.9.16)
+
+During a normal site BUILD, image generation is reserved for **content assets that will ship inside the site**.
+
+Default workflow:
+
+```text
+DEFINE SECTION MEDIA NEED
+→ GENERATE STANDALONE CONTENT PHOTO / CONTENT ASSET
+→ PACKAGE IT AS A REAL THEME ASSET
+→ BUILD UI / LAYOUT IN CODE
+→ VERIFY IN BROWSER
+```
+
+Do not generate a full landing-page mockup, screenshot-style website concept, navigation/header composition, or composite UI image during BUILD unless the user explicitly asks for a visual mockup/concept.
+
+A generated webpage mockup is not implementation, is not browser QA, and must never consume the production media budget intended for content imagery.
+
+For photo-first builds, generated assets should normally be standalone, section-mapped, free of embedded marketing/navigation text, and must not present invented gameplay UI as an official screenshot.

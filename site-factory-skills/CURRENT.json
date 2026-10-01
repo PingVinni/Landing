@@ -5,7 +5,7 @@
   "canonical_store": "github",
   "canonical_repository": "PingVinni/Landing",
   "canonical_branch": "main",
-  "current_release": "browser-proof-geo-photo-diversity-v5",
+  "current_release": "content-photo-only-build-discipline-v5.1",
   "source_state": "ACTIVE_GIT_CANONICAL",
   "project_sources_mode": "BOOTSTRAP_ONLY",
   "bootstrap_path": "site-factory-skills/SITE-FACTORY-BOOTSTRAP.md",
@@ -23,12 +23,13 @@
   "layout_bank_root": "site-factory-layout-bank/",
   "latest_ready_root": "site-factory-latest-ready/",
   "latest_system_changes": [
-    "final HTML GEO/locale must match requested locale; PL requires pl-PL document language",
-    "browser screenshot QA is mandatory before a full build can be release-ready",
-    "whitespace and heading-stack acceptance is based on rendered geometry, not manifest claims",
-    "section uniqueness is measured from rendered silhouette/DOM/CSS rather than archetype labels",
-    "adult premium photo/photoreal media must dominate major visuals; diagram-heavy/doodle builds fail",
-    "compact copy must retain visible typography breathing and cannot be converted into empty canvas"
+    "image generation during BUILD is content-asset-only unless the user explicitly asks for a page mockup",
+    "generated full-page/site mockups never count as implementation or browser QA",
+    "final HTML GEO/locale must match requested locale",
+    "browser screenshot QA is mandatory before visual release",
+    "rendered silhouette/DOM/CSS proves section uniqueness",
+    "adult premium photography/photoreal media dominates major visuals",
+    "compact copy must retain typography breathing and cannot create dead canvas"
   ],
-  "policy_baseline": "Site Factory v4.9.15"
+  "policy_baseline": "Site Factory v4.9.16"
 }

@@ -1,17 +1,19 @@
 {
+  "schema_version": "2.2",
   "release": "content-photo-only-build-discipline-v5.1",
-  "updated_at": "2026-10-02",
-  "state": "ACTIVE_GIT_CANONICAL",
+  "date": "2026-10-02",
+  "status": "ACTIVE_GIT_CANONICAL",
   "policy_baseline": "Site Factory v4.9.16",
-  "bootstrap_mode": "PROJECT_SOURCES_BOOTSTRAP_ONLY",
-  "mandatory_release_gates": [
-    "GEO_SEO_BROWSER_PASS",
-    "COMPOSITION_BROWSER_PASS",
-    "RENDERED_DIVERSITY_PASS",
-    "ADULT_MEDIA_PASS",
-    "MOBILE_BROWSER_PASS",
-    "CONTENT_ASSET_ONLY_IMAGE_BUDGET_PASS"
-  ],
+  "canonical_repository": "PingVinni/Landing",
+  "canonical_branch": "main",
+  "hard_gates": {
+    "content_asset_only_image_generation": true,
+    "geo_locale_final_html": true,
+    "browser_screenshot_matrix": true,
+    "rendered_canvas_and_typography": true,
+    "rendered_silhouette_diversity": true,
+    "adult_premium_photo_dominance": true
+  },
   "bundles": [
     {
       "name": "01-CORE-GOVERNANCE.md",
