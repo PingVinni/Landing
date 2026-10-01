@@ -23,21 +23,21 @@
       "locale": "pl-PL",
       "niche": "gaming / physics brick breaker",
       "updated_at": "2026-10-01",
-      "hero_archetype": "H021",
-      "hero_cluster": "GT12_RAIL_AND_STAGE",
+      "hero_archetype": "H003",
+      "hero_cluster": "GT02_BALANCED_SPLIT",
       "footer_archetype": "F021",
-      "page_rhythm": "R27_TEAM_RAIL_MANIFESTO_DECISION_TASKS_PROCESS_QA_PRODUCT_SYSTEMS_CTA",
-      "site_fingerprint": "kertanzip-org-v1:H021-C052-T019-D025-P031-C014-T022-C041-M028-C011-A017"
+      "page_rhythm": "R28_BALANCED_TEAM_MANIFESTO_DECISION_TASKS_PROCESS_QA_PRODUCT_SYSTEMS_CTA",
+      "site_fingerprint": "kertanzip-org-v2:H003-C052-T019-D025-P031-C014-T022-C041-M028-C011-A017"
     }
   ],
   "frequency": {
     "hero_archetypes": {
       "H006": 1,
-      "H021": 1
+      "H003": 1
     },
     "hero_clusters": {
       "GT24_EDITORIAL_SPREAD": 1,
-      "GT12_RAIL_AND_STAGE": 1
+      "GT02_BALANCED_SPLIT": 1
     },
     "footer_archetypes": {
       "F013": 1,
@@ -48,10 +48,10 @@
       "GT16_LEDGER_ROWS": 4,
       "GT22_VARIABLE_WIDTH_BANDS": 4,
       "GT08_THREE_ZONE_ASYMMETRIC": 2,
-      "GT12_RAIL_AND_STAGE": 3,
+      "GT12_RAIL_AND_STAGE": 2,
       "GT19_CROSS_AXIS": 2,
       "GT17_TIMELINE_RUNWAY": 2,
-      "GT02_BALANCED_SPLIT": 2,
+      "GT02_BALANCED_SPLIT": 3,
       "GT15_LAYERED_OVERLAP": 1,
       "GT01_MONO_COLUMN": 1
     },
@@ -69,7 +69,6 @@
       "C035": 1,
       "C029": 1,
       "A005": 1,
-      "H021": 1,
       "C052": 1,
       "T019": 1,
       "D025": 1,
@@ -78,11 +77,12 @@
       "T022": 1,
       "M028": 1,
       "C011": 1,
-      "A017": 1
+      "A017": 1,
+      "H003": 1
     },
     "page_rhythms": {
       "R18_STUDIO_TEAM_WORKFLOW_TASKS_REVIEW_PRODUCT_SYSTEMS_LEVELS_ART_QA_CTA": 1,
-      "R27_TEAM_RAIL_MANIFESTO_DECISION_TASKS_PROCESS_QA_PRODUCT_SYSTEMS_CTA": 1
+      "R28_BALANCED_TEAM_MANIFESTO_DECISION_TASKS_PROCESS_QA_PRODUCT_SYSTEMS_CTA": 1
     },
     "home_bigrams": {
       "H006>T004": 1,
@@ -97,7 +97,6 @@
       "T011>C035": 1,
       "C035>C029": 1,
       "C029>A005": 1,
-      "H021>C052": 1,
       "C052>T019": 1,
       "T019>D025": 1,
       "D025>P031": 1,
@@ -106,7 +105,8 @@
       "T022>C041": 1,
       "C041>M028": 1,
       "M028>C011": 1,
-      "C011>A017": 1
+      "C011>A017": 1,
+      "H003>C052": 1
     },
     "home_trigrams": {
       "H006>T004>T009": 1,
@@ -120,7 +120,6 @@
       "M005>T011>C035": 1,
       "T011>C035>C029": 1,
       "C035>C029>A005": 1,
-      "H021>C052>T019": 1,
       "C052>T019>D025": 1,
       "T019>D025>P031": 1,
       "D025>P031>C014": 1,
@@ -128,7 +127,8 @@
       "C014>T022>C041": 1,
       "T022>C041>M028": 1,
       "C041>M028>C011": 1,
-      "M028>C011>A017": 1
+      "M028>C011>A017": 1,
+      "H003>C052>T019": 1
     }
   }
 }
