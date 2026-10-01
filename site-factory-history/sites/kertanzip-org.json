@@ -8,7 +8,7 @@
   "updated_at": "2026-10-01",
   "build_identity": {
     "theme_package_slug": "kertanzip-blastybubs-pl",
-    "build_version": "1.0.0",
+    "build_version": "1.0.2",
     "structural_schema_version": "1.1"
   },
   "source": {
@@ -22,12 +22,12 @@
     "first_person_creator_claims_allowed": true
   },
   "hero": {
-    "archetype_id": "H021",
-    "topology_cluster": "GT12_RAIL_AND_STAGE",
+    "archetype_id": "H003",
+    "topology_cluster": "GT02_BALANCED_SPLIT",
     "text_anchor": "TA06_CENTER_RIGHT",
     "media_topology": "MT02_DOMINANT_SINGLE",
     "title_scale_tier": "STANDARD",
-    "neutral_silhouette_hash": "left-dominant-team-photo__right-business-copy__vertical-index-rail"
+    "neutral_silhouette_hash": "balanced-team-photo__balanced-business-copy__no-side-rail"
   },
   "header": {
     "family": "HDR07",
@@ -40,9 +40,9 @@
     "signature": "brand-plus-three-utility-columns__three-part-bottom-bar"
   },
   "home": {
-    "page_rhythm_recipe": "R27_TEAM_RAIL_MANIFESTO_DECISION_TASKS_PROCESS_QA_PRODUCT_SYSTEMS_CTA",
+    "page_rhythm_recipe": "R28_BALANCED_TEAM_MANIFESTO_DECISION_TASKS_PROCESS_QA_PRODUCT_SYSTEMS_CTA",
     "section_archetypes": [
-      "H021",
+      "H003",
       "C052",
       "T019",
       "D025",
@@ -55,7 +55,7 @@
       "A017"
     ],
     "topology_sequence": [
-      "GT12_RAIL_AND_STAGE",
+      "GT02_BALANCED_SPLIT",
       "GT24_EDITORIAL_SPREAD",
       "GT16_LEDGER_ROWS",
       "GT08_THREE_ZONE_ASYMMETRIC",
@@ -94,7 +94,7 @@
       "MT01_NONE"
     ],
     "bigram_signature": [
-      "H021>C052",
+      "H003>C052",
       "C052>T019",
       "T019>D025",
       "D025>P031",
@@ -106,7 +106,7 @@
       "C011>A017"
     ],
     "trigram_signature": [
-      "H021>C052>T019",
+      "H003>C052>T019",
       "C052>T019>D025",
       "T019>D025>P031",
       "D025>P031>C014",
@@ -116,7 +116,7 @@
       "C041>M028>C011",
       "M028>C011>A017"
     ],
-    "neutral_silhouette_hash": "photo-rail-open__editorial__ledger__task-grid__runway__qa-split__decision-ledger__product-stage__system-stage__close"
+    "neutral_silhouette_hash": "balanced-team-photo-open__editorial__ledger__task-grid__runway__qa-split__decision-ledger__product-stage__system-stage__close"
   },
   "key_pages": [
     {
@@ -206,7 +206,7 @@
     "MB14_LEDGER_TO_DENSE_LIST",
     "MB18_MINIMAL_REFLOW"
   ],
-  "site_fingerprint": "kertanzip-org-v1:H021-C052-T019-D025-P031-C014-T022-C041-M028-C011-A017",
+  "site_fingerprint": "kertanzip-org-v2:H003-C052-T019-D025-P031-C014-T022-C041-M028-C011-A017",
   "comparison_summary": {
     "history_available": true,
     "compared_site_count": 1,
@@ -215,7 +215,7 @@
     "threshold": 0.72,
     "reroll_count": 2,
     "new_grammar_count": 0,
-    "note": "Kertanzip deliberately avoids Dorevita's centered/editorial-spread opening and R18 studio rhythm; uses rail-stage opening, denser business narrative and different topology sequence."
+    "note": "v1.0.2 replaces the visually unstable rail-stage hero with a balanced studio-photo/business-copy split while preserving team/process-first rhythm and differentiation from Dorevita."
   },
   "revisions": [
     {
@@ -223,6 +223,12 @@
       "timestamp": "2026-10-01",
       "structural_change": "INITIAL_BUILD",
       "site_fingerprint": "kertanzip-org-v1:H021-C052-T019-D025-P031-C014-T022-C041-M028-C011-A017"
+    },
+    {
+      "build_version": "1.0.2",
+      "timestamp": "2026-10-01",
+      "structural_change": "HERO_REBALANCE_AND_TEXT_DENSITY_FIX",
+      "site_fingerprint": "kertanzip-org-v2:H003-C052-T019-D025-P031-C014-T022-C041-M028-C011-A017"
     }
   ]
 }
