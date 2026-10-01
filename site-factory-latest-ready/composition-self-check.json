@@ -1,0 +1,77 @@
+{
+  "version": "1.1.0",
+  "state": "PASS",
+  "thresholds": {
+    "home_min_distinct_layout_families": 7,
+    "internal_min_distinct_layout_families": 5,
+    "exact_layout_repeat_count": 0,
+    "empty_media_slot_count": 0,
+    "dead_space_section_count": 0,
+    "visual_density_review_words_per_major_visual": 550
+  },
+  "page_summary": {
+    "home": {
+      "sections": 12,
+      "layouts": 12,
+      "media": 6,
+      "words": 1328,
+      "words_per_visual": 221.3
+    },
+    "game": {
+      "sections": 12,
+      "layouts": 12,
+      "media": 8,
+      "words": 1354,
+      "words_per_visual": 169.2
+    },
+    "development": {
+      "sections": 13,
+      "layouts": 13,
+      "media": 4,
+      "words": 1377,
+      "words_per_visual": 344.2
+    },
+    "mechanics": {
+      "sections": 13,
+      "layouts": 13,
+      "media": 6,
+      "words": 1351,
+      "words_per_visual": 225.2
+    },
+    "levels": {
+      "sections": 13,
+      "layouts": 13,
+      "media": 5,
+      "words": 1349,
+      "words_per_visual": 269.8
+    },
+    "studio": {
+      "sections": 12,
+      "layouts": 12,
+      "media": 4,
+      "words": 1104,
+      "words_per_visual": 276
+    },
+    "faq": {
+      "sections": 5,
+      "layouts": 5,
+      "media": 2,
+      "words": 1073,
+      "words_per_visual": 536.5
+    },
+    "contact": {
+      "sections": 10,
+      "layouts": 10,
+      "media": 3,
+      "words": 793,
+      "words_per_visual": 264.3
+    }
+  },
+  "cross_page": {
+    "unique_page_grammars": 8,
+    "key_pages": 8,
+    "exact_major_visual_reuse": 0,
+    "team_workflow_hero_ratio": 1
+  },
+  "runtime_note": "Structural self-check passed; live browser screenshot QA remains separate."
+}
