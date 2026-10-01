@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "updated_at": "2026-10-01",
-  "site_count": 1,
+  "site_count": 2,
   "sites": [
     {
       "domain": "dorevita.org",
@@ -15,33 +15,51 @@
       "footer_archetype": "F013",
       "page_rhythm": "R18_STUDIO_TEAM_WORKFLOW_TASKS_REVIEW_PRODUCT_SYSTEMS_LEVELS_ART_QA_CTA",
       "site_fingerprint": "dorevita-org-v5:STUDIOFIRST-H006-T004-C_TEAM-D_WORKFLOW-P_TASKS-C_REVIEW-M_PRODUCT-C_SYSTEMS-L_LEVELS-Q_QA-A_CTA"
+    },
+    {
+      "domain": "kertanzip.org",
+      "path": "site-factory-history/sites/kertanzip-org.json",
+      "geo": "PL",
+      "locale": "pl-PL",
+      "niche": "gaming / physics brick breaker",
+      "updated_at": "2026-10-01",
+      "hero_archetype": "H021",
+      "hero_cluster": "GT12_RAIL_AND_STAGE",
+      "footer_archetype": "F021",
+      "page_rhythm": "R27_TEAM_RAIL_MANIFESTO_DECISION_TASKS_PROCESS_QA_PRODUCT_SYSTEMS_CTA",
+      "site_fingerprint": "kertanzip-org-v1:H021-C052-T019-D025-P031-C014-T022-C041-M028-C011-A017"
     }
   ],
   "frequency": {
     "hero_archetypes": {
-      "H006": 1
+      "H006": 1,
+      "H021": 1
     },
     "hero_clusters": {
-      "GT24_EDITORIAL_SPREAD": 1
+      "GT24_EDITORIAL_SPREAD": 1,
+      "GT12_RAIL_AND_STAGE": 1
     },
     "footer_archetypes": {
-      "F013": 1
+      "F013": 1,
+      "F021": 1
     },
     "topology_clusters": {
-      "GT24_EDITORIAL_SPREAD": 2,
-      "GT16_LEDGER_ROWS": 2,
-      "GT22_VARIABLE_WIDTH_BANDS": 3,
-      "GT08_THREE_ZONE_ASYMMETRIC": 1,
-      "GT12_RAIL_AND_STAGE": 2,
-      "GT19_CROSS_AXIS": 1,
-      "GT17_TIMELINE_RUNWAY": 1,
-      "GT02_BALANCED_SPLIT": 1
+      "GT24_EDITORIAL_SPREAD": 3,
+      "GT16_LEDGER_ROWS": 4,
+      "GT22_VARIABLE_WIDTH_BANDS": 4,
+      "GT08_THREE_ZONE_ASYMMETRIC": 2,
+      "GT12_RAIL_AND_STAGE": 3,
+      "GT19_CROSS_AXIS": 2,
+      "GT17_TIMELINE_RUNWAY": 2,
+      "GT02_BALANCED_SPLIT": 2,
+      "GT15_LAYERED_OVERLAP": 1,
+      "GT01_MONO_COLUMN": 1
     },
     "section_archetypes": {
       "H006": 1,
       "T004": 1,
       "T009": 1,
-      "C041": 1,
+      "C041": 2,
       "D014": 1,
       "C036": 1,
       "P017": 1,
@@ -50,10 +68,21 @@
       "T011": 1,
       "C035": 1,
       "C029": 1,
-      "A005": 1
+      "A005": 1,
+      "H021": 1,
+      "C052": 1,
+      "T019": 1,
+      "D025": 1,
+      "P031": 1,
+      "C014": 1,
+      "T022": 1,
+      "M028": 1,
+      "C011": 1,
+      "A017": 1
     },
     "page_rhythms": {
-      "R18_STUDIO_TEAM_WORKFLOW_TASKS_REVIEW_PRODUCT_SYSTEMS_LEVELS_ART_QA_CTA": 1
+      "R18_STUDIO_TEAM_WORKFLOW_TASKS_REVIEW_PRODUCT_SYSTEMS_LEVELS_ART_QA_CTA": 1,
+      "R27_TEAM_RAIL_MANIFESTO_DECISION_TASKS_PROCESS_QA_PRODUCT_SYSTEMS_CTA": 1
     },
     "home_bigrams": {
       "H006>T004": 1,
@@ -67,7 +96,17 @@
       "M005>T011": 1,
       "T011>C035": 1,
       "C035>C029": 1,
-      "C029>A005": 1
+      "C029>A005": 1,
+      "H021>C052": 1,
+      "C052>T019": 1,
+      "T019>D025": 1,
+      "D025>P031": 1,
+      "P031>C014": 1,
+      "C014>T022": 1,
+      "T022>C041": 1,
+      "C041>M028": 1,
+      "M028>C011": 1,
+      "C011>A017": 1
     },
     "home_trigrams": {
       "H006>T004>T009": 1,
@@ -80,7 +119,16 @@
       "C032>M005>T011": 1,
       "M005>T011>C035": 1,
       "T011>C035>C029": 1,
-      "C035>C029>A005": 1
+      "C035>C029>A005": 1,
+      "H021>C052>T019": 1,
+      "C052>T019>D025": 1,
+      "T019>D025>P031": 1,
+      "D025>P031>C014": 1,
+      "P031>C014>T022": 1,
+      "C014>T022>C041": 1,
+      "T022>C041>M028": 1,
+      "C041>M028>C011": 1,
+      "M028>C011>A017": 1
     }
   }
 }
