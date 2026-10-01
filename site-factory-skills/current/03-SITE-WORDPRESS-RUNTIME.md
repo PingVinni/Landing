@@ -2118,3 +2118,40 @@ Runtime must expose enough section markers/data attributes for browser QA to mea
 - optional track state.
 
 A full BUILD may not be marked release-ready when browser screenshot QA did not run.
+
+
+---
+
+## 46. RESILIENT THEME PHOTO DELIVERY CONTRACT (v4.6.6)
+
+Theme-owned production photography uses a codec fallback pipeline.
+
+Preferred markup:
+
+```html
+<picture>
+  <source type="image/webp" srcset="...-960.webp 960w, ...-1600.webp 1600w">
+  <img src="...-1600.jpg"
+       srcset="...-960.jpg 960w, ...-1600.jpg 1600w"
+       sizes="..."
+       width="1600"
+       height="900"
+       loading="lazy"
+       decoding="async"
+       alt="...">
+</picture>
+```
+
+Hero/above-the-fold media may use `loading="eager"` and `fetchpriority="high"`.
+
+Before packaging, verify every referenced image path exists. Browser QA must verify every major image has `complete = true` and `naturalWidth > 0`.
+
+If WebP source fails, JPEG fallback must still render. Broken-image release count must equal zero.
+
+### Owner-supplied creator provisioning
+
+When `developer_relationship_status = OWNER_SUPPLIED_CREATOR_RELATIONSHIP`:
+- site identity, author and publisher may be the owner-supplied studio/company;
+- first-person studio copy is allowed;
+- managed page architecture should provision company/studio, development/process and team/workflow pages before gameplay-detail pages;
+- external store developer/account data is recorded as source metadata, not automatically treated as the site's company identity.

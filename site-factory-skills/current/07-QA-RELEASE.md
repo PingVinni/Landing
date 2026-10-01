@@ -1,7 +1,7 @@
 # 07 QA RELEASE
 
 **Bundle format:** Source Bundle v1.5  
-**Policy baseline:** Site Factory v4.9.16  
+**Policy baseline:** Site Factory v4.9.17  
 **Bundling rule:** logical module boundaries and aliases are preserved inside bundles. Source Bundle v1.5 applies the Site Factory v4.9.14 interaction, micro-motion, hover/focus and semantic interactive-section expansion while preserving v1.4 rich-content, live UI/UX research, morphological section variation, v1.3 adult-premium visuals and the 7-file Project Source architecture.
 
 ## Module aliases in this bundle
@@ -3498,3 +3498,42 @@ Every generated production image counted in release QA must:
 - satisfy the adult-premium media rules.
 
 A generated website mockup can never satisfy `COMPOSITION_BROWSER_PASS`, `MOBILE_BROWSER_PASS`, GEO/SEO runtime proof or rendered-diversity checks. Only the implemented site rendered in a browser can satisfy those gates.
+
+
+---
+
+## 61. BROKEN-IMAGE + STUDIO-BUSINESS RELEASE GATE (v7.3)
+
+### Photo delivery checks
+
+For every required major photo in representative browser QA:
+
+```text
+img.complete = true
+img.naturalWidth > 0
+img.naturalHeight > 0
+broken_major_image_count = 0
+```
+
+Verify the packaged JPEG fallback exists for each major WebP family. Test at least one QA render using/falling back to JPEG-compatible markup.
+
+Record:
+- original/source dimensions;
+- packaged large dimensions;
+- packaged medium dimensions when present;
+- WebP bytes;
+- JPEG fallback bytes;
+- browser decode result.
+
+Any broken required major image = `MEDIA-LOAD-001 FAIL`.
+
+### Studio-first business checks
+
+When `OWNER_SUPPLIED_CREATOR_RELATIONSHIP` is active, release FAIL if:
+- Home still reads primarily as an independent guide;
+- company/team/process content is secondary to generic gameplay explanation;
+- About/Studio, Development/Process or Team/Workflow coverage is missing without an explicit reason;
+- metadata still labels the site as independent when the active business model is official studio;
+- first-person creator narrative is disabled despite explicit owner-supplied creator status.
+
+Record a `business_narrative_ratio` estimate. Normal studio-first target: company/team/process/iteration/QA narrative `>= 0.60` of non-legal informational content.

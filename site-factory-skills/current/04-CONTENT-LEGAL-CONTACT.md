@@ -2694,3 +2694,34 @@ visible_word_estimate
 Normal non-manifesto section headings should usually fit `1–3` desktop lines. If copy creates a 4+ line heavy stack, shorten the heading or hand it to a different layout family instead of forcing a huge narrow measure.
 
 Paragraphs should remain compact and information-dense, but distinct ideas must keep visible separation. Do not merge several semantic jobs into one dense block merely to satisfy the 0.70 copy-density target.
+
+
+---
+
+## 32. STUDIO-FIRST BUSINESS NARRATIVE (v4.7.3)
+
+For `OFFICIAL_GAME_STUDIO + OWNER_SUPPLIED_CREATOR_RELATIONSHIP`, write the site primarily as a company/business presentation.
+
+The dominant copy jobs are:
+1. company identity and positioning;
+2. team roles and collaboration;
+3. product-development story;
+4. iteration and improvement decisions;
+5. QA/review/release discipline;
+6. lessons, principles and current direction;
+7. product/game as evidence and conversion.
+
+Avoid independent-guide framing such as “we explain someone else's game” when the owner has explicitly supplied creator status.
+
+Use first-person plural naturally:
+- “stworzyliśmy”;
+- “projektowaliśmy”;
+- “testowaliśmy”;
+- “zmienialiśmy”;
+- “nasz zespół”;
+- “nasz proces”;
+- “nasza gra / nasz produkt”.
+
+Do not invent precise team headcount, biographies, funding, office history, revenue, awards, dates or production anecdotes unless supplied. Process copy may describe the project's actual design/development logic at a role/workflow level without fabricating named people or unverifiable milestones.
+
+For Home, company/team/process content should normally occupy roughly two-thirds of the informational narrative before the final product/download close.

@@ -1,7 +1,7 @@
 # 06 VISUAL ENGINE
 
 **Bundle format:** Source Bundle v1.5  
-**Policy baseline:** Site Factory v4.9.16  
+**Policy baseline:** Site Factory v4.9.17  
 **Bundling rule:** logical module boundaries and aliases are preserved inside bundles. Source Bundle v1.5 applies the Site Factory v4.9.14 interaction, micro-motion, hover/focus and semantic interactive-section expansion while preserving v1.4 rich-content, live UI/UX research, morphological section variation, v1.3 adult-premium visuals and the 7-file Project Source architecture.
 
 ## Module aliases in this bundle
@@ -3618,3 +3618,38 @@ Not allowed by default:
 Before generation, record the intended `target_page`, `target_section`, semantic role, crop/orientation and truth constraints. After generation, the file must be integrated into the real theme or discarded. Unused concept renders do not count toward media density.
 
 HTML/CSS/JS owns layout, typography, responsiveness and section geometry. Browser rendering owns visual acceptance.
+
+
+---
+
+## 61. PRODUCTION PHOTO OPTIMIZATION + FALLBACK (v4.9.3)
+
+Every packaged major content photo must be optimized for real web delivery.
+
+Default photo pipeline:
+- remove unnecessary metadata/EXIF;
+- resize to the largest actually required display width;
+- keep aspect ratio intentional;
+- generate responsive large and medium variants when useful;
+- encode WebP at visually high quality;
+- encode JPEG fallback at visually high quality;
+- avoid shipping only the original oversized source.
+
+Normal practical targets for a 16:9 editorial asset:
+```text
+large: about 1440–1600 × 810–900
+medium: about 900–1000 × 506–563
+WebP quality: roughly 78–84
+JPEG quality: roughly 80–86
+```
+
+Targets are quality envelopes, not rigid values.
+
+Quality checks:
+- no obvious banding/blocking around faces or stadium lights;
+- skin and hands remain believable;
+- crop preserves the intended subject;
+- file is not needlessly multi-megabyte;
+- both WebP and JPEG fallback decode successfully.
+
+A production photo is not considered integrated until browser QA confirms it actually displays.

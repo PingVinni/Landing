@@ -2854,3 +2854,24 @@ Fetch rendered Home plus one internal page and assert:
 ### Meta keywords
 
 Do **not** add `meta name="keywords"` solely because a legacy analyzer reports “keywords missing”. Modern search engines do not require this tag; factory SEO quality is judged through title, description, content, canonical, robots, language, structured data and crawlability instead.
+
+
+---
+
+## 42. STUDIO-FIRST ENTITY SEO (v4.8.2)
+
+When `OWNER_SUPPLIED_CREATOR_RELATIONSHIP` is active, primary SEO entity = the site company/studio.
+
+Use:
+```text
+author = studio/company
+publisher = studio/company
+Organization/WebSite = primary entity
+VideoGame/SoftwareApplication = product entity
+```
+
+Titles/descriptions should normally lead with the studio/company on company, team and development pages, while the product page may lead with the game name.
+
+Do not describe the site as an independent guide in metadata when the active business model is official studio/company creator.
+
+If an external store listing names another developer/account holder, do not silently rewrite that source. Store it as source metadata and avoid claiming that the external listing confirms the studio relationship unless verified.

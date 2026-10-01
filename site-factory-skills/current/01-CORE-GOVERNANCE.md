@@ -1,7 +1,7 @@
 # 01 CORE GOVERNANCE
 
 **Bundle format:** Source Bundle v1.5  
-**Policy baseline:** Site Factory v4.9.16  
+**Policy baseline:** Site Factory v4.9.17  
 **Bundling rule:** logical module boundaries and aliases are preserved inside bundles. Source Bundle v1.5 applies the Site Factory v4.9.14 interaction, micro-motion, hover/focus and semantic interactive-section expansion while preserving v1.4 rich-content, live UI/UX research, morphological section variation, v1.3 adult-premium visuals and the 7-file Project Source architecture.
 
 ## Module aliases in this bundle
@@ -4620,3 +4620,78 @@ Do not generate a full landing-page mockup, screenshot-style website concept, na
 A generated webpage mockup is not implementation, is not browser QA, and must never consume the production media budget intended for content imagery.
 
 For photo-first builds, generated assets should normally be standalone, section-mapped, free of embedded marketing/navigation text, and must not present invented gameplay UI as an official screenshot.
+
+
+---
+
+## 16.27. OWNER-SUPPLIED CREATOR BUSINESS MODEL + PHOTO DELIVERY (v4.9.17)
+
+When the user explicitly states that the website company/team created the promoted game/product, record this as:
+
+```text
+business_model_mode = OFFICIAL_GAME_STUDIO
+developer_relationship_status = OWNER_SUPPLIED_CREATOR_RELATIONSHIP
+ownership_evidence_type = USER_EXPLICIT_BUSINESS_ASSERTION
+first_person_creator_claims_allowed = true
+commercial_goal = COMPANY_CREDIBILITY + PRODUCT_PROMOTION
+primary_entity = STUDIO_COMPANY
+product_role = PROOF_OF_WORK
+```
+
+This owner-supplied assertion is sufficient for the site's first-person business narrative. External marketplace listings may still name a different developer/publisher/account holder; preserve that as an external-source fact when relevant, but do not let it silently replace explicit owner-supplied business identity. Do not claim that the marketplace independently verified the owner's relationship unless it actually does.
+
+### Studio-first narrative priority
+
+For this model, the company is the main subject of the site.
+
+Target narrative emphasis:
+
+```text
+company / team / development process / iteration / QA / delivery = 60–75%
+product features / gameplay explanation / download conversion = 25–40%
+```
+
+Home upper and middle sections should answer:
+- who we are as a company;
+- what team created the product;
+- why we made it;
+- how we worked;
+- what we tested and changed;
+- how the product improved across iterations;
+- how design, engineering, content and QA collaborated;
+- what the final product demonstrates about the company.
+
+The game/product page remains important, but the site must not read like an independent guide when `OWNER_SUPPLIED_CREATOR_RELATIONSHIP` is active.
+
+Recommended primary information architecture:
+```text
+HOME
+ABOUT / STUDIO
+DEVELOPMENT / HOW WE BUILT IT
+TEAM / HOW WE WORK
+PRODUCT / GAME
+FAQ
+CONTACT
+LEGAL
+```
+
+### Photo-delivery reliability
+
+Major theme-managed photography must not rely on a single modern codec.
+
+For each major photo, package:
+```text
+responsive WebP variant(s)
++ JPEG fallback variant(s)
++ known intrinsic width/height
++ valid alt text
+```
+
+Render through `<picture>` or equivalent so unsupported/misconfigured WebP delivery falls back to JPEG.
+
+A build cannot PASS media QA when any required major image:
+- resolves to a missing path;
+- has `naturalWidth = 0`;
+- fails browser decoding;
+- is served with an unusable MIME/path;
+- has no fallback where the runtime/host compatibility is uncertain.
