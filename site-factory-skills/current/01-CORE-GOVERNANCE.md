@@ -1,7 +1,7 @@
 # 01 CORE GOVERNANCE
 
 **Bundle format:** Source Bundle v1.5  
-**Policy baseline:** Site Factory v4.9.14  
+**Policy baseline:** Site Factory v4.9.15  
 **Bundling rule:** logical module boundaries and aliases are preserved inside bundles. Source Bundle v1.5 applies the Site Factory v4.9.14 interaction, micro-motion, hover/focus and semantic interactive-section expansion while preserving v1.4 rich-content, live UI/UX research, morphological section variation, v1.3 adult-premium visuals and the 7-file Project Source architecture.
 
 ## Module aliases in this bundle
@@ -4488,3 +4488,112 @@ The ~30% copy reduction does **not** permit taller padding, larger headings or e
 `REFLOW-001` — optional media disappears but its grid track/shell remains = `FAIL`.
 
 `COPY-030` — generated rich-site copy ignores the compact ~30% reduction without a documented information need = `FIX_REQUIRED`.
+
+
+---
+
+## 16.25. RENDER-PROOF GEO / COMPOSITION / MEDIA OVERRIDE (v4.9.15)
+
+This override exists because static manifests and self-declared composition metadata can pass while the installed site still has the wrong document locale, visibly empty desktop fields, repetitive rendered sections, or low-grade illustrative media. For full-site BUILD, **rendered evidence outranks manifest intent**.
+
+### A. GEO + locale is a release invariant
+
+Explicit user input such as `GEO = PL` and `locale = pl-PL` must resolve coherently across the final public document:
+
+```text
+requested_geo = PL
+requested_locale = pl-PL
+wordpress_locale = pl_PL
+html_lang = pl-PL
+og_locale = pl_PL
+schema_inLanguage = pl-PL
+content_language = Polish
+```
+
+A localized Polish site that renders `<html lang="en-GB">`, `en-US`, or another unrelated locale is `GEO-SEO-001 = FAIL` even when title/description copy is Polish.
+
+For normal indexable public pages, emit one coherent explicit robots state equivalent to:
+
+```text
+index, follow, max-image-preview:large
+```
+
+Do not add obsolete `meta keywords` merely to satisfy legacy SEO analyzers; missing `keywords` is not itself a modern SEO failure.
+
+### B. Browser render is mandatory for composition release
+
+`STATIC_PASS` and manifest-based `COMPOSITION_SELF_CHECK` are no longer enough to declare a full BUILD ready.
+
+A full BUILD must capture and inspect representative browser renders at minimum:
+
+```text
+mobile narrow
+laptop / 1366-class
+standard desktop / 1440–1600-class
+wide desktop / 1920-class
+```
+
+If browser rendering is unavailable, the build artifact may be produced for debugging, but status must be:
+
+```text
+BROWSER_QA_BLOCKED
+release_ready = false
+```
+
+Never use `RUNTIME_NOT_RUN` or static geometry claims as a substitute for visible composition acceptance.
+
+### C. No narrow-island / headline-stack regression
+
+For ordinary major desktop sections:
+- meaningful content must visually occupy the useful canvas, not only the outer background;
+- no large one-sided blank quadrant without an explicit visual role;
+- standard H2/H3 should normally stay within `1–3` visual lines at desktop;
+- `4+` heavy heading lines requires a manifesto/editorial exception and browser approval;
+- multi-line section headings must not use compressed line-height that makes words appear stuck together;
+- heading/body groups need obvious separation and shared alignment logic;
+- section height must collapse after copy reduction instead of preserving old empty space.
+
+### D. Rendered diversity, not label diversity
+
+Different `archetype_id`, class names, colors or copy do **not** prove uniqueness.
+
+Each major section must expose a rendered structural signature containing at least:
+
+```text
+dom_layout_signature
+css_layout_signature
+content_anchor_signature
+media_geometry_signature
+surface_geometry_signature
+rendered_silhouette_signature
+```
+
+For rich pages with `6+` major sections, target at least `80%` materially distinct rendered silhouettes. Adjacent major sections that are near-identical in actual geometry must reroll even when their manifest IDs differ.
+
+### E. Adult premium photography dominance
+
+For commercial/gaming/product builds, major visual storytelling defaults to high-quality adult editorial / photorealistic imagery.
+
+```text
+major_photo_or_photoreal_visual_ratio >= 0.70
+abstract_diagram_or_vector_major_visual_ratio <= 0.20
+childlike_doodle_major_visual_count = 0
+```
+
+Original diagrams/SVGs are allowed as secondary explanatory support, utility graphics, icons or data visuals, but not as the default hero or dominant site-wide media language.
+
+When source-owned photography/screenshot rights are unavailable, generate original photorealistic editorial imagery that is contextually truthful. Do not fabricate fake gameplay UI, fake awards, fake teams, fake offices or fake developer ownership.
+
+### F. Blocking regressions
+
+`GEO-SEO-001` — final HTML language/locale disagrees with requested locale = `FAIL`.
+
+`RENDER-001` — no browser screenshot QA for a claimed full-site release = `FAIL`.
+
+`SPACE-002` — major section contains a visually large unassigned side field or content island = `FAIL`.
+
+`TYPE-STACK-001` — ordinary section heading becomes a 4+ line oversized/compressed word stack without explicit exception = `FAIL`.
+
+`DIVERSITY-RENDER-001` — section IDs differ but rendered geometry remains materially repetitive = `FAIL`.
+
+`MEDIA-ADULT-001` — abstract/vector/doodle visuals dominate a build that calls for adult premium photography = `FAIL`.

@@ -1,5 +1,14 @@
 # Site Factory Skills Changelog
 
+## 2026-10-02 — browser-proof-geo-photo-diversity-v5
+- Added GEO/locale hard gate against the final rendered HTML; PL builds now require `html lang=pl-PL`, `og:locale=pl_PL`, matching schema language and production canonical host.
+- Made real browser screenshot QA mandatory for visual release; static/manifests alone can no longer claim composition PASS.
+- Added rendered whitespace/typography checks: occupied canvas, blank-side ratio, H2/H3 line count and text breathing.
+- Replaced label-based diversity proof with rendered silhouette + DOM/CSS/media geometry signatures.
+- Added adult premium photography-first media policy: >=70% major photographic/photoreal visuals, <=20% major diagrams/vectors, zero childlike doodle major visuals.
+- Added GEO-SEO-001, RENDER-001, SPACE-002, TYPE-STACK-001, DIVERSITY-RENDER-001 and MEDIA-ADULT-001 blockers.
+- Invalidated the prior Verqino v1.0.0 release-ready status after observed en-GB document language, desktop dead space/heading stack, rendered repetition and vector-heavy media.
+
 ## 2026-10-02 — Git-canonical bootstrap architecture
 - Promoted `full-width-canvas-compact-copy-v4` to the canonical `site-factory-skills/current/` seven-bundle set.
 - Made GitHub `PingVinni/Landing@main` the single skill source of truth.

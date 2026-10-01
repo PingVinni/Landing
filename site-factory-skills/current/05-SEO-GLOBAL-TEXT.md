@@ -1,7 +1,7 @@
 # 05 SEO GLOBAL TEXT
 
 **Bundle format:** Source Bundle v1.5  
-**Policy baseline:** Site Factory v4.9.14  
+**Policy baseline:** Site Factory v4.9.15  
 **Bundling rule:** logical module boundaries and aliases are preserved inside bundles. Source Bundle v1.5 applies the Site Factory v4.9.14 interaction, micro-motion, hover/focus and semantic interactive-section expansion while preserving v1.4 rich-content, live UI/UX research, morphological section variation, v1.3 adult-premium visuals and the 7-file Project Source architecture.
 
 ## Module aliases in this bundle
@@ -2818,3 +2818,39 @@ Rules:
 - optional composition-support text may be absent without leaving blank DOM slots.
 
 If a layout changes during anti-repeat reroll, Global Text remains the public-copy authority.
+
+
+---
+
+## 41. GEO / LOCALE SEO HARD GATE (v4.8.1)
+
+SEO locale must be verified from the **final public HTML**, not inferred from Polish copy or internal manifests.
+
+For a PL / Polish build require coherence across:
+
+```text
+input.geo = PL
+input.locale = pl-PL
+<html lang> = pl-PL
+OpenGraph locale = pl_PL
+schema inLanguage = pl-PL
+visible primary language = Polish
+canonical host = requested domain
+```
+
+Any unrelated language code such as `en-GB` or `en-US` on the public document is `SEO-GEO-001 = FAIL`.
+
+### Required release probe
+
+Fetch rendered Home plus one internal page and assert:
+- exactly one canonical per page;
+- canonical uses the requested production host;
+- final `<html lang>` matches the requested locale;
+- OG locale matches the same language/region;
+- schema `inLanguage` matches;
+- title/description are localized and page-specific;
+- normal public pages have a coherent explicit index/follow robots state.
+
+### Meta keywords
+
+Do **not** add `meta name="keywords"` solely because a legacy analyzer reports “keywords missing”. Modern search engines do not require this tag; factory SEO quality is judged through title, description, content, canonical, robots, language, structured data and crawlability instead.

@@ -5,7 +5,7 @@
   "canonical_store": "github",
   "canonical_repository": "PingVinni/Landing",
   "canonical_branch": "main",
-  "current_release": "full-width-canvas-compact-copy-v4",
+  "current_release": "browser-proof-geo-photo-diversity-v5",
   "source_state": "ACTIVE_GIT_CANONICAL",
   "project_sources_mode": "BOOTSTRAP_ONLY",
   "bootstrap_path": "site-factory-skills/SITE-FACTORY-BOOTSTRAP.md",
@@ -23,11 +23,12 @@
   "layout_bank_root": "site-factory-layout-bank/",
   "latest_ready_root": "site-factory-latest-ready/",
   "latest_system_changes": [
-    "GitHub is the single canonical skill source",
-    "Project Sources are bootstrap-only",
-    "full useful width / canvas coverage is mandatory for major desktop sections",
-    "one-sided blank fields and empty layout tracks are release blockers",
-    "optional media removal must collapse and reflow the section",
-    "visible prose targets reduced by approximately 30% versus v4.9.12 high-density defaults"
-  ]
+    "final HTML GEO/locale must match requested locale; PL requires pl-PL document language",
+    "browser screenshot QA is mandatory before a full build can be release-ready",
+    "whitespace and heading-stack acceptance is based on rendered geometry, not manifest claims",
+    "section uniqueness is measured from rendered silhouette/DOM/CSS rather than archetype labels",
+    "adult premium photo/photoreal media must dominate major visuals; diagram-heavy/doodle builds fail",
+    "compact copy must retain visible typography breathing and cannot be converted into empty canvas"
+  ],
+  "policy_baseline": "Site Factory v4.9.15"
 }

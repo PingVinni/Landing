@@ -1,7 +1,7 @@
 # 07 QA RELEASE
 
 **Bundle format:** Source Bundle v1.5  
-**Policy baseline:** Site Factory v4.9.14  
+**Policy baseline:** Site Factory v4.9.15  
 **Bundling rule:** logical module boundaries and aliases are preserved inside bundles. Source Bundle v1.5 applies the Site Factory v4.9.14 interaction, micro-motion, hover/focus and semantic interactive-section expansion while preserving v1.4 rich-content, live UI/UX research, morphological section variation, v1.3 adult-premium visuals and the 7-file Project Source architecture.
 
 ## Module aliases in this bundle
@@ -3381,3 +3381,100 @@ If the screenshot is viewed without reading the copy, does each major section vi
 ```
 
 If `no` → `FIX_REQUIRED`.
+
+
+---
+
+## 59. BROWSER-PROOF RELEASE GATE — GEO / SPACE / DIVERSITY / PHOTO (v7.1)
+
+This gate is mandatory for every new full-site BUILD and supersedes static-only release claims.
+
+### 59.1 GEO/SEO browser probe
+
+From final rendered HTML verify:
+
+```text
+requested_locale = pl-PL for PL build
+html_lang = pl-PL
+og_locale = pl_PL
+schema_inLanguage = pl-PL
+canonical_host = requested_domain
+robots_public = index + follow + max-image-preview:large
+```
+
+Mismatch = `GEO-SEO-001 FAIL`.
+
+### 59.2 Screenshot matrix is mandatory
+
+Capture Home + representative key pages at:
+- mobile narrow;
+- laptop / ~1366-class;
+- standard desktop / 1440–1600-class;
+- wide desktop / ~1920-class.
+
+If screenshot/browser capture cannot run:
+
+```text
+BROWSER_QA_BLOCKED
+release_ready = false
+```
+
+The ZIP may be handed off only as a blocked/debug artifact, not as a visually approved release.
+
+### 59.3 Whitespace + typography blockers
+
+Fail when any ordinary major desktop section has:
+- visible content concentrated into a narrow side island;
+- a large functionless left/right field;
+- body copy stranded far from its heading without a compositional bridge;
+- standard H2/H3 rendered as a 4+ line oversized word stack;
+- compressed multiline heading line-height that visually merges lines;
+- copy reduction compensated by oversized padding/min-height.
+
+Record browser-derived values:
+
+```text
+occupied_width_ratio
+largest_blank_side_ratio
+heading_visual_line_count
+section_height_to_content_bbox_ratio
+```
+
+### 59.4 Rendered diversity blocker
+
+For each major section record screenshot/DOM-derived `rendered_silhouette_signature`.
+
+Require:
+- `>= 0.80` distinct rendered-family ratio on rich pages with `6+` major sections;
+- no adjacent near-duplicate major silhouettes;
+- Home/key-page first-three-section silhouettes materially differ;
+- repeated generic card grids do not dominate site-wide rhythm.
+
+Different IDs with the same visible geometry = failure.
+
+### 59.5 Adult premium media blocker
+
+For applicable premium builds:
+
+```text
+major_photo_or_photoreal_ratio >= 0.70
+major_abstract_vector_or_diagram_ratio <= 0.20
+childlike_doodle_major_visual_count = 0
+```
+
+Inspect actual screenshots. Utility SVGs/icons do not count as premium major media.
+
+### 59.6 Release state
+
+A full build reaches visual release only when all are true:
+
+```text
+STATIC_PASS
+GEO_SEO_BROWSER_PASS
+COMPOSITION_BROWSER_PASS
+RENDERED_DIVERSITY_PASS
+ADULT_MEDIA_PASS
+MOBILE_BROWSER_PASS
+```
+
+Any missing browser dimension keeps the build blocked.

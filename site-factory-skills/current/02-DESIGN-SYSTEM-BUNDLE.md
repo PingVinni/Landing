@@ -1,7 +1,7 @@
 # 02 DESIGN SYSTEM BUNDLE
 
 **Bundle format:** Source Bundle v1.5  
-**Policy baseline:** Site Factory v4.9.14  
+**Policy baseline:** Site Factory v4.9.15  
 **Bundling rule:** logical module boundaries and aliases are preserved inside bundles. Source Bundle v1.5 applies the Site Factory v4.9.14 interaction, micro-motion, hover/focus and semantic interactive-section expansion while preserving v1.4 rich-content, live UI/UX research, morphological section variation, v1.3 adult-premium visuals and the 7-file Project Source architecture.
 
 ## Module aliases in this bundle
@@ -4229,3 +4229,70 @@ After the ~30% copy reduction:
 - re-run canvas-coverage diagnostics.
 
 Shorter copy should produce a tighter, wider, cleaner composition—not a smaller island inside the same large frame.
+
+
+---
+
+## 64. RENDERED COMPOSITION PROOF + TEXT BREATHING (v3.11.0)
+
+This section supersedes any interpretation that manifest-level diversity or nominal full-width shells are sufficient.
+
+### 64.1 Effective occupied canvas
+
+At browser runtime record for each major section:
+
+```text
+section_viewport_width
+meaningful_union_bbox_width
+meaningful_union_bbox_height
+occupied_width_ratio
+largest_blank_side_ratio
+heading_visual_line_count
+heading_body_gap_ratio
+```
+
+Default desktop acceptance for ordinary sections:
+
+```text
+occupied_width_ratio >= 0.74
+largest_blank_side_ratio <= 0.26
+heading_visual_line_count <= 3
+```
+
+A section may intentionally use quiet space only when the chosen family declares that space as part of the composition and the screenshot reads as finished rather than missing content.
+
+### 64.2 Text breathing
+
+For normal editorial sections:
+- multi-line H2 line-height should normally read around `1.0–1.12`, not poster-tight stacking;
+- paragraph measure remains readable, but body copy must not be squeezed into a tiny island;
+- heading → lead/body separation must be visually obvious;
+- paragraph groups need consistent vertical rhythm;
+- when heading and body sit on different grid axes, align them deliberately rather than leaving the body stranded halfway across the canvas.
+
+If the heading visually becomes a vertical stack of isolated words, first increase measure / reduce size / change family before accepting it.
+
+### 64.3 Render-family diversity gate
+
+Every major section records both planned family and **rendered family**.
+
+Rendered-family signature includes:
+- number and proportion of columns/tracks;
+- text anchor and vertical anchor;
+- media position/dominance;
+- card/list topology;
+- surface boundary shape;
+- overlap/layering;
+- primary visual mass position;
+- mobile transformation.
+
+Rules for a rich page:
+- distinct rendered-family ratio `>= 0.80` where `6+` major sections exist;
+- no adjacent near-duplicate rendered family;
+- one generic renderer may not masquerade as many families through class renaming;
+- a repeated card grid may appear only when semantically necessary and must not dominate the page rhythm;
+- Home and each key internal page need materially different first three major-section silhouettes.
+
+### 64.4 Browser evidence
+
+Diversity and whitespace decisions are finalized from screenshots, not from layout IDs. If screenshots contradict the manifest, the manifest is wrong and must be repaired.

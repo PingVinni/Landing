@@ -1,7 +1,7 @@
 # 04 CONTENT LEGAL CONTACT
 
 **Bundle format:** Source Bundle v1.5  
-**Policy baseline:** Site Factory v4.9.14  
+**Policy baseline:** Site Factory v4.9.15  
 **Bundling rule:** logical module boundaries and aliases are preserved inside bundles. Source Bundle v1.5 applies the Site Factory v4.9.14 interaction, micro-motion, hover/focus and semantic interactive-section expansion while preserving v1.4 rich-content, live UI/UX research, morphological section variation, v1.3 adult-premium visuals and the 7-file Project Source architecture.
 
 ## Module aliases in this bundle
@@ -2673,3 +2673,24 @@ Do not replace removed prose with extra generic cards, bullet padding or FAQ fil
 ### Handoff to composition
 
 After copy compaction, every section must expose its new `visible_word_estimate` before layout lock. Composition must reflow to the new volume and may not retain empty geometry sized for the previous longer copy.
+
+
+---
+
+## 31. READABILITY RHYTHM HANDOFF (v4.7.2)
+
+Compact copy means fewer words, not compressed typography.
+
+For every meaningful section expose:
+
+```text
+heading_word_count
+heading_expected_lines_desktop
+lead_word_count
+paragraph_count
+visible_word_estimate
+```
+
+Normal non-manifesto section headings should usually fit `1–3` desktop lines. If copy creates a 4+ line heavy stack, shorten the heading or hand it to a different layout family instead of forcing a huge narrow measure.
+
+Paragraphs should remain compact and information-dense, but distinct ideas must keep visible separation. Do not merge several semantic jobs into one dense block merely to satisfy the 0.70 copy-density target.

@@ -1,7 +1,7 @@
 # 03 SITE WORDPRESS RUNTIME
 
 **Bundle format:** Source Bundle v1.5  
-**Policy baseline:** Site Factory v4.9.14  
+**Policy baseline:** Site Factory v4.9.15  
 **Bundling rule:** logical module boundaries and aliases are preserved inside bundles. Source Bundle v1.5 applies the Site Factory v4.9.14 interaction, micro-motion, hover/focus and semantic interactive-section expansion while preserving v1.4 rich-content, live UI/UX research, morphological section variation, v1.3 adult-premium visuals and the 7-file Project Source architecture.
 
 ## Module aliases in this bundle
@@ -2076,3 +2076,45 @@ Longer output is allowed when information genuinely requires it, but it must be 
 ### Runtime blocker
 
 A major desktop section that renders as a narrow side island with a functionally empty opposite field must set `page_dead_space_risk` and block release until recomposed.
+
+
+---
+
+## 45. GEO / DOCUMENT-LANGUAGE RUNTIME CONTRACT (v4.6.5)
+
+When build input resolves `locale = pl-PL`, runtime provisioning must make WordPress and the public document agree.
+
+### Required locale state
+
+```text
+factory_locale = pl-PL
+wordpress_locale_option = pl_PL
+html_lang = pl-PL
+og_locale = pl_PL
+schema_inLanguage = pl-PL
+```
+
+Provision/update the WordPress locale state deliberately; do not inherit a pre-existing `en-GB`/`en-US` site setting and assume Polish page copy is enough.
+
+After activation/provisioning, issue a real public request to Home and at least one internal page and inspect the response HTML. A mismatched `<html lang>` is blocking.
+
+### Robots state
+
+For normal public indexable pages, output one coherent explicit robots policy equivalent to:
+
+```text
+index, follow, max-image-preview:large
+```
+
+Respect explicit noindex cases for legal/staging scenarios where intended, but do not leave a partial accidental robots state.
+
+### Render QA handoff
+
+Runtime must expose enough section markers/data attributes for browser QA to measure:
+- section bounds;
+- rendered family;
+- media presence;
+- text anchor;
+- optional track state.
+
+A full BUILD may not be marked release-ready when browser screenshot QA did not run.

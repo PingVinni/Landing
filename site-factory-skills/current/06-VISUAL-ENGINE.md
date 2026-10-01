@@ -1,7 +1,7 @@
 # 06 VISUAL ENGINE
 
 **Bundle format:** Source Bundle v1.5  
-**Policy baseline:** Site Factory v4.9.14  
+**Policy baseline:** Site Factory v4.9.15  
 **Bundling rule:** logical module boundaries and aliases are preserved inside bundles. Source Bundle v1.5 applies the Site Factory v4.9.14 interaction, micro-motion, hover/focus and semantic interactive-section expansion while preserving v1.4 rich-content, live UI/UX research, morphological section variation, v1.3 adult-premium visuals and the 7-file Project Source architecture.
 
 ## Module aliases in this bundle
@@ -3545,3 +3545,53 @@ Check:
 - caption/semantic relationship.
 
 If the image is too weak for the copy, enlarge/recompose or remove it and use a stronger text-led design.
+
+
+---
+
+## 59. ADULT PREMIUM PHOTOGRAPHY-FIRST ENGINE (v4.9.1)
+
+For premium commercial/product/gaming builds, the default major-media language is **adult editorial photography / photorealistic imagery**, not flat doodles, generic vector scenes or diagram-heavy pages.
+
+### 59.1 Major visual mix
+
+For Home + representative key pages, target:
+
+```text
+photographic_or_photoreal_major_visual_ratio >= 0.70
+abstract_vector_or_diagram_major_visual_ratio <= 0.20
+childlike_cartoon_or_doodle_major_visual_count = 0
+```
+
+A vector illustration may be elegant and still be the wrong medium. Repetition of custom SVG scenes does not become premium merely because each file is unique.
+
+### 59.2 Preferred imagery
+
+Prefer contextually truthful, mature visual directions such as:
+- cinematic/editorial sports environments;
+- adult players/fans/coaches in believable situations;
+- premium device-in-hand / over-shoulder product context;
+- stadium, tactical, urban or studio atmospheres when relevant;
+- controlled close-ups and material detail;
+- source-owned official screenshots when usage is appropriate.
+
+When source photography is unavailable, generate original photorealistic editorial imagery. Do not generate fake gameplay UI or visuals that imply an unverified studio/team relationship.
+
+### 59.3 Diagram limit
+
+Diagrams, radar charts, tactical boards, SVG explainers and abstract compositions are **secondary** media. They may support explanation, but:
+- never default the hero to a diagram when a premium photo-led concept is viable;
+- do not use diagram-after-diagram as the page's primary visual rhythm;
+- do not count icons/utility SVGs as major media moments;
+- no “childlike doodle”, mascot/cartoon, clip-art or simplistic line-scene style for an adult premium build unless the owner explicitly requests it.
+
+### 59.4 Image-generation quality gate
+
+Generated photorealistic images must pass:
+- adult/professional tone;
+- believable anatomy and hands;
+- no accidental text/logos/watermarks;
+- no fabricated awards/claims;
+- coherent lighting/crop;
+- enough resolution for intended display size;
+- unique composition across major sections.

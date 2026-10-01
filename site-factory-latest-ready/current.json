@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "updated_at": "2026-10-02",
-  "status": "LATEST_DELIVERED_STATIC_PASS_COMPOSITION_SELF_CHECK_PASS_RUNTIME_NOT_RUN",
+  "status": "KNOWN_ISSUES_REBUILD_REQUIRED",
   "domain": "verqino.org",
   "geo": "PL",
   "locale": "pl-PL",
@@ -18,5 +18,14 @@
   "source_index_file": "site-factory-latest-ready/source-index.json",
   "composition_self_check_file": "site-factory-latest-ready/composition-self-check.json",
   "binary_restore_note": "Install ZIP is delivered as conversation artifact; GitHub stores exact build identity, QA, manifests and file hashes.",
-  "restore_scope": "Exact theme file hashes, static QA and structural memory are persistent; runtime PASS requires WordPress installation."
+  "restore_scope": "Exact theme file hashes, static QA and structural memory are persistent; runtime PASS requires WordPress installation.",
+  "release_ready": false,
+  "invalidated_at": "2026-10-02",
+  "invalidated_by_skill_release": "browser-proof-geo-photo-diversity-v5",
+  "known_issues": [
+    "Rendered document language observed as en-GB for PL/pl-PL site.",
+    "Desktop section observed with large unassigned blank field and oversized multi-line heading stack.",
+    "Rendered section grammar reported as visually repetitive despite distinct manifest labels.",
+    "Major media language is vector/diagram-heavy instead of adult premium photography-first."
+  ]
 }

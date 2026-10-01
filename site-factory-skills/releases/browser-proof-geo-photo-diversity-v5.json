@@ -1,16 +1,29 @@
 {
+  "schema_version": "2.1",
   "release": "browser-proof-geo-photo-diversity-v5",
-  "updated_at": "2026-10-02",
-  "state": "ACTIVE_GIT_CANONICAL",
+  "date": "2026-10-02",
+  "status": "ACTIVE_GIT_CANONICAL",
   "policy_baseline": "Site Factory v4.9.15",
-  "bootstrap_mode": "PROJECT_SOURCES_BOOTSTRAP_ONLY",
-  "mandatory_release_gates": [
-    "GEO_SEO_BROWSER_PASS",
-    "COMPOSITION_BROWSER_PASS",
-    "RENDERED_DIVERSITY_PASS",
-    "ADULT_MEDIA_PASS",
-    "MOBILE_BROWSER_PASS"
-  ],
+  "canonical_repository": "PingVinni/Landing",
+  "canonical_branch": "main",
+  "project_sources_mode": "BOOTSTRAP_ONLY",
+  "current_index_path": "site-factory-skills/current/index.json",
+  "hard_gates": {
+    "geo_locale_final_html": true,
+    "browser_screenshot_matrix": true,
+    "rendered_canvas_and_typography": true,
+    "rendered_silhouette_diversity": true,
+    "adult_premium_photo_dominance": true
+  },
+  "thresholds": {
+    "occupied_width_ratio_min": 0.74,
+    "largest_blank_side_ratio_max": 0.26,
+    "normal_heading_visual_lines_max": 3,
+    "rich_page_distinct_rendered_family_ratio_min": 0.8,
+    "photo_or_photoreal_major_visual_ratio_min": 0.7,
+    "abstract_vector_or_diagram_major_visual_ratio_max": 0.2,
+    "childlike_doodle_major_visual_count": 0
+  },
   "bundles": [
     {
       "name": "01-CORE-GOVERNANCE.md",
