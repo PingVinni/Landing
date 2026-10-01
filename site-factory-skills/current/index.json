@@ -1,0 +1,14 @@
+{
+  "release": "composition-diversity-self-check-v3",
+  "updated_at": "2026-10-01",
+  "state": "RELEASE_CANDIDATE_AWAITING_PROJECT_SOURCE_VERIFY",
+  "bundles": [
+    {"name":"01-CORE-GOVERNANCE.md","bytes":187816,"sha256":"c1e7c60373c8a8b939923ed29e444fbf9a702813752cb4655ed8478e5244dfd1"},
+    {"name":"02-DESIGN-SYSTEM-BUNDLE.md","bytes":117901,"sha256":"1f9b6cd59feed5b8a0d0e2f6fefdec78ce1843344486a88b345faeb431aa9385"},
+    {"name":"03-SITE-WORDPRESS-RUNTIME.md","bytes":55479,"sha256":"3ac1e5a92b11acf8fe834446a06b7db23450586efbb3a38e4b1334cdb24fcbf9"},
+    {"name":"04-CONTENT-LEGAL-CONTACT.md","bytes":78775,"sha256":"955b0c910e6a9b4b37619f4fca808fa948a0bf97dc7827e7a0503daa3a9038cd"},
+    {"name":"05-SEO-GLOBAL-TEXT.md","bytes":66759,"sha256":"28cc01858ec4c47d509da823e67018b3944347ac5bfc395ed6f6e9a7f60781d8"},
+    {"name":"06-VISUAL-ENGINE.md","bytes":92661,"sha256":"806432917f665ca357014df7953300340aaa4610d7b7639a20edb16dd2c2d865"},
+    {"name":"07-QA-RELEASE.md","bytes":99392,"sha256":"b167b2f5d1b872d361d63552961747dc28074fb911550aaf2ef848204a6e738d"}
+  ]
+}
