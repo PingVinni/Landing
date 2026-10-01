@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.1",
+  "domain": "kertanzip.org",
+  "geo": "PL",
+  "locale": "pl-PL",
+  "niche": "gaming / physics brick breaker",
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "build_identity": {
+    "theme_package_slug": "kertanzip-blastybubs-pl",
+    "build_version": "1.0.0",
+    "structural_schema_version": "1.1"
+  },
+  "source": {
+    "package_id": "com.quickbytegames.blastybubs",
+    "game_name": "Blasty Bubs: Brick Breaker",
+    "source_developer": "Criss Cross Games / MOBASO"
+  },
+  "business_model": {
+    "mode": "OFFICIAL_GAME_STUDIO",
+    "developer_relationship_status": "OWNER_SUPPLIED_BRAND_RELATIONSHIP",
+    "first_person_creator_claims_allowed": true
+  },
+  "hero": {
+    "archetype_id": "H021",
+    "topology_cluster": "GT12_RAIL_AND_STAGE",
+    "text_anchor": "TA06_CENTER_RIGHT",
+    "media_topology": "MT02_DOMINANT_SINGLE",
+    "title_scale_tier": "STANDARD",
+    "neutral_silhouette_hash": "left-dominant-team-photo__right-business-copy__vertical-index-rail"
+  },
+  "header": {
+    "family": "HDR07",
+    "cluster": "HC03_COMPACT_STICKY",
+    "signature": "brand-left__dense-nav__pill-action__drawer-mobile"
+  },
+  "footer": {
+    "archetype_id": "F021",
+    "topology_cluster": "GT07_THREE_ZONE_EQUAL",
+    "signature": "brand-plus-three-utility-columns__three-part-bottom-bar"
+  },
+  "home": {
+    "page_rhythm_recipe": "R27_TEAM_RAIL_MANIFESTO_DECISION_TASKS_PROCESS_QA_PRODUCT_SYSTEMS_CTA",
+    "section_archetypes": [
+      "H021",
+      "C052",
+      "T019",
+      "D025",
+      "P031",
+      "C014",
+      "T022",
+      "C041",
+      "M028",
+      "C011",
+      "A017"
+    ],
+    "topology_sequence": [
+      "GT12_RAIL_AND_STAGE",
+      "GT24_EDITORIAL_SPREAD",
+      "GT16_LEDGER_ROWS",
+      "GT08_THREE_ZONE_ASYMMETRIC",
+      "GT17_TIMELINE_RUNWAY",
+      "GT02_BALANCED_SPLIT",
+      "GT16_LEDGER_ROWS",
+      "GT22_VARIABLE_WIDTH_BANDS",
+      "GT15_LAYERED_OVERLAP",
+      "GT19_CROSS_AXIS",
+      "GT01_MONO_COLUMN"
+    ],
+    "content_anchor_sequence": [
+      "TA06_CENTER_RIGHT",
+      "TA01_TOP_LEFT",
+      "TA17_SPLIT_ANCHORS",
+      "TA01_TOP_LEFT",
+      "TA02_TOP_CENTER",
+      "TA06_CENTER_RIGHT",
+      "TA17_SPLIT_ANCHORS",
+      "TA01_TOP_LEFT",
+      "TA04_CENTER_LEFT",
+      "TA06_CENTER_RIGHT",
+      "TA05_CENTER"
+    ],
+    "media_topology_sequence": [
+      "MT02_DOMINANT_SINGLE",
+      "MT01_NONE",
+      "MT01_NONE",
+      "MT01_NONE",
+      "MT01_NONE",
+      "MT03_SUPPORTING_SINGLE",
+      "MT01_NONE",
+      "MT01_NONE",
+      "MT02_DOMINANT_SINGLE",
+      "MT02_DOMINANT_SINGLE",
+      "MT01_NONE"
+    ],
+    "bigram_signature": [
+      "H021>C052",
+      "C052>T019",
+      "T019>D025",
+      "D025>P031",
+      "P031>C014",
+      "C014>T022",
+      "T022>C041",
+      "C041>M028",
+      "M028>C011",
+      "C011>A017"
+    ],
+    "trigram_signature": [
+      "H021>C052>T019",
+      "C052>T019>D025",
+      "T019>D025>P031",
+      "D025>P031>C014",
+      "P031>C014>T022",
+      "C014>T022>C041",
+      "T022>C041>M028",
+      "C041>M028>C011",
+      "M028>C011>A017"
+    ],
+    "neutral_silhouette_hash": "photo-rail-open__editorial__ledger__task-grid__runway__qa-split__decision-ledger__product-stage__system-stage__close"
+  },
+  "key_pages": [
+    {
+      "page_key": "game",
+      "opening_archetype": "H032",
+      "topology_sequence": [
+        "GT08_THREE_ZONE_ASYMMETRIC",
+        "GT16_LEDGER_ROWS",
+        "GT17_TIMELINE_RUNWAY",
+        "GT01_MONO_COLUMN"
+      ],
+      "neutral_silhouette_hash": "team-review-open__product-ledgers__feature-flow__product-close"
+    },
+    {
+      "page_key": "development",
+      "opening_archetype": "H014",
+      "topology_sequence": [
+        "GT13_STICKY_RAIL_FLOW",
+        "GT17_TIMELINE_RUNWAY",
+        "GT16_LEDGER_ROWS",
+        "GT02_BALANCED_SPLIT"
+      ],
+      "neutral_silhouette_hash": "process-open__task-flow__review-matrix__qa-close"
+    },
+    {
+      "page_key": "mechanics",
+      "opening_archetype": "H027",
+      "topology_sequence": [
+        "GT19_CROSS_AXIS",
+        "GT16_LEDGER_ROWS",
+        "GT17_TIMELINE_RUNWAY",
+        "GT02_BALANCED_SPLIT"
+      ],
+      "neutral_silhouette_hash": "systems-review-open__tuning-ledger__mechanic-loop__product-close"
+    },
+    {
+      "page_key": "levels",
+      "opening_archetype": "H018",
+      "topology_sequence": [
+        "GT22_VARIABLE_WIDTH_BANDS",
+        "GT17_TIMELINE_RUNWAY",
+        "GT16_LEDGER_ROWS",
+        "GT01_MONO_COLUMN"
+      ],
+      "neutral_silhouette_hash": "level-planning-open__brief-runway__playtest-ledger__close"
+    },
+    {
+      "page_key": "studio",
+      "opening_archetype": "H039",
+      "topology_sequence": [
+        "GT14_MOSAIC_BENTO",
+        "GT16_LEDGER_ROWS",
+        "GT17_TIMELINE_RUNWAY",
+        "GT01_MONO_COLUMN"
+      ],
+      "neutral_silhouette_hash": "art-review-open__discipline-ledger__decision-flow__close"
+    },
+    {
+      "page_key": "faq",
+      "opening_archetype": "H044",
+      "topology_sequence": [
+        "GT01_MONO_COLUMN",
+        "GT16_LEDGER_ROWS",
+        "GT01_MONO_COLUMN"
+      ],
+      "neutral_silhouette_hash": "typographic-open__process-faq__product-faq__close"
+    },
+    {
+      "page_key": "contact",
+      "opening_archetype": "H047",
+      "topology_sequence": [
+        "GT22_VARIABLE_WIDTH_BANDS",
+        "GT17_TIMELINE_RUNWAY",
+        "GT08_THREE_ZONE_ASYMMETRIC"
+      ],
+      "neutral_silhouette_hash": "typographic-contact-open__routing-flow__contact-grid"
+    }
+  ],
+  "interaction_profile": [
+    "IP10_EDITORIAL_ACCORDION",
+    "IP12_PROGRESSIVE_REVEAL",
+    "IP20_NONE_CONFIDENT"
+  ],
+  "mobile_profile": [
+    "MB02_STACK_MEDIA_FIRST",
+    "MB07_SIDE_RAIL_TO_TOP_INDEX",
+    "MB14_LEDGER_TO_DENSE_LIST",
+    "MB18_MINIMAL_REFLOW"
+  ],
+  "site_fingerprint": "kertanzip-org-v1:H021-C052-T019-D025-P031-C014-T022-C041-M028-C011-A017",
+  "comparison_summary": {
+    "history_available": true,
+    "compared_site_count": 1,
+    "nearest_prior_domain": "dorevita.org",
+    "nearest_similarity": null,
+    "threshold": 0.72,
+    "reroll_count": 2,
+    "new_grammar_count": 0,
+    "note": "Kertanzip deliberately avoids Dorevita's centered/editorial-spread opening and R18 studio rhythm; uses rail-stage opening, denser business narrative and different topology sequence."
+  },
+  "revisions": [
+    {
+      "build_version": "1.0.0",
+      "timestamp": "2026-10-01",
+      "structural_change": "INITIAL_BUILD",
+      "site_fingerprint": "kertanzip-org-v1:H021-C052-T019-D025-P031-C014-T022-C041-M028-C011-A017"
+    }
+  ]
+}
