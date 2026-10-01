@@ -1,20 +1,18 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0",
   "domain": "dorevita.org",
   "geo": "PL",
   "locale": "pl-PL",
   "niche": "gaming / casual match-3",
   "created_at": "2026-10-01",
-  "updated_at": "2026-10-01",
-  "build_identity": {
-    "theme_package_slug": "dorevita-lollipop-pl",
-    "build_version": "1.0.5",
-    "structural_schema_version": "1.1"
-  },
-  "source": {
-    "package_id": "com.sengymobile.lcm",
-    "game_name": "Lollipop Candy Match",
-    "source_developer": "Sengy Mobile"
+  "updated_at": "2026-10-02",
+  "memory_state": "HISTORICAL_REFERENCE",
+  "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
+  "structural_quality_note": "Historical anti-repeat reference; not a reusable template.",
+  "header": {
+    "family": "HDR02",
+    "cluster": "HC01_SINGLE_ROW_BALANCED",
+    "signature": "brand-left__nav-right__compact-action__mobile-drawer"
   },
   "hero": {
     "archetype_id": "H006",
@@ -23,11 +21,6 @@
     "media_topology": "MT02_DOMINANT_SINGLE",
     "title_scale_tier": "STANDARD",
     "neutral_silhouette_hash": "full-bleed-media__bottom-centered-glass-copy__edge-index"
-  },
-  "header": {
-    "family": "HDR02",
-    "cluster": "HC01_SINGLE_ROW_BALANCED",
-    "signature": "brand-left__nav-right__compact-action__mobile-drawer"
   },
   "footer": {
     "archetype_id": "F013",
@@ -217,16 +210,6 @@
     "MB06_OVERLAP_TO_SEPARATE"
   ],
   "site_fingerprint": "dorevita-org-v5:STUDIOFIRST-H006-T004-C_TEAM-D_WORKFLOW-P_TASKS-C_REVIEW-M_PRODUCT-C_SYSTEMS-L_LEVELS-Q_QA-A_CTA",
-  "comparison_summary": {
-    "history_available": true,
-    "compared_site_count": 0,
-    "nearest_prior_domain": null,
-    "nearest_similarity": null,
-    "threshold": 0.72,
-    "reroll_count": 0,
-    "new_grammar_count": 0,
-    "note": "History index existed but contained zero prior sites; this is the first persisted structural fingerprint."
-  },
   "revisions": [
     {
       "build_version": "1.0.0",
@@ -247,16 +230,5 @@
       "site_fingerprint": "dorevita-org-v5:STUDIOFIRST-H006-T004-C_TEAM-D_WORKFLOW-P_TASKS-C_REVIEW-M_PRODUCT-C_SYSTEMS-L_LEVELS-Q_QA-A_CTA"
     }
   ],
-  "business_model": {
-    "mode": "OFFICIAL_GAME_STUDIO",
-    "relationship_state": "OWNER_SUPPLIED_BRAND_RELATIONSHIP",
-    "ownership_evidence_type": "OWNER_INSTRUCTION_IN_CHAT",
-    "first_person_creator_claims_allowed": true,
-    "narrative_priority": "STUDIO_TEAM_PROCESS_FIRST__GAME_PRODUCT_SECOND"
-  },
-  "content_semantic_fingerprint": {
-    "primary": "TEAM__TASKS__PROCESS__REVIEW__QA__RELEASE",
-    "secondary": "GAME__MECHANICS__LEVELS__PLAY",
-    "main_page_rule": "WORK_AND_TEAM_BEFORE_GAME_DESCRIPTION"
-  }
+  "known_banned_signatures": []
 }

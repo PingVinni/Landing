@@ -1,0 +1,46 @@
+{
+  "schema_version": "2.0",
+  "purpose": "Structural anti-repeat memory only.",
+  "canonical_path_pattern": "site-factory-history/sites/{normalized-domain}.json",
+  "source_of_truth_note": "Active Site Factory skills live in Project Sources, not in Git.",
+  "lifecycle": {
+    "accepted_or_reviewed_site": "write one canonical structural record",
+    "same_domain_update": "update same canonical record and append compact revision fingerprint",
+    "rejected_result": "may remain as REJECTED_REFERENCE so its bad geometry is not repeated",
+    "after_write": "update history index + layout-bank derived indexes + refetch all changed files",
+    "pass_state": "STRUCTURAL_MEMORY_WRITE_PASS"
+  },
+  "allowed_content": [
+    "domain/geo/locale/niche labels",
+    "header/hero/footer topology",
+    "section/layout sequences",
+    "text/media anchors",
+    "card/list/surface geometry",
+    "rendered silhouette signatures",
+    "mobile transformations",
+    "compact revision fingerprints",
+    "known banned structural signatures"
+  ],
+  "prohibited_content": [
+    "active skill documents",
+    "public page copy",
+    "prompts",
+    "theme source code",
+    "full theme ZIP unless user explicitly approved archive",
+    "credentials/secrets/private user data"
+  ],
+  "required": [
+    "domain",
+    "geo",
+    "locale",
+    "niche",
+    "memory_state",
+    "reuse_policy",
+    "hero",
+    "header",
+    "footer",
+    "home",
+    "key_pages",
+    "site_fingerprint"
+  ]
+}

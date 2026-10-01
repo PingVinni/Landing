@@ -1,30 +1,18 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0",
   "domain": "verqino.org",
   "geo": "PL",
   "locale": "pl-PL",
   "niche": "gaming / turn-based football PvP",
   "created_at": "2026-10-02",
   "updated_at": "2026-10-02",
-  "build_identity": {
-    "theme_package_slug": "verqino-pitch-invaders-pl",
-    "build_version": "1.2.0",
-    "structural_schema_version": "1.2"
-  },
-  "source": {
-    "package_id": "no.norapps.pitchinvaders",
-    "game_name": "Pitch Invaders",
-    "source_developer_account": "FotMob AS",
-    "external_source_note": "Google Play currently lists FotMob AS; creator relationship for Verqino is owner-supplied and is not claimed as independently verified by Google Play."
-  },
-  "business_model": {
-    "mode": "OFFICIAL_GAME_STUDIO",
-    "developer_relationship_status": "OWNER_SUPPLIED_CREATOR_RELATIONSHIP",
-    "ownership_evidence_type": "USER_EXPLICIT_BUSINESS_ASSERTION",
-    "first_person_creator_claims_allowed": true,
-    "primary_entity": "STUDIO_COMPANY",
-    "product_role": "PROOF_OF_WORK",
-    "company_narrative_ratio_estimate": 0.77
+  "memory_state": "REJECTED_REFERENCE",
+  "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
+  "structural_quality_note": "Keep only as an anti-repeat reference. User rejected the installed result for repeated section geometry and missing major imagery.",
+  "header": {
+    "family": "HDR11",
+    "cluster": "HC05_STICKY_CENTER_NAV",
+    "signature": "brand-left__center-nav__store-pill__compact-mobile-drawer"
   },
   "hero": {
     "archetype_id": "H018",
@@ -33,11 +21,6 @@
     "media_topology": "MT08_DOMINANT_EDITORIAL_PHOTO",
     "title_scale_tier": "DISPLAY_BALANCED",
     "neutral_silhouette_hash": "studio-first-left-copy__dominant-editorial-photo__company-thesis__no-dead-track"
-  },
-  "header": {
-    "family": "HDR11",
-    "cluster": "HC05_STICKY_CENTER_NAV",
-    "signature": "brand-left__center-nav__store-pill__compact-mobile-drawer"
   },
   "footer": {
     "archetype_id": "F007",
@@ -216,16 +199,6 @@
     "MB18_MINIMAL_REFLOW"
   ],
   "site_fingerprint": "verqino-org-v3:STUDIOFIRST-H018-SG21-DG21-TG21-PG25-FG14-CG17-F007",
-  "comparison_summary": {
-    "history_available": true,
-    "compared_site_count": 2,
-    "nearest_prior_domain": "kertanzip.org",
-    "nearest_similarity": null,
-    "threshold": 0.72,
-    "reroll_count": 2,
-    "new_grammar_count": 6,
-    "note": "v1.2.0 studio-first rebuild: company/team/development/iteration/QA dominate narrative (0.77 estimate); product is proof of work; responsive WebP+JPEG photo delivery passes codec/fallback browser QA; rendered-family ratio on Home = 1.00."
-  },
   "revisions": [
     {
       "build_version": "1.0.0",
@@ -246,29 +219,10 @@
       "site_fingerprint": "verqino-org-v3:STUDIOFIRST-H018-SG21-DG21-TG21-PG25-FG14-CG17-F007"
     }
   ],
-  "photo_delivery": {
-    "mode": "RESPONSIVE_WEBP_PLUS_JPEG_FALLBACK",
-    "photo_family_count": 5,
-    "responsive_variants_per_family": 4,
-    "broken_major_image_count": 0,
-    "browser_codec_decode_pass": true,
-    "forced_webp_failure_jpeg_fallback_pass": true
-  },
-  "browser_qa": {
-    "status": "PASS",
-    "failure_count": 0,
-    "home_distinct_rendered_family_ratio": 1,
-    "viewports": [
-      "390x844",
-      "1366x768",
-      "1600x1000",
-      "1920x1080"
-    ],
-    "key_pages": [
-      "studio",
-      "rozwoj",
-      "zespol",
-      "gra"
-    ]
-  }
+  "known_banned_signatures": [
+    "large-unassigned-side-field",
+    "empty-media-track-after-asset-failure",
+    "different-labels-same-rendered-section-geometry",
+    "narrow-content-island-inside-wide-canvas"
+  ]
 }

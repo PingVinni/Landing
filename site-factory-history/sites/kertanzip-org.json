@@ -1,25 +1,18 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0",
   "domain": "kertanzip.org",
   "geo": "PL",
   "locale": "pl-PL",
   "niche": "gaming / physics brick breaker",
   "created_at": "2026-10-01",
   "updated_at": "2026-10-02",
-  "build_identity": {
-    "theme_package_slug": "kertanzip-blastybubs-pl",
-    "build_version": "1.1.0",
-    "structural_schema_version": "1.1"
-  },
-  "source": {
-    "package_id": "com.quickbytegames.blastybubs",
-    "game_name": "Blasty Bubs: Brick Breaker",
-    "source_developer": "Criss Cross Games / MOBASO"
-  },
-  "business_model": {
-    "mode": "OFFICIAL_GAME_STUDIO",
-    "developer_relationship_status": "OWNER_SUPPLIED_BRAND_RELATIONSHIP",
-    "first_person_creator_claims_allowed": true
+  "memory_state": "HISTORICAL_REFERENCE",
+  "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
+  "structural_quality_note": "Historical anti-repeat reference; not a reusable template.",
+  "header": {
+    "family": "HDR07",
+    "cluster": "HC03_COMPACT_STICKY",
+    "signature": "brand-left__dense-nav__pill-action__drawer-mobile"
   },
   "hero": {
     "archetype_id": "H003",
@@ -28,11 +21,6 @@
     "media_topology": "MT02_DOMINANT_SINGLE",
     "title_scale_tier": "STANDARD",
     "neutral_silhouette_hash": "balanced-team-photo__balanced-business-copy__no-side-rail"
-  },
-  "header": {
-    "family": "HDR07",
-    "cluster": "HC03_COMPACT_STICKY",
-    "signature": "brand-left__dense-nav__pill-action__drawer-mobile"
   },
   "footer": {
     "archetype_id": "F021",
@@ -273,16 +261,6 @@
     "MB18_MINIMAL_REFLOW"
   ],
   "site_fingerprint": "kertanzip-org-v3:H003-HG08-PG11-DG06-MG14-LG09-SG12-FG05-CG07",
-  "comparison_summary": {
-    "history_available": true,
-    "compared_site_count": 1,
-    "nearest_prior_domain": "dorevita.org",
-    "nearest_similarity": null,
-    "threshold": 0.72,
-    "reroll_count": 2,
-    "new_grammar_count": 8,
-    "note": "v1.1.0 rebuilds every key page under composition-diversity-self-check-v3: unique page grammars, zero exact same-page layout-family repeats, no empty media tracks and denser photography for the expanded studio-first copy."
-  },
   "revisions": [
     {
       "build_version": "1.0.0",
@@ -302,5 +280,6 @@
       "structural_change": "COMPOSITION_DIVERSITY_V3_REBUILD",
       "site_fingerprint": "kertanzip-org-v3:H003-HG08-PG11-DG06-MG14-LG09-SG12-FG05-CG07"
     }
-  ]
+  ],
+  "known_banned_signatures": []
 }

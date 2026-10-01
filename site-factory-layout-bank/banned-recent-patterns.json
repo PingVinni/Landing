@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-02",
+  "role": "HARD_AND_RECENT_EXCLUSIONS",
+  "source": "user-observed defects + recent structural history",
+  "hard_bans": [
+    {
+      "id": "DEAD_SIDE_FIELD",
+      "rule": "No large functionless blank column/side field caused by a missing or underweighted content/media track."
+    },
+    {
+      "id": "NARROW_CONTENT_ISLAND",
+      "rule": "Do not place the meaningful section content in a narrow island while a large share of the desktop canvas is unused."
+    },
+    {
+      "id": "LABEL_ONLY_DIVERSITY",
+      "rule": "Different section/archetype names do not count as diversity when rendered DOM/CSS geometry and silhouette are materially the same."
+    },
+    {
+      "id": "MISSING_MEDIA_SLOT",
+      "rule": "A planned major-media track must collapse/reflow if its asset is unavailable; it may not render as empty structural space."
+    },
+    {
+      "id": "FIRST_THREE_PAGE_CLONE",
+      "rule": "Key pages must not share the same first-three rendered composition families unless semantics require it and QA explicitly accepts it."
+    },
+    {
+      "id": "MAJOR_MEDIA_REUSE",
+      "rule": "Do not reuse the same major source asset as the dominant visual across unrelated major sections/pages by default."
+    }
+  ],
+  "rejected_reference_signatures": [
+    {
+      "domain": "verqino.org",
+      "site_fingerprint": "verqino-org-v3:STUDIOFIRST-H018-SG21-DG21-TG21-PG25-FG14-CG17-F007",
+      "banned": [
+        "large-unassigned-side-field",
+        "empty-media-track-after-asset-failure",
+        "different-labels-same-rendered-section-geometry",
+        "narrow-content-island-inside-wide-canvas"
+      ],
+      "hero_cluster": "GT31_PHOTO_STAGE_SPLIT_EDGE",
+      "home_silhouette": "studio-photo-stage__company-signal__editorial-product-reason__responsibility-cards__workflow-photo-ledger__iteration-photo__improvement-loop__source-truth__company-cta"
+    }
+  ],
+  "recent_cooldown": {
+    "exact_site_fingerprints": [
+      "dorevita-org-v5:STUDIOFIRST-H006-T004-C_TEAM-D_WORKFLOW-P_TASKS-C_REVIEW-M_PRODUCT-C_SYSTEMS-L_LEVELS-Q_QA-A_CTA",
+      "kertanzip-org-v3:H003-HG08-PG11-DG06-MG14-LG09-SG12-FG05-CG07",
+      "verqino-org-v3:STUDIOFIRST-H018-SG21-DG21-TG21-PG25-FG14-CG17-F007"
+    ],
+    "hero_clusters": [
+      "GT24_EDITORIAL_SPREAD",
+      "GT02_BALANCED_SPLIT",
+      "GT31_PHOTO_STAGE_SPLIT_EDGE"
+    ],
+    "footer_archetypes": [
+      "F013",
+      "F021",
+      "F007"
+    ],
+    "page_rhythms": [
+      "R18_STUDIO_TEAM_WORKFLOW_TASKS_REVIEW_PRODUCT_SYSTEMS_LEVELS_ART_QA_CTA",
+      "R33_COMPOSITION_DIVERSITY_STUDIO_EDITORIAL_MEDIA_RHYTHM",
+      "R45_STUDIO_FIRST_PHOTO_COMPANY_REASON_ROLES_WORKFLOW_ITERATION_LOOP_TRANSPARENCY_CTA"
+    ],
+    "home_bigrams": [
+      "H006>T004",
+      "T004>T009",
+      "T009>C041",
+      "C041>D014",
+      "D014>C036",
+      "C036>P017",
+      "P017>C032",
+      "C032>M005",
+      "M005>T011",
+      "T011>C035",
+      "C035>C029",
+      "C029>A005",
+      "H003>C052",
+      "C052>T019",
+      "T019>D025",
+      "D025>P031",
+      "P031>C014",
+      "C014>T022",
+      "T022>C041",
+      "C041>M028",
+      "M028>C011",
+      "C011>A017",
+      "H018>C_COMPANY",
+      "C_COMPANY>D_PRODUCT_REASON",
+      "D_PRODUCT_REASON>C_RESPONSIBILITIES",
+      "C_RESPONSIBILITIES>T_WORKFLOW",
+      "T_WORKFLOW>C_ITERATION",
+      "C_ITERATION>P_IMPROVEMENT_LOOP",
+      "P_IMPROVEMENT_LOOP>T_TRANSPARENCY",
+      "T_TRANSPARENCY>A_COMPANY_CTA"
+    ],
+    "home_trigrams": [
+      "H006>T004>T009",
+      "T004>T009>C041",
+      "T009>C041>D014",
+      "C041>D014>C036",
+      "D014>C036>P017",
+      "C036>P017>C032",
+      "P017>C032>M005",
+      "C032>M005>T011",
+      "M005>T011>C035",
+      "T011>C035>C029",
+      "C035>C029>A005",
+      "H003>C052>T019",
+      "C052>T019>D025",
+      "T019>D025>P031",
+      "D025>P031>C014",
+      "P031>C014>T022",
+      "C014>T022>C041",
+      "T022>C041>M028",
+      "C041>M028>C011",
+      "M028>C011>A017",
+      "H018>C_COMPANY>D_PRODUCT_REASON",
+      "C_COMPANY>D_PRODUCT_REASON>C_RESPONSIBILITIES",
+      "D_PRODUCT_REASON>C_RESPONSIBILITIES>T_WORKFLOW",
+      "C_RESPONSIBILITIES>T_WORKFLOW>C_ITERATION",
+      "T_WORKFLOW>C_ITERATION>P_IMPROVEMENT_LOOP",
+      "C_ITERATION>P_IMPROVEMENT_LOOP>T_TRANSPARENCY",
+      "P_IMPROVEMENT_LOOP>T_TRANSPARENCY>A_COMPANY_CTA"
+    ]
+  }
+}

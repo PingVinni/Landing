@@ -1,53 +1,9 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "1.0",
   "updated_at": "2026-10-02",
-  "role": "STRUCTURAL_MEMORY_INDEX",
-  "source_skills": "PROJECT_SOURCES",
+  "role": "USAGE_FREQUENCY_ONLY",
+  "note": "Counts are anti-repeat signals, not preferences. High frequency reduces reuse priority.",
   "site_count": 3,
-  "sites": [
-    {
-      "domain": "dorevita.org",
-      "path": "site-factory-history/sites/dorevita-org.json",
-      "geo": "PL",
-      "locale": "pl-PL",
-      "niche": "gaming / casual match-3",
-      "memory_state": "HISTORICAL_REFERENCE",
-      "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
-      "hero_archetype": "H006",
-      "hero_cluster": "GT24_EDITORIAL_SPREAD",
-      "footer_archetype": "F013",
-      "page_rhythm": "R18_STUDIO_TEAM_WORKFLOW_TASKS_REVIEW_PRODUCT_SYSTEMS_LEVELS_ART_QA_CTA",
-      "site_fingerprint": "dorevita-org-v5:STUDIOFIRST-H006-T004-C_TEAM-D_WORKFLOW-P_TASKS-C_REVIEW-M_PRODUCT-C_SYSTEMS-L_LEVELS-Q_QA-A_CTA"
-    },
-    {
-      "domain": "kertanzip.org",
-      "path": "site-factory-history/sites/kertanzip-org.json",
-      "geo": "PL",
-      "locale": "pl-PL",
-      "niche": "gaming / physics brick breaker",
-      "memory_state": "HISTORICAL_REFERENCE",
-      "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
-      "hero_archetype": "H003",
-      "hero_cluster": "GT02_BALANCED_SPLIT",
-      "footer_archetype": "F021",
-      "page_rhythm": "R33_COMPOSITION_DIVERSITY_STUDIO_EDITORIAL_MEDIA_RHYTHM",
-      "site_fingerprint": "kertanzip-org-v3:H003-HG08-PG11-DG06-MG14-LG09-SG12-FG05-CG07"
-    },
-    {
-      "domain": "verqino.org",
-      "path": "site-factory-history/sites/verqino-org.json",
-      "geo": "PL",
-      "locale": "pl-PL",
-      "niche": "gaming / turn-based football PvP",
-      "memory_state": "REJECTED_REFERENCE",
-      "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
-      "hero_archetype": "H018",
-      "hero_cluster": "GT31_PHOTO_STAGE_SPLIT_EDGE",
-      "footer_archetype": "F007",
-      "page_rhythm": "R45_STUDIO_FIRST_PHOTO_COMPANY_REASON_ROLES_WORKFLOW_ITERATION_LOOP_TRANSPARENCY_CTA",
-      "site_fingerprint": "verqino-org-v3:STUDIOFIRST-H018-SG21-DG21-TG21-PG25-FG14-CG17-F007"
-    }
-  ],
   "frequency": {
     "hero_archetypes": {
       "H006": 1,

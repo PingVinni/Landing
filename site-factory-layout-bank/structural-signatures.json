@@ -1,0 +1,711 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-02",
+  "role": "ANTI_REPEAT_COMPARISON_SET",
+  "rule": "Compare these signatures; never use them as implementation templates.",
+  "sites": [
+    {
+      "domain": "dorevita.org",
+      "memory_state": "HISTORICAL_REFERENCE",
+      "site_fingerprint": "dorevita-org-v5:STUDIOFIRST-H006-T004-C_TEAM-D_WORKFLOW-P_TASKS-C_REVIEW-M_PRODUCT-C_SYSTEMS-L_LEVELS-Q_QA-A_CTA",
+      "header": {
+        "family": "HDR02",
+        "cluster": "HC01_SINGLE_ROW_BALANCED",
+        "signature": "brand-left__nav-right__compact-action__mobile-drawer"
+      },
+      "hero": {
+        "archetype_id": "H006",
+        "topology_cluster": "GT24_EDITORIAL_SPREAD",
+        "text_anchor": "TA08_BOTTOM_CENTER",
+        "media_topology": "MT02_DOMINANT_SINGLE",
+        "title_scale_tier": "STANDARD",
+        "neutral_silhouette_hash": "full-bleed-media__bottom-centered-glass-copy__edge-index"
+      },
+      "footer": {
+        "archetype_id": "F013",
+        "topology_cluster": "GT08_THREE_ZONE_ASYMMETRIC",
+        "signature": "four-zone-utility-grid__complete-contact-email-phone-address__privacy-microcopy-bottom-bar"
+      },
+      "home": {
+        "page_rhythm_recipe": "R18_STUDIO_TEAM_WORKFLOW_TASKS_REVIEW_PRODUCT_SYSTEMS_LEVELS_ART_QA_CTA",
+        "section_archetypes": [
+          "H006",
+          "T004",
+          "C_TEAM",
+          "D_WORKFLOW",
+          "C_DESIGN",
+          "P017",
+          "C_SYSTEMS",
+          "M_LEVELS",
+          "T_METRICS",
+          "C_ART",
+          "C_QA",
+          "T_SOURCE",
+          "A005"
+        ],
+        "topology_sequence": [
+          "GT24_EDITORIAL_SPREAD",
+          "GT16_LEDGER_ROWS",
+          "GT08_THREE_ZONE_ASYMMETRIC",
+          "GT12_RAIL_AND_STAGE",
+          "GT19_CROSS_AXIS",
+          "GT17_TIMELINE_RUNWAY",
+          "GT12_RAIL_AND_STAGE",
+          "GT22_VARIABLE_WIDTH_BANDS",
+          "GT16_LEDGER_ROWS",
+          "GT24_EDITORIAL_SPREAD",
+          "GT02_BALANCED_SPLIT",
+          "GT16_LEDGER_ROWS",
+          "GT22_VARIABLE_WIDTH_BANDS"
+        ],
+        "content_anchor_sequence": [
+          "TA08_BOTTOM_CENTER",
+          "TA04_CENTER_LEFT",
+          "TA17_SPLIT_ANCHORS",
+          "TA02_TOP_CENTER",
+          "TA10_SIDE_RAIL_LEFT",
+          "TA09_BOTTOM_RIGHT",
+          "TA17_SPLIT_ANCHORS",
+          "TA06_CENTER_RIGHT",
+          "TA17_SPLIT_ANCHORS"
+        ],
+        "media_topology_sequence": [
+          "MT02_DOMINANT_SINGLE",
+          "MT23_GHOSTED_BACKPLATE",
+          "MT03_SUPPORTING_SINGLE",
+          "MT14_ANNOTATED_STAGE",
+          "MT13_THUMBNAIL_INDEX_STAGE",
+          "MT19_PANORAMIC_BAND",
+          "MT08_DIPTYCH_UNEQUAL",
+          "MT14_ANNOTATED_STAGE",
+          "MT15_OBJECT_PEDESTAL"
+        ],
+        "bigram_signature": [
+          "H006>T004",
+          "T004>T009",
+          "T009>C041",
+          "C041>D014",
+          "D014>C036",
+          "C036>P017",
+          "P017>C032",
+          "C032>M005",
+          "M005>T011",
+          "T011>C035",
+          "C035>C029",
+          "C029>A005"
+        ],
+        "trigram_signature": [
+          "H006>T004>T009",
+          "T004>T009>C041",
+          "T009>C041>D014",
+          "C041>D014>C036",
+          "D014>C036>P017",
+          "C036>P017>C032",
+          "P017>C032>M005",
+          "C032>M005>T011",
+          "M005>T011>C035",
+          "T011>C035>C029",
+          "C035>C029>A005"
+        ],
+        "neutral_silhouette_hash": "studio-first-media-stage_to-team-ledger_to-work-cards_to-process-tabs_to-design-cross_to-six-step-runway_to-system-rail_to-level-band_to-metrics_to-art-diptych_to-qa-split_to-source-strip_to-cta",
+        "composition_family_sequence": []
+      },
+      "key_pages": [
+        {
+          "page_key": "game",
+          "page_grammar": null,
+          "opening_archetype": "H003",
+          "topology_sequence": [
+            "GT22_VARIABLE_WIDTH_BANDS",
+            "GT08_THREE_ZONE_ASYMMETRIC",
+            "GT16_LEDGER_ROWS",
+            "GT02_BALANCED_SPLIT",
+            "GT07_THREE_ZONE_EQUAL",
+            "GT16_LEDGER_ROWS",
+            "GT01_MONO_COLUMN"
+          ],
+          "layout_sequence": [],
+          "neutral_silhouette_hash": "studio-opening__workstreams__review-accordion__product-reveal__systems__source__cta"
+        },
+        {
+          "page_key": "development",
+          "page_grammar": null,
+          "opening_archetype": "H002",
+          "topology_sequence": [
+            "GT12_RAIL_AND_STAGE",
+            "GT17_TIMELINE_RUNWAY",
+            "GT08_THREE_ZONE_ASYMMETRIC",
+            "GT02_BALANCED_SPLIT",
+            "GT02_BALANCED_SPLIT",
+            "GT01_MONO_COLUMN"
+          ],
+          "layout_sequence": [],
+          "neutral_silhouette_hash": "workflow-rail__production-chapters__taskboard__qa-release__product-outcome__cta"
+        },
+        {
+          "page_key": "mechanics",
+          "page_grammar": null,
+          "opening_archetype": "H005",
+          "topology_sequence": [
+            "GT22_VARIABLE_WIDTH_BANDS",
+            "GT14_MOSAIC_BENTO",
+            "GT02_BALANCED_SPLIT",
+            "GT14_MOSAIC_BENTO",
+            "GT01_MONO_COLUMN"
+          ],
+          "layout_sequence": [],
+          "neutral_silhouette_hash": "design-opening__process-matrix__product-bridge__mechanics-matrix__cta"
+        },
+        {
+          "page_key": "levels",
+          "page_grammar": null,
+          "opening_archetype": "H003",
+          "topology_sequence": [
+            "GT22_VARIABLE_WIDTH_BANDS",
+            "GT17_TIMELINE_RUNWAY",
+            "GT02_BALANCED_SPLIT",
+            "GT16_LEDGER_ROWS",
+            "GT01_MONO_COLUMN"
+          ],
+          "layout_sequence": [],
+          "neutral_silhouette_hash": "level-team-opening__six-step-workflow__progression-outcome__review-checklist__cta"
+        },
+        {
+          "page_key": "about",
+          "page_grammar": null,
+          "opening_archetype": "H003",
+          "topology_sequence": [
+            "GT22_VARIABLE_WIDTH_BANDS",
+            "GT07_THREE_ZONE_EQUAL",
+            "GT16_LEDGER_ROWS",
+            "GT08_THREE_ZONE_ASYMMETRIC",
+            "GT02_BALANCED_SPLIT",
+            "GT01_MONO_COLUMN"
+          ],
+          "layout_sequence": [],
+          "neutral_silhouette_hash": "studio-opening__role-grid__responsibility-ledger__principles__product-connection__cta"
+        },
+        {
+          "page_key": "faq",
+          "page_grammar": null,
+          "opening_archetype": "H011",
+          "topology_sequence": [
+            "GT02_BALANCED_SPLIT",
+            "GT16_LEDGER_ROWS",
+            "GT02_BALANCED_SPLIT"
+          ],
+          "layout_sequence": [],
+          "neutral_silhouette_hash": "studio-faq-opening__process-first-accordion__support-continuation"
+        },
+        {
+          "page_key": "contact",
+          "page_grammar": null,
+          "opening_archetype": "H012",
+          "topology_sequence": [
+            "GT02_BALANCED_SPLIT",
+            "GT02_BALANCED_SPLIT",
+            "GT08_THREE_ZONE_ASYMMETRIC",
+            "GT16_LEDGER_ROWS"
+          ],
+          "layout_sequence": [],
+          "neutral_silhouette_hash": "team-contact-opening__work-routing__three-contact-ledger__privacy-band"
+        }
+      ],
+      "interaction_profile": [
+        "IP07_CONTENT_TABS",
+        "IP10_EDITORIAL_ACCORDION",
+        "IP01_STATIC",
+        "IP20_NONE_CONFIDENT"
+      ],
+      "mobile_profile": [
+        "MB04_MOSAIC_TO_FEATURED_LIST",
+        "MB01_STACK_TEXT_FIRST",
+        "MB14_LEDGER_TO_DENSE_LIST",
+        "MB06_OVERLAP_TO_SEPARATE"
+      ],
+      "banned": []
+    },
+    {
+      "domain": "kertanzip.org",
+      "memory_state": "HISTORICAL_REFERENCE",
+      "site_fingerprint": "kertanzip-org-v3:H003-HG08-PG11-DG06-MG14-LG09-SG12-FG05-CG07",
+      "header": {
+        "family": "HDR07",
+        "cluster": "HC03_COMPACT_STICKY",
+        "signature": "brand-left__dense-nav__pill-action__drawer-mobile"
+      },
+      "hero": {
+        "archetype_id": "H003",
+        "topology_cluster": "GT02_BALANCED_SPLIT",
+        "text_anchor": "TA06_CENTER_RIGHT",
+        "media_topology": "MT02_DOMINANT_SINGLE",
+        "title_scale_tier": "STANDARD",
+        "neutral_silhouette_hash": "balanced-team-photo__balanced-business-copy__no-side-rail"
+      },
+      "footer": {
+        "archetype_id": "F021",
+        "topology_cluster": "GT07_THREE_ZONE_EQUAL",
+        "signature": "brand-plus-three-utility-columns__three-part-bottom-bar"
+      },
+      "home": {
+        "page_rhythm_recipe": "R33_COMPOSITION_DIVERSITY_STUDIO_EDITORIAL_MEDIA_RHYTHM",
+        "section_archetypes": [
+          "H003",
+          "C052",
+          "T019",
+          "D025",
+          "P031",
+          "C014",
+          "T022",
+          "C041",
+          "M028",
+          "C011",
+          "A017"
+        ],
+        "topology_sequence": [
+          "GT02_BALANCED_SPLIT",
+          "GT24_EDITORIAL_SPREAD",
+          "GT16_LEDGER_ROWS",
+          "GT08_THREE_ZONE_ASYMMETRIC",
+          "GT17_TIMELINE_RUNWAY",
+          "GT02_BALANCED_SPLIT",
+          "GT16_LEDGER_ROWS",
+          "GT22_VARIABLE_WIDTH_BANDS",
+          "GT15_LAYERED_OVERLAP",
+          "GT19_CROSS_AXIS",
+          "GT01_MONO_COLUMN"
+        ],
+        "content_anchor_sequence": [
+          "TA06_CENTER_RIGHT",
+          "TA01_TOP_LEFT",
+          "TA17_SPLIT_ANCHORS",
+          "TA01_TOP_LEFT",
+          "TA02_TOP_CENTER",
+          "TA06_CENTER_RIGHT",
+          "TA17_SPLIT_ANCHORS",
+          "TA01_TOP_LEFT",
+          "TA04_CENTER_LEFT",
+          "TA06_CENTER_RIGHT",
+          "TA05_CENTER"
+        ],
+        "media_topology_sequence": [
+          "MT02_DOMINANT_SINGLE",
+          "MT01_NONE",
+          "MT01_NONE",
+          "MT01_NONE",
+          "MT01_NONE",
+          "MT03_SUPPORTING_SINGLE",
+          "MT01_NONE",
+          "MT01_NONE",
+          "MT02_DOMINANT_SINGLE",
+          "MT02_DOMINANT_SINGLE",
+          "MT01_NONE"
+        ],
+        "bigram_signature": [
+          "H003>C052",
+          "C052>T019",
+          "T019>D025",
+          "D025>P031",
+          "P031>C014",
+          "C014>T022",
+          "T022>C041",
+          "C041>M028",
+          "M028>C011",
+          "C011>A017"
+        ],
+        "trigram_signature": [
+          "H003>C052>T019",
+          "C052>T019>D025",
+          "T019>D025>P031",
+          "D025>P031>C014",
+          "P031>C014>T022",
+          "C014>T022>C041",
+          "T022>C041>M028",
+          "C041>M028>C011",
+          "M028>C011>A017"
+        ],
+        "neutral_silhouette_hash": "balanced-team-hero__editorial-split__wrapped-photo__task-mosaic__timeline__floating-photo__decision-matrix__full-essay__workbench__manifesto__product-stage__media-band__split-close",
+        "composition_family_sequence": [
+          "editorial_split",
+          "image_wrap",
+          "task_mosaic",
+          "timeline",
+          "floating_media",
+          "decision_matrix",
+          "essay_full",
+          "workbench",
+          "manifesto_centered",
+          "product_stage",
+          "media_band",
+          "closing_split"
+        ]
+      },
+      "key_pages": [
+        {
+          "page_key": "game",
+          "page_grammar": "PG11_PRODUCT_CASE_STUDY_STAGGER",
+          "opening_archetype": null,
+          "topology_sequence": [],
+          "layout_sequence": [
+            "quote_rail",
+            "task_mosaic",
+            "gallery_triptych",
+            "essay_full",
+            "decision_matrix",
+            "process_spine",
+            "image_wrap",
+            "case_study",
+            "product_stage",
+            "staggered_story",
+            "metric_band",
+            "closing_split"
+          ],
+          "neutral_silhouette_hash": "product-review-open__mosaic__gallery__essay__matrix__spine__wrap__case__product__stagger__band__close"
+        },
+        {
+          "page_key": "development",
+          "page_grammar": "DG06_TIMELINE_WORKBENCH_RELEASE",
+          "opening_archetype": null,
+          "topology_sequence": [],
+          "layout_sequence": [
+            "timeline",
+            "floating_media",
+            "decision_matrix",
+            "media_band",
+            "workbench",
+            "essay_full",
+            "handoff_bridge",
+            "release_checklist",
+            "case_study",
+            "product_stage",
+            "metric_band",
+            "quote_rail",
+            "closing_split"
+          ],
+          "neutral_silhouette_hash": "timeline-open__floating-review__matrix__media-band__workbench__essay__handoff__release__case__product__band__rail__close"
+        },
+        {
+          "page_key": "mechanics",
+          "page_grammar": "MG14_SYSTEMS_LAB_GALLERY",
+          "opening_archetype": null,
+          "topology_sequence": [],
+          "layout_sequence": [
+            "manifesto_centered",
+            "tuning_rail",
+            "interaction_matrix",
+            "process_spine",
+            "image_wrap",
+            "gallery_triptych",
+            "failure_map",
+            "essay_full",
+            "product_stage",
+            "learning_ladder",
+            "handoff_bridge",
+            "feedback_band",
+            "closing_split"
+          ],
+          "neutral_silhouette_hash": "manifesto__tuning-rail__interaction-matrix__spine__wrap__gallery__failure-map__essay__product__ladder__bridge__band__close"
+        },
+        {
+          "page_key": "levels",
+          "page_grammar": "LG09_LEVEL_BRIEF_PLAYTEST_RHYTHM",
+          "opening_archetype": null,
+          "topology_sequence": [],
+          "layout_sequence": [
+            "timeline",
+            "essay_full",
+            "decision_matrix",
+            "level_brief_board",
+            "rhythm_band",
+            "playtest_columns",
+            "variety_map",
+            "case_study",
+            "product_stage",
+            "progression_rail",
+            "image_wrap",
+            "manifesto_centered",
+            "closing_split"
+          ],
+          "neutral_silhouette_hash": "timeline__essay__matrix__brief-board__rhythm__playtest-columns__variety-map__case__product__rail__wrap__manifesto__close"
+        },
+        {
+          "page_key": "studio",
+          "page_grammar": "SG12_TEAM_LEDGER_DECISION_FLOW",
+          "opening_archetype": null,
+          "topology_sequence": [],
+          "layout_sequence": [
+            "image_wrap",
+            "team_role_ledger",
+            "decision_flow",
+            "essay_full",
+            "manifesto_centered",
+            "decision_matrix",
+            "risk_board",
+            "timeline",
+            "case_study",
+            "product_stage",
+            "quote_rail",
+            "closing_split"
+          ],
+          "neutral_silhouette_hash": "wrap-open__team-ledger__decision-flow__essay__manifesto__matrix__risk-board__timeline__case__product__rail__close"
+        },
+        {
+          "page_key": "faq",
+          "page_grammar": "FG05_FAQ_SPLIT_COLUMNS_LEDGER",
+          "opening_archetype": null,
+          "topology_sequence": [],
+          "layout_sequence": [
+            "faq_split",
+            "image_wrap",
+            "faq_columns",
+            "qa_ledger",
+            "closing_split"
+          ],
+          "neutral_silhouette_hash": "faq-split__wrapped-photo__faq-columns__qa-ledger__close"
+        },
+        {
+          "page_key": "contact",
+          "page_grammar": "CG07_ROUTING_SUPPORT_EDITORIAL",
+          "opening_archetype": null,
+          "topology_sequence": [],
+          "layout_sequence": [
+            "editorial_split",
+            "process_spine",
+            "do_dont_matrix",
+            "quote_rail",
+            "task_mosaic",
+            "contact_ledger",
+            "image_wrap",
+            "essay_full",
+            "support_band",
+            "closing_split"
+          ],
+          "neutral_silhouette_hash": "editorial-routing__process-spine__do-dont__rail__mosaic__contact-ledger__wrap__essay__support-band__close"
+        }
+      ],
+      "interaction_profile": [
+        "IP10_EDITORIAL_ACCORDION",
+        "IP12_PROGRESSIVE_REVEAL",
+        "IP20_NONE_CONFIDENT"
+      ],
+      "mobile_profile": [
+        "MB02_STACK_MEDIA_FIRST",
+        "MB07_SIDE_RAIL_TO_TOP_INDEX",
+        "MB14_LEDGER_TO_DENSE_LIST",
+        "MB18_MINIMAL_REFLOW"
+      ],
+      "banned": []
+    },
+    {
+      "domain": "verqino.org",
+      "memory_state": "REJECTED_REFERENCE",
+      "site_fingerprint": "verqino-org-v3:STUDIOFIRST-H018-SG21-DG21-TG21-PG25-FG14-CG17-F007",
+      "header": {
+        "family": "HDR11",
+        "cluster": "HC05_STICKY_CENTER_NAV",
+        "signature": "brand-left__center-nav__store-pill__compact-mobile-drawer"
+      },
+      "hero": {
+        "archetype_id": "H018",
+        "topology_cluster": "GT31_PHOTO_STAGE_SPLIT_EDGE",
+        "text_anchor": "TA03_LEFT_ANCHORED",
+        "media_topology": "MT08_DOMINANT_EDITORIAL_PHOTO",
+        "title_scale_tier": "DISPLAY_BALANCED",
+        "neutral_silhouette_hash": "studio-first-left-copy__dominant-editorial-photo__company-thesis__no-dead-track"
+      },
+      "footer": {
+        "archetype_id": "F007",
+        "topology_cluster": "GT11_CONTACT_DOCK",
+        "signature": "large-brand-block__three-utility-columns__split-bottom-bar"
+      },
+      "home": {
+        "page_rhythm_recipe": "R45_STUDIO_FIRST_PHOTO_COMPANY_REASON_ROLES_WORKFLOW_ITERATION_LOOP_TRANSPARENCY_CTA",
+        "section_archetypes": [
+          "H018",
+          "C_COMPANY",
+          "D_PRODUCT_REASON",
+          "C_RESPONSIBILITIES",
+          "T_WORKFLOW",
+          "C_ITERATION",
+          "P_IMPROVEMENT_LOOP",
+          "T_TRANSPARENCY",
+          "A_COMPANY_CTA"
+        ],
+        "topology_sequence": [
+          "GT31_PHOTO_STAGE_SPLIT_EDGE",
+          "GT16_SIGNAL_RAIL",
+          "GT27_EDITORIAL_PHOTO_SPREAD",
+          "GT08_THREE_CARD_DECISION",
+          "GT30_PHOTO_LEDGER",
+          "GT32_DUEL_PHOTO_BAND",
+          "GT28_STEPS_WITH_PHOTO",
+          "GT22_TRUTH_STRIP",
+          "GT01_FULL_CTA_FIELD"
+        ],
+        "content_anchor_sequence": [
+          "TA03_LEFT_ANCHORED",
+          "TA01_TOP_LEFT",
+          "TA01_TOP_LEFT",
+          "TA01_TOP_LEFT",
+          "TA17_SPLIT_ANCHORS",
+          "TA04_CENTER_LEFT",
+          "TA02_TOP_CENTER",
+          "TA01_TOP_LEFT",
+          "TA17_SPLIT_ANCHORS"
+        ],
+        "media_topology_sequence": [
+          "MT08_DOMINANT_EDITORIAL_PHOTO",
+          "MT01_NONE",
+          "MT08_DOMINANT_EDITORIAL_PHOTO",
+          "MT01_NONE",
+          "MT09_FULL_WIDTH_PHOTO",
+          "MT08_DOMINANT_EDITORIAL_PHOTO",
+          "MT03_SUPPORTING_SINGLE",
+          "MT01_NONE",
+          "MT01_NONE"
+        ],
+        "bigram_signature": [
+          "H018>C_COMPANY",
+          "C_COMPANY>D_PRODUCT_REASON",
+          "D_PRODUCT_REASON>C_RESPONSIBILITIES",
+          "C_RESPONSIBILITIES>T_WORKFLOW",
+          "T_WORKFLOW>C_ITERATION",
+          "C_ITERATION>P_IMPROVEMENT_LOOP",
+          "P_IMPROVEMENT_LOOP>T_TRANSPARENCY",
+          "T_TRANSPARENCY>A_COMPANY_CTA"
+        ],
+        "trigram_signature": [
+          "H018>C_COMPANY>D_PRODUCT_REASON",
+          "C_COMPANY>D_PRODUCT_REASON>C_RESPONSIBILITIES",
+          "D_PRODUCT_REASON>C_RESPONSIBILITIES>T_WORKFLOW",
+          "C_RESPONSIBILITIES>T_WORKFLOW>C_ITERATION",
+          "T_WORKFLOW>C_ITERATION>P_IMPROVEMENT_LOOP",
+          "C_ITERATION>P_IMPROVEMENT_LOOP>T_TRANSPARENCY",
+          "P_IMPROVEMENT_LOOP>T_TRANSPARENCY>A_COMPANY_CTA"
+        ],
+        "neutral_silhouette_hash": "studio-photo-stage__company-signal__editorial-product-reason__responsibility-cards__workflow-photo-ledger__iteration-photo__improvement-loop__source-truth__company-cta",
+        "composition_family_sequence": [
+          "hero-stage-photo",
+          "signal-rail",
+          "editorial-media",
+          "cards-wide",
+          "media-ledger",
+          "radar-band",
+          "loop-steps",
+          "truth-strip",
+          "cta-field"
+        ]
+      },
+      "key_pages": [
+        {
+          "page_key": "studio",
+          "page_grammar": "SG21_STUDIO_IDENTITY_EDITORIAL_SIGNAL",
+          "opening_archetype": null,
+          "topology_sequence": [],
+          "layout_sequence": [
+            "hero-stage-photo",
+            "editorial-media",
+            "signal-rail",
+            "cards-wide",
+            "media-ledger",
+            "cta-field"
+          ],
+          "neutral_silhouette_hash": "studio-photo-hero__editorial-identity__company-signal__responsibility-cards__working-photo-ledger__close"
+        },
+        {
+          "page_key": "rozwoj",
+          "page_grammar": "DG21_ITERATION_LOOP_EDITORIAL_REVIEW",
+          "opening_archetype": null,
+          "topology_sequence": [],
+          "layout_sequence": [
+            "hero-stage-photo",
+            "loop-steps",
+            "editorial-media",
+            "radar-band",
+            "media-ledger",
+            "cards-wide",
+            "cta-field"
+          ],
+          "neutral_silhouette_hash": "development-photo-hero__iteration-loop__editorial-reasoning__review-band__improvement-ledger__decision-cards__close"
+        },
+        {
+          "page_key": "zespol",
+          "page_grammar": "TG21_TEAM_RESPONSIBILITY_SIGNAL_COLLABORATION",
+          "opening_archetype": null,
+          "topology_sequence": [],
+          "layout_sequence": [
+            "hero-stage-photo",
+            "cards-wide",
+            "signal-rail",
+            "editorial-media",
+            "truth-strip",
+            "cta-field"
+          ],
+          "neutral_silhouette_hash": "team-photo-hero__role-cards__responsibility-signal__collaboration-editorial__team-truth__close"
+        },
+        {
+          "page_key": "gra",
+          "page_grammar": "PG25_PRODUCT_AS_PROOF_SIGNAL_SYSTEMS",
+          "opening_archetype": null,
+          "topology_sequence": [],
+          "layout_sequence": [
+            "hero-stage-photo",
+            "signal-rail",
+            "radar-band",
+            "cards-wide",
+            "media-ledger",
+            "truth-strip",
+            "cta-field"
+          ],
+          "neutral_silhouette_hash": "product-photo-hero__feature-signal__systems-band__decision-cards__product-ledger__source-truth__close"
+        },
+        {
+          "page_key": "faq",
+          "page_grammar": "FG14_STUDIO_PRODUCT_FAQ",
+          "opening_archetype": null,
+          "topology_sequence": [],
+          "layout_sequence": [
+            "compact_text_hero",
+            "faq_accordion",
+            "truth_strip",
+            "cta_field"
+          ],
+          "neutral_silhouette_hash": "compact-studio-faq__accordion__source-truth__close"
+        },
+        {
+          "page_key": "kontakt",
+          "page_grammar": "CG17_STUDIO_DIRECT_CONTACT",
+          "opening_archetype": null,
+          "topology_sequence": [],
+          "layout_sequence": [
+            "compact_text_hero",
+            "route_cards",
+            "contact_grid",
+            "text_ledger",
+            "form_field",
+            "truth_strip"
+          ],
+          "neutral_silhouette_hash": "company-contact-hero__route-cards__direct-grid__routing-ledger__form__truth"
+        }
+      ],
+      "interaction_profile": [
+        "IP03_STICKY_NAV",
+        "IP06_DISCLOSURE_FAQ",
+        "IP09_CONTACT_FORM",
+        "IP20_NONE_CONFIDENT"
+      ],
+      "mobile_profile": [
+        "MB03_STACK_STAGE_MEDIA",
+        "MB11_STATS_TO_SINGLE_COLUMN",
+        "MB14_LEDGER_TO_STACK",
+        "MB18_MINIMAL_REFLOW"
+      ],
+      "banned": [
+        "large-unassigned-side-field",
+        "empty-media-track-after-asset-failure",
+        "different-labels-same-rendered-section-geometry",
+        "narrow-content-island-inside-wide-canvas"
+      ]
+    }
+  ]
+}
