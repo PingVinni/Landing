@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "site_count": 2,
   "sites": [
     {
@@ -22,12 +22,12 @@
       "geo": "PL",
       "locale": "pl-PL",
       "niche": "gaming / physics brick breaker",
-      "updated_at": "2026-10-01",
+      "updated_at": "2026-10-02",
       "hero_archetype": "H003",
       "hero_cluster": "GT02_BALANCED_SPLIT",
       "footer_archetype": "F021",
-      "page_rhythm": "R28_BALANCED_TEAM_MANIFESTO_DECISION_TASKS_PROCESS_QA_PRODUCT_SYSTEMS_CTA",
-      "site_fingerprint": "kertanzip-org-v2:H003-C052-T019-D025-P031-C014-T022-C041-M028-C011-A017"
+      "page_rhythm": "R33_COMPOSITION_DIVERSITY_STUDIO_EDITORIAL_MEDIA_RHYTHM",
+      "site_fingerprint": "kertanzip-org-v3:H003-HG08-PG11-DG06-MG14-LG09-SG12-FG05-CG07"
     }
   ],
   "frequency": {
@@ -82,7 +82,7 @@
     },
     "page_rhythms": {
       "R18_STUDIO_TEAM_WORKFLOW_TASKS_REVIEW_PRODUCT_SYSTEMS_LEVELS_ART_QA_CTA": 1,
-      "R28_BALANCED_TEAM_MANIFESTO_DECISION_TASKS_PROCESS_QA_PRODUCT_SYSTEMS_CTA": 1
+      "R33_COMPOSITION_DIVERSITY_STUDIO_EDITORIAL_MEDIA_RHYTHM": 1
     },
     "home_bigrams": {
       "H006>T004": 1,
