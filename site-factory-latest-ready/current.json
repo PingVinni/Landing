@@ -13,7 +13,8 @@
   "structural_memory_domain_file": "site-factory-history/sites/kertanzip-org.json",
   "qa_file": "site-factory-latest-ready/qa.md",
   "build_manifest_file": "site-factory-latest-ready/build-manifest.json",
-  "source_snapshot_file": "site-factory-latest-ready/source-text-snapshot.json.gz.b64",
   "assets_manifest_file": "site-factory-latest-ready/assets-manifest.json",
-  "binary_restore_note": "Visual binaries are integrity-tracked by SHA-256; install ZIP remains the canonical binary artifact outside the GitHub text workspace."
+  "binary_restore_note": "Visual binaries are integrity-tracked by SHA-256; install ZIP remains the canonical binary artifact outside the GitHub text workspace.",
+  "source_index_file": "site-factory-latest-ready/source-index.json",
+  "restore_scope": "Exact build identity, QA, manifests and file hashes are persistent; binary install ZIP remains the canonical external artifact."
 }
