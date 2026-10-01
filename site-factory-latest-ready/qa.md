@@ -1,50 +1,44 @@
-# Kertanzip — Blasty Bubs v1.0.2 — Fix QA
+# Kertanzip — Blasty Bubs v1.1.0 — Latest Ready QA
 
-## User-reported issues
+## Release state
+- STATIC_PASS
+- COMPOSITION_SELF_CHECK_PASS
+- RUNTIME_NOT_RUN
 
-### 1. Cookie accept button
-- delegated click handler: `PASS`
-- `[hidden]` hard CSS gate: `PASS`
-- dismiss state class + `aria-hidden`: `PASS`
-- cache-busting theme version updated to `1.0.2`
+## Composition
+- Home: 12 sections / 12 distinct layout families / 6 major visuals / 1328 visible words.
+- Product: 12 / 12 / 8 / 1354.
+- Development: 13 / 13 / 4 / 1377.
+- Mechanics: 13 / 13 / 6 / 1351.
+- Levels: 13 / 13 / 5 / 1349.
+- Studio: 12 / 12 / 4 / 1104.
+- FAQ: 5 / 5 / 2 / 1073.
+- Contact: 10 / 10 / 3 / 793.
 
-### 2. Empty/dead section space
-- text-only `statement` sections use full-width two-column editorial composition: `PASS`
-- desktop body copy now occupies the second content column rather than leaving an unused right field
-- structured-section header width expanded
+Cross-page:
+- 8/8 unique page grammars.
+- exact same-page layout repeats: 0.
+- empty required media slots: 0.
+- structural dead-space flags: 0.
+- exact major visual reuse: 0.
+- team/workflow-led hero ratio: 1.00.
+- all pages remain below the 550 words/major-visual review threshold.
 
-### 3. Hero balance
-- old side rail removed from visible composition
-- home hero changed to balanced media/copy split: `PASS`
-- larger headline measure prevents the five-line compressed title
-- image and copy vertically aligned
-- internal page heroes receive the same balance correction
-
-### 4. SEO / GEO
-- `<title>` now consumes page SEO title through WordPress document-title filter: `PASS`
-- all managed SEO title lengths 30–65 chars: `PASS`
-- frontend HTML language `pl-PL`: `PASS`
-- GEO metadata `PL / Polska`: `PASS`
-- WordPress robots filter: `PASS`
-- hreflang `pl-PL` + `x-default`: `PASS`
-- old factory SEO titles migrate on update while manual Global Text edits remain preserved: `PASS`
-
-## Technical static checks
-- WordPress standalone-theme root contract: `PASS`
-- PHP syntax: `PASS` (8 files)
-- JS syntax: `PASS`
-- JSON parse: `PASS`
-- numeric CSS px tokens: `0` → `PASS`
-- clean-gaming forbidden-term hits: `0` → `PASS`
-- literal newline artifact hits: `0` → `PASS`
-- ZIP integrity + stable theme root: `PASS`
+## Regressions retained
+- standalone WordPress root/index.php: PASS
+- cookie/privacy accept static gate: PASS
+- PL language + GEO metadata: PASS
+- SEO document title filter: PASS
+- >=16 SEO keywords per managed indexable page: PASS
+- favicon set: PASS
+- numeric CSS px: 0
+- PHP / JS / JSON static syntax: PASS
 
 ## Structural memory
-The material hero change was recorded as a same-domain revision:
-- hero cluster: `GT02_BALANCED_SPLIT`
-- fingerprint: `kertanzip-org-v2:H003-C052-T019-D025-P031-C014-T022-C041-M028-C011-A017`
-- read-after-write: `PASS`
-- state: `STRUCTURAL_MEMORY_WRITE_PASS`
+- same-domain revision: kertanzip.org v1.1.0
+- fingerprint: kertanzip-org-v3:H003-HG08-PG11-DG06-MG14-LG09-SG12-FG05-CG07
+- site history commit: a30f96d3fc2148911bfff908ee90f43c4c99707a
+- global index commit: 879b45595e37a1c1b70f3cb9ce10685698d3ec21
 
-## Runtime status
-This remains `STATIC_PASS`, not a browser `RUNTIME_PASS`.
+## Runtime
+Live WordPress/browser screenshot QA is still separate.
