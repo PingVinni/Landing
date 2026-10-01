@@ -5,10 +5,10 @@
   "locale": "pl-PL",
   "niche": "gaming / physics brick breaker",
   "created_at": "2026-10-01",
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "build_identity": {
     "theme_package_slug": "kertanzip-blastybubs-pl",
-    "build_version": "1.0.2",
+    "build_version": "1.1.0",
     "structural_schema_version": "1.1"
   },
   "source": {
@@ -40,7 +40,7 @@
     "signature": "brand-plus-three-utility-columns__three-part-bottom-bar"
   },
   "home": {
-    "page_rhythm_recipe": "R28_BALANCED_TEAM_MANIFESTO_DECISION_TASKS_PROCESS_QA_PRODUCT_SYSTEMS_CTA",
+    "page_rhythm_recipe": "R33_COMPOSITION_DIVERSITY_STUDIO_EDITORIAL_MEDIA_RHYTHM",
     "section_archetypes": [
       "H003",
       "C052",
@@ -116,83 +116,149 @@
       "C041>M028>C011",
       "M028>C011>A017"
     ],
-    "neutral_silhouette_hash": "balanced-team-photo-open__editorial__ledger__task-grid__runway__qa-split__decision-ledger__product-stage__system-stage__close"
+    "neutral_silhouette_hash": "balanced-team-hero__editorial-split__wrapped-photo__task-mosaic__timeline__floating-photo__decision-matrix__full-essay__workbench__manifesto__product-stage__media-band__split-close",
+    "composition_family_sequence": [
+      "editorial_split",
+      "image_wrap",
+      "task_mosaic",
+      "timeline",
+      "floating_media",
+      "decision_matrix",
+      "essay_full",
+      "workbench",
+      "manifesto_centered",
+      "product_stage",
+      "media_band",
+      "closing_split"
+    ]
   },
   "key_pages": [
     {
       "page_key": "game",
-      "opening_archetype": "H032",
-      "topology_sequence": [
-        "GT08_THREE_ZONE_ASYMMETRIC",
-        "GT16_LEDGER_ROWS",
-        "GT17_TIMELINE_RUNWAY",
-        "GT01_MONO_COLUMN"
+      "page_grammar": "PG11_PRODUCT_CASE_STUDY_STAGGER",
+      "layout_sequence": [
+        "quote_rail",
+        "task_mosaic",
+        "gallery_triptych",
+        "essay_full",
+        "decision_matrix",
+        "process_spine",
+        "image_wrap",
+        "case_study",
+        "product_stage",
+        "staggered_story",
+        "metric_band",
+        "closing_split"
       ],
-      "neutral_silhouette_hash": "team-review-open__product-ledgers__feature-flow__product-close"
+      "neutral_silhouette_hash": "product-review-open__mosaic__gallery__essay__matrix__spine__wrap__case__product__stagger__band__close"
     },
     {
       "page_key": "development",
-      "opening_archetype": "H014",
-      "topology_sequence": [
-        "GT13_STICKY_RAIL_FLOW",
-        "GT17_TIMELINE_RUNWAY",
-        "GT16_LEDGER_ROWS",
-        "GT02_BALANCED_SPLIT"
+      "page_grammar": "DG06_TIMELINE_WORKBENCH_RELEASE",
+      "layout_sequence": [
+        "timeline",
+        "floating_media",
+        "decision_matrix",
+        "media_band",
+        "workbench",
+        "essay_full",
+        "handoff_bridge",
+        "release_checklist",
+        "case_study",
+        "product_stage",
+        "metric_band",
+        "quote_rail",
+        "closing_split"
       ],
-      "neutral_silhouette_hash": "process-open__task-flow__review-matrix__qa-close"
+      "neutral_silhouette_hash": "timeline-open__floating-review__matrix__media-band__workbench__essay__handoff__release__case__product__band__rail__close"
     },
     {
       "page_key": "mechanics",
-      "opening_archetype": "H027",
-      "topology_sequence": [
-        "GT19_CROSS_AXIS",
-        "GT16_LEDGER_ROWS",
-        "GT17_TIMELINE_RUNWAY",
-        "GT02_BALANCED_SPLIT"
+      "page_grammar": "MG14_SYSTEMS_LAB_GALLERY",
+      "layout_sequence": [
+        "manifesto_centered",
+        "tuning_rail",
+        "interaction_matrix",
+        "process_spine",
+        "image_wrap",
+        "gallery_triptych",
+        "failure_map",
+        "essay_full",
+        "product_stage",
+        "learning_ladder",
+        "handoff_bridge",
+        "feedback_band",
+        "closing_split"
       ],
-      "neutral_silhouette_hash": "systems-review-open__tuning-ledger__mechanic-loop__product-close"
+      "neutral_silhouette_hash": "manifesto__tuning-rail__interaction-matrix__spine__wrap__gallery__failure-map__essay__product__ladder__bridge__band__close"
     },
     {
       "page_key": "levels",
-      "opening_archetype": "H018",
-      "topology_sequence": [
-        "GT22_VARIABLE_WIDTH_BANDS",
-        "GT17_TIMELINE_RUNWAY",
-        "GT16_LEDGER_ROWS",
-        "GT01_MONO_COLUMN"
+      "page_grammar": "LG09_LEVEL_BRIEF_PLAYTEST_RHYTHM",
+      "layout_sequence": [
+        "timeline",
+        "essay_full",
+        "decision_matrix",
+        "level_brief_board",
+        "rhythm_band",
+        "playtest_columns",
+        "variety_map",
+        "case_study",
+        "product_stage",
+        "progression_rail",
+        "image_wrap",
+        "manifesto_centered",
+        "closing_split"
       ],
-      "neutral_silhouette_hash": "level-planning-open__brief-runway__playtest-ledger__close"
+      "neutral_silhouette_hash": "timeline__essay__matrix__brief-board__rhythm__playtest-columns__variety-map__case__product__rail__wrap__manifesto__close"
     },
     {
       "page_key": "studio",
-      "opening_archetype": "H039",
-      "topology_sequence": [
-        "GT14_MOSAIC_BENTO",
-        "GT16_LEDGER_ROWS",
-        "GT17_TIMELINE_RUNWAY",
-        "GT01_MONO_COLUMN"
+      "page_grammar": "SG12_TEAM_LEDGER_DECISION_FLOW",
+      "layout_sequence": [
+        "image_wrap",
+        "team_role_ledger",
+        "decision_flow",
+        "essay_full",
+        "manifesto_centered",
+        "decision_matrix",
+        "risk_board",
+        "timeline",
+        "case_study",
+        "product_stage",
+        "quote_rail",
+        "closing_split"
       ],
-      "neutral_silhouette_hash": "art-review-open__discipline-ledger__decision-flow__close"
+      "neutral_silhouette_hash": "wrap-open__team-ledger__decision-flow__essay__manifesto__matrix__risk-board__timeline__case__product__rail__close"
     },
     {
       "page_key": "faq",
-      "opening_archetype": "H044",
-      "topology_sequence": [
-        "GT01_MONO_COLUMN",
-        "GT16_LEDGER_ROWS",
-        "GT01_MONO_COLUMN"
+      "page_grammar": "FG05_FAQ_SPLIT_COLUMNS_LEDGER",
+      "layout_sequence": [
+        "faq_split",
+        "image_wrap",
+        "faq_columns",
+        "qa_ledger",
+        "closing_split"
       ],
-      "neutral_silhouette_hash": "typographic-open__process-faq__product-faq__close"
+      "neutral_silhouette_hash": "faq-split__wrapped-photo__faq-columns__qa-ledger__close"
     },
     {
       "page_key": "contact",
-      "opening_archetype": "H047",
-      "topology_sequence": [
-        "GT22_VARIABLE_WIDTH_BANDS",
-        "GT17_TIMELINE_RUNWAY",
-        "GT08_THREE_ZONE_ASYMMETRIC"
+      "page_grammar": "CG07_ROUTING_SUPPORT_EDITORIAL",
+      "layout_sequence": [
+        "editorial_split",
+        "process_spine",
+        "do_dont_matrix",
+        "quote_rail",
+        "task_mosaic",
+        "contact_ledger",
+        "image_wrap",
+        "essay_full",
+        "support_band",
+        "closing_split"
       ],
-      "neutral_silhouette_hash": "typographic-contact-open__routing-flow__contact-grid"
+      "neutral_silhouette_hash": "editorial-routing__process-spine__do-dont__rail__mosaic__contact-ledger__wrap__essay__support-band__close"
     }
   ],
   "interaction_profile": [
@@ -206,7 +272,7 @@
     "MB14_LEDGER_TO_DENSE_LIST",
     "MB18_MINIMAL_REFLOW"
   ],
-  "site_fingerprint": "kertanzip-org-v2:H003-C052-T019-D025-P031-C014-T022-C041-M028-C011-A017",
+  "site_fingerprint": "kertanzip-org-v3:H003-HG08-PG11-DG06-MG14-LG09-SG12-FG05-CG07",
   "comparison_summary": {
     "history_available": true,
     "compared_site_count": 1,
@@ -214,8 +280,8 @@
     "nearest_similarity": null,
     "threshold": 0.72,
     "reroll_count": 2,
-    "new_grammar_count": 0,
-    "note": "v1.0.2 replaces the visually unstable rail-stage hero with a balanced studio-photo/business-copy split while preserving team/process-first rhythm and differentiation from Dorevita."
+    "new_grammar_count": 8,
+    "note": "v1.1.0 rebuilds every key page under composition-diversity-self-check-v3: unique page grammars, zero exact same-page layout-family repeats, no empty media tracks and denser photography for the expanded studio-first copy."
   },
   "revisions": [
     {
@@ -229,6 +295,12 @@
       "timestamp": "2026-10-01",
       "structural_change": "HERO_REBALANCE_AND_TEXT_DENSITY_FIX",
       "site_fingerprint": "kertanzip-org-v2:H003-C052-T019-D025-P031-C014-T022-C041-M028-C011-A017"
+    },
+    {
+      "build_version": "1.1.0",
+      "timestamp": "2026-10-02",
+      "structural_change": "COMPOSITION_DIVERSITY_V3_REBUILD",
+      "site_fingerprint": "kertanzip-org-v3:H003-HG08-PG11-DG06-MG14-LG09-SG12-FG05-CG07"
     }
   ]
 }
