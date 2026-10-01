@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.1",
+  "domain": "verqino.org",
+  "geo": "PL",
+  "locale": "pl-PL",
+  "niche": "gaming / turn-based football PvP",
+  "created_at": "2026-10-02",
+  "updated_at": "2026-10-02",
+  "build_identity": {
+    "theme_package_slug": "verqino-pitch-invaders-pl",
+    "build_version": "1.0.0",
+    "structural_schema_version": "1.1"
+  },
+  "source": {
+    "package_id": "no.norapps.pitchinvaders",
+    "game_name": "Pitch Invaders",
+    "source_developer": "FotMob AS"
+  },
+  "business_model": {
+    "mode": "INDEPENDENT_GAME_GUIDE",
+    "developer_relationship_status": "UNRESOLVED_INDEPENDENT_SITE",
+    "first_person_creator_claims_allowed": false
+  },
+  "hero": {
+    "archetype_id": "H012",
+    "topology_cluster": "GT02_FULL_BLEED_STAGE_ORBITAL",
+    "text_anchor": "TA05_CENTER_LEFT_STAGE",
+    "media_topology": "MT04_ORBITAL_DIAGRAM_STAGE",
+    "title_scale_tier": "DISPLAY",
+    "neutral_silhouette_hash": "full-bleed-orbital-pitch__left-stage-copy__floating-tactical-field"
+  },
+  "header": {
+    "family": "HDR11",
+    "cluster": "HC05_STICKY_CENTER_NAV",
+    "signature": "brand-left__center-nav__store-pill__compact-mobile-drawer"
+  },
+  "footer": {
+    "archetype_id": "F007",
+    "topology_cluster": "GT11_CONTACT_DOCK",
+    "signature": "large-brand-block__three-utility-columns__split-bottom-bar"
+  },
+  "home": {
+    "page_rhythm_recipe": "R41_ORBITAL_SIGNAL_EDITORIAL_DECISION_LEDGER_RADAR_LOOP_TRUTH_CTA",
+    "section_archetypes": [
+      "H012",
+      "S044",
+      "E061",
+      "C063",
+      "L032",
+      "R027",
+      "P046",
+      "T033",
+      "A021"
+    ],
+    "topology_sequence": [
+      "GT02_FULL_BLEED_STAGE_ORBITAL",
+      "GT16_SIGNAL_RAIL",
+      "GT24_EDITORIAL_MEDIA_SPREAD",
+      "GT08_THREE_CARD_DECISION",
+      "GT18_MEDIA_LEDGER",
+      "GT13_RADAR_BAND",
+      "GT17_LOOP_STEPS",
+      "GT22_TRUTH_STRIP",
+      "GT01_FULL_CTA_FIELD"
+    ],
+    "content_anchor_sequence": [
+      "TA05_CENTER_LEFT_STAGE",
+      "TA17_SPLIT_ANCHORS",
+      "TA01_TOP_LEFT",
+      "TA01_TOP_LEFT",
+      "TA06_CENTER_RIGHT",
+      "TA04_CENTER_LEFT",
+      "TA01_TOP_LEFT",
+      "TA05_CENTER",
+      "TA01_TOP_LEFT"
+    ],
+    "media_topology_sequence": [
+      "MT04_ORBITAL_DIAGRAM_STAGE",
+      "MT01_NONE",
+      "MT02_DOMINANT_SINGLE",
+      "MT01_NONE",
+      "MT02_DOMINANT_SINGLE",
+      "MT05_RADAR_DIAGRAM",
+      "MT06_LOOP_DIAGRAM",
+      "MT01_NONE",
+      "MT01_NONE"
+    ],
+    "bigram_signature": [
+      "H012>S044",
+      "S044>E061",
+      "E061>C063",
+      "C063>L032",
+      "L032>R027",
+      "R027>P046",
+      "P046>T033",
+      "T033>A021"
+    ],
+    "trigram_signature": [
+      "H012>S044>E061",
+      "S044>E061>C063",
+      "E061>C063>L032",
+      "C063>L032>R027",
+      "L032>R027>P046",
+      "R027>P046>T033",
+      "P046>T033>A021"
+    ],
+    "neutral_silhouette_hash": "orbital-stage__signal-rail__editorial-diagram__decision-cards__media-ledger__radar-band__loop-grid__truth-strip__full-cta",
+    "composition_family_sequence": [
+      "full_bleed_orbital_stage",
+      "signal_rail",
+      "editorial_media",
+      "decision_cards",
+      "media_ledger",
+      "radar_band",
+      "loop_steps",
+      "truth_strip",
+      "cta_field"
+    ]
+  },
+  "key_pages": [
+    {
+      "page_key": "gra",
+      "page_grammar": "PG21_MATCH_FLOW_EDITORIAL_ZONES",
+      "layout_sequence": [
+        "orbital_compact_hero",
+        "signal_rail",
+        "editorial_media",
+        "decision_cards",
+        "media_ledger",
+        "truth_strip",
+        "cta_field"
+      ],
+      "neutral_silhouette_hash": "compact-stage__rail__editorial__zones__ledger__truth__cta"
+    },
+    {
+      "page_key": "taktyka",
+      "page_grammar": "TG22_TACTICAL_FIELD_RISK_TEMPO",
+      "layout_sequence": [
+        "tactical_stage",
+        "decision_cards",
+        "editorial_media",
+        "radar_band",
+        "loop_steps",
+        "media_ledger",
+        "cta_field"
+      ],
+      "neutral_silhouette_hash": "tactical-stage__decision-cards__space-map__risk-radar__tempo-loop__opponent-ledger__cta"
+    },
+    {
+      "page_key": "sklad",
+      "page_grammar": "SG23_SQUAD_ROLES_UPGRADE_FORMATION",
+      "layout_sequence": [
+        "squad_stage",
+        "role_cards",
+        "editorial_media",
+        "media_ledger",
+        "radar_band",
+        "truth_strip",
+        "cta_field"
+      ],
+      "neutral_silhouette_hash": "squad-stage__role-grid__upgrade-line__coach-ledger__formation-radar__metrics-truth__cta"
+    },
+    {
+      "page_key": "rywalizacja",
+      "page_grammar": "RG24_PVP_SERIES_SEASON",
+      "layout_sequence": [
+        "pvp_stage",
+        "signal_rail",
+        "editorial_media",
+        "loop_steps",
+        "media_ledger",
+        "truth_strip",
+        "cta_field"
+      ],
+      "neutral_silhouette_hash": "pvp-stage__mode-rail__opening-read__series-loop__season-ledger__conduct-strip__cta"
+    },
+    {
+      "page_key": "faq",
+      "page_grammar": "FG12_FAQ_SIGNAL_TRUTH",
+      "layout_sequence": [
+        "faq_stage",
+        "accordion-ledger",
+        "truth_strip",
+        "cta_field"
+      ],
+      "neutral_silhouette_hash": "faq-stage__accordion__truth__cta"
+    },
+    {
+      "page_key": "kontakt",
+      "page_grammar": "CG15_DUAL_ROUTE_CONTACT",
+      "layout_sequence": [
+        "contact-stage",
+        "dual-route-cards",
+        "contact-grid",
+        "support-ledger",
+        "form-field",
+        "truth-strip"
+      ],
+      "neutral_silhouette_hash": "contact-stage__route-cards__three-contact-cells__support-ledger__form__privacy-strip"
+    }
+  ],
+  "interaction_profile": [
+    "IP03_STICKY_NAV",
+    "IP06_DISCLOSURE_FAQ",
+    "IP09_CONTACT_FORM",
+    "IP20_NONE_CONFIDENT"
+  ],
+  "mobile_profile": [
+    "MB03_STACK_STAGE_MEDIA",
+    "MB11_STATS_TO_SINGLE_COLUMN",
+    "MB14_LEDGER_TO_STACK",
+    "MB18_MINIMAL_REFLOW"
+  ],
+  "site_fingerprint": "verqino-org-v1:H012-PG21-TG22-SG23-RG24-FG12-CG15-F007",
+  "comparison_summary": {
+    "history_available": true,
+    "compared_site_count": 2,
+    "nearest_prior_domain": "kertanzip.org",
+    "nearest_similarity": null,
+    "threshold": 0.72,
+    "reroll_count": 1,
+    "new_grammar_count": 6,
+    "note": "Avoids H006 editorial spread and H003 balanced split; uses full-bleed orbital stage, signal/radar/loop grammar, F007 contact dock, and COMPACT_070 copy with full-width coverage rules."
+  },
+  "revisions": [
+    {
+      "build_version": "1.0.0",
+      "timestamp": "2026-10-02",
+      "structural_change": "INITIAL_BUILD_GIT_CANONICAL_V4",
+      "site_fingerprint": "verqino-org-v1:H012-PG21-TG22-SG23-RG24-FG12-CG15-F007"
+    }
+  ]
+}

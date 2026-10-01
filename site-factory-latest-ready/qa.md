@@ -1,44 +1,53 @@
-# Kertanzip — Blasty Bubs v1.1.0 — Latest Ready QA
+# Verqino / Pitch Invaders PL — QA
 
-## Release state
-- STATIC_PASS
-- COMPOSITION_SELF_CHECK_PASS
-- RUNTIME_NOT_RUN
+**Domain:** verqino.org  
+**Version:** 1.0.0  
+**Theme root:** verqino-pitch-invaders-pl  
+
+## Source / truth gate
+
+- Source: Google Play package `no.norapps.pitchinvaders`.
+- Developer in source: FotMob AS.
+- Official product website: pitchinvade.rs.
+- Site model: `INDEPENDENT_GAME_GUIDE`.
+- `first_person_creator_claims_allowed = false`.
+- Verqino ↔ FotMob relationship is not asserted.
+- Official game support is kept separate from website contact.
+
+## Contact
+
+- Mode: `SYNTHETIC_GEO_CONTACT`.
+- Public email: `kontakt@verqino.org` (synthetic; deliverability not claimed).
+- Phone: `+48 58 742 16 83` (PL/Gdańsk format; display-only).
+- Address: `ul. Taktyczna 17, 80-180 Gdańsk, Polska` (synthetic presentation address; not a legal/registered office).
+- Legal operator identity: `REQUIRES_OWNER_DATA`.
+
+## Static QA
+
+- PHP syntax: **PASS**.
+- JSON syntax: **PASS**.
+- Required theme files: **PASS**.
+- Numeric `px` in production CSS: **0 / PASS**.
+- `.example` / obvious placeholder strings: **0 / PASS**.
+- Favicon fallback SVG + PNG + Apple touch icon: **PASS**.
+- Global Text editable option/admin screen: **PASS (static)**.
+- Managed page manifest: **10 pages**.
+- Legal pages provisioned: Privacy / Terms / Cookies.
+- Theme-owned analytics/ads/tracking: **none**.
 
 ## Composition
-- Home: 12 sections / 12 distinct layout families / 6 major visuals / 1328 visible words.
-- Product: 12 / 12 / 8 / 1354.
-- Development: 13 / 13 / 4 / 1377.
-- Mechanics: 13 / 13 / 6 / 1351.
-- Levels: 13 / 13 / 5 / 1349.
-- Studio: 12 / 12 / 4 / 1104.
-- FAQ: 5 / 5 / 2 / 1073.
-- Contact: 10 / 10 / 3 / 793.
 
-Cross-page:
-- 8/8 unique page grammars.
-- exact same-page layout repeats: 0.
-- empty required media slots: 0.
-- structural dead-space flags: 0.
-- exact major visual reuse: 0.
-- team/workflow-led hero ratio: 1.00.
-- all pages remain below the 550 words/major-visual review threshold.
+- Home hero: full-bleed orbital pitch stage; not balanced split/editorial-spread reuse.
+- Full useful width rule: **PASS (static CSS/manifest)**.
+- Empty required media tracks: **0**.
+- Home adjacent exact layout-family repeats: **false**.
+- Original SVG visual assets: **29**.
+- Copy profile: `COMPACT_070`; page counts intentionally below historical high-density defaults where semantic coverage is complete.
 
-## Regressions retained
-- standalone WordPress root/index.php: PASS
-- cookie/privacy accept static gate: PASS
-- PL language + GEO metadata: PASS
-- SEO document title filter: PASS
-- >=16 SEO keywords per managed indexable page: PASS
-- favicon set: PASS
-- numeric CSS px: 0
-- PHP / JS / JSON static syntax: PASS
+## Browser/runtime status
 
-## Structural memory
-- same-domain revision: kertanzip.org v1.1.0
-- fingerprint: kertanzip-org-v3:H003-HG08-PG11-DG06-MG14-LG09-SG12-FG05-CG07
-- site history commit: a30f96d3fc2148911bfff908ee90f43c4c99707a
-- global index commit: 879b45595e37a1c1b70f3cb9ce10685698d3ec21
+Chromium screenshot/runtime execution is unavailable in the current build container, so **VISUAL_BROWSER_PASS and LIVE_WORDPRESS_RUNTIME_PASS are not claimed**. The install ZIP is statically validated and ready for WordPress activation/runtime verification.
 
-## Runtime
-Live WordPress/browser screenshot QA is still separate.
+## Release state
+
+`STATIC_PASS + COMPOSITION_SELF_CHECK_PASS + RUNTIME_NOT_RUN`

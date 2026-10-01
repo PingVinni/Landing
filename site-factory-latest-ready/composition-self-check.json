@@ -1,77 +1,58 @@
 {
-  "version": "1.1.0",
-  "state": "PASS",
-  "thresholds": {
-    "home_min_distinct_layout_families": 7,
-    "internal_min_distinct_layout_families": 5,
-    "exact_layout_repeat_count": 0,
-    "empty_media_slot_count": 0,
-    "dead_space_section_count": 0,
-    "visual_density_review_words_per_major_visual": 550
+  "schema_version": "1.0",
+  "domain": "verqino.org",
+  "version": "1.0.0",
+  "status": "COMPOSITION_SELF_CHECK_PASS",
+  "copy_density_profile": "COMPACT_070",
+  "word_counts": {
+    "home": 669,
+    "gra": 466,
+    "taktyka": 449,
+    "sklad": 454,
+    "rywalizacja": 440,
+    "faq": 413,
+    "kontakt": 293,
+    "legal_privacy": 351,
+    "legal_terms": 300,
+    "legal_cookies": 229
   },
-  "page_summary": {
-    "home": {
-      "sections": 12,
-      "layouts": 12,
-      "media": 6,
-      "words": 1328,
-      "words_per_visual": 221.3
-    },
-    "game": {
-      "sections": 12,
-      "layouts": 12,
-      "media": 8,
-      "words": 1354,
-      "words_per_visual": 169.2
-    },
-    "development": {
-      "sections": 13,
-      "layouts": 13,
-      "media": 4,
-      "words": 1377,
-      "words_per_visual": 344.2
-    },
-    "mechanics": {
-      "sections": 13,
-      "layouts": 13,
-      "media": 6,
-      "words": 1351,
-      "words_per_visual": 225.2
-    },
-    "levels": {
-      "sections": 13,
-      "layouts": 13,
-      "media": 5,
-      "words": 1349,
-      "words_per_visual": 269.8
-    },
-    "studio": {
-      "sections": 12,
-      "layouts": 12,
-      "media": 4,
-      "words": 1104,
-      "words_per_visual": 276
-    },
-    "faq": {
-      "sections": 5,
-      "layouts": 5,
-      "media": 2,
-      "words": 1073,
-      "words_per_visual": 536.5
-    },
-    "contact": {
-      "sections": 10,
-      "layouts": 10,
-      "media": 3,
-      "words": 793,
-      "words_per_visual": 264.3
-    }
+  "full_width_contract": {
+    "outer_section_inline_size": "100%",
+    "inner_shell": "min(100%, 96rem) with responsive padding",
+    "major_section_canvas_coverage_target": 0.78,
+    "largest_unassigned_blank_region_ratio_max": 0.22,
+    "empty_required_media_tracks": 0,
+    "one_sided_blank_field_static_risk": false
   },
-  "cross_page": {
-    "unique_page_grammars": 8,
-    "key_pages": 8,
-    "exact_major_visual_reuse": 0,
-    "team_workflow_hero_ratio": 1
-  },
-  "runtime_note": "Structural self-check passed; live browser screenshot QA remains separate."
+  "layout_families": [
+    "cards-wide",
+    "contact-grid",
+    "cta-field",
+    "editorial-media",
+    "form-field",
+    "loop-steps",
+    "media-ledger",
+    "radar-band",
+    "signal-rail",
+    "truth-strip"
+  ],
+  "home_layout_sequence": [
+    "signal-rail",
+    "editorial-media",
+    "cards-wide",
+    "media-ledger",
+    "radar-band",
+    "loop-steps",
+    "truth-strip",
+    "cta-field"
+  ],
+  "adjacent_exact_layout_repeat_home": false,
+  "visual_media_count": 29,
+  "visual_browser_check": "NOT_RUN_CHROMIUM_ENVIRONMENT_UNAVAILABLE",
+  "notes": [
+    "All media-dependent grid families have media populated.",
+    "CTA/truth/contact/form families do not reserve empty media tracks.",
+    "CSS contains no numeric px units.",
+    "Browser screenshot command was unavailable in this environment; runtime/browser PASS is not claimed."
+  ]
 }
