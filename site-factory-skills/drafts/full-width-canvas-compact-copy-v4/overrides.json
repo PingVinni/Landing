@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "release": "full-width-canvas-compact-copy-v4",
+  "date": "2026-10-02",
+  "policy_target": "Site Factory v4.9.14",
+  "state": "CANDIDATE_READY_AWAITING_PROJECT_SOURCE_INSTALL_AND_VERIFY",
+  "precedence": "Candidate override for conflicting high-density/body-copy and dead-space rules until merged into canonical seven bundles.",
+  "copy_density_profile": "COMPACT_070",
+  "relative_visible_prose_to_v4_9_12": 0.7,
+  "word_envelopes": {
+    "home": {
+      "min": 900,
+      "max": 1350
+    },
+    "key_domain_product_development": {
+      "min": 950,
+      "max": 1700
+    },
+    "about_studio": {
+      "min": 750,
+      "max": 1250
+    },
+    "faq": {
+      "min": 750,
+      "max": 1350
+    },
+    "contact_support": {
+      "min": 525,
+      "max": 950
+    },
+    "legal": {
+      "min": 775,
+      "max": 1550,
+      "conditional": true
+    }
+  },
+  "canvas": {
+    "major_section_canvas_coverage_target_min": 0.78,
+    "largest_unassigned_blank_region_ratio_max": 0.22,
+    "empty_grid_track_count": 0,
+    "reserved_media_slot_without_media": 0,
+    "one_sided_blank_field": false,
+    "screenshot_authoritative": true
+  },
+  "reflow": {
+    "collapse_optional_empty_tracks": true,
+    "recompute_grid": true,
+    "recompute_content_width": true,
+    "recompute_section_height": true,
+    "prohibit_padding_compensation": true
+  },
+  "targets": [
+    "01-CORE-GOVERNANCE.md",
+    "02-DESIGN-SYSTEM-BUNDLE.md",
+    "03-SITE-WORDPRESS-RUNTIME.md",
+    "04-CONTENT-LEGAL-CONTACT.md",
+    "05-SEO-GLOBAL-TEXT.md",
+    "06-VISUAL-ENGINE.md",
+    "07-QA-RELEASE.md"
+  ],
+  "patch_file": "site-factory-skills/drafts/full-width-canvas-compact-copy-v4/PATCH.md",
+  "regressions": [
+    "WIDTH-001",
+    "WIDTH-002",
+    "REFLOW-001",
+    "COPY-030"
+  ]
+}
