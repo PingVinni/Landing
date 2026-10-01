@@ -1,5 +1,5 @@
 {
-  "build_version": "1.0.2",
+  "build_version": "1.1.0",
   "theme_root": "kertanzip-blastybubs-pl",
   "domain": "kertanzip.org",
   "geo": "PL",
@@ -7,28 +7,26 @@
   "source_url": "https://play.google.com/store/apps/details?id=com.quickbytegames.blastybubs",
   "package_id": "com.quickbytegames.blastybubs",
   "game": "Blasty Bubs: Brick Breaker",
-  "source_developer": "Criss Cross Games",
-  "developer_org": "MOBASO",
-  "relationship_status": "OWNER_SUPPLIED_BRAND_RELATIONSHIP",
-  "first_person_creator_claims_allowed": true,
   "business_model_mode": "OFFICIAL_GAME_STUDIO",
-  "commercial_goal": "PROMOTE_GAME",
-  "primary_conversion": "PLAY_OR_DOWNLOAD_GAME",
-  "structural_history_source": "PingVinni/Landing/site-factory-history/index.json",
-  "runtime_validation": "NOT_RUN",
+  "relationship_status": "OWNER_SUPPLIED_BRAND_RELATIONSHIP",
   "static_validation": "PASS",
-  "fixes": {
-    "cookie_accept_button": "FIXED_WITH_EVENT_DELEGATION_AND_HIDDEN_CSS_GATE",
-    "dead_space_sections": "FIXED_WITH_FULL_WIDTH_EDITORIAL_STATEMENT_GRID",
-    "home_hero": "REBALANCED_TO_TWO_COLUMN_TEAM_PHOTO_BUSINESS_COPY",
-    "seo_title": "FIXED_WITH_PRE_GET_DOCUMENT_TITLE",
-    "html_lang": "FORCED_PL_PL_ON_FRONTEND",
-    "geo_metadata": "PL",
-    "robots": "WP_ROBOTS_FILTER",
-    "hreflang": "pl-PL + x-default",
-    "global_text_update": "SAFE_FACTORY_DEFAULT_MIGRATION"
+  "composition_self_check": "PASS",
+  "runtime_validation": "NOT_RUN",
+  "artifact_name": "kertanzip-blastybubs-pl-v1.1.0.zip",
+  "composition_model": "composition-diversity-self-check-v3",
+  "team_workflow_hero_ratio": 1,
+  "major_visual_exact_reuse_count": 0,
+  "page_grammars": {
+    "home": "HG08_ASYM_EDITORIAL_MEDIA_RHYTHM",
+    "game": "PG11_PRODUCT_CASE_STUDY_STAGGER",
+    "development": "DG06_TIMELINE_WORKBENCH_RELEASE",
+    "mechanics": "MG14_SYSTEMS_LAB_GALLERY",
+    "levels": "LG09_LEVEL_BRIEF_PLAYTEST_RHYTHM",
+    "studio": "SG12_TEAM_LEDGER_DECISION_FLOW",
+    "faq": "FG05_FAQ_SPLIT_COLUMNS_LEDGER",
+    "contact": "CG07_ROUTING_SUPPORT_EDITORIAL"
   },
   "structural_memory_write_state": "STRUCTURAL_MEMORY_WRITE_PASS",
-  "structural_memory_site_commit": "470ed11818f33256df605d0a8d41e8baebf1da71",
-  "structural_memory_index_commit": "153320123a6b31907a7a775a2e2a557cd3284585"
+  "structural_memory_site_commit": "a30f96d3fc2148911bfff908ee90f43c4c99707a",
+  "structural_memory_index_commit": "879b45595e37a1c1b70f3cb9ce10685698d3ec21"
 }
