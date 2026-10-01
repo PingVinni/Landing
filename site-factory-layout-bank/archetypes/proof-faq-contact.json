@@ -1,0 +1,2721 @@
+{
+  "schema_version": "1.0",
+  "PROOF": [
+    {
+      "id": "T001",
+      "role": "PROOF",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT08_THREE_ZONE_ASYMMETRIC",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL03_RIGHT",
+      "copy_flow": "CF04_SIDE_RAIL_CHAPTERS",
+      "text_measure": "TM02_NARROW",
+      "vertical_alignment": "VA03_BOTTOM",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF02_CONTRAST_BAND",
+      "edge_overlap": "EO03_CONTROLLED_OVERLAP",
+      "density": "DN03_SPACIOUS_EARNED",
+      "transition": "TR05_DIAGONAL_HANDOFF",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN04_MARGIN_LABELS",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO03_SUBTLE_REVEAL",
+      "mobile_transform": "MB03_RAIL_TO_SNAP",
+      "structural_signature": "PROOF|GT02_BALANCED_SPLIT|SH03_CONTAINED_WIDE|GT08_THREE_ZONE_ASYMMETRIC|TA02_TOP_CENTER|AL03_RIGHT|CF04_SIDE_RAIL_CHAPTERS|TM02_NARROW|VA03_BOTTOM|MT03_SUPPORTING_SINGLE|MD02_SUBTLE|CG07_FEATURED_PLUS_SATELLITES|SF02_CONTRAST_BAND|EO03_CONTROLLED_OVERLAP|DN03_SPACIOUS_EARNED|TR05_DIAGONAL_HANDOFF|CP04_BOTTOM_CENTER|AN04_MARGIN_LABELS|IP10_EDITORIAL_ACCORDION|MO03_SUBTLE_REVEAL|MB03_RAIL_TO_SNAP",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T002",
+      "role": "PROOF",
+      "topology_cluster": "GT07_THREE_ZONE_EQUAL",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA06_CENTER_RIGHT",
+      "text_alignment": "AL08_AXIS_DEPENDENT",
+      "copy_flow": "CF11_MARGIN_NOTES",
+      "text_measure": "TM05_WIDE",
+      "vertical_alignment": "VA08_EDGE_ANCHORED",
+      "media_topology": "MT07_DIPTYCH_EQUAL",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO02_MEDIA_BLEED",
+      "density": "DN06_COMPACT_TOP_SPACIOUS_BOTTOM",
+      "transition": "TR10_SHARED_BACKGROUND",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN03_ROMAN_CHAPTERS",
+      "interaction": "IP02_SNAP_RAIL",
+      "motion": "MO10_STATIC_STRONG",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "PROOF|GT07_THREE_ZONE_EQUAL|SH02_CONTAINED_STANDARD|GT07_THREE_ZONE_EQUAL|TA06_CENTER_RIGHT|AL08_AXIS_DEPENDENT|CF11_MARGIN_NOTES|TM05_WIDE|VA08_EDGE_ANCHORED|MT07_DIPTYCH_EQUAL|MD01_NONE|CG07_FEATURED_PLUS_SATELLITES|SF06_TINTED_FIELD|EO02_MEDIA_BLEED|DN06_COMPACT_TOP_SPACIOUS_BOTTOM|TR10_SHARED_BACKGROUND|CP12_NO_PRIMARY_CTA|AN03_ROMAN_CHAPTERS|IP02_SNAP_RAIL|MO10_STATIC_STRONG|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T003",
+      "role": "PROOF",
+      "topology_cluster": "GT08_THREE_ZONE_ASYMMETRIC",
+      "shell": "SH16_BANDED_CANVAS",
+      "grid_topology": "GT02_BALANCED_SPLIT",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL05_MIXED_HEADING_CENTER_BODY_LEFT",
+      "copy_flow": "CF02_STAGGERED_COLUMNS",
+      "text_measure": "TM08_MARGIN_NOTE_DOMINANT",
+      "vertical_alignment": "VA05_BASELINE",
+      "media_topology": "MT11_HORIZONTAL_RAIL",
+      "media_dominance": "MD04_BALANCED",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO01_CLEAN_CONTAINED",
+      "density": "DN09_COPY_DENSE_MEDIA_LIGHT",
+      "transition": "TR01_HARD_CUT",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN02_NUMERIC_INDEX",
+      "interaction": "IP01_STATIC",
+      "motion": "MO07_RULE_DRAW",
+      "mobile_transform": "MB18_MINIMAL_REFLOW",
+      "structural_signature": "PROOF|GT08_THREE_ZONE_ASYMMETRIC|SH16_BANDED_CANVAS|GT02_BALANCED_SPLIT|TA01_TOP_LEFT|AL05_MIXED_HEADING_CENTER_BODY_LEFT|CF02_STAGGERED_COLUMNS|TM08_MARGIN_NOTE_DOMINANT|VA05_BASELINE|MT11_HORIZONTAL_RAIL|MD04_BALANCED|CG07_FEATURED_PLUS_SATELLITES|SF01_CONTINUOUS|EO01_CLEAN_CONTAINED|DN09_COPY_DENSE_MEDIA_LIGHT|TR01_HARD_CUT|CP01_INLINE_AFTER_COPY|AN02_NUMERIC_INDEX|IP01_STATIC|MO07_RULE_DRAW|MB18_MINIMAL_REFLOW",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T004",
+      "role": "PROOF",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH07_INSET_ISLAND",
+      "grid_topology": "GT22_VARIABLE_WIDTH_BANDS",
+      "text_anchor": "TA04_CENTER_LEFT",
+      "text_alignment": "AL02_CENTER",
+      "copy_flow": "CF09_INDEX_THEN_EXPAND",
+      "text_measure": "TM01_XNARROW",
+      "vertical_alignment": "VA02_CENTER",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD03_SUPPORTING",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO12_NO_FRAME",
+      "density": "DN02_BALANCED",
+      "transition": "TR06_CONTINUOUS_GRID",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN01_NONE",
+      "interaction": "IP06_QUOTE_RAIL",
+      "motion": "MO04_MEDIA_MOTION_LITE",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "PROOF|GT16_LEDGER_ROWS|SH07_INSET_ISLAND|GT22_VARIABLE_WIDTH_BANDS|TA04_CENTER_LEFT|AL02_CENTER|CF09_INDEX_THEN_EXPAND|TM01_XNARROW|VA02_CENTER|MT23_GHOSTED_BACKPLATE|MD03_SUPPORTING|CG07_FEATURED_PLUS_SATELLITES|SF05_OUTLINED_FIELD|EO12_NO_FRAME|DN02_BALANCED|TR06_CONTINUOUS_GRID|CP04_BOTTOM_CENTER|AN01_NONE|IP06_QUOTE_RAIL|MO04_MEDIA_MOTION_LITE|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T005",
+      "role": "PROOF",
+      "topology_cluster": "GT14_MOSAIC_BENTO",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT14_MOSAIC_BENTO",
+      "text_anchor": "TA17_SPLIT_ANCHORS",
+      "text_alignment": "AL07_JUSTIFIED_EDITORIAL",
+      "copy_flow": "CF16_QUIET_TO_DENSE",
+      "text_measure": "TM04_BALANCED",
+      "vertical_alignment": "VA07_MEDIA_TOP_COPY_BOTTOM",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF11_RULE_DRIVEN",
+      "edge_overlap": "EO11_LAYERED_BORDER",
+      "density": "DN05_MIXED_DENSITY",
+      "transition": "TR11_OBJECT_CONTINUATION",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN12_SECTION_COUNTER",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO01_NONE",
+      "mobile_transform": "MB03_RAIL_TO_SNAP",
+      "structural_signature": "PROOF|GT14_MOSAIC_BENTO|SH03_CONTAINED_WIDE|GT14_MOSAIC_BENTO|TA17_SPLIT_ANCHORS|AL07_JUSTIFIED_EDITORIAL|CF16_QUIET_TO_DENSE|TM04_BALANCED|VA07_MEDIA_TOP_COPY_BOTTOM|MT01_NONE|MD02_SUBTLE|CG07_FEATURED_PLUS_SATELLITES|SF11_RULE_DRIVEN|EO11_LAYERED_BORDER|DN05_MIXED_DENSITY|TR11_OBJECT_CONTINUATION|CP12_NO_PRIMARY_CTA|AN12_SECTION_COUNTER|IP10_EDITORIAL_ACCORDION|MO01_NONE|MB03_RAIL_TO_SNAP",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T006",
+      "role": "PROOF",
+      "topology_cluster": "GT22_VARIABLE_WIDTH_BANDS",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT16_LEDGER_ROWS",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL04_MIXED_HEADING_LEFT_BODY_CENTER",
+      "copy_flow": "CF07_ZIGZAG",
+      "text_measure": "TM07_VARIABLE",
+      "vertical_alignment": "VA04_STAGGERED",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF02_CONTRAST_BAND",
+      "edge_overlap": "EO10_OBJECT_OVERFLOW",
+      "density": "DN08_MEDIA_DENSE_COPY_LIGHT",
+      "transition": "TR02_POLARITY_FLIP",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN11_EDGE_CAPTIONS",
+      "interaction": "IP02_SNAP_RAIL",
+      "motion": "MO08_OBJECT_DRIFT_LITE",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "PROOF|GT22_VARIABLE_WIDTH_BANDS|SH02_CONTAINED_STANDARD|GT16_LEDGER_ROWS|TA02_TOP_CENTER|AL04_MIXED_HEADING_LEFT_BODY_CENTER|CF07_ZIGZAG|TM07_VARIABLE|VA04_STAGGERED|MT03_SUPPORTING_SINGLE|MD01_NONE|CG07_FEATURED_PLUS_SATELLITES|SF02_CONTRAST_BAND|EO10_OBJECT_OVERFLOW|DN08_MEDIA_DENSE_COPY_LIGHT|TR02_POLARITY_FLIP|CP01_INLINE_AFTER_COPY|AN11_EDGE_CAPTIONS|IP02_SNAP_RAIL|MO08_OBJECT_DRIFT_LITE|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T007",
+      "role": "PROOF",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH16_BANDED_CANVAS",
+      "grid_topology": "GT08_THREE_ZONE_ASYMMETRIC",
+      "text_anchor": "TA06_CENTER_RIGHT",
+      "text_alignment": "AL01_LEFT",
+      "copy_flow": "CF14_DIAGONAL_READING",
+      "text_measure": "TM10_HEADING_NARROW_BODY_WIDE",
+      "vertical_alignment": "VA01_TOP",
+      "media_topology": "MT07_DIPTYCH_EQUAL",
+      "media_dominance": "MD04_BALANCED",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO09_TOP_RULE",
+      "density": "DN01_COMPACT",
+      "transition": "TR07_FADE_TO_QUIET",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN10_SOURCE_NOTES",
+      "interaction": "IP01_STATIC",
+      "motion": "MO05_PROGRESS_LINKED_LITE",
+      "mobile_transform": "MB18_MINIMAL_REFLOW",
+      "structural_signature": "PROOF|GT02_BALANCED_SPLIT|SH16_BANDED_CANVAS|GT08_THREE_ZONE_ASYMMETRIC|TA06_CENTER_RIGHT|AL01_LEFT|CF14_DIAGONAL_READING|TM10_HEADING_NARROW_BODY_WIDE|VA01_TOP|MT07_DIPTYCH_EQUAL|MD04_BALANCED|CG07_FEATURED_PLUS_SATELLITES|SF06_TINTED_FIELD|EO09_TOP_RULE|DN01_COMPACT|TR07_FADE_TO_QUIET|CP04_BOTTOM_CENTER|AN10_SOURCE_NOTES|IP01_STATIC|MO05_PROGRESS_LINKED_LITE|MB18_MINIMAL_REFLOW",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T008",
+      "role": "PROOF",
+      "topology_cluster": "GT07_THREE_ZONE_EQUAL",
+      "shell": "SH07_INSET_ISLAND",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL06_MIXED_HEADING_RIGHT_BODY_LEFT",
+      "copy_flow": "CF05_TOP_HEAVY_SPREAD",
+      "text_measure": "TM03_EDITORIAL",
+      "vertical_alignment": "VA06_MEDIA_CENTER_COPY_TOP",
+      "media_topology": "MT11_HORIZONTAL_RAIL",
+      "media_dominance": "MD03_SUPPORTING",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO08_SIDE_RULE",
+      "density": "DN04_DENSE_EDITORIAL",
+      "transition": "TR12_SPACING_COMPRESSION",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN09_PROGRESS_MARKERS",
+      "interaction": "IP06_QUOTE_RAIL",
+      "motion": "MO02_MICRO_ONLY",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "PROOF|GT07_THREE_ZONE_EQUAL|SH07_INSET_ISLAND|GT07_THREE_ZONE_EQUAL|TA01_TOP_LEFT|AL06_MIXED_HEADING_RIGHT_BODY_LEFT|CF05_TOP_HEAVY_SPREAD|TM03_EDITORIAL|VA06_MEDIA_CENTER_COPY_TOP|MT11_HORIZONTAL_RAIL|MD03_SUPPORTING|CG07_FEATURED_PLUS_SATELLITES|SF01_CONTINUOUS|EO08_SIDE_RULE|DN04_DENSE_EDITORIAL|TR12_SPACING_COMPRESSION|CP12_NO_PRIMARY_CTA|AN09_PROGRESS_MARKERS|IP06_QUOTE_RAIL|MO02_MICRO_ONLY|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T009",
+      "role": "PROOF",
+      "topology_cluster": "GT08_THREE_ZONE_ASYMMETRIC",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT02_BALANCED_SPLIT",
+      "text_anchor": "TA04_CENTER_LEFT",
+      "text_alignment": "AL03_RIGHT",
+      "copy_flow": "CF12_FLOATING_ASIDES",
+      "text_measure": "TM06_FULL_BAND",
+      "vertical_alignment": "VA03_BOTTOM",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO07_OPEN_FRAME",
+      "density": "DN07_SPACIOUS_TOP_DENSE_BOTTOM",
+      "transition": "TR03_OVERLAPPING_EDGE",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN08_SIDE_GLOSSARY",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO09_STAGGERED_ENTRY",
+      "mobile_transform": "MB03_RAIL_TO_SNAP",
+      "structural_signature": "PROOF|GT08_THREE_ZONE_ASYMMETRIC|SH03_CONTAINED_WIDE|GT02_BALANCED_SPLIT|TA04_CENTER_LEFT|AL03_RIGHT|CF12_FLOATING_ASIDES|TM06_FULL_BAND|VA03_BOTTOM|MT23_GHOSTED_BACKPLATE|MD02_SUBTLE|CG07_FEATURED_PLUS_SATELLITES|SF05_OUTLINED_FIELD|EO07_OPEN_FRAME|DN07_SPACIOUS_TOP_DENSE_BOTTOM|TR03_OVERLAPPING_EDGE|CP01_INLINE_AFTER_COPY|AN08_SIDE_GLOSSARY|IP10_EDITORIAL_ACCORDION|MO09_STAGGERED_ENTRY|MB03_RAIL_TO_SNAP",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T010",
+      "role": "PROOF",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT22_VARIABLE_WIDTH_BANDS",
+      "text_anchor": "TA17_SPLIT_ANCHORS",
+      "text_alignment": "AL08_AXIS_DEPENDENT",
+      "copy_flow": "CF03_CENTER_SPINE",
+      "text_measure": "TM09_HEADING_WIDE_BODY_NARROW",
+      "vertical_alignment": "VA08_EDGE_ANCHORED",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF11_RULE_DRIVEN",
+      "edge_overlap": "EO06_INTERLOCKING_SECTIONS",
+      "density": "DN10_MICRO_MACRO_CONTRAST",
+      "transition": "TR08_QUIET_TO_STAGE",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN07_CALLOUT_LEADERS",
+      "interaction": "IP02_SNAP_RAIL",
+      "motion": "MO06_CONTROLLED_STAGE",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "PROOF|GT16_LEDGER_ROWS|SH02_CONTAINED_STANDARD|GT22_VARIABLE_WIDTH_BANDS|TA17_SPLIT_ANCHORS|AL08_AXIS_DEPENDENT|CF03_CENTER_SPINE|TM09_HEADING_WIDE_BODY_NARROW|VA08_EDGE_ANCHORED|MT01_NONE|MD01_NONE|CG07_FEATURED_PLUS_SATELLITES|SF11_RULE_DRIVEN|EO06_INTERLOCKING_SECTIONS|DN10_MICRO_MACRO_CONTRAST|TR08_QUIET_TO_STAGE|CP04_BOTTOM_CENTER|AN07_CALLOUT_LEADERS|IP02_SNAP_RAIL|MO06_CONTROLLED_STAGE|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T011",
+      "role": "PROOF",
+      "topology_cluster": "GT14_MOSAIC_BENTO",
+      "shell": "SH16_BANDED_CANVAS",
+      "grid_topology": "GT14_MOSAIC_BENTO",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL05_MIXED_HEADING_CENTER_BODY_LEFT",
+      "copy_flow": "CF10_LEDGER",
+      "text_measure": "TM02_NARROW",
+      "vertical_alignment": "VA05_BASELINE",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD04_BALANCED",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF02_CONTRAST_BAND",
+      "edge_overlap": "EO05_FLOATING_PANEL",
+      "density": "DN03_SPACIOUS_EARNED",
+      "transition": "TR13_BAND_TO_CANVAS",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN06_INLINE_FACT_TAGS",
+      "interaction": "IP01_STATIC",
+      "motion": "MO03_SUBTLE_REVEAL",
+      "mobile_transform": "MB18_MINIMAL_REFLOW",
+      "structural_signature": "PROOF|GT14_MOSAIC_BENTO|SH16_BANDED_CANVAS|GT14_MOSAIC_BENTO|TA02_TOP_CENTER|AL05_MIXED_HEADING_CENTER_BODY_LEFT|CF10_LEDGER|TM02_NARROW|VA05_BASELINE|MT03_SUPPORTING_SINGLE|MD04_BALANCED|CG07_FEATURED_PLUS_SATELLITES|SF02_CONTRAST_BAND|EO05_FLOATING_PANEL|DN03_SPACIOUS_EARNED|TR13_BAND_TO_CANVAS|CP12_NO_PRIMARY_CTA|AN06_INLINE_FACT_TAGS|IP01_STATIC|MO03_SUBTLE_REVEAL|MB18_MINIMAL_REFLOW",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T012",
+      "role": "PROOF",
+      "topology_cluster": "GT22_VARIABLE_WIDTH_BANDS",
+      "shell": "SH07_INSET_ISLAND",
+      "grid_topology": "GT16_LEDGER_ROWS",
+      "text_anchor": "TA06_CENTER_RIGHT",
+      "text_alignment": "AL02_CENTER",
+      "copy_flow": "CF01_LINEAR",
+      "text_measure": "TM05_WIDE",
+      "vertical_alignment": "VA02_CENTER",
+      "media_topology": "MT07_DIPTYCH_EQUAL",
+      "media_dominance": "MD03_SUPPORTING",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO04_CROPPED_EDGE",
+      "density": "DN06_COMPACT_TOP_SPACIOUS_BOTTOM",
+      "transition": "TR04_MEDIA_BRIDGE",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN05_COORDINATE_LABELS",
+      "interaction": "IP06_QUOTE_RAIL",
+      "motion": "MO10_STATIC_STRONG",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "PROOF|GT22_VARIABLE_WIDTH_BANDS|SH07_INSET_ISLAND|GT16_LEDGER_ROWS|TA06_CENTER_RIGHT|AL02_CENTER|CF01_LINEAR|TM05_WIDE|VA02_CENTER|MT07_DIPTYCH_EQUAL|MD03_SUPPORTING|CG07_FEATURED_PLUS_SATELLITES|SF06_TINTED_FIELD|EO04_CROPPED_EDGE|DN06_COMPACT_TOP_SPACIOUS_BOTTOM|TR04_MEDIA_BRIDGE|CP01_INLINE_AFTER_COPY|AN05_COORDINATE_LABELS|IP06_QUOTE_RAIL|MO10_STATIC_STRONG|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T013",
+      "role": "PROOF",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT08_THREE_ZONE_ASYMMETRIC",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL07_JUSTIFIED_EDITORIAL",
+      "copy_flow": "CF08_SERPENTINE",
+      "text_measure": "TM08_MARGIN_NOTE_DOMINANT",
+      "vertical_alignment": "VA07_MEDIA_TOP_COPY_BOTTOM",
+      "media_topology": "MT11_HORIZONTAL_RAIL",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO03_CONTROLLED_OVERLAP",
+      "density": "DN09_COPY_DENSE_MEDIA_LIGHT",
+      "transition": "TR09_RULE_HANDOFF",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN04_MARGIN_LABELS",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO07_RULE_DRAW",
+      "mobile_transform": "MB03_RAIL_TO_SNAP",
+      "structural_signature": "PROOF|GT02_BALANCED_SPLIT|SH03_CONTAINED_WIDE|GT08_THREE_ZONE_ASYMMETRIC|TA01_TOP_LEFT|AL07_JUSTIFIED_EDITORIAL|CF08_SERPENTINE|TM08_MARGIN_NOTE_DOMINANT|VA07_MEDIA_TOP_COPY_BOTTOM|MT11_HORIZONTAL_RAIL|MD02_SUBTLE|CG07_FEATURED_PLUS_SATELLITES|SF01_CONTINUOUS|EO03_CONTROLLED_OVERLAP|DN09_COPY_DENSE_MEDIA_LIGHT|TR09_RULE_HANDOFF|CP04_BOTTOM_CENTER|AN04_MARGIN_LABELS|IP10_EDITORIAL_ACCORDION|MO07_RULE_DRAW|MB03_RAIL_TO_SNAP",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T014",
+      "role": "PROOF",
+      "topology_cluster": "GT07_THREE_ZONE_EQUAL",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA04_CENTER_LEFT",
+      "text_alignment": "AL04_MIXED_HEADING_LEFT_BODY_CENTER",
+      "copy_flow": "CF15_DENSE_TO_QUIET",
+      "text_measure": "TM01_XNARROW",
+      "vertical_alignment": "VA04_STAGGERED",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO02_MEDIA_BLEED",
+      "density": "DN02_BALANCED",
+      "transition": "TR14_CANVAS_TO_RAIL",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN03_ROMAN_CHAPTERS",
+      "interaction": "IP02_SNAP_RAIL",
+      "motion": "MO04_MEDIA_MOTION_LITE",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "PROOF|GT07_THREE_ZONE_EQUAL|SH02_CONTAINED_STANDARD|GT07_THREE_ZONE_EQUAL|TA04_CENTER_LEFT|AL04_MIXED_HEADING_LEFT_BODY_CENTER|CF15_DENSE_TO_QUIET|TM01_XNARROW|VA04_STAGGERED|MT23_GHOSTED_BACKPLATE|MD01_NONE|CG07_FEATURED_PLUS_SATELLITES|SF05_OUTLINED_FIELD|EO02_MEDIA_BLEED|DN02_BALANCED|TR14_CANVAS_TO_RAIL|CP12_NO_PRIMARY_CTA|AN03_ROMAN_CHAPTERS|IP02_SNAP_RAIL|MO04_MEDIA_MOTION_LITE|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T015",
+      "role": "PROOF",
+      "topology_cluster": "GT08_THREE_ZONE_ASYMMETRIC",
+      "shell": "SH16_BANDED_CANVAS",
+      "grid_topology": "GT02_BALANCED_SPLIT",
+      "text_anchor": "TA17_SPLIT_ANCHORS",
+      "text_alignment": "AL01_LEFT",
+      "copy_flow": "CF06_BOTTOM_ANCHORED",
+      "text_measure": "TM04_BALANCED",
+      "vertical_alignment": "VA01_TOP",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD04_BALANCED",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF11_RULE_DRIVEN",
+      "edge_overlap": "EO01_CLEAN_CONTAINED",
+      "density": "DN05_MIXED_DENSITY",
+      "transition": "TR05_DIAGONAL_HANDOFF",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN02_NUMERIC_INDEX",
+      "interaction": "IP01_STATIC",
+      "motion": "MO01_NONE",
+      "mobile_transform": "MB18_MINIMAL_REFLOW",
+      "structural_signature": "PROOF|GT08_THREE_ZONE_ASYMMETRIC|SH16_BANDED_CANVAS|GT02_BALANCED_SPLIT|TA17_SPLIT_ANCHORS|AL01_LEFT|CF06_BOTTOM_ANCHORED|TM04_BALANCED|VA01_TOP|MT01_NONE|MD04_BALANCED|CG07_FEATURED_PLUS_SATELLITES|SF11_RULE_DRIVEN|EO01_CLEAN_CONTAINED|DN05_MIXED_DENSITY|TR05_DIAGONAL_HANDOFF|CP01_INLINE_AFTER_COPY|AN02_NUMERIC_INDEX|IP01_STATIC|MO01_NONE|MB18_MINIMAL_REFLOW",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T016",
+      "role": "PROOF",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH07_INSET_ISLAND",
+      "grid_topology": "GT22_VARIABLE_WIDTH_BANDS",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL06_MIXED_HEADING_RIGHT_BODY_LEFT",
+      "copy_flow": "CF13_CHAPTER_BANDS",
+      "text_measure": "TM07_VARIABLE",
+      "vertical_alignment": "VA06_MEDIA_CENTER_COPY_TOP",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD03_SUPPORTING",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF02_CONTRAST_BAND",
+      "edge_overlap": "EO12_NO_FRAME",
+      "density": "DN08_MEDIA_DENSE_COPY_LIGHT",
+      "transition": "TR10_SHARED_BACKGROUND",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN01_NONE",
+      "interaction": "IP06_QUOTE_RAIL",
+      "motion": "MO08_OBJECT_DRIFT_LITE",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "PROOF|GT16_LEDGER_ROWS|SH07_INSET_ISLAND|GT22_VARIABLE_WIDTH_BANDS|TA02_TOP_CENTER|AL06_MIXED_HEADING_RIGHT_BODY_LEFT|CF13_CHAPTER_BANDS|TM07_VARIABLE|VA06_MEDIA_CENTER_COPY_TOP|MT03_SUPPORTING_SINGLE|MD03_SUPPORTING|CG07_FEATURED_PLUS_SATELLITES|SF02_CONTRAST_BAND|EO12_NO_FRAME|DN08_MEDIA_DENSE_COPY_LIGHT|TR10_SHARED_BACKGROUND|CP04_BOTTOM_CENTER|AN01_NONE|IP06_QUOTE_RAIL|MO08_OBJECT_DRIFT_LITE|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T017",
+      "role": "PROOF",
+      "topology_cluster": "GT14_MOSAIC_BENTO",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT14_MOSAIC_BENTO",
+      "text_anchor": "TA06_CENTER_RIGHT",
+      "text_alignment": "AL03_RIGHT",
+      "copy_flow": "CF04_SIDE_RAIL_CHAPTERS",
+      "text_measure": "TM10_HEADING_NARROW_BODY_WIDE",
+      "vertical_alignment": "VA03_BOTTOM",
+      "media_topology": "MT07_DIPTYCH_EQUAL",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO11_LAYERED_BORDER",
+      "density": "DN01_COMPACT",
+      "transition": "TR01_HARD_CUT",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN12_SECTION_COUNTER",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO05_PROGRESS_LINKED_LITE",
+      "mobile_transform": "MB03_RAIL_TO_SNAP",
+      "structural_signature": "PROOF|GT14_MOSAIC_BENTO|SH03_CONTAINED_WIDE|GT14_MOSAIC_BENTO|TA06_CENTER_RIGHT|AL03_RIGHT|CF04_SIDE_RAIL_CHAPTERS|TM10_HEADING_NARROW_BODY_WIDE|VA03_BOTTOM|MT07_DIPTYCH_EQUAL|MD02_SUBTLE|CG07_FEATURED_PLUS_SATELLITES|SF06_TINTED_FIELD|EO11_LAYERED_BORDER|DN01_COMPACT|TR01_HARD_CUT|CP12_NO_PRIMARY_CTA|AN12_SECTION_COUNTER|IP10_EDITORIAL_ACCORDION|MO05_PROGRESS_LINKED_LITE|MB03_RAIL_TO_SNAP",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T018",
+      "role": "PROOF",
+      "topology_cluster": "GT22_VARIABLE_WIDTH_BANDS",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT16_LEDGER_ROWS",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL08_AXIS_DEPENDENT",
+      "copy_flow": "CF11_MARGIN_NOTES",
+      "text_measure": "TM03_EDITORIAL",
+      "vertical_alignment": "VA08_EDGE_ANCHORED",
+      "media_topology": "MT11_HORIZONTAL_RAIL",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO10_OBJECT_OVERFLOW",
+      "density": "DN04_DENSE_EDITORIAL",
+      "transition": "TR06_CONTINUOUS_GRID",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN11_EDGE_CAPTIONS",
+      "interaction": "IP02_SNAP_RAIL",
+      "motion": "MO02_MICRO_ONLY",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "PROOF|GT22_VARIABLE_WIDTH_BANDS|SH02_CONTAINED_STANDARD|GT16_LEDGER_ROWS|TA01_TOP_LEFT|AL08_AXIS_DEPENDENT|CF11_MARGIN_NOTES|TM03_EDITORIAL|VA08_EDGE_ANCHORED|MT11_HORIZONTAL_RAIL|MD01_NONE|CG07_FEATURED_PLUS_SATELLITES|SF01_CONTINUOUS|EO10_OBJECT_OVERFLOW|DN04_DENSE_EDITORIAL|TR06_CONTINUOUS_GRID|CP01_INLINE_AFTER_COPY|AN11_EDGE_CAPTIONS|IP02_SNAP_RAIL|MO02_MICRO_ONLY|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T019",
+      "role": "PROOF",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH16_BANDED_CANVAS",
+      "grid_topology": "GT08_THREE_ZONE_ASYMMETRIC",
+      "text_anchor": "TA04_CENTER_LEFT",
+      "text_alignment": "AL05_MIXED_HEADING_CENTER_BODY_LEFT",
+      "copy_flow": "CF02_STAGGERED_COLUMNS",
+      "text_measure": "TM06_FULL_BAND",
+      "vertical_alignment": "VA05_BASELINE",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD04_BALANCED",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO09_TOP_RULE",
+      "density": "DN07_SPACIOUS_TOP_DENSE_BOTTOM",
+      "transition": "TR11_OBJECT_CONTINUATION",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN10_SOURCE_NOTES",
+      "interaction": "IP01_STATIC",
+      "motion": "MO09_STAGGERED_ENTRY",
+      "mobile_transform": "MB18_MINIMAL_REFLOW",
+      "structural_signature": "PROOF|GT02_BALANCED_SPLIT|SH16_BANDED_CANVAS|GT08_THREE_ZONE_ASYMMETRIC|TA04_CENTER_LEFT|AL05_MIXED_HEADING_CENTER_BODY_LEFT|CF02_STAGGERED_COLUMNS|TM06_FULL_BAND|VA05_BASELINE|MT23_GHOSTED_BACKPLATE|MD04_BALANCED|CG07_FEATURED_PLUS_SATELLITES|SF05_OUTLINED_FIELD|EO09_TOP_RULE|DN07_SPACIOUS_TOP_DENSE_BOTTOM|TR11_OBJECT_CONTINUATION|CP04_BOTTOM_CENTER|AN10_SOURCE_NOTES|IP01_STATIC|MO09_STAGGERED_ENTRY|MB18_MINIMAL_REFLOW",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T020",
+      "role": "PROOF",
+      "topology_cluster": "GT07_THREE_ZONE_EQUAL",
+      "shell": "SH07_INSET_ISLAND",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA17_SPLIT_ANCHORS",
+      "text_alignment": "AL02_CENTER",
+      "copy_flow": "CF09_INDEX_THEN_EXPAND",
+      "text_measure": "TM09_HEADING_WIDE_BODY_NARROW",
+      "vertical_alignment": "VA02_CENTER",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD03_SUPPORTING",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF11_RULE_DRIVEN",
+      "edge_overlap": "EO08_SIDE_RULE",
+      "density": "DN10_MICRO_MACRO_CONTRAST",
+      "transition": "TR02_POLARITY_FLIP",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN09_PROGRESS_MARKERS",
+      "interaction": "IP06_QUOTE_RAIL",
+      "motion": "MO06_CONTROLLED_STAGE",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "PROOF|GT07_THREE_ZONE_EQUAL|SH07_INSET_ISLAND|GT07_THREE_ZONE_EQUAL|TA17_SPLIT_ANCHORS|AL02_CENTER|CF09_INDEX_THEN_EXPAND|TM09_HEADING_WIDE_BODY_NARROW|VA02_CENTER|MT01_NONE|MD03_SUPPORTING|CG07_FEATURED_PLUS_SATELLITES|SF11_RULE_DRIVEN|EO08_SIDE_RULE|DN10_MICRO_MACRO_CONTRAST|TR02_POLARITY_FLIP|CP12_NO_PRIMARY_CTA|AN09_PROGRESS_MARKERS|IP06_QUOTE_RAIL|MO06_CONTROLLED_STAGE|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T021",
+      "role": "PROOF",
+      "topology_cluster": "GT08_THREE_ZONE_ASYMMETRIC",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT02_BALANCED_SPLIT",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL07_JUSTIFIED_EDITORIAL",
+      "copy_flow": "CF16_QUIET_TO_DENSE",
+      "text_measure": "TM02_NARROW",
+      "vertical_alignment": "VA07_MEDIA_TOP_COPY_BOTTOM",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF02_CONTRAST_BAND",
+      "edge_overlap": "EO07_OPEN_FRAME",
+      "density": "DN03_SPACIOUS_EARNED",
+      "transition": "TR07_FADE_TO_QUIET",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN08_SIDE_GLOSSARY",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO03_SUBTLE_REVEAL",
+      "mobile_transform": "MB03_RAIL_TO_SNAP",
+      "structural_signature": "PROOF|GT08_THREE_ZONE_ASYMMETRIC|SH03_CONTAINED_WIDE|GT02_BALANCED_SPLIT|TA02_TOP_CENTER|AL07_JUSTIFIED_EDITORIAL|CF16_QUIET_TO_DENSE|TM02_NARROW|VA07_MEDIA_TOP_COPY_BOTTOM|MT03_SUPPORTING_SINGLE|MD02_SUBTLE|CG07_FEATURED_PLUS_SATELLITES|SF02_CONTRAST_BAND|EO07_OPEN_FRAME|DN03_SPACIOUS_EARNED|TR07_FADE_TO_QUIET|CP01_INLINE_AFTER_COPY|AN08_SIDE_GLOSSARY|IP10_EDITORIAL_ACCORDION|MO03_SUBTLE_REVEAL|MB03_RAIL_TO_SNAP",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T022",
+      "role": "PROOF",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT22_VARIABLE_WIDTH_BANDS",
+      "text_anchor": "TA06_CENTER_RIGHT",
+      "text_alignment": "AL04_MIXED_HEADING_LEFT_BODY_CENTER",
+      "copy_flow": "CF07_ZIGZAG",
+      "text_measure": "TM05_WIDE",
+      "vertical_alignment": "VA04_STAGGERED",
+      "media_topology": "MT07_DIPTYCH_EQUAL",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO06_INTERLOCKING_SECTIONS",
+      "density": "DN06_COMPACT_TOP_SPACIOUS_BOTTOM",
+      "transition": "TR12_SPACING_COMPRESSION",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN07_CALLOUT_LEADERS",
+      "interaction": "IP02_SNAP_RAIL",
+      "motion": "MO10_STATIC_STRONG",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "PROOF|GT16_LEDGER_ROWS|SH02_CONTAINED_STANDARD|GT22_VARIABLE_WIDTH_BANDS|TA06_CENTER_RIGHT|AL04_MIXED_HEADING_LEFT_BODY_CENTER|CF07_ZIGZAG|TM05_WIDE|VA04_STAGGERED|MT07_DIPTYCH_EQUAL|MD01_NONE|CG07_FEATURED_PLUS_SATELLITES|SF06_TINTED_FIELD|EO06_INTERLOCKING_SECTIONS|DN06_COMPACT_TOP_SPACIOUS_BOTTOM|TR12_SPACING_COMPRESSION|CP04_BOTTOM_CENTER|AN07_CALLOUT_LEADERS|IP02_SNAP_RAIL|MO10_STATIC_STRONG|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T023",
+      "role": "PROOF",
+      "topology_cluster": "GT14_MOSAIC_BENTO",
+      "shell": "SH16_BANDED_CANVAS",
+      "grid_topology": "GT14_MOSAIC_BENTO",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL01_LEFT",
+      "copy_flow": "CF14_DIAGONAL_READING",
+      "text_measure": "TM08_MARGIN_NOTE_DOMINANT",
+      "vertical_alignment": "VA01_TOP",
+      "media_topology": "MT11_HORIZONTAL_RAIL",
+      "media_dominance": "MD04_BALANCED",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO05_FLOATING_PANEL",
+      "density": "DN09_COPY_DENSE_MEDIA_LIGHT",
+      "transition": "TR03_OVERLAPPING_EDGE",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN06_INLINE_FACT_TAGS",
+      "interaction": "IP01_STATIC",
+      "motion": "MO07_RULE_DRAW",
+      "mobile_transform": "MB18_MINIMAL_REFLOW",
+      "structural_signature": "PROOF|GT14_MOSAIC_BENTO|SH16_BANDED_CANVAS|GT14_MOSAIC_BENTO|TA01_TOP_LEFT|AL01_LEFT|CF14_DIAGONAL_READING|TM08_MARGIN_NOTE_DOMINANT|VA01_TOP|MT11_HORIZONTAL_RAIL|MD04_BALANCED|CG07_FEATURED_PLUS_SATELLITES|SF01_CONTINUOUS|EO05_FLOATING_PANEL|DN09_COPY_DENSE_MEDIA_LIGHT|TR03_OVERLAPPING_EDGE|CP12_NO_PRIMARY_CTA|AN06_INLINE_FACT_TAGS|IP01_STATIC|MO07_RULE_DRAW|MB18_MINIMAL_REFLOW",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T024",
+      "role": "PROOF",
+      "topology_cluster": "GT22_VARIABLE_WIDTH_BANDS",
+      "shell": "SH07_INSET_ISLAND",
+      "grid_topology": "GT16_LEDGER_ROWS",
+      "text_anchor": "TA04_CENTER_LEFT",
+      "text_alignment": "AL06_MIXED_HEADING_RIGHT_BODY_LEFT",
+      "copy_flow": "CF05_TOP_HEAVY_SPREAD",
+      "text_measure": "TM01_XNARROW",
+      "vertical_alignment": "VA06_MEDIA_CENTER_COPY_TOP",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD03_SUPPORTING",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO04_CROPPED_EDGE",
+      "density": "DN02_BALANCED",
+      "transition": "TR08_QUIET_TO_STAGE",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN05_COORDINATE_LABELS",
+      "interaction": "IP06_QUOTE_RAIL",
+      "motion": "MO04_MEDIA_MOTION_LITE",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "PROOF|GT22_VARIABLE_WIDTH_BANDS|SH07_INSET_ISLAND|GT16_LEDGER_ROWS|TA04_CENTER_LEFT|AL06_MIXED_HEADING_RIGHT_BODY_LEFT|CF05_TOP_HEAVY_SPREAD|TM01_XNARROW|VA06_MEDIA_CENTER_COPY_TOP|MT23_GHOSTED_BACKPLATE|MD03_SUPPORTING|CG07_FEATURED_PLUS_SATELLITES|SF05_OUTLINED_FIELD|EO04_CROPPED_EDGE|DN02_BALANCED|TR08_QUIET_TO_STAGE|CP01_INLINE_AFTER_COPY|AN05_COORDINATE_LABELS|IP06_QUOTE_RAIL|MO04_MEDIA_MOTION_LITE|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T025",
+      "role": "PROOF",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT08_THREE_ZONE_ASYMMETRIC",
+      "text_anchor": "TA17_SPLIT_ANCHORS",
+      "text_alignment": "AL03_RIGHT",
+      "copy_flow": "CF12_FLOATING_ASIDES",
+      "text_measure": "TM04_BALANCED",
+      "vertical_alignment": "VA03_BOTTOM",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF11_RULE_DRIVEN",
+      "edge_overlap": "EO03_CONTROLLED_OVERLAP",
+      "density": "DN05_MIXED_DENSITY",
+      "transition": "TR13_BAND_TO_CANVAS",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN04_MARGIN_LABELS",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO01_NONE",
+      "mobile_transform": "MB03_RAIL_TO_SNAP",
+      "structural_signature": "PROOF|GT02_BALANCED_SPLIT|SH03_CONTAINED_WIDE|GT08_THREE_ZONE_ASYMMETRIC|TA17_SPLIT_ANCHORS|AL03_RIGHT|CF12_FLOATING_ASIDES|TM04_BALANCED|VA03_BOTTOM|MT01_NONE|MD02_SUBTLE|CG07_FEATURED_PLUS_SATELLITES|SF11_RULE_DRIVEN|EO03_CONTROLLED_OVERLAP|DN05_MIXED_DENSITY|TR13_BAND_TO_CANVAS|CP04_BOTTOM_CENTER|AN04_MARGIN_LABELS|IP10_EDITORIAL_ACCORDION|MO01_NONE|MB03_RAIL_TO_SNAP",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T026",
+      "role": "PROOF",
+      "topology_cluster": "GT07_THREE_ZONE_EQUAL",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL08_AXIS_DEPENDENT",
+      "copy_flow": "CF03_CENTER_SPINE",
+      "text_measure": "TM07_VARIABLE",
+      "vertical_alignment": "VA08_EDGE_ANCHORED",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF02_CONTRAST_BAND",
+      "edge_overlap": "EO02_MEDIA_BLEED",
+      "density": "DN08_MEDIA_DENSE_COPY_LIGHT",
+      "transition": "TR04_MEDIA_BRIDGE",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN03_ROMAN_CHAPTERS",
+      "interaction": "IP02_SNAP_RAIL",
+      "motion": "MO08_OBJECT_DRIFT_LITE",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "PROOF|GT07_THREE_ZONE_EQUAL|SH02_CONTAINED_STANDARD|GT07_THREE_ZONE_EQUAL|TA02_TOP_CENTER|AL08_AXIS_DEPENDENT|CF03_CENTER_SPINE|TM07_VARIABLE|VA08_EDGE_ANCHORED|MT03_SUPPORTING_SINGLE|MD01_NONE|CG07_FEATURED_PLUS_SATELLITES|SF02_CONTRAST_BAND|EO02_MEDIA_BLEED|DN08_MEDIA_DENSE_COPY_LIGHT|TR04_MEDIA_BRIDGE|CP12_NO_PRIMARY_CTA|AN03_ROMAN_CHAPTERS|IP02_SNAP_RAIL|MO08_OBJECT_DRIFT_LITE|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T027",
+      "role": "PROOF",
+      "topology_cluster": "GT08_THREE_ZONE_ASYMMETRIC",
+      "shell": "SH16_BANDED_CANVAS",
+      "grid_topology": "GT02_BALANCED_SPLIT",
+      "text_anchor": "TA06_CENTER_RIGHT",
+      "text_alignment": "AL05_MIXED_HEADING_CENTER_BODY_LEFT",
+      "copy_flow": "CF10_LEDGER",
+      "text_measure": "TM10_HEADING_NARROW_BODY_WIDE",
+      "vertical_alignment": "VA05_BASELINE",
+      "media_topology": "MT07_DIPTYCH_EQUAL",
+      "media_dominance": "MD04_BALANCED",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO01_CLEAN_CONTAINED",
+      "density": "DN01_COMPACT",
+      "transition": "TR09_RULE_HANDOFF",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN02_NUMERIC_INDEX",
+      "interaction": "IP01_STATIC",
+      "motion": "MO05_PROGRESS_LINKED_LITE",
+      "mobile_transform": "MB18_MINIMAL_REFLOW",
+      "structural_signature": "PROOF|GT08_THREE_ZONE_ASYMMETRIC|SH16_BANDED_CANVAS|GT02_BALANCED_SPLIT|TA06_CENTER_RIGHT|AL05_MIXED_HEADING_CENTER_BODY_LEFT|CF10_LEDGER|TM10_HEADING_NARROW_BODY_WIDE|VA05_BASELINE|MT07_DIPTYCH_EQUAL|MD04_BALANCED|CG07_FEATURED_PLUS_SATELLITES|SF06_TINTED_FIELD|EO01_CLEAN_CONTAINED|DN01_COMPACT|TR09_RULE_HANDOFF|CP01_INLINE_AFTER_COPY|AN02_NUMERIC_INDEX|IP01_STATIC|MO05_PROGRESS_LINKED_LITE|MB18_MINIMAL_REFLOW",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T028",
+      "role": "PROOF",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH07_INSET_ISLAND",
+      "grid_topology": "GT22_VARIABLE_WIDTH_BANDS",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL02_CENTER",
+      "copy_flow": "CF01_LINEAR",
+      "text_measure": "TM03_EDITORIAL",
+      "vertical_alignment": "VA02_CENTER",
+      "media_topology": "MT11_HORIZONTAL_RAIL",
+      "media_dominance": "MD03_SUPPORTING",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO12_NO_FRAME",
+      "density": "DN04_DENSE_EDITORIAL",
+      "transition": "TR14_CANVAS_TO_RAIL",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN01_NONE",
+      "interaction": "IP06_QUOTE_RAIL",
+      "motion": "MO02_MICRO_ONLY",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "PROOF|GT16_LEDGER_ROWS|SH07_INSET_ISLAND|GT22_VARIABLE_WIDTH_BANDS|TA01_TOP_LEFT|AL02_CENTER|CF01_LINEAR|TM03_EDITORIAL|VA02_CENTER|MT11_HORIZONTAL_RAIL|MD03_SUPPORTING|CG07_FEATURED_PLUS_SATELLITES|SF01_CONTINUOUS|EO12_NO_FRAME|DN04_DENSE_EDITORIAL|TR14_CANVAS_TO_RAIL|CP04_BOTTOM_CENTER|AN01_NONE|IP06_QUOTE_RAIL|MO02_MICRO_ONLY|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T029",
+      "role": "PROOF",
+      "topology_cluster": "GT14_MOSAIC_BENTO",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT14_MOSAIC_BENTO",
+      "text_anchor": "TA04_CENTER_LEFT",
+      "text_alignment": "AL07_JUSTIFIED_EDITORIAL",
+      "copy_flow": "CF08_SERPENTINE",
+      "text_measure": "TM06_FULL_BAND",
+      "vertical_alignment": "VA07_MEDIA_TOP_COPY_BOTTOM",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO11_LAYERED_BORDER",
+      "density": "DN07_SPACIOUS_TOP_DENSE_BOTTOM",
+      "transition": "TR05_DIAGONAL_HANDOFF",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN12_SECTION_COUNTER",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO09_STAGGERED_ENTRY",
+      "mobile_transform": "MB03_RAIL_TO_SNAP",
+      "structural_signature": "PROOF|GT14_MOSAIC_BENTO|SH03_CONTAINED_WIDE|GT14_MOSAIC_BENTO|TA04_CENTER_LEFT|AL07_JUSTIFIED_EDITORIAL|CF08_SERPENTINE|TM06_FULL_BAND|VA07_MEDIA_TOP_COPY_BOTTOM|MT23_GHOSTED_BACKPLATE|MD02_SUBTLE|CG07_FEATURED_PLUS_SATELLITES|SF05_OUTLINED_FIELD|EO11_LAYERED_BORDER|DN07_SPACIOUS_TOP_DENSE_BOTTOM|TR05_DIAGONAL_HANDOFF|CP12_NO_PRIMARY_CTA|AN12_SECTION_COUNTER|IP10_EDITORIAL_ACCORDION|MO09_STAGGERED_ENTRY|MB03_RAIL_TO_SNAP",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    },
+    {
+      "id": "T030",
+      "role": "PROOF",
+      "topology_cluster": "GT22_VARIABLE_WIDTH_BANDS",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT16_LEDGER_ROWS",
+      "text_anchor": "TA17_SPLIT_ANCHORS",
+      "text_alignment": "AL04_MIXED_HEADING_LEFT_BODY_CENTER",
+      "copy_flow": "CF15_DENSE_TO_QUIET",
+      "text_measure": "TM09_HEADING_WIDE_BODY_NARROW",
+      "vertical_alignment": "VA04_STAGGERED",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG07_FEATURED_PLUS_SATELLITES",
+      "surface": "SF11_RULE_DRIVEN",
+      "edge_overlap": "EO10_OBJECT_OVERFLOW",
+      "density": "DN10_MICRO_MACRO_CONTRAST",
+      "transition": "TR10_SHARED_BACKGROUND",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN11_EDGE_CAPTIONS",
+      "interaction": "IP02_SNAP_RAIL",
+      "motion": "MO06_CONTROLLED_STAGE",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "PROOF|GT22_VARIABLE_WIDTH_BANDS|SH02_CONTAINED_STANDARD|GT16_LEDGER_ROWS|TA17_SPLIT_ANCHORS|AL04_MIXED_HEADING_LEFT_BODY_CENTER|CF15_DENSE_TO_QUIET|TM09_HEADING_WIDE_BODY_NARROW|VA04_STAGGERED|MT01_NONE|MD01_NONE|CG07_FEATURED_PLUS_SATELLITES|SF11_RULE_DRIVEN|EO10_OBJECT_OVERFLOW|DN10_MICRO_MACRO_CONTRAST|TR10_SHARED_BACKGROUND|CP01_INLINE_AFTER_COPY|AN11_EDGE_CAPTIONS|IP02_SNAP_RAIL|MO06_CONTROLLED_STAGE|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "facts",
+          "sources",
+          "reviews_when_real",
+          "trust_signals"
+        ],
+        "avoid_if": [
+          "would_require_fabricated_evidence"
+        ]
+      }
+    }
+  ],
+  "FAQ": [
+    {
+      "id": "Q001",
+      "role": "FAQ",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL03_RIGHT",
+      "copy_flow": "CF04_SIDE_RAIL_CHAPTERS",
+      "text_measure": "TM02_NARROW",
+      "vertical_alignment": "VA03_BOTTOM",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO03_CONTROLLED_OVERLAP",
+      "density": "DN03_SPACIOUS_EARNED",
+      "transition": "TR05_DIAGONAL_HANDOFF",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN04_MARGIN_LABELS",
+      "interaction": "IP11_SPLIT_ACCORDION",
+      "motion": "MO03_SUBTLE_REVEAL",
+      "mobile_transform": "MB07_SIDE_RAIL_TO_TOP_INDEX",
+      "structural_signature": "FAQ|GT16_LEDGER_ROWS|SH02_CONTAINED_STANDARD|GT07_THREE_ZONE_EQUAL|TA02_TOP_CENTER|AL03_RIGHT|CF04_SIDE_RAIL_CHAPTERS|TM02_NARROW|VA03_BOTTOM|MT03_SUPPORTING_SINGLE|MD02_SUBTLE|CG08_LIST_ROWS|SF05_OUTLINED_FIELD|EO03_CONTROLLED_OVERLAP|DN03_SPACIOUS_EARNED|TR05_DIAGONAL_HANDOFF|CP03_BOTTOM_LEFT|AN04_MARGIN_LABELS|IP11_SPLIT_ACCORDION|MO03_SUBTLE_REVEAL|MB07_SIDE_RAIL_TO_TOP_INDEX",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q002",
+      "role": "FAQ",
+      "topology_cluster": "GT13_STICKY_RAIL_FLOW",
+      "shell": "SH01_CONTAINED_NARROW",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL08_AXIS_DEPENDENT",
+      "copy_flow": "CF11_MARGIN_NOTES",
+      "text_measure": "TM05_WIDE",
+      "vertical_alignment": "VA08_EDGE_ANCHORED",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO02_MEDIA_BLEED",
+      "density": "DN06_COMPACT_TOP_SPACIOUS_BOTTOM",
+      "transition": "TR10_SHARED_BACKGROUND",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN03_ROMAN_CHAPTERS",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO10_STATIC_STRONG",
+      "mobile_transform": "MB05_STICKY_TO_STATIC_CHAPTERS",
+      "structural_signature": "FAQ|GT13_STICKY_RAIL_FLOW|SH01_CONTAINED_NARROW|GT07_THREE_ZONE_EQUAL|TA01_TOP_LEFT|AL08_AXIS_DEPENDENT|CF11_MARGIN_NOTES|TM05_WIDE|VA08_EDGE_ANCHORED|MT01_NONE|MD01_NONE|CG08_LIST_ROWS|SF01_CONTINUOUS|EO02_MEDIA_BLEED|DN06_COMPACT_TOP_SPACIOUS_BOTTOM|TR10_SHARED_BACKGROUND|CP12_NO_PRIMARY_CTA|AN03_ROMAN_CHAPTERS|IP07_CONTENT_TABS|MO10_STATIC_STRONG|MB05_STICKY_TO_STATIC_CHAPTERS",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q003",
+      "role": "FAQ",
+      "topology_cluster": "GT07_THREE_ZONE_EQUAL",
+      "shell": "SH15_RAIL_PLUS_CANVAS",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA11_SIDE_RAIL_RIGHT",
+      "text_alignment": "AL05_MIXED_HEADING_CENTER_BODY_LEFT",
+      "copy_flow": "CF02_STAGGERED_COLUMNS",
+      "text_measure": "TM08_MARGIN_NOTE_DOMINANT",
+      "vertical_alignment": "VA05_BASELINE",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF11_RULE_DRIVEN",
+      "edge_overlap": "EO01_CLEAN_CONTAINED",
+      "density": "DN09_COPY_DENSE_MEDIA_LIGHT",
+      "transition": "TR01_HARD_CUT",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN02_NUMERIC_INDEX",
+      "interaction": "IP01_STATIC",
+      "motion": "MO07_RULE_DRAW",
+      "mobile_transform": "MB18_MINIMAL_REFLOW",
+      "structural_signature": "FAQ|GT07_THREE_ZONE_EQUAL|SH15_RAIL_PLUS_CANVAS|GT07_THREE_ZONE_EQUAL|TA11_SIDE_RAIL_RIGHT|AL05_MIXED_HEADING_CENTER_BODY_LEFT|CF02_STAGGERED_COLUMNS|TM08_MARGIN_NOTE_DOMINANT|VA05_BASELINE|MT23_GHOSTED_BACKPLATE|MD02_SUBTLE|CG08_LIST_ROWS|SF11_RULE_DRIVEN|EO01_CLEAN_CONTAINED|DN09_COPY_DENSE_MEDIA_LIGHT|TR01_HARD_CUT|CP01_INLINE_AFTER_COPY|AN02_NUMERIC_INDEX|IP01_STATIC|MO07_RULE_DRAW|MB18_MINIMAL_REFLOW",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q004",
+      "role": "FAQ",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA10_SIDE_RAIL_LEFT",
+      "text_alignment": "AL02_CENTER",
+      "copy_flow": "CF09_INDEX_THEN_EXPAND",
+      "text_measure": "TM01_XNARROW",
+      "vertical_alignment": "VA02_CENTER",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO12_NO_FRAME",
+      "density": "DN02_BALANCED",
+      "transition": "TR06_CONTINUOUS_GRID",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN01_NONE",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO04_MEDIA_MOTION_LITE",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "FAQ|GT02_BALANCED_SPLIT|SH03_CONTAINED_WIDE|GT07_THREE_ZONE_EQUAL|TA10_SIDE_RAIL_LEFT|AL02_CENTER|CF09_INDEX_THEN_EXPAND|TM01_XNARROW|VA02_CENTER|MT03_SUPPORTING_SINGLE|MD01_NONE|CG08_LIST_ROWS|SF06_TINTED_FIELD|EO12_NO_FRAME|DN02_BALANCED|TR06_CONTINUOUS_GRID|CP03_BOTTOM_LEFT|AN01_NONE|IP10_EDITORIAL_ACCORDION|MO04_MEDIA_MOTION_LITE|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q005",
+      "role": "FAQ",
+      "topology_cluster": "GT22_VARIABLE_WIDTH_BANDS",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL07_JUSTIFIED_EDITORIAL",
+      "copy_flow": "CF16_QUIET_TO_DENSE",
+      "text_measure": "TM04_BALANCED",
+      "vertical_alignment": "VA07_MEDIA_TOP_COPY_BOTTOM",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO11_LAYERED_BORDER",
+      "density": "DN05_MIXED_DENSITY",
+      "transition": "TR11_OBJECT_CONTINUATION",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN12_SECTION_COUNTER",
+      "interaction": "IP11_SPLIT_ACCORDION",
+      "motion": "MO01_NONE",
+      "mobile_transform": "MB07_SIDE_RAIL_TO_TOP_INDEX",
+      "structural_signature": "FAQ|GT22_VARIABLE_WIDTH_BANDS|SH02_CONTAINED_STANDARD|GT07_THREE_ZONE_EQUAL|TA02_TOP_CENTER|AL07_JUSTIFIED_EDITORIAL|CF16_QUIET_TO_DENSE|TM04_BALANCED|VA07_MEDIA_TOP_COPY_BOTTOM|MT01_NONE|MD02_SUBTLE|CG08_LIST_ROWS|SF05_OUTLINED_FIELD|EO11_LAYERED_BORDER|DN05_MIXED_DENSITY|TR11_OBJECT_CONTINUATION|CP12_NO_PRIMARY_CTA|AN12_SECTION_COUNTER|IP11_SPLIT_ACCORDION|MO01_NONE|MB07_SIDE_RAIL_TO_TOP_INDEX",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q006",
+      "role": "FAQ",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH01_CONTAINED_NARROW",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL04_MIXED_HEADING_LEFT_BODY_CENTER",
+      "copy_flow": "CF07_ZIGZAG",
+      "text_measure": "TM07_VARIABLE",
+      "vertical_alignment": "VA04_STAGGERED",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO10_OBJECT_OVERFLOW",
+      "density": "DN08_MEDIA_DENSE_COPY_LIGHT",
+      "transition": "TR02_POLARITY_FLIP",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN11_EDGE_CAPTIONS",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO08_OBJECT_DRIFT_LITE",
+      "mobile_transform": "MB05_STICKY_TO_STATIC_CHAPTERS",
+      "structural_signature": "FAQ|GT16_LEDGER_ROWS|SH01_CONTAINED_NARROW|GT07_THREE_ZONE_EQUAL|TA01_TOP_LEFT|AL04_MIXED_HEADING_LEFT_BODY_CENTER|CF07_ZIGZAG|TM07_VARIABLE|VA04_STAGGERED|MT23_GHOSTED_BACKPLATE|MD01_NONE|CG08_LIST_ROWS|SF01_CONTINUOUS|EO10_OBJECT_OVERFLOW|DN08_MEDIA_DENSE_COPY_LIGHT|TR02_POLARITY_FLIP|CP01_INLINE_AFTER_COPY|AN11_EDGE_CAPTIONS|IP07_CONTENT_TABS|MO08_OBJECT_DRIFT_LITE|MB05_STICKY_TO_STATIC_CHAPTERS",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q007",
+      "role": "FAQ",
+      "topology_cluster": "GT13_STICKY_RAIL_FLOW",
+      "shell": "SH15_RAIL_PLUS_CANVAS",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA11_SIDE_RAIL_RIGHT",
+      "text_alignment": "AL01_LEFT",
+      "copy_flow": "CF14_DIAGONAL_READING",
+      "text_measure": "TM10_HEADING_NARROW_BODY_WIDE",
+      "vertical_alignment": "VA01_TOP",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF11_RULE_DRIVEN",
+      "edge_overlap": "EO09_TOP_RULE",
+      "density": "DN01_COMPACT",
+      "transition": "TR07_FADE_TO_QUIET",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN10_SOURCE_NOTES",
+      "interaction": "IP01_STATIC",
+      "motion": "MO05_PROGRESS_LINKED_LITE",
+      "mobile_transform": "MB18_MINIMAL_REFLOW",
+      "structural_signature": "FAQ|GT13_STICKY_RAIL_FLOW|SH15_RAIL_PLUS_CANVAS|GT07_THREE_ZONE_EQUAL|TA11_SIDE_RAIL_RIGHT|AL01_LEFT|CF14_DIAGONAL_READING|TM10_HEADING_NARROW_BODY_WIDE|VA01_TOP|MT03_SUPPORTING_SINGLE|MD02_SUBTLE|CG08_LIST_ROWS|SF11_RULE_DRIVEN|EO09_TOP_RULE|DN01_COMPACT|TR07_FADE_TO_QUIET|CP03_BOTTOM_LEFT|AN10_SOURCE_NOTES|IP01_STATIC|MO05_PROGRESS_LINKED_LITE|MB18_MINIMAL_REFLOW",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q008",
+      "role": "FAQ",
+      "topology_cluster": "GT07_THREE_ZONE_EQUAL",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA10_SIDE_RAIL_LEFT",
+      "text_alignment": "AL06_MIXED_HEADING_RIGHT_BODY_LEFT",
+      "copy_flow": "CF05_TOP_HEAVY_SPREAD",
+      "text_measure": "TM03_EDITORIAL",
+      "vertical_alignment": "VA06_MEDIA_CENTER_COPY_TOP",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO08_SIDE_RULE",
+      "density": "DN04_DENSE_EDITORIAL",
+      "transition": "TR12_SPACING_COMPRESSION",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN09_PROGRESS_MARKERS",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO02_MICRO_ONLY",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "FAQ|GT07_THREE_ZONE_EQUAL|SH03_CONTAINED_WIDE|GT07_THREE_ZONE_EQUAL|TA10_SIDE_RAIL_LEFT|AL06_MIXED_HEADING_RIGHT_BODY_LEFT|CF05_TOP_HEAVY_SPREAD|TM03_EDITORIAL|VA06_MEDIA_CENTER_COPY_TOP|MT01_NONE|MD01_NONE|CG08_LIST_ROWS|SF06_TINTED_FIELD|EO08_SIDE_RULE|DN04_DENSE_EDITORIAL|TR12_SPACING_COMPRESSION|CP12_NO_PRIMARY_CTA|AN09_PROGRESS_MARKERS|IP10_EDITORIAL_ACCORDION|MO02_MICRO_ONLY|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q009",
+      "role": "FAQ",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL03_RIGHT",
+      "copy_flow": "CF12_FLOATING_ASIDES",
+      "text_measure": "TM06_FULL_BAND",
+      "vertical_alignment": "VA03_BOTTOM",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO07_OPEN_FRAME",
+      "density": "DN07_SPACIOUS_TOP_DENSE_BOTTOM",
+      "transition": "TR03_OVERLAPPING_EDGE",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN08_SIDE_GLOSSARY",
+      "interaction": "IP11_SPLIT_ACCORDION",
+      "motion": "MO09_STAGGERED_ENTRY",
+      "mobile_transform": "MB07_SIDE_RAIL_TO_TOP_INDEX",
+      "structural_signature": "FAQ|GT02_BALANCED_SPLIT|SH02_CONTAINED_STANDARD|GT07_THREE_ZONE_EQUAL|TA02_TOP_CENTER|AL03_RIGHT|CF12_FLOATING_ASIDES|TM06_FULL_BAND|VA03_BOTTOM|MT23_GHOSTED_BACKPLATE|MD02_SUBTLE|CG08_LIST_ROWS|SF05_OUTLINED_FIELD|EO07_OPEN_FRAME|DN07_SPACIOUS_TOP_DENSE_BOTTOM|TR03_OVERLAPPING_EDGE|CP01_INLINE_AFTER_COPY|AN08_SIDE_GLOSSARY|IP11_SPLIT_ACCORDION|MO09_STAGGERED_ENTRY|MB07_SIDE_RAIL_TO_TOP_INDEX",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q010",
+      "role": "FAQ",
+      "topology_cluster": "GT22_VARIABLE_WIDTH_BANDS",
+      "shell": "SH01_CONTAINED_NARROW",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL08_AXIS_DEPENDENT",
+      "copy_flow": "CF03_CENTER_SPINE",
+      "text_measure": "TM09_HEADING_WIDE_BODY_NARROW",
+      "vertical_alignment": "VA08_EDGE_ANCHORED",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO06_INTERLOCKING_SECTIONS",
+      "density": "DN10_MICRO_MACRO_CONTRAST",
+      "transition": "TR08_QUIET_TO_STAGE",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN07_CALLOUT_LEADERS",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO06_CONTROLLED_STAGE",
+      "mobile_transform": "MB05_STICKY_TO_STATIC_CHAPTERS",
+      "structural_signature": "FAQ|GT22_VARIABLE_WIDTH_BANDS|SH01_CONTAINED_NARROW|GT07_THREE_ZONE_EQUAL|TA01_TOP_LEFT|AL08_AXIS_DEPENDENT|CF03_CENTER_SPINE|TM09_HEADING_WIDE_BODY_NARROW|VA08_EDGE_ANCHORED|MT03_SUPPORTING_SINGLE|MD01_NONE|CG08_LIST_ROWS|SF01_CONTINUOUS|EO06_INTERLOCKING_SECTIONS|DN10_MICRO_MACRO_CONTRAST|TR08_QUIET_TO_STAGE|CP03_BOTTOM_LEFT|AN07_CALLOUT_LEADERS|IP07_CONTENT_TABS|MO06_CONTROLLED_STAGE|MB05_STICKY_TO_STATIC_CHAPTERS",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q011",
+      "role": "FAQ",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH15_RAIL_PLUS_CANVAS",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA11_SIDE_RAIL_RIGHT",
+      "text_alignment": "AL05_MIXED_HEADING_CENTER_BODY_LEFT",
+      "copy_flow": "CF10_LEDGER",
+      "text_measure": "TM02_NARROW",
+      "vertical_alignment": "VA05_BASELINE",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF11_RULE_DRIVEN",
+      "edge_overlap": "EO05_FLOATING_PANEL",
+      "density": "DN03_SPACIOUS_EARNED",
+      "transition": "TR13_BAND_TO_CANVAS",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN06_INLINE_FACT_TAGS",
+      "interaction": "IP01_STATIC",
+      "motion": "MO03_SUBTLE_REVEAL",
+      "mobile_transform": "MB18_MINIMAL_REFLOW",
+      "structural_signature": "FAQ|GT16_LEDGER_ROWS|SH15_RAIL_PLUS_CANVAS|GT07_THREE_ZONE_EQUAL|TA11_SIDE_RAIL_RIGHT|AL05_MIXED_HEADING_CENTER_BODY_LEFT|CF10_LEDGER|TM02_NARROW|VA05_BASELINE|MT01_NONE|MD02_SUBTLE|CG08_LIST_ROWS|SF11_RULE_DRIVEN|EO05_FLOATING_PANEL|DN03_SPACIOUS_EARNED|TR13_BAND_TO_CANVAS|CP12_NO_PRIMARY_CTA|AN06_INLINE_FACT_TAGS|IP01_STATIC|MO03_SUBTLE_REVEAL|MB18_MINIMAL_REFLOW",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q012",
+      "role": "FAQ",
+      "topology_cluster": "GT13_STICKY_RAIL_FLOW",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA10_SIDE_RAIL_LEFT",
+      "text_alignment": "AL02_CENTER",
+      "copy_flow": "CF01_LINEAR",
+      "text_measure": "TM05_WIDE",
+      "vertical_alignment": "VA02_CENTER",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO04_CROPPED_EDGE",
+      "density": "DN06_COMPACT_TOP_SPACIOUS_BOTTOM",
+      "transition": "TR04_MEDIA_BRIDGE",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN05_COORDINATE_LABELS",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO10_STATIC_STRONG",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "FAQ|GT13_STICKY_RAIL_FLOW|SH03_CONTAINED_WIDE|GT07_THREE_ZONE_EQUAL|TA10_SIDE_RAIL_LEFT|AL02_CENTER|CF01_LINEAR|TM05_WIDE|VA02_CENTER|MT23_GHOSTED_BACKPLATE|MD01_NONE|CG08_LIST_ROWS|SF06_TINTED_FIELD|EO04_CROPPED_EDGE|DN06_COMPACT_TOP_SPACIOUS_BOTTOM|TR04_MEDIA_BRIDGE|CP01_INLINE_AFTER_COPY|AN05_COORDINATE_LABELS|IP10_EDITORIAL_ACCORDION|MO10_STATIC_STRONG|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q013",
+      "role": "FAQ",
+      "topology_cluster": "GT07_THREE_ZONE_EQUAL",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL07_JUSTIFIED_EDITORIAL",
+      "copy_flow": "CF08_SERPENTINE",
+      "text_measure": "TM08_MARGIN_NOTE_DOMINANT",
+      "vertical_alignment": "VA07_MEDIA_TOP_COPY_BOTTOM",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO03_CONTROLLED_OVERLAP",
+      "density": "DN09_COPY_DENSE_MEDIA_LIGHT",
+      "transition": "TR09_RULE_HANDOFF",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN04_MARGIN_LABELS",
+      "interaction": "IP11_SPLIT_ACCORDION",
+      "motion": "MO07_RULE_DRAW",
+      "mobile_transform": "MB07_SIDE_RAIL_TO_TOP_INDEX",
+      "structural_signature": "FAQ|GT07_THREE_ZONE_EQUAL|SH02_CONTAINED_STANDARD|GT07_THREE_ZONE_EQUAL|TA02_TOP_CENTER|AL07_JUSTIFIED_EDITORIAL|CF08_SERPENTINE|TM08_MARGIN_NOTE_DOMINANT|VA07_MEDIA_TOP_COPY_BOTTOM|MT03_SUPPORTING_SINGLE|MD02_SUBTLE|CG08_LIST_ROWS|SF05_OUTLINED_FIELD|EO03_CONTROLLED_OVERLAP|DN09_COPY_DENSE_MEDIA_LIGHT|TR09_RULE_HANDOFF|CP03_BOTTOM_LEFT|AN04_MARGIN_LABELS|IP11_SPLIT_ACCORDION|MO07_RULE_DRAW|MB07_SIDE_RAIL_TO_TOP_INDEX",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q014",
+      "role": "FAQ",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH01_CONTAINED_NARROW",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL04_MIXED_HEADING_LEFT_BODY_CENTER",
+      "copy_flow": "CF15_DENSE_TO_QUIET",
+      "text_measure": "TM01_XNARROW",
+      "vertical_alignment": "VA04_STAGGERED",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO02_MEDIA_BLEED",
+      "density": "DN02_BALANCED",
+      "transition": "TR14_CANVAS_TO_RAIL",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN03_ROMAN_CHAPTERS",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO04_MEDIA_MOTION_LITE",
+      "mobile_transform": "MB05_STICKY_TO_STATIC_CHAPTERS",
+      "structural_signature": "FAQ|GT02_BALANCED_SPLIT|SH01_CONTAINED_NARROW|GT07_THREE_ZONE_EQUAL|TA01_TOP_LEFT|AL04_MIXED_HEADING_LEFT_BODY_CENTER|CF15_DENSE_TO_QUIET|TM01_XNARROW|VA04_STAGGERED|MT01_NONE|MD01_NONE|CG08_LIST_ROWS|SF01_CONTINUOUS|EO02_MEDIA_BLEED|DN02_BALANCED|TR14_CANVAS_TO_RAIL|CP12_NO_PRIMARY_CTA|AN03_ROMAN_CHAPTERS|IP07_CONTENT_TABS|MO04_MEDIA_MOTION_LITE|MB05_STICKY_TO_STATIC_CHAPTERS",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q015",
+      "role": "FAQ",
+      "topology_cluster": "GT22_VARIABLE_WIDTH_BANDS",
+      "shell": "SH15_RAIL_PLUS_CANVAS",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA11_SIDE_RAIL_RIGHT",
+      "text_alignment": "AL01_LEFT",
+      "copy_flow": "CF06_BOTTOM_ANCHORED",
+      "text_measure": "TM04_BALANCED",
+      "vertical_alignment": "VA01_TOP",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF11_RULE_DRIVEN",
+      "edge_overlap": "EO01_CLEAN_CONTAINED",
+      "density": "DN05_MIXED_DENSITY",
+      "transition": "TR05_DIAGONAL_HANDOFF",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN02_NUMERIC_INDEX",
+      "interaction": "IP01_STATIC",
+      "motion": "MO01_NONE",
+      "mobile_transform": "MB18_MINIMAL_REFLOW",
+      "structural_signature": "FAQ|GT22_VARIABLE_WIDTH_BANDS|SH15_RAIL_PLUS_CANVAS|GT07_THREE_ZONE_EQUAL|TA11_SIDE_RAIL_RIGHT|AL01_LEFT|CF06_BOTTOM_ANCHORED|TM04_BALANCED|VA01_TOP|MT23_GHOSTED_BACKPLATE|MD02_SUBTLE|CG08_LIST_ROWS|SF11_RULE_DRIVEN|EO01_CLEAN_CONTAINED|DN05_MIXED_DENSITY|TR05_DIAGONAL_HANDOFF|CP01_INLINE_AFTER_COPY|AN02_NUMERIC_INDEX|IP01_STATIC|MO01_NONE|MB18_MINIMAL_REFLOW",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q016",
+      "role": "FAQ",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA10_SIDE_RAIL_LEFT",
+      "text_alignment": "AL06_MIXED_HEADING_RIGHT_BODY_LEFT",
+      "copy_flow": "CF13_CHAPTER_BANDS",
+      "text_measure": "TM07_VARIABLE",
+      "vertical_alignment": "VA06_MEDIA_CENTER_COPY_TOP",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO12_NO_FRAME",
+      "density": "DN08_MEDIA_DENSE_COPY_LIGHT",
+      "transition": "TR10_SHARED_BACKGROUND",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN01_NONE",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO08_OBJECT_DRIFT_LITE",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "FAQ|GT16_LEDGER_ROWS|SH03_CONTAINED_WIDE|GT07_THREE_ZONE_EQUAL|TA10_SIDE_RAIL_LEFT|AL06_MIXED_HEADING_RIGHT_BODY_LEFT|CF13_CHAPTER_BANDS|TM07_VARIABLE|VA06_MEDIA_CENTER_COPY_TOP|MT03_SUPPORTING_SINGLE|MD01_NONE|CG08_LIST_ROWS|SF06_TINTED_FIELD|EO12_NO_FRAME|DN08_MEDIA_DENSE_COPY_LIGHT|TR10_SHARED_BACKGROUND|CP03_BOTTOM_LEFT|AN01_NONE|IP10_EDITORIAL_ACCORDION|MO08_OBJECT_DRIFT_LITE|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q017",
+      "role": "FAQ",
+      "topology_cluster": "GT13_STICKY_RAIL_FLOW",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL03_RIGHT",
+      "copy_flow": "CF04_SIDE_RAIL_CHAPTERS",
+      "text_measure": "TM10_HEADING_NARROW_BODY_WIDE",
+      "vertical_alignment": "VA03_BOTTOM",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO11_LAYERED_BORDER",
+      "density": "DN01_COMPACT",
+      "transition": "TR01_HARD_CUT",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN12_SECTION_COUNTER",
+      "interaction": "IP11_SPLIT_ACCORDION",
+      "motion": "MO05_PROGRESS_LINKED_LITE",
+      "mobile_transform": "MB07_SIDE_RAIL_TO_TOP_INDEX",
+      "structural_signature": "FAQ|GT13_STICKY_RAIL_FLOW|SH02_CONTAINED_STANDARD|GT07_THREE_ZONE_EQUAL|TA02_TOP_CENTER|AL03_RIGHT|CF04_SIDE_RAIL_CHAPTERS|TM10_HEADING_NARROW_BODY_WIDE|VA03_BOTTOM|MT01_NONE|MD02_SUBTLE|CG08_LIST_ROWS|SF05_OUTLINED_FIELD|EO11_LAYERED_BORDER|DN01_COMPACT|TR01_HARD_CUT|CP12_NO_PRIMARY_CTA|AN12_SECTION_COUNTER|IP11_SPLIT_ACCORDION|MO05_PROGRESS_LINKED_LITE|MB07_SIDE_RAIL_TO_TOP_INDEX",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q018",
+      "role": "FAQ",
+      "topology_cluster": "GT07_THREE_ZONE_EQUAL",
+      "shell": "SH01_CONTAINED_NARROW",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL08_AXIS_DEPENDENT",
+      "copy_flow": "CF11_MARGIN_NOTES",
+      "text_measure": "TM03_EDITORIAL",
+      "vertical_alignment": "VA08_EDGE_ANCHORED",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO10_OBJECT_OVERFLOW",
+      "density": "DN04_DENSE_EDITORIAL",
+      "transition": "TR06_CONTINUOUS_GRID",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN11_EDGE_CAPTIONS",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO02_MICRO_ONLY",
+      "mobile_transform": "MB05_STICKY_TO_STATIC_CHAPTERS",
+      "structural_signature": "FAQ|GT07_THREE_ZONE_EQUAL|SH01_CONTAINED_NARROW|GT07_THREE_ZONE_EQUAL|TA01_TOP_LEFT|AL08_AXIS_DEPENDENT|CF11_MARGIN_NOTES|TM03_EDITORIAL|VA08_EDGE_ANCHORED|MT23_GHOSTED_BACKPLATE|MD01_NONE|CG08_LIST_ROWS|SF01_CONTINUOUS|EO10_OBJECT_OVERFLOW|DN04_DENSE_EDITORIAL|TR06_CONTINUOUS_GRID|CP01_INLINE_AFTER_COPY|AN11_EDGE_CAPTIONS|IP07_CONTENT_TABS|MO02_MICRO_ONLY|MB05_STICKY_TO_STATIC_CHAPTERS",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q019",
+      "role": "FAQ",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH15_RAIL_PLUS_CANVAS",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA11_SIDE_RAIL_RIGHT",
+      "text_alignment": "AL05_MIXED_HEADING_CENTER_BODY_LEFT",
+      "copy_flow": "CF02_STAGGERED_COLUMNS",
+      "text_measure": "TM06_FULL_BAND",
+      "vertical_alignment": "VA05_BASELINE",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF11_RULE_DRIVEN",
+      "edge_overlap": "EO09_TOP_RULE",
+      "density": "DN07_SPACIOUS_TOP_DENSE_BOTTOM",
+      "transition": "TR11_OBJECT_CONTINUATION",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN10_SOURCE_NOTES",
+      "interaction": "IP01_STATIC",
+      "motion": "MO09_STAGGERED_ENTRY",
+      "mobile_transform": "MB18_MINIMAL_REFLOW",
+      "structural_signature": "FAQ|GT02_BALANCED_SPLIT|SH15_RAIL_PLUS_CANVAS|GT07_THREE_ZONE_EQUAL|TA11_SIDE_RAIL_RIGHT|AL05_MIXED_HEADING_CENTER_BODY_LEFT|CF02_STAGGERED_COLUMNS|TM06_FULL_BAND|VA05_BASELINE|MT03_SUPPORTING_SINGLE|MD02_SUBTLE|CG08_LIST_ROWS|SF11_RULE_DRIVEN|EO09_TOP_RULE|DN07_SPACIOUS_TOP_DENSE_BOTTOM|TR11_OBJECT_CONTINUATION|CP03_BOTTOM_LEFT|AN10_SOURCE_NOTES|IP01_STATIC|MO09_STAGGERED_ENTRY|MB18_MINIMAL_REFLOW",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q020",
+      "role": "FAQ",
+      "topology_cluster": "GT22_VARIABLE_WIDTH_BANDS",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA10_SIDE_RAIL_LEFT",
+      "text_alignment": "AL02_CENTER",
+      "copy_flow": "CF09_INDEX_THEN_EXPAND",
+      "text_measure": "TM09_HEADING_WIDE_BODY_NARROW",
+      "vertical_alignment": "VA02_CENTER",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO08_SIDE_RULE",
+      "density": "DN10_MICRO_MACRO_CONTRAST",
+      "transition": "TR02_POLARITY_FLIP",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN09_PROGRESS_MARKERS",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO06_CONTROLLED_STAGE",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "FAQ|GT22_VARIABLE_WIDTH_BANDS|SH03_CONTAINED_WIDE|GT07_THREE_ZONE_EQUAL|TA10_SIDE_RAIL_LEFT|AL02_CENTER|CF09_INDEX_THEN_EXPAND|TM09_HEADING_WIDE_BODY_NARROW|VA02_CENTER|MT01_NONE|MD01_NONE|CG08_LIST_ROWS|SF06_TINTED_FIELD|EO08_SIDE_RULE|DN10_MICRO_MACRO_CONTRAST|TR02_POLARITY_FLIP|CP12_NO_PRIMARY_CTA|AN09_PROGRESS_MARKERS|IP10_EDITORIAL_ACCORDION|MO06_CONTROLLED_STAGE|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q021",
+      "role": "FAQ",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL07_JUSTIFIED_EDITORIAL",
+      "copy_flow": "CF16_QUIET_TO_DENSE",
+      "text_measure": "TM02_NARROW",
+      "vertical_alignment": "VA07_MEDIA_TOP_COPY_BOTTOM",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO07_OPEN_FRAME",
+      "density": "DN03_SPACIOUS_EARNED",
+      "transition": "TR07_FADE_TO_QUIET",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN08_SIDE_GLOSSARY",
+      "interaction": "IP11_SPLIT_ACCORDION",
+      "motion": "MO03_SUBTLE_REVEAL",
+      "mobile_transform": "MB07_SIDE_RAIL_TO_TOP_INDEX",
+      "structural_signature": "FAQ|GT16_LEDGER_ROWS|SH02_CONTAINED_STANDARD|GT07_THREE_ZONE_EQUAL|TA02_TOP_CENTER|AL07_JUSTIFIED_EDITORIAL|CF16_QUIET_TO_DENSE|TM02_NARROW|VA07_MEDIA_TOP_COPY_BOTTOM|MT23_GHOSTED_BACKPLATE|MD02_SUBTLE|CG08_LIST_ROWS|SF05_OUTLINED_FIELD|EO07_OPEN_FRAME|DN03_SPACIOUS_EARNED|TR07_FADE_TO_QUIET|CP01_INLINE_AFTER_COPY|AN08_SIDE_GLOSSARY|IP11_SPLIT_ACCORDION|MO03_SUBTLE_REVEAL|MB07_SIDE_RAIL_TO_TOP_INDEX",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q022",
+      "role": "FAQ",
+      "topology_cluster": "GT13_STICKY_RAIL_FLOW",
+      "shell": "SH01_CONTAINED_NARROW",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL04_MIXED_HEADING_LEFT_BODY_CENTER",
+      "copy_flow": "CF07_ZIGZAG",
+      "text_measure": "TM05_WIDE",
+      "vertical_alignment": "VA04_STAGGERED",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO06_INTERLOCKING_SECTIONS",
+      "density": "DN06_COMPACT_TOP_SPACIOUS_BOTTOM",
+      "transition": "TR12_SPACING_COMPRESSION",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN07_CALLOUT_LEADERS",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO10_STATIC_STRONG",
+      "mobile_transform": "MB05_STICKY_TO_STATIC_CHAPTERS",
+      "structural_signature": "FAQ|GT13_STICKY_RAIL_FLOW|SH01_CONTAINED_NARROW|GT07_THREE_ZONE_EQUAL|TA01_TOP_LEFT|AL04_MIXED_HEADING_LEFT_BODY_CENTER|CF07_ZIGZAG|TM05_WIDE|VA04_STAGGERED|MT03_SUPPORTING_SINGLE|MD01_NONE|CG08_LIST_ROWS|SF01_CONTINUOUS|EO06_INTERLOCKING_SECTIONS|DN06_COMPACT_TOP_SPACIOUS_BOTTOM|TR12_SPACING_COMPRESSION|CP03_BOTTOM_LEFT|AN07_CALLOUT_LEADERS|IP07_CONTENT_TABS|MO10_STATIC_STRONG|MB05_STICKY_TO_STATIC_CHAPTERS",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q023",
+      "role": "FAQ",
+      "topology_cluster": "GT07_THREE_ZONE_EQUAL",
+      "shell": "SH15_RAIL_PLUS_CANVAS",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA11_SIDE_RAIL_RIGHT",
+      "text_alignment": "AL01_LEFT",
+      "copy_flow": "CF14_DIAGONAL_READING",
+      "text_measure": "TM08_MARGIN_NOTE_DOMINANT",
+      "vertical_alignment": "VA01_TOP",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF11_RULE_DRIVEN",
+      "edge_overlap": "EO05_FLOATING_PANEL",
+      "density": "DN09_COPY_DENSE_MEDIA_LIGHT",
+      "transition": "TR03_OVERLAPPING_EDGE",
+      "cta_position": "CP12_NO_PRIMARY_CTA",
+      "annotation": "AN06_INLINE_FACT_TAGS",
+      "interaction": "IP01_STATIC",
+      "motion": "MO07_RULE_DRAW",
+      "mobile_transform": "MB18_MINIMAL_REFLOW",
+      "structural_signature": "FAQ|GT07_THREE_ZONE_EQUAL|SH15_RAIL_PLUS_CANVAS|GT07_THREE_ZONE_EQUAL|TA11_SIDE_RAIL_RIGHT|AL01_LEFT|CF14_DIAGONAL_READING|TM08_MARGIN_NOTE_DOMINANT|VA01_TOP|MT01_NONE|MD02_SUBTLE|CG08_LIST_ROWS|SF11_RULE_DRIVEN|EO05_FLOATING_PANEL|DN09_COPY_DENSE_MEDIA_LIGHT|TR03_OVERLAPPING_EDGE|CP12_NO_PRIMARY_CTA|AN06_INLINE_FACT_TAGS|IP01_STATIC|MO07_RULE_DRAW|MB18_MINIMAL_REFLOW",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    },
+    {
+      "id": "Q024",
+      "role": "FAQ",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT07_THREE_ZONE_EQUAL",
+      "text_anchor": "TA10_SIDE_RAIL_LEFT",
+      "text_alignment": "AL06_MIXED_HEADING_RIGHT_BODY_LEFT",
+      "copy_flow": "CF05_TOP_HEAVY_SPREAD",
+      "text_measure": "TM01_XNARROW",
+      "vertical_alignment": "VA06_MEDIA_CENTER_COPY_TOP",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD01_NONE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO04_CROPPED_EDGE",
+      "density": "DN02_BALANCED",
+      "transition": "TR08_QUIET_TO_STAGE",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN05_COORDINATE_LABELS",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO04_MEDIA_MOTION_LITE",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "FAQ|GT02_BALANCED_SPLIT|SH03_CONTAINED_WIDE|GT07_THREE_ZONE_EQUAL|TA10_SIDE_RAIL_LEFT|AL06_MIXED_HEADING_RIGHT_BODY_LEFT|CF05_TOP_HEAVY_SPREAD|TM01_XNARROW|VA06_MEDIA_CENTER_COPY_TOP|MT23_GHOSTED_BACKPLATE|MD01_NONE|CG08_LIST_ROWS|SF06_TINTED_FIELD|EO04_CROPPED_EDGE|DN02_BALANCED|TR08_QUIET_TO_STAGE|CP01_INLINE_AFTER_COPY|AN05_COORDINATE_LABELS|IP10_EDITORIAL_ACCORDION|MO04_MEDIA_MOTION_LITE|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "questions",
+          "grouped_answers",
+          "topic_index"
+        ],
+        "avoid_if": [
+          "no_real_questions"
+        ]
+      }
+    }
+  ],
+  "CONTACT": [
+    {
+      "id": "K001",
+      "role": "CONTACT",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT16_LEDGER_ROWS",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL03_RIGHT",
+      "copy_flow": "CF04_SIDE_RAIL_CHAPTERS",
+      "text_measure": "TM02_NARROW",
+      "vertical_alignment": "VA03_BOTTOM",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF02_CONTRAST_BAND",
+      "edge_overlap": "EO03_CONTROLLED_OVERLAP",
+      "density": "DN03_SPACIOUS_EARNED",
+      "transition": "TR05_DIAGONAL_HANDOFF",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN04_MARGIN_LABELS",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO03_SUBTLE_REVEAL",
+      "mobile_transform": "MB02_STACK_MEDIA_FIRST",
+      "structural_signature": "CONTACT|GT02_BALANCED_SPLIT|SH03_CONTAINED_WIDE|GT16_LEDGER_ROWS|TA02_TOP_CENTER|AL03_RIGHT|CF04_SIDE_RAIL_CHAPTERS|TM02_NARROW|VA03_BOTTOM|MT03_SUPPORTING_SINGLE|MD02_SUBTLE|CG08_LIST_ROWS|SF02_CONTRAST_BAND|EO03_CONTROLLED_OVERLAP|DN03_SPACIOUS_EARNED|TR05_DIAGONAL_HANDOFF|CP03_BOTTOM_LEFT|AN04_MARGIN_LABELS|IP10_EDITORIAL_ACCORDION|MO03_SUBTLE_REVEAL|MB02_STACK_MEDIA_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K002",
+      "role": "CONTACT",
+      "topology_cluster": "GT08_THREE_ZONE_ASYMMETRIC",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT08_THREE_ZONE_ASYMMETRIC",
+      "text_anchor": "TA06_CENTER_RIGHT",
+      "text_alignment": "AL08_AXIS_DEPENDENT",
+      "copy_flow": "CF11_MARGIN_NOTES",
+      "text_measure": "TM05_WIDE",
+      "vertical_alignment": "VA08_EDGE_ANCHORED",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO02_MEDIA_BLEED",
+      "density": "DN06_COMPACT_TOP_SPACIOUS_BOTTOM",
+      "transition": "TR10_SHARED_BACKGROUND",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN03_ROMAN_CHAPTERS",
+      "interaction": "IP01_STATIC",
+      "motion": "MO10_STATIC_STRONG",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "CONTACT|GT08_THREE_ZONE_ASYMMETRIC|SH02_CONTAINED_STANDARD|GT08_THREE_ZONE_ASYMMETRIC|TA06_CENTER_RIGHT|AL08_AXIS_DEPENDENT|CF11_MARGIN_NOTES|TM05_WIDE|VA08_EDGE_ANCHORED|MT01_NONE|MD02_SUBTLE|CG08_LIST_ROWS|SF06_TINTED_FIELD|EO02_MEDIA_BLEED|DN06_COMPACT_TOP_SPACIOUS_BOTTOM|TR10_SHARED_BACKGROUND|CP01_INLINE_AFTER_COPY|AN03_ROMAN_CHAPTERS|IP01_STATIC|MO10_STATIC_STRONG|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K003",
+      "role": "CONTACT",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH16_BANDED_CANVAS",
+      "grid_topology": "GT02_BALANCED_SPLIT",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL05_MIXED_HEADING_CENTER_BODY_LEFT",
+      "copy_flow": "CF02_STAGGERED_COLUMNS",
+      "text_measure": "TM08_MARGIN_NOTE_DOMINANT",
+      "vertical_alignment": "VA05_BASELINE",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO01_CLEAN_CONTAINED",
+      "density": "DN09_COPY_DENSE_MEDIA_LIGHT",
+      "transition": "TR01_HARD_CUT",
+      "cta_position": "CP09_TOP_RIGHT",
+      "annotation": "AN02_NUMERIC_INDEX",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO07_RULE_DRAW",
+      "mobile_transform": "MB17_THREE_ZONE_TO_FEATURE_PLUS_LIST",
+      "structural_signature": "CONTACT|GT16_LEDGER_ROWS|SH16_BANDED_CANVAS|GT02_BALANCED_SPLIT|TA01_TOP_LEFT|AL05_MIXED_HEADING_CENTER_BODY_LEFT|CF02_STAGGERED_COLUMNS|TM08_MARGIN_NOTE_DOMINANT|VA05_BASELINE|MT23_GHOSTED_BACKPLATE|MD02_SUBTLE|CG08_LIST_ROWS|SF01_CONTINUOUS|EO01_CLEAN_CONTAINED|DN09_COPY_DENSE_MEDIA_LIGHT|TR01_HARD_CUT|CP09_TOP_RIGHT|AN02_NUMERIC_INDEX|IP07_CONTENT_TABS|MO07_RULE_DRAW|MB17_THREE_ZONE_TO_FEATURE_PLUS_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K004",
+      "role": "CONTACT",
+      "topology_cluster": "GT24_EDITORIAL_SPREAD",
+      "shell": "SH07_INSET_ISLAND",
+      "grid_topology": "GT12_RAIL_AND_STAGE",
+      "text_anchor": "TA04_CENTER_LEFT",
+      "text_alignment": "AL02_CENTER",
+      "copy_flow": "CF09_INDEX_THEN_EXPAND",
+      "text_measure": "TM01_XNARROW",
+      "vertical_alignment": "VA02_CENTER",
+      "media_topology": "MT15_OBJECT_PEDESTAL",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO12_NO_FRAME",
+      "density": "DN02_BALANCED",
+      "transition": "TR06_CONTINUOUS_GRID",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN01_NONE",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO04_MEDIA_MOTION_LITE",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "CONTACT|GT24_EDITORIAL_SPREAD|SH07_INSET_ISLAND|GT12_RAIL_AND_STAGE|TA04_CENTER_LEFT|AL02_CENTER|CF09_INDEX_THEN_EXPAND|TM01_XNARROW|VA02_CENTER|MT15_OBJECT_PEDESTAL|MD02_SUBTLE|CG08_LIST_ROWS|SF05_OUTLINED_FIELD|EO12_NO_FRAME|DN02_BALANCED|TR06_CONTINUOUS_GRID|CP04_BOTTOM_CENTER|AN01_NONE|IP10_EDITORIAL_ACCORDION|MO04_MEDIA_MOTION_LITE|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K005",
+      "role": "CONTACT",
+      "topology_cluster": "GT22_VARIABLE_WIDTH_BANDS",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT22_VARIABLE_WIDTH_BANDS",
+      "text_anchor": "TA17_SPLIT_ANCHORS",
+      "text_alignment": "AL07_JUSTIFIED_EDITORIAL",
+      "copy_flow": "CF16_QUIET_TO_DENSE",
+      "text_measure": "TM04_BALANCED",
+      "vertical_alignment": "VA07_MEDIA_TOP_COPY_BOTTOM",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF13_NESTED_SURFACES",
+      "edge_overlap": "EO11_LAYERED_BORDER",
+      "density": "DN05_MIXED_DENSITY",
+      "transition": "TR11_OBJECT_CONTINUATION",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN12_SECTION_COUNTER",
+      "interaction": "IP01_STATIC",
+      "motion": "MO01_NONE",
+      "mobile_transform": "MB02_STACK_MEDIA_FIRST",
+      "structural_signature": "CONTACT|GT22_VARIABLE_WIDTH_BANDS|SH03_CONTAINED_WIDE|GT22_VARIABLE_WIDTH_BANDS|TA17_SPLIT_ANCHORS|AL07_JUSTIFIED_EDITORIAL|CF16_QUIET_TO_DENSE|TM04_BALANCED|VA07_MEDIA_TOP_COPY_BOTTOM|MT03_SUPPORTING_SINGLE|MD02_SUBTLE|CG08_LIST_ROWS|SF13_NESTED_SURFACES|EO11_LAYERED_BORDER|DN05_MIXED_DENSITY|TR11_OBJECT_CONTINUATION|CP03_BOTTOM_LEFT|AN12_SECTION_COUNTER|IP01_STATIC|MO01_NONE|MB02_STACK_MEDIA_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K006",
+      "role": "CONTACT",
+      "topology_cluster": "GT12_RAIL_AND_STAGE",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT24_EDITORIAL_SPREAD",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL04_MIXED_HEADING_LEFT_BODY_CENTER",
+      "copy_flow": "CF07_ZIGZAG",
+      "text_measure": "TM07_VARIABLE",
+      "vertical_alignment": "VA04_STAGGERED",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF02_CONTRAST_BAND",
+      "edge_overlap": "EO10_OBJECT_OVERFLOW",
+      "density": "DN08_MEDIA_DENSE_COPY_LIGHT",
+      "transition": "TR02_POLARITY_FLIP",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN11_EDGE_CAPTIONS",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO08_OBJECT_DRIFT_LITE",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "CONTACT|GT12_RAIL_AND_STAGE|SH02_CONTAINED_STANDARD|GT24_EDITORIAL_SPREAD|TA02_TOP_CENTER|AL04_MIXED_HEADING_LEFT_BODY_CENTER|CF07_ZIGZAG|TM07_VARIABLE|VA04_STAGGERED|MT01_NONE|MD02_SUBTLE|CG08_LIST_ROWS|SF02_CONTRAST_BAND|EO10_OBJECT_OVERFLOW|DN08_MEDIA_DENSE_COPY_LIGHT|TR02_POLARITY_FLIP|CP01_INLINE_AFTER_COPY|AN11_EDGE_CAPTIONS|IP07_CONTENT_TABS|MO08_OBJECT_DRIFT_LITE|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K007",
+      "role": "CONTACT",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH16_BANDED_CANVAS",
+      "grid_topology": "GT16_LEDGER_ROWS",
+      "text_anchor": "TA06_CENTER_RIGHT",
+      "text_alignment": "AL01_LEFT",
+      "copy_flow": "CF14_DIAGONAL_READING",
+      "text_measure": "TM10_HEADING_NARROW_BODY_WIDE",
+      "vertical_alignment": "VA01_TOP",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO09_TOP_RULE",
+      "density": "DN01_COMPACT",
+      "transition": "TR07_FADE_TO_QUIET",
+      "cta_position": "CP09_TOP_RIGHT",
+      "annotation": "AN10_SOURCE_NOTES",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO05_PROGRESS_LINKED_LITE",
+      "mobile_transform": "MB17_THREE_ZONE_TO_FEATURE_PLUS_LIST",
+      "structural_signature": "CONTACT|GT02_BALANCED_SPLIT|SH16_BANDED_CANVAS|GT16_LEDGER_ROWS|TA06_CENTER_RIGHT|AL01_LEFT|CF14_DIAGONAL_READING|TM10_HEADING_NARROW_BODY_WIDE|VA01_TOP|MT23_GHOSTED_BACKPLATE|MD02_SUBTLE|CG08_LIST_ROWS|SF06_TINTED_FIELD|EO09_TOP_RULE|DN01_COMPACT|TR07_FADE_TO_QUIET|CP09_TOP_RIGHT|AN10_SOURCE_NOTES|IP10_EDITORIAL_ACCORDION|MO05_PROGRESS_LINKED_LITE|MB17_THREE_ZONE_TO_FEATURE_PLUS_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K008",
+      "role": "CONTACT",
+      "topology_cluster": "GT08_THREE_ZONE_ASYMMETRIC",
+      "shell": "SH07_INSET_ISLAND",
+      "grid_topology": "GT08_THREE_ZONE_ASYMMETRIC",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL06_MIXED_HEADING_RIGHT_BODY_LEFT",
+      "copy_flow": "CF05_TOP_HEAVY_SPREAD",
+      "text_measure": "TM03_EDITORIAL",
+      "vertical_alignment": "VA06_MEDIA_CENTER_COPY_TOP",
+      "media_topology": "MT15_OBJECT_PEDESTAL",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO08_SIDE_RULE",
+      "density": "DN04_DENSE_EDITORIAL",
+      "transition": "TR12_SPACING_COMPRESSION",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN09_PROGRESS_MARKERS",
+      "interaction": "IP01_STATIC",
+      "motion": "MO02_MICRO_ONLY",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "CONTACT|GT08_THREE_ZONE_ASYMMETRIC|SH07_INSET_ISLAND|GT08_THREE_ZONE_ASYMMETRIC|TA01_TOP_LEFT|AL06_MIXED_HEADING_RIGHT_BODY_LEFT|CF05_TOP_HEAVY_SPREAD|TM03_EDITORIAL|VA06_MEDIA_CENTER_COPY_TOP|MT15_OBJECT_PEDESTAL|MD02_SUBTLE|CG08_LIST_ROWS|SF01_CONTINUOUS|EO08_SIDE_RULE|DN04_DENSE_EDITORIAL|TR12_SPACING_COMPRESSION|CP04_BOTTOM_CENTER|AN09_PROGRESS_MARKERS|IP01_STATIC|MO02_MICRO_ONLY|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K009",
+      "role": "CONTACT",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT02_BALANCED_SPLIT",
+      "text_anchor": "TA04_CENTER_LEFT",
+      "text_alignment": "AL03_RIGHT",
+      "copy_flow": "CF12_FLOATING_ASIDES",
+      "text_measure": "TM06_FULL_BAND",
+      "vertical_alignment": "VA03_BOTTOM",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO07_OPEN_FRAME",
+      "density": "DN07_SPACIOUS_TOP_DENSE_BOTTOM",
+      "transition": "TR03_OVERLAPPING_EDGE",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN08_SIDE_GLOSSARY",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO09_STAGGERED_ENTRY",
+      "mobile_transform": "MB02_STACK_MEDIA_FIRST",
+      "structural_signature": "CONTACT|GT16_LEDGER_ROWS|SH03_CONTAINED_WIDE|GT02_BALANCED_SPLIT|TA04_CENTER_LEFT|AL03_RIGHT|CF12_FLOATING_ASIDES|TM06_FULL_BAND|VA03_BOTTOM|MT03_SUPPORTING_SINGLE|MD02_SUBTLE|CG08_LIST_ROWS|SF05_OUTLINED_FIELD|EO07_OPEN_FRAME|DN07_SPACIOUS_TOP_DENSE_BOTTOM|TR03_OVERLAPPING_EDGE|CP03_BOTTOM_LEFT|AN08_SIDE_GLOSSARY|IP07_CONTENT_TABS|MO09_STAGGERED_ENTRY|MB02_STACK_MEDIA_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K010",
+      "role": "CONTACT",
+      "topology_cluster": "GT24_EDITORIAL_SPREAD",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT12_RAIL_AND_STAGE",
+      "text_anchor": "TA17_SPLIT_ANCHORS",
+      "text_alignment": "AL08_AXIS_DEPENDENT",
+      "copy_flow": "CF03_CENTER_SPINE",
+      "text_measure": "TM09_HEADING_WIDE_BODY_NARROW",
+      "vertical_alignment": "VA08_EDGE_ANCHORED",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF13_NESTED_SURFACES",
+      "edge_overlap": "EO06_INTERLOCKING_SECTIONS",
+      "density": "DN10_MICRO_MACRO_CONTRAST",
+      "transition": "TR08_QUIET_TO_STAGE",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN07_CALLOUT_LEADERS",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO06_CONTROLLED_STAGE",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "CONTACT|GT24_EDITORIAL_SPREAD|SH02_CONTAINED_STANDARD|GT12_RAIL_AND_STAGE|TA17_SPLIT_ANCHORS|AL08_AXIS_DEPENDENT|CF03_CENTER_SPINE|TM09_HEADING_WIDE_BODY_NARROW|VA08_EDGE_ANCHORED|MT01_NONE|MD02_SUBTLE|CG08_LIST_ROWS|SF13_NESTED_SURFACES|EO06_INTERLOCKING_SECTIONS|DN10_MICRO_MACRO_CONTRAST|TR08_QUIET_TO_STAGE|CP01_INLINE_AFTER_COPY|AN07_CALLOUT_LEADERS|IP10_EDITORIAL_ACCORDION|MO06_CONTROLLED_STAGE|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K011",
+      "role": "CONTACT",
+      "topology_cluster": "GT22_VARIABLE_WIDTH_BANDS",
+      "shell": "SH16_BANDED_CANVAS",
+      "grid_topology": "GT22_VARIABLE_WIDTH_BANDS",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL05_MIXED_HEADING_CENTER_BODY_LEFT",
+      "copy_flow": "CF10_LEDGER",
+      "text_measure": "TM02_NARROW",
+      "vertical_alignment": "VA05_BASELINE",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF02_CONTRAST_BAND",
+      "edge_overlap": "EO05_FLOATING_PANEL",
+      "density": "DN03_SPACIOUS_EARNED",
+      "transition": "TR13_BAND_TO_CANVAS",
+      "cta_position": "CP09_TOP_RIGHT",
+      "annotation": "AN06_INLINE_FACT_TAGS",
+      "interaction": "IP01_STATIC",
+      "motion": "MO03_SUBTLE_REVEAL",
+      "mobile_transform": "MB17_THREE_ZONE_TO_FEATURE_PLUS_LIST",
+      "structural_signature": "CONTACT|GT22_VARIABLE_WIDTH_BANDS|SH16_BANDED_CANVAS|GT22_VARIABLE_WIDTH_BANDS|TA02_TOP_CENTER|AL05_MIXED_HEADING_CENTER_BODY_LEFT|CF10_LEDGER|TM02_NARROW|VA05_BASELINE|MT23_GHOSTED_BACKPLATE|MD02_SUBTLE|CG08_LIST_ROWS|SF02_CONTRAST_BAND|EO05_FLOATING_PANEL|DN03_SPACIOUS_EARNED|TR13_BAND_TO_CANVAS|CP09_TOP_RIGHT|AN06_INLINE_FACT_TAGS|IP01_STATIC|MO03_SUBTLE_REVEAL|MB17_THREE_ZONE_TO_FEATURE_PLUS_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K012",
+      "role": "CONTACT",
+      "topology_cluster": "GT12_RAIL_AND_STAGE",
+      "shell": "SH07_INSET_ISLAND",
+      "grid_topology": "GT24_EDITORIAL_SPREAD",
+      "text_anchor": "TA06_CENTER_RIGHT",
+      "text_alignment": "AL02_CENTER",
+      "copy_flow": "CF01_LINEAR",
+      "text_measure": "TM05_WIDE",
+      "vertical_alignment": "VA02_CENTER",
+      "media_topology": "MT15_OBJECT_PEDESTAL",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO04_CROPPED_EDGE",
+      "density": "DN06_COMPACT_TOP_SPACIOUS_BOTTOM",
+      "transition": "TR04_MEDIA_BRIDGE",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN05_COORDINATE_LABELS",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO10_STATIC_STRONG",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "CONTACT|GT12_RAIL_AND_STAGE|SH07_INSET_ISLAND|GT24_EDITORIAL_SPREAD|TA06_CENTER_RIGHT|AL02_CENTER|CF01_LINEAR|TM05_WIDE|VA02_CENTER|MT15_OBJECT_PEDESTAL|MD02_SUBTLE|CG08_LIST_ROWS|SF06_TINTED_FIELD|EO04_CROPPED_EDGE|DN06_COMPACT_TOP_SPACIOUS_BOTTOM|TR04_MEDIA_BRIDGE|CP04_BOTTOM_CENTER|AN05_COORDINATE_LABELS|IP07_CONTENT_TABS|MO10_STATIC_STRONG|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K013",
+      "role": "CONTACT",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT16_LEDGER_ROWS",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL07_JUSTIFIED_EDITORIAL",
+      "copy_flow": "CF08_SERPENTINE",
+      "text_measure": "TM08_MARGIN_NOTE_DOMINANT",
+      "vertical_alignment": "VA07_MEDIA_TOP_COPY_BOTTOM",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO03_CONTROLLED_OVERLAP",
+      "density": "DN09_COPY_DENSE_MEDIA_LIGHT",
+      "transition": "TR09_RULE_HANDOFF",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN04_MARGIN_LABELS",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO07_RULE_DRAW",
+      "mobile_transform": "MB02_STACK_MEDIA_FIRST",
+      "structural_signature": "CONTACT|GT02_BALANCED_SPLIT|SH03_CONTAINED_WIDE|GT16_LEDGER_ROWS|TA01_TOP_LEFT|AL07_JUSTIFIED_EDITORIAL|CF08_SERPENTINE|TM08_MARGIN_NOTE_DOMINANT|VA07_MEDIA_TOP_COPY_BOTTOM|MT03_SUPPORTING_SINGLE|MD02_SUBTLE|CG08_LIST_ROWS|SF01_CONTINUOUS|EO03_CONTROLLED_OVERLAP|DN09_COPY_DENSE_MEDIA_LIGHT|TR09_RULE_HANDOFF|CP03_BOTTOM_LEFT|AN04_MARGIN_LABELS|IP10_EDITORIAL_ACCORDION|MO07_RULE_DRAW|MB02_STACK_MEDIA_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K014",
+      "role": "CONTACT",
+      "topology_cluster": "GT08_THREE_ZONE_ASYMMETRIC",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT08_THREE_ZONE_ASYMMETRIC",
+      "text_anchor": "TA04_CENTER_LEFT",
+      "text_alignment": "AL04_MIXED_HEADING_LEFT_BODY_CENTER",
+      "copy_flow": "CF15_DENSE_TO_QUIET",
+      "text_measure": "TM01_XNARROW",
+      "vertical_alignment": "VA04_STAGGERED",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO02_MEDIA_BLEED",
+      "density": "DN02_BALANCED",
+      "transition": "TR14_CANVAS_TO_RAIL",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN03_ROMAN_CHAPTERS",
+      "interaction": "IP01_STATIC",
+      "motion": "MO04_MEDIA_MOTION_LITE",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "CONTACT|GT08_THREE_ZONE_ASYMMETRIC|SH02_CONTAINED_STANDARD|GT08_THREE_ZONE_ASYMMETRIC|TA04_CENTER_LEFT|AL04_MIXED_HEADING_LEFT_BODY_CENTER|CF15_DENSE_TO_QUIET|TM01_XNARROW|VA04_STAGGERED|MT01_NONE|MD02_SUBTLE|CG08_LIST_ROWS|SF05_OUTLINED_FIELD|EO02_MEDIA_BLEED|DN02_BALANCED|TR14_CANVAS_TO_RAIL|CP01_INLINE_AFTER_COPY|AN03_ROMAN_CHAPTERS|IP01_STATIC|MO04_MEDIA_MOTION_LITE|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K015",
+      "role": "CONTACT",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH16_BANDED_CANVAS",
+      "grid_topology": "GT02_BALANCED_SPLIT",
+      "text_anchor": "TA17_SPLIT_ANCHORS",
+      "text_alignment": "AL01_LEFT",
+      "copy_flow": "CF06_BOTTOM_ANCHORED",
+      "text_measure": "TM04_BALANCED",
+      "vertical_alignment": "VA01_TOP",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF13_NESTED_SURFACES",
+      "edge_overlap": "EO01_CLEAN_CONTAINED",
+      "density": "DN05_MIXED_DENSITY",
+      "transition": "TR05_DIAGONAL_HANDOFF",
+      "cta_position": "CP09_TOP_RIGHT",
+      "annotation": "AN02_NUMERIC_INDEX",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO01_NONE",
+      "mobile_transform": "MB17_THREE_ZONE_TO_FEATURE_PLUS_LIST",
+      "structural_signature": "CONTACT|GT16_LEDGER_ROWS|SH16_BANDED_CANVAS|GT02_BALANCED_SPLIT|TA17_SPLIT_ANCHORS|AL01_LEFT|CF06_BOTTOM_ANCHORED|TM04_BALANCED|VA01_TOP|MT23_GHOSTED_BACKPLATE|MD02_SUBTLE|CG08_LIST_ROWS|SF13_NESTED_SURFACES|EO01_CLEAN_CONTAINED|DN05_MIXED_DENSITY|TR05_DIAGONAL_HANDOFF|CP09_TOP_RIGHT|AN02_NUMERIC_INDEX|IP07_CONTENT_TABS|MO01_NONE|MB17_THREE_ZONE_TO_FEATURE_PLUS_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K016",
+      "role": "CONTACT",
+      "topology_cluster": "GT24_EDITORIAL_SPREAD",
+      "shell": "SH07_INSET_ISLAND",
+      "grid_topology": "GT12_RAIL_AND_STAGE",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL06_MIXED_HEADING_RIGHT_BODY_LEFT",
+      "copy_flow": "CF13_CHAPTER_BANDS",
+      "text_measure": "TM07_VARIABLE",
+      "vertical_alignment": "VA06_MEDIA_CENTER_COPY_TOP",
+      "media_topology": "MT15_OBJECT_PEDESTAL",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF02_CONTRAST_BAND",
+      "edge_overlap": "EO12_NO_FRAME",
+      "density": "DN08_MEDIA_DENSE_COPY_LIGHT",
+      "transition": "TR10_SHARED_BACKGROUND",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN01_NONE",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO08_OBJECT_DRIFT_LITE",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "CONTACT|GT24_EDITORIAL_SPREAD|SH07_INSET_ISLAND|GT12_RAIL_AND_STAGE|TA02_TOP_CENTER|AL06_MIXED_HEADING_RIGHT_BODY_LEFT|CF13_CHAPTER_BANDS|TM07_VARIABLE|VA06_MEDIA_CENTER_COPY_TOP|MT15_OBJECT_PEDESTAL|MD02_SUBTLE|CG08_LIST_ROWS|SF02_CONTRAST_BAND|EO12_NO_FRAME|DN08_MEDIA_DENSE_COPY_LIGHT|TR10_SHARED_BACKGROUND|CP04_BOTTOM_CENTER|AN01_NONE|IP10_EDITORIAL_ACCORDION|MO08_OBJECT_DRIFT_LITE|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K017",
+      "role": "CONTACT",
+      "topology_cluster": "GT22_VARIABLE_WIDTH_BANDS",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT22_VARIABLE_WIDTH_BANDS",
+      "text_anchor": "TA06_CENTER_RIGHT",
+      "text_alignment": "AL03_RIGHT",
+      "copy_flow": "CF04_SIDE_RAIL_CHAPTERS",
+      "text_measure": "TM10_HEADING_NARROW_BODY_WIDE",
+      "vertical_alignment": "VA03_BOTTOM",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO11_LAYERED_BORDER",
+      "density": "DN01_COMPACT",
+      "transition": "TR01_HARD_CUT",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN12_SECTION_COUNTER",
+      "interaction": "IP01_STATIC",
+      "motion": "MO05_PROGRESS_LINKED_LITE",
+      "mobile_transform": "MB02_STACK_MEDIA_FIRST",
+      "structural_signature": "CONTACT|GT22_VARIABLE_WIDTH_BANDS|SH03_CONTAINED_WIDE|GT22_VARIABLE_WIDTH_BANDS|TA06_CENTER_RIGHT|AL03_RIGHT|CF04_SIDE_RAIL_CHAPTERS|TM10_HEADING_NARROW_BODY_WIDE|VA03_BOTTOM|MT03_SUPPORTING_SINGLE|MD02_SUBTLE|CG08_LIST_ROWS|SF06_TINTED_FIELD|EO11_LAYERED_BORDER|DN01_COMPACT|TR01_HARD_CUT|CP03_BOTTOM_LEFT|AN12_SECTION_COUNTER|IP01_STATIC|MO05_PROGRESS_LINKED_LITE|MB02_STACK_MEDIA_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K018",
+      "role": "CONTACT",
+      "topology_cluster": "GT12_RAIL_AND_STAGE",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT24_EDITORIAL_SPREAD",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL08_AXIS_DEPENDENT",
+      "copy_flow": "CF11_MARGIN_NOTES",
+      "text_measure": "TM03_EDITORIAL",
+      "vertical_alignment": "VA08_EDGE_ANCHORED",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO10_OBJECT_OVERFLOW",
+      "density": "DN04_DENSE_EDITORIAL",
+      "transition": "TR06_CONTINUOUS_GRID",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN11_EDGE_CAPTIONS",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO02_MICRO_ONLY",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "CONTACT|GT12_RAIL_AND_STAGE|SH02_CONTAINED_STANDARD|GT24_EDITORIAL_SPREAD|TA01_TOP_LEFT|AL08_AXIS_DEPENDENT|CF11_MARGIN_NOTES|TM03_EDITORIAL|VA08_EDGE_ANCHORED|MT01_NONE|MD02_SUBTLE|CG08_LIST_ROWS|SF01_CONTINUOUS|EO10_OBJECT_OVERFLOW|DN04_DENSE_EDITORIAL|TR06_CONTINUOUS_GRID|CP01_INLINE_AFTER_COPY|AN11_EDGE_CAPTIONS|IP07_CONTENT_TABS|MO02_MICRO_ONLY|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K019",
+      "role": "CONTACT",
+      "topology_cluster": "GT02_BALANCED_SPLIT",
+      "shell": "SH16_BANDED_CANVAS",
+      "grid_topology": "GT16_LEDGER_ROWS",
+      "text_anchor": "TA04_CENTER_LEFT",
+      "text_alignment": "AL05_MIXED_HEADING_CENTER_BODY_LEFT",
+      "copy_flow": "CF02_STAGGERED_COLUMNS",
+      "text_measure": "TM06_FULL_BAND",
+      "vertical_alignment": "VA05_BASELINE",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO09_TOP_RULE",
+      "density": "DN07_SPACIOUS_TOP_DENSE_BOTTOM",
+      "transition": "TR11_OBJECT_CONTINUATION",
+      "cta_position": "CP09_TOP_RIGHT",
+      "annotation": "AN10_SOURCE_NOTES",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO09_STAGGERED_ENTRY",
+      "mobile_transform": "MB17_THREE_ZONE_TO_FEATURE_PLUS_LIST",
+      "structural_signature": "CONTACT|GT02_BALANCED_SPLIT|SH16_BANDED_CANVAS|GT16_LEDGER_ROWS|TA04_CENTER_LEFT|AL05_MIXED_HEADING_CENTER_BODY_LEFT|CF02_STAGGERED_COLUMNS|TM06_FULL_BAND|VA05_BASELINE|MT23_GHOSTED_BACKPLATE|MD02_SUBTLE|CG08_LIST_ROWS|SF05_OUTLINED_FIELD|EO09_TOP_RULE|DN07_SPACIOUS_TOP_DENSE_BOTTOM|TR11_OBJECT_CONTINUATION|CP09_TOP_RIGHT|AN10_SOURCE_NOTES|IP10_EDITORIAL_ACCORDION|MO09_STAGGERED_ENTRY|MB17_THREE_ZONE_TO_FEATURE_PLUS_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K020",
+      "role": "CONTACT",
+      "topology_cluster": "GT08_THREE_ZONE_ASYMMETRIC",
+      "shell": "SH07_INSET_ISLAND",
+      "grid_topology": "GT08_THREE_ZONE_ASYMMETRIC",
+      "text_anchor": "TA17_SPLIT_ANCHORS",
+      "text_alignment": "AL02_CENTER",
+      "copy_flow": "CF09_INDEX_THEN_EXPAND",
+      "text_measure": "TM09_HEADING_WIDE_BODY_NARROW",
+      "vertical_alignment": "VA02_CENTER",
+      "media_topology": "MT15_OBJECT_PEDESTAL",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF13_NESTED_SURFACES",
+      "edge_overlap": "EO08_SIDE_RULE",
+      "density": "DN10_MICRO_MACRO_CONTRAST",
+      "transition": "TR02_POLARITY_FLIP",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN09_PROGRESS_MARKERS",
+      "interaction": "IP01_STATIC",
+      "motion": "MO06_CONTROLLED_STAGE",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "CONTACT|GT08_THREE_ZONE_ASYMMETRIC|SH07_INSET_ISLAND|GT08_THREE_ZONE_ASYMMETRIC|TA17_SPLIT_ANCHORS|AL02_CENTER|CF09_INDEX_THEN_EXPAND|TM09_HEADING_WIDE_BODY_NARROW|VA02_CENTER|MT15_OBJECT_PEDESTAL|MD02_SUBTLE|CG08_LIST_ROWS|SF13_NESTED_SURFACES|EO08_SIDE_RULE|DN10_MICRO_MACRO_CONTRAST|TR02_POLARITY_FLIP|CP04_BOTTOM_CENTER|AN09_PROGRESS_MARKERS|IP01_STATIC|MO06_CONTROLLED_STAGE|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K021",
+      "role": "CONTACT",
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "shell": "SH03_CONTAINED_WIDE",
+      "grid_topology": "GT02_BALANCED_SPLIT",
+      "text_anchor": "TA02_TOP_CENTER",
+      "text_alignment": "AL07_JUSTIFIED_EDITORIAL",
+      "copy_flow": "CF16_QUIET_TO_DENSE",
+      "text_measure": "TM02_NARROW",
+      "vertical_alignment": "VA07_MEDIA_TOP_COPY_BOTTOM",
+      "media_topology": "MT03_SUPPORTING_SINGLE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF02_CONTRAST_BAND",
+      "edge_overlap": "EO07_OPEN_FRAME",
+      "density": "DN03_SPACIOUS_EARNED",
+      "transition": "TR07_FADE_TO_QUIET",
+      "cta_position": "CP03_BOTTOM_LEFT",
+      "annotation": "AN08_SIDE_GLOSSARY",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO03_SUBTLE_REVEAL",
+      "mobile_transform": "MB02_STACK_MEDIA_FIRST",
+      "structural_signature": "CONTACT|GT16_LEDGER_ROWS|SH03_CONTAINED_WIDE|GT02_BALANCED_SPLIT|TA02_TOP_CENTER|AL07_JUSTIFIED_EDITORIAL|CF16_QUIET_TO_DENSE|TM02_NARROW|VA07_MEDIA_TOP_COPY_BOTTOM|MT03_SUPPORTING_SINGLE|MD02_SUBTLE|CG08_LIST_ROWS|SF02_CONTRAST_BAND|EO07_OPEN_FRAME|DN03_SPACIOUS_EARNED|TR07_FADE_TO_QUIET|CP03_BOTTOM_LEFT|AN08_SIDE_GLOSSARY|IP07_CONTENT_TABS|MO03_SUBTLE_REVEAL|MB02_STACK_MEDIA_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K022",
+      "role": "CONTACT",
+      "topology_cluster": "GT24_EDITORIAL_SPREAD",
+      "shell": "SH02_CONTAINED_STANDARD",
+      "grid_topology": "GT12_RAIL_AND_STAGE",
+      "text_anchor": "TA06_CENTER_RIGHT",
+      "text_alignment": "AL04_MIXED_HEADING_LEFT_BODY_CENTER",
+      "copy_flow": "CF07_ZIGZAG",
+      "text_measure": "TM05_WIDE",
+      "vertical_alignment": "VA04_STAGGERED",
+      "media_topology": "MT01_NONE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF06_TINTED_FIELD",
+      "edge_overlap": "EO06_INTERLOCKING_SECTIONS",
+      "density": "DN06_COMPACT_TOP_SPACIOUS_BOTTOM",
+      "transition": "TR12_SPACING_COMPRESSION",
+      "cta_position": "CP01_INLINE_AFTER_COPY",
+      "annotation": "AN07_CALLOUT_LEADERS",
+      "interaction": "IP10_EDITORIAL_ACCORDION",
+      "motion": "MO10_STATIC_STRONG",
+      "mobile_transform": "MB01_STACK_TEXT_FIRST",
+      "structural_signature": "CONTACT|GT24_EDITORIAL_SPREAD|SH02_CONTAINED_STANDARD|GT12_RAIL_AND_STAGE|TA06_CENTER_RIGHT|AL04_MIXED_HEADING_LEFT_BODY_CENTER|CF07_ZIGZAG|TM05_WIDE|VA04_STAGGERED|MT01_NONE|MD02_SUBTLE|CG08_LIST_ROWS|SF06_TINTED_FIELD|EO06_INTERLOCKING_SECTIONS|DN06_COMPACT_TOP_SPACIOUS_BOTTOM|TR12_SPACING_COMPRESSION|CP01_INLINE_AFTER_COPY|AN07_CALLOUT_LEADERS|IP10_EDITORIAL_ACCORDION|MO10_STATIC_STRONG|MB01_STACK_TEXT_FIRST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K023",
+      "role": "CONTACT",
+      "topology_cluster": "GT22_VARIABLE_WIDTH_BANDS",
+      "shell": "SH16_BANDED_CANVAS",
+      "grid_topology": "GT22_VARIABLE_WIDTH_BANDS",
+      "text_anchor": "TA01_TOP_LEFT",
+      "text_alignment": "AL01_LEFT",
+      "copy_flow": "CF14_DIAGONAL_READING",
+      "text_measure": "TM08_MARGIN_NOTE_DOMINANT",
+      "vertical_alignment": "VA01_TOP",
+      "media_topology": "MT23_GHOSTED_BACKPLATE",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF01_CONTINUOUS",
+      "edge_overlap": "EO05_FLOATING_PANEL",
+      "density": "DN09_COPY_DENSE_MEDIA_LIGHT",
+      "transition": "TR03_OVERLAPPING_EDGE",
+      "cta_position": "CP09_TOP_RIGHT",
+      "annotation": "AN06_INLINE_FACT_TAGS",
+      "interaction": "IP01_STATIC",
+      "motion": "MO07_RULE_DRAW",
+      "mobile_transform": "MB17_THREE_ZONE_TO_FEATURE_PLUS_LIST",
+      "structural_signature": "CONTACT|GT22_VARIABLE_WIDTH_BANDS|SH16_BANDED_CANVAS|GT22_VARIABLE_WIDTH_BANDS|TA01_TOP_LEFT|AL01_LEFT|CF14_DIAGONAL_READING|TM08_MARGIN_NOTE_DOMINANT|VA01_TOP|MT23_GHOSTED_BACKPLATE|MD02_SUBTLE|CG08_LIST_ROWS|SF01_CONTINUOUS|EO05_FLOATING_PANEL|DN09_COPY_DENSE_MEDIA_LIGHT|TR03_OVERLAPPING_EDGE|CP09_TOP_RIGHT|AN06_INLINE_FACT_TAGS|IP01_STATIC|MO07_RULE_DRAW|MB17_THREE_ZONE_TO_FEATURE_PLUS_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    },
+    {
+      "id": "K024",
+      "role": "CONTACT",
+      "topology_cluster": "GT12_RAIL_AND_STAGE",
+      "shell": "SH07_INSET_ISLAND",
+      "grid_topology": "GT24_EDITORIAL_SPREAD",
+      "text_anchor": "TA04_CENTER_LEFT",
+      "text_alignment": "AL06_MIXED_HEADING_RIGHT_BODY_LEFT",
+      "copy_flow": "CF05_TOP_HEAVY_SPREAD",
+      "text_measure": "TM01_XNARROW",
+      "vertical_alignment": "VA06_MEDIA_CENTER_COPY_TOP",
+      "media_topology": "MT15_OBJECT_PEDESTAL",
+      "media_dominance": "MD02_SUBTLE",
+      "card_geometry": "CG08_LIST_ROWS",
+      "surface": "SF05_OUTLINED_FIELD",
+      "edge_overlap": "EO04_CROPPED_EDGE",
+      "density": "DN02_BALANCED",
+      "transition": "TR08_QUIET_TO_STAGE",
+      "cta_position": "CP04_BOTTOM_CENTER",
+      "annotation": "AN05_COORDINATE_LABELS",
+      "interaction": "IP07_CONTENT_TABS",
+      "motion": "MO04_MEDIA_MOTION_LITE",
+      "mobile_transform": "MB14_LEDGER_TO_DENSE_LIST",
+      "structural_signature": "CONTACT|GT12_RAIL_AND_STAGE|SH07_INSET_ISLAND|GT24_EDITORIAL_SPREAD|TA04_CENTER_LEFT|AL06_MIXED_HEADING_RIGHT_BODY_LEFT|CF05_TOP_HEAVY_SPREAD|TM01_XNARROW|VA06_MEDIA_CENTER_COPY_TOP|MT15_OBJECT_PEDESTAL|MD02_SUBTLE|CG08_LIST_ROWS|SF05_OUTLINED_FIELD|EO04_CROPPED_EDGE|DN02_BALANCED|TR08_QUIET_TO_STAGE|CP04_BOTTOM_CENTER|AN05_COORDINATE_LABELS|IP07_CONTENT_TABS|MO04_MEDIA_MOTION_LITE|MB14_LEDGER_TO_DENSE_LIST",
+      "semantics": {
+        "preferred_content_shapes": [
+          "contact_fields",
+          "support_routes",
+          "location_context"
+        ],
+        "avoid_if": []
+      }
+    }
+  ]
+}
