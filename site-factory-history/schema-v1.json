@@ -1,11 +1,21 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
+  "canonical_path_pattern": "site-factory-history/sites/{normalized-domain}.json",
+  "lifecycle": {
+    "new_domain": "create canonical file after successful build QA",
+    "existing_domain": "update the same canonical file; do not create a duplicate",
+    "after_write": "update global index and refetch both files",
+    "pass_state": "STRUCTURAL_MEMORY_WRITE_PASS",
+    "failure_state": "STRUCTURAL_MEMORY_WRITE_BLOCKED"
+  },
   "required": [
     "domain",
     "geo",
     "locale",
     "niche",
     "created_at",
+    "updated_at",
+    "build_identity",
     "hero",
     "header",
     "footer",
@@ -13,7 +23,17 @@
     "key_pages",
     "interaction_profile",
     "mobile_profile",
-    "site_fingerprint"
+    "site_fingerprint",
+    "comparison_summary",
+    "revisions"
+  ],
+  "privacy_exclusions": [
+    "public page copy",
+    "prompts",
+    "credentials",
+    "secrets",
+    "private user data",
+    "unnecessary personal information"
   ],
   "example_shape": {
     "domain": "example.org",
@@ -21,19 +41,29 @@
     "locale": "pl-PL",
     "niche": "gaming",
     "created_at": "ISO-8601",
+    "updated_at": "ISO-8601",
+    "build_identity": {
+      "theme_package_slug": "example-theme",
+      "build_version": "1.0.0",
+      "structural_schema_version": "1.1"
+    },
     "hero": {
       "archetype_id": "H001",
       "topology_cluster": "GT12_RAIL_AND_STAGE",
       "text_anchor": "TA02_TOP_CENTER",
-      "media_topology": "MT19_PANORAMIC_BAND"
+      "media_topology": "MT19_PANORAMIC_BAND",
+      "title_scale_tier": "STANDARD",
+      "neutral_silhouette_hash": "string"
     },
     "header": {
       "family": "HDRxx",
-      "cluster": "HCxx"
+      "cluster": "HCxx",
+      "signature": "string"
     },
     "footer": {
       "archetype_id": "F001",
-      "topology_cluster": "GT16_LEDGER_ROWS"
+      "topology_cluster": "GT16_LEDGER_ROWS",
+      "signature": "string"
     },
     "home": {
       "page_rhythm_recipe": "Rxx",
@@ -51,6 +81,16 @@
         "GT16_LEDGER_ROWS",
         "GT24_EDITORIAL_SPREAD"
       ],
+      "content_anchor_sequence": [
+        "TA02_TOP_CENTER",
+        "TA01_TOP_LEFT",
+        "TA11_SIDE_RAIL_RIGHT"
+      ],
+      "media_topology_sequence": [
+        "MT19_PANORAMIC_BAND",
+        "MT01_NONE",
+        "MT08_DIPTYCH_UNEQUAL"
+      ],
       "bigram_signature": [
         "H001>T004",
         "T004>C021"
@@ -60,9 +100,42 @@
       ],
       "neutral_silhouette_hash": "string"
     },
-    "key_pages": [],
-    "interaction_profile": [],
-    "mobile_profile": [],
-    "site_fingerprint": "string"
+    "key_pages": [
+      {
+        "page_key": "about",
+        "opening_archetype": "L013",
+        "topology_sequence": [
+          "GT24_EDITORIAL_SPREAD",
+          "GT16_LEDGER_ROWS"
+        ],
+        "neutral_silhouette_hash": "string"
+      }
+    ],
+    "interaction_profile": [
+      "IP03_FEATURE_STAGE_THUMBS",
+      "IP10_EDITORIAL_ACCORDION"
+    ],
+    "mobile_profile": [
+      "MB02_STACK_MEDIA_FIRST",
+      "MB07_SIDE_RAIL_TO_TOP_INDEX"
+    ],
+    "site_fingerprint": "string",
+    "comparison_summary": {
+      "history_available": true,
+      "compared_site_count": 20,
+      "nearest_prior_domain": "example-two.org",
+      "nearest_similarity": 0.41,
+      "threshold": 0.72,
+      "reroll_count": 3,
+      "new_grammar_count": 0
+    },
+    "revisions": [
+      {
+        "build_version": "1.0.0",
+        "timestamp": "ISO-8601",
+        "structural_change": "INITIAL_BUILD",
+        "site_fingerprint": "string"
+      }
+    ]
   }
 }
