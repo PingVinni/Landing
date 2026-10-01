@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "required": [
+    "domain",
+    "geo",
+    "locale",
+    "niche",
+    "created_at",
+    "hero",
+    "header",
+    "footer",
+    "home",
+    "key_pages",
+    "interaction_profile",
+    "mobile_profile",
+    "site_fingerprint"
+  ],
+  "example_shape": {
+    "domain": "example.org",
+    "geo": "PL",
+    "locale": "pl-PL",
+    "niche": "gaming",
+    "created_at": "ISO-8601",
+    "hero": {
+      "archetype_id": "H001",
+      "topology_cluster": "GT12_RAIL_AND_STAGE",
+      "text_anchor": "TA02_TOP_CENTER",
+      "media_topology": "MT19_PANORAMIC_BAND"
+    },
+    "header": {
+      "family": "HDRxx",
+      "cluster": "HCxx"
+    },
+    "footer": {
+      "archetype_id": "F001",
+      "topology_cluster": "GT16_LEDGER_ROWS"
+    },
+    "home": {
+      "page_rhythm_recipe": "Rxx",
+      "section_archetypes": [
+        "H001",
+        "T004",
+        "C021",
+        "P013",
+        "M009",
+        "Q003",
+        "A008"
+      ],
+      "topology_sequence": [
+        "GT12_RAIL_AND_STAGE",
+        "GT16_LEDGER_ROWS",
+        "GT24_EDITORIAL_SPREAD"
+      ],
+      "bigram_signature": [
+        "H001>T004",
+        "T004>C021"
+      ],
+      "trigram_signature": [
+        "H001>T004>C021"
+      ],
+      "neutral_silhouette_hash": "string"
+    },
+    "key_pages": [],
+    "interaction_profile": [],
+    "mobile_profile": [],
+    "site_fingerprint": "string"
+  }
+}
