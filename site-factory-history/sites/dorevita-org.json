@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.1",
+  "domain": "dorevita.org",
+  "geo": "PL",
+  "locale": "pl-PL",
+  "niche": "gaming / casual match-3",
+  "created_at": "2026-10-01",
+  "updated_at": "2026-10-01",
+  "build_identity": {
+    "theme_package_slug": "dorevita-lollipop-pl",
+    "build_version": "1.0.0",
+    "structural_schema_version": "1.1"
+  },
+  "source": {
+    "package_id": "com.sengymobile.lcm",
+    "game_name": "Lollipop Candy Match",
+    "source_developer": "Sengy Mobile"
+  },
+  "hero": {
+    "archetype_id": "H006",
+    "topology_cluster": "GT24_EDITORIAL_SPREAD",
+    "text_anchor": "TA08_BOTTOM_CENTER",
+    "media_topology": "MT02_DOMINANT_SINGLE",
+    "title_scale_tier": "STANDARD",
+    "neutral_silhouette_hash": "full-bleed-media__bottom-centered-glass-copy__edge-index"
+  },
+  "header": {
+    "family": "HDR02",
+    "cluster": "HC01_SINGLE_ROW_BALANCED",
+    "signature": "brand-left__nav-right__compact-action__mobile-drawer"
+  },
+  "footer": {
+    "archetype_id": "F013",
+    "topology_cluster": "GT08_THREE_ZONE_ASYMMETRIC",
+    "signature": "four-zone-utility-grid__compact-bottom-bar"
+  },
+  "home": {
+    "page_rhythm_recipe": "R16_MEDIA_TRIPTYCH_PROOF_RAIL_EDITORIAL_RUNWAY_DIRECTORY_CTA",
+    "section_archetypes": [
+      "H006",
+      "T004",
+      "C036",
+      "P017",
+      "C032",
+      "M005",
+      "C035",
+      "C029",
+      "A005"
+    ],
+    "topology_sequence": [
+      "GT24_EDITORIAL_SPREAD",
+      "GT16_LEDGER_ROWS",
+      "GT19_CROSS_AXIS",
+      "GT17_TIMELINE_RUNWAY",
+      "GT12_RAIL_AND_STAGE",
+      "GT22_VARIABLE_WIDTH_BANDS",
+      "GT24_EDITORIAL_SPREAD",
+      "GT02_BALANCED_SPLIT",
+      "GT22_VARIABLE_WIDTH_BANDS"
+    ],
+    "content_anchor_sequence": [
+      "TA08_BOTTOM_CENTER",
+      "TA04_CENTER_LEFT",
+      "TA17_SPLIT_ANCHORS",
+      "TA02_TOP_CENTER",
+      "TA10_SIDE_RAIL_LEFT",
+      "TA09_BOTTOM_RIGHT",
+      "TA17_SPLIT_ANCHORS",
+      "TA06_CENTER_RIGHT",
+      "TA17_SPLIT_ANCHORS"
+    ],
+    "media_topology_sequence": [
+      "MT02_DOMINANT_SINGLE",
+      "MT23_GHOSTED_BACKPLATE",
+      "MT03_SUPPORTING_SINGLE",
+      "MT14_ANNOTATED_STAGE",
+      "MT13_THUMBNAIL_INDEX_STAGE",
+      "MT19_PANORAMIC_BAND",
+      "MT08_DIPTYCH_UNEQUAL",
+      "MT14_ANNOTATED_STAGE",
+      "MT15_OBJECT_PEDESTAL"
+    ],
+    "bigram_signature": [
+      "H006>T004",
+      "T004>C036",
+      "C036>P017",
+      "P017>C032",
+      "C032>M005",
+      "M005>C035",
+      "C035>C029",
+      "C029>A005"
+    ],
+    "trigram_signature": [
+      "H006>T004>C036",
+      "T004>C036>P017",
+      "C036>P017>C032",
+      "P017>C032>M005",
+      "C032>M005>C035",
+      "M005>C035>C029",
+      "C035>C029>A005"
+    ],
+    "neutral_silhouette_hash": "media-stage_to-ledger_to-cross-axis_to-runway_to-side-rail_to-panoramic_to-diptych_to-balance_to-centered-close"
+  },
+  "key_pages": [
+    {
+      "page_key": "game",
+      "opening_archetype": "H003",
+      "topology_sequence": [
+        "GT22_VARIABLE_WIDTH_BANDS",
+        "GT07_THREE_ZONE_EQUAL",
+        "GT16_LEDGER_ROWS",
+        "GT01_MONO_COLUMN"
+      ],
+      "neutral_silhouette_hash": "centered-media-top__three-zone__fact-strip__close"
+    },
+    {
+      "page_key": "development",
+      "opening_archetype": "H002",
+      "topology_sequence": [
+        "GT12_RAIL_AND_STAGE",
+        "GT17_TIMELINE_RUNWAY",
+        "GT02_BALANCED_SPLIT",
+        "GT01_MONO_COLUMN"
+      ],
+      "neutral_silhouette_hash": "side-index-rail__chapter-runway__balance-split__close"
+    },
+    {
+      "page_key": "mechanics",
+      "opening_archetype": "H005",
+      "topology_sequence": [
+        "GT22_VARIABLE_WIDTH_BANDS",
+        "GT14_MOSAIC_BENTO",
+        "GT01_MONO_COLUMN"
+      ],
+      "neutral_silhouette_hash": "object-stage__offset-2x2-matrix__close"
+    },
+    {
+      "page_key": "levels",
+      "opening_archetype": "H004",
+      "topology_sequence": [
+        "GT15_LAYERED_OVERLAP",
+        "GT22_VARIABLE_WIDTH_BANDS",
+        "GT16_LEDGER_ROWS",
+        "GT01_MONO_COLUMN"
+      ],
+      "neutral_silhouette_hash": "panoramic-media__overlay-copy__oversized-number__checklist__close"
+    },
+    {
+      "page_key": "about",
+      "opening_archetype": "H010",
+      "topology_sequence": [
+        "GT01_MONO_COLUMN",
+        "GT16_LEDGER_ROWS",
+        "GT01_MONO_COLUMN"
+      ],
+      "neutral_silhouette_hash": "centered-orbit__staggered-ledger__close"
+    },
+    {
+      "page_key": "faq",
+      "opening_archetype": "H011",
+      "topology_sequence": [
+        "GT02_BALANCED_SPLIT",
+        "GT16_LEDGER_ROWS",
+        "GT01_MONO_COLUMN"
+      ],
+      "neutral_silhouette_hash": "faq-split__accordion-ledger__close"
+    },
+    {
+      "page_key": "contact",
+      "opening_archetype": "H012",
+      "topology_sequence": [
+        "GT02_BALANCED_SPLIT",
+        "GT08_THREE_ZONE_ASYMMETRIC",
+        "GT16_LEDGER_ROWS"
+      ],
+      "neutral_silhouette_hash": "contact-split__dual-ledger__privacy-band"
+    }
+  ],
+  "interaction_profile": [
+    "IP01_STATIC",
+    "IP10_EDITORIAL_ACCORDION",
+    "IP20_NONE_CONFIDENT"
+  ],
+  "mobile_profile": [
+    "MB04_MOSAIC_TO_FEATURED_LIST",
+    "MB01_STACK_TEXT_FIRST",
+    "MB14_LEDGER_TO_DENSE_LIST",
+    "MB06_OVERLAP_TO_SEPARATE"
+  ],
+  "site_fingerprint": "dorevita-org-v1:H006-T004-C036-P017-C032-M005-C035-C029-A005",
+  "comparison_summary": {
+    "history_available": true,
+    "compared_site_count": 0,
+    "nearest_prior_domain": null,
+    "nearest_similarity": null,
+    "threshold": 0.72,
+    "reroll_count": 0,
+    "new_grammar_count": 0,
+    "note": "History index existed but contained zero prior sites; this is the first persisted structural fingerprint."
+  },
+  "revisions": [
+    {
+      "build_version": "1.0.0",
+      "timestamp": "2026-10-01",
+      "structural_change": "INITIAL_BUILD",
+      "site_fingerprint": "dorevita-org-v1:H006-T004-C036-P017-C032-M005-C035-C029-A005"
+    }
+  ]
+}
