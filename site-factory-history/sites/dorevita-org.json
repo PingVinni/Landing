@@ -8,7 +8,7 @@
   "updated_at": "2026-10-01",
   "build_identity": {
     "theme_package_slug": "dorevita-lollipop-pl",
-    "build_version": "1.0.0",
+    "build_version": "1.0.3",
     "structural_schema_version": "1.1"
   },
   "source": {
@@ -32,17 +32,21 @@
   "footer": {
     "archetype_id": "F013",
     "topology_cluster": "GT08_THREE_ZONE_ASYMMETRIC",
-    "signature": "four-zone-utility-grid__compact-bottom-bar"
+    "signature": "four-zone-utility-grid__complete-contact-email-phone-address__privacy-microcopy-bottom-bar"
   },
   "home": {
-    "page_rhythm_recipe": "R16_MEDIA_TRIPTYCH_PROOF_RAIL_EDITORIAL_RUNWAY_DIRECTORY_CTA",
+    "page_rhythm_recipe": "R17_PREMIUM_MEDIA_VALUE_TABS_EDITORIAL_RUNWAY_MECHANICS_LEVELS_METRICS_ART_TESTING_CTA",
     "section_archetypes": [
       "H006",
       "T004",
+      "T009",
+      "C041",
+      "D014",
       "C036",
       "P017",
       "C032",
       "M005",
+      "T011",
       "C035",
       "C029",
       "A005"
@@ -50,10 +54,14 @@
     "topology_sequence": [
       "GT24_EDITORIAL_SPREAD",
       "GT16_LEDGER_ROWS",
+      "GT22_VARIABLE_WIDTH_BANDS",
+      "GT08_THREE_ZONE_ASYMMETRIC",
+      "GT12_RAIL_AND_STAGE",
       "GT19_CROSS_AXIS",
       "GT17_TIMELINE_RUNWAY",
       "GT12_RAIL_AND_STAGE",
       "GT22_VARIABLE_WIDTH_BANDS",
+      "GT16_LEDGER_ROWS",
       "GT24_EDITORIAL_SPREAD",
       "GT02_BALANCED_SPLIT",
       "GT22_VARIABLE_WIDTH_BANDS"
@@ -82,24 +90,32 @@
     ],
     "bigram_signature": [
       "H006>T004",
-      "T004>C036",
+      "T004>T009",
+      "T009>C041",
+      "C041>D014",
+      "D014>C036",
       "C036>P017",
       "P017>C032",
       "C032>M005",
-      "M005>C035",
+      "M005>T011",
+      "T011>C035",
       "C035>C029",
       "C029>A005"
     ],
     "trigram_signature": [
-      "H006>T004>C036",
-      "T004>C036>P017",
+      "H006>T004>T009",
+      "T004>T009>C041",
+      "T009>C041>D014",
+      "C041>D014>C036",
+      "D014>C036>P017",
       "C036>P017>C032",
       "P017>C032>M005",
-      "C032>M005>C035",
-      "M005>C035>C029",
+      "C032>M005>T011",
+      "M005>T011>C035",
+      "T011>C035>C029",
       "C035>C029>A005"
     ],
-    "neutral_silhouette_hash": "media-stage_to-ledger_to-cross-axis_to-runway_to-side-rail_to-panoramic_to-diptych_to-balance_to-centered-close"
+    "neutral_silhouette_hash": "premium-media-stage_to-ledger_to-source-strip_to-value-cards_to-interactive-tabs_to-cross-axis_to-runway_to-mechanics-rail_to-levels-band_to-metrics_to-diptych_to-testing_to-centered-close"
   },
   "key_pages": [
     {
@@ -178,6 +194,7 @@
   ],
   "interaction_profile": [
     "IP01_STATIC",
+    "IP07_CONTENT_TABS",
     "IP10_EDITORIAL_ACCORDION",
     "IP20_NONE_CONFIDENT"
   ],
@@ -187,7 +204,7 @@
     "MB14_LEDGER_TO_DENSE_LIST",
     "MB06_OVERLAP_TO_SEPARATE"
   ],
-  "site_fingerprint": "dorevita-org-v1:H006-T004-C036-P017-C032-M005-C035-C029-A005",
+  "site_fingerprint": "dorevita-org-v3:H006-T004-T009-C041-D014-C036-P017-C032-M005-T011-C035-C029-A005",
   "comparison_summary": {
     "history_available": true,
     "compared_site_count": 0,
@@ -204,6 +221,12 @@
       "timestamp": "2026-10-01",
       "structural_change": "INITIAL_BUILD",
       "site_fingerprint": "dorevita-org-v1:H006-T004-C036-P017-C032-M005-C035-C029-A005"
+    },
+    {
+      "build_version": "1.0.3",
+      "timestamp": "2026-10-01",
+      "structural_change": "PREMIUM_VISUAL_CONTENT_INTERACTION_AND_FOOTER_REBUILD",
+      "site_fingerprint": "dorevita-org-v3:H006-T004-T009-C041-D014-C036-P017-C032-M005-T011-C035-C029-A005"
     }
   ]
 }
