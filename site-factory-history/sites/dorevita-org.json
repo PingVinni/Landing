@@ -8,7 +8,7 @@
   "updated_at": "2026-10-01",
   "build_identity": {
     "theme_package_slug": "dorevita-lollipop-pl",
-    "build_version": "1.0.3",
+    "build_version": "1.0.5",
     "structural_schema_version": "1.1"
   },
   "source": {
@@ -35,26 +35,25 @@
     "signature": "four-zone-utility-grid__complete-contact-email-phone-address__privacy-microcopy-bottom-bar"
   },
   "home": {
-    "page_rhythm_recipe": "R17_PREMIUM_MEDIA_VALUE_TABS_EDITORIAL_RUNWAY_MECHANICS_LEVELS_METRICS_ART_TESTING_CTA",
+    "page_rhythm_recipe": "R18_STUDIO_TEAM_WORKFLOW_TASKS_REVIEW_PRODUCT_SYSTEMS_LEVELS_ART_QA_CTA",
     "section_archetypes": [
       "H006",
       "T004",
-      "T009",
-      "C041",
-      "D014",
-      "C036",
+      "C_TEAM",
+      "D_WORKFLOW",
+      "C_DESIGN",
       "P017",
-      "C032",
-      "M005",
-      "T011",
-      "C035",
-      "C029",
+      "C_SYSTEMS",
+      "M_LEVELS",
+      "T_METRICS",
+      "C_ART",
+      "C_QA",
+      "T_SOURCE",
       "A005"
     ],
     "topology_sequence": [
       "GT24_EDITORIAL_SPREAD",
       "GT16_LEDGER_ROWS",
-      "GT22_VARIABLE_WIDTH_BANDS",
       "GT08_THREE_ZONE_ASYMMETRIC",
       "GT12_RAIL_AND_STAGE",
       "GT19_CROSS_AXIS",
@@ -64,6 +63,7 @@
       "GT16_LEDGER_ROWS",
       "GT24_EDITORIAL_SPREAD",
       "GT02_BALANCED_SPLIT",
+      "GT16_LEDGER_ROWS",
       "GT22_VARIABLE_WIDTH_BANDS"
     ],
     "content_anchor_sequence": [
@@ -115,7 +115,7 @@
       "T011>C035>C029",
       "C035>C029>A005"
     ],
-    "neutral_silhouette_hash": "premium-media-stage_to-ledger_to-source-strip_to-value-cards_to-interactive-tabs_to-cross-axis_to-runway_to-mechanics-rail_to-levels-band_to-metrics_to-diptych_to-testing_to-centered-close"
+    "neutral_silhouette_hash": "studio-first-media-stage_to-team-ledger_to-work-cards_to-process-tabs_to-design-cross_to-six-step-runway_to-system-rail_to-level-band_to-metrics_to-art-diptych_to-qa-split_to-source-strip_to-cta"
   },
   "key_pages": [
     {
@@ -123,11 +123,14 @@
       "opening_archetype": "H003",
       "topology_sequence": [
         "GT22_VARIABLE_WIDTH_BANDS",
+        "GT08_THREE_ZONE_ASYMMETRIC",
+        "GT16_LEDGER_ROWS",
+        "GT02_BALANCED_SPLIT",
         "GT07_THREE_ZONE_EQUAL",
         "GT16_LEDGER_ROWS",
         "GT01_MONO_COLUMN"
       ],
-      "neutral_silhouette_hash": "centered-media-top__three-zone__fact-strip__close"
+      "neutral_silhouette_hash": "studio-opening__workstreams__review-accordion__product-reveal__systems__source__cta"
     },
     {
       "page_key": "development",
@@ -135,10 +138,12 @@
       "topology_sequence": [
         "GT12_RAIL_AND_STAGE",
         "GT17_TIMELINE_RUNWAY",
+        "GT08_THREE_ZONE_ASYMMETRIC",
+        "GT02_BALANCED_SPLIT",
         "GT02_BALANCED_SPLIT",
         "GT01_MONO_COLUMN"
       ],
-      "neutral_silhouette_hash": "side-index-rail__chapter-runway__balance-split__close"
+      "neutral_silhouette_hash": "workflow-rail__production-chapters__taskboard__qa-release__product-outcome__cta"
     },
     {
       "page_key": "mechanics",
@@ -146,30 +151,36 @@
       "topology_sequence": [
         "GT22_VARIABLE_WIDTH_BANDS",
         "GT14_MOSAIC_BENTO",
+        "GT02_BALANCED_SPLIT",
+        "GT14_MOSAIC_BENTO",
         "GT01_MONO_COLUMN"
       ],
-      "neutral_silhouette_hash": "object-stage__offset-2x2-matrix__close"
+      "neutral_silhouette_hash": "design-opening__process-matrix__product-bridge__mechanics-matrix__cta"
     },
     {
       "page_key": "levels",
-      "opening_archetype": "H004",
+      "opening_archetype": "H003",
       "topology_sequence": [
-        "GT15_LAYERED_OVERLAP",
         "GT22_VARIABLE_WIDTH_BANDS",
+        "GT17_TIMELINE_RUNWAY",
+        "GT02_BALANCED_SPLIT",
         "GT16_LEDGER_ROWS",
         "GT01_MONO_COLUMN"
       ],
-      "neutral_silhouette_hash": "panoramic-media__overlay-copy__oversized-number__checklist__close"
+      "neutral_silhouette_hash": "level-team-opening__six-step-workflow__progression-outcome__review-checklist__cta"
     },
     {
       "page_key": "about",
-      "opening_archetype": "H010",
+      "opening_archetype": "H003",
       "topology_sequence": [
-        "GT01_MONO_COLUMN",
+        "GT22_VARIABLE_WIDTH_BANDS",
+        "GT07_THREE_ZONE_EQUAL",
         "GT16_LEDGER_ROWS",
+        "GT08_THREE_ZONE_ASYMMETRIC",
+        "GT02_BALANCED_SPLIT",
         "GT01_MONO_COLUMN"
       ],
-      "neutral_silhouette_hash": "centered-orbit__staggered-ledger__close"
+      "neutral_silhouette_hash": "studio-opening__role-grid__responsibility-ledger__principles__product-connection__cta"
     },
     {
       "page_key": "faq",
@@ -177,25 +188,26 @@
       "topology_sequence": [
         "GT02_BALANCED_SPLIT",
         "GT16_LEDGER_ROWS",
-        "GT01_MONO_COLUMN"
+        "GT02_BALANCED_SPLIT"
       ],
-      "neutral_silhouette_hash": "faq-split__accordion-ledger__close"
+      "neutral_silhouette_hash": "studio-faq-opening__process-first-accordion__support-continuation"
     },
     {
       "page_key": "contact",
       "opening_archetype": "H012",
       "topology_sequence": [
         "GT02_BALANCED_SPLIT",
+        "GT02_BALANCED_SPLIT",
         "GT08_THREE_ZONE_ASYMMETRIC",
         "GT16_LEDGER_ROWS"
       ],
-      "neutral_silhouette_hash": "contact-split__dual-ledger__privacy-band"
+      "neutral_silhouette_hash": "team-contact-opening__work-routing__three-contact-ledger__privacy-band"
     }
   ],
   "interaction_profile": [
-    "IP01_STATIC",
     "IP07_CONTENT_TABS",
     "IP10_EDITORIAL_ACCORDION",
+    "IP01_STATIC",
     "IP20_NONE_CONFIDENT"
   ],
   "mobile_profile": [
@@ -204,7 +216,7 @@
     "MB14_LEDGER_TO_DENSE_LIST",
     "MB06_OVERLAP_TO_SEPARATE"
   ],
-  "site_fingerprint": "dorevita-org-v3:H006-T004-T009-C041-D014-C036-P017-C032-M005-T011-C035-C029-A005",
+  "site_fingerprint": "dorevita-org-v5:STUDIOFIRST-H006-T004-C_TEAM-D_WORKFLOW-P_TASKS-C_REVIEW-M_PRODUCT-C_SYSTEMS-L_LEVELS-Q_QA-A_CTA",
   "comparison_summary": {
     "history_available": true,
     "compared_site_count": 0,
@@ -227,6 +239,24 @@
       "timestamp": "2026-10-01",
       "structural_change": "PREMIUM_VISUAL_CONTENT_INTERACTION_AND_FOOTER_REBUILD",
       "site_fingerprint": "dorevita-org-v3:H006-T004-T009-C041-D014-C036-P017-C032-M005-T011-C035-C029-A005"
+    },
+    {
+      "build_version": "1.0.5",
+      "timestamp": "2026-10-01",
+      "structural_change": "SITE_WIDE_STUDIO_FIRST_BUSINESS_NARRATIVE_AND_INTERNAL_PAGE_REBUILD",
+      "site_fingerprint": "dorevita-org-v5:STUDIOFIRST-H006-T004-C_TEAM-D_WORKFLOW-P_TASKS-C_REVIEW-M_PRODUCT-C_SYSTEMS-L_LEVELS-Q_QA-A_CTA"
     }
-  ]
+  ],
+  "business_model": {
+    "mode": "OFFICIAL_GAME_STUDIO",
+    "relationship_state": "OWNER_SUPPLIED_BRAND_RELATIONSHIP",
+    "ownership_evidence_type": "OWNER_INSTRUCTION_IN_CHAT",
+    "first_person_creator_claims_allowed": true,
+    "narrative_priority": "STUDIO_TEAM_PROCESS_FIRST__GAME_PRODUCT_SECOND"
+  },
+  "content_semantic_fingerprint": {
+    "primary": "TEAM__TASKS__PROCESS__REVIEW__QA__RELEASE",
+    "secondary": "GAME__MECHANICS__LEVELS__PLAY",
+    "main_page_rule": "WORK_AND_TEAM_BEFORE_GAME_DESCRIPTION"
+  }
 }
