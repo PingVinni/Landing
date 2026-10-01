@@ -1,9 +1,15 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0",
   "updated_at": "2026-10-02",
   "workspace": "site-factory-skills",
-  "current_release": "composition-diversity-self-check-v3",
-  "source_state": "CANDIDATE_READY_AWAITING_PROJECT_SOURCE_INSTALL_AND_VERIFY",
+  "canonical_store": "github",
+  "canonical_repository": "PingVinni/Landing",
+  "canonical_branch": "main",
+  "current_release": "full-width-canvas-compact-copy-v4",
+  "source_state": "ACTIVE_GIT_CANONICAL",
+  "project_sources_mode": "BOOTSTRAP_ONLY",
+  "bootstrap_path": "site-factory-skills/SITE-FACTORY-BOOTSTRAP.md",
+  "current_index_path": "site-factory-skills/current/index.json",
   "current_bundle_paths": [
     "site-factory-skills/current/01-CORE-GOVERNANCE.md",
     "site-factory-skills/current/02-DESIGN-SYSTEM-BUNDLE.md",
@@ -13,16 +19,15 @@
     "site-factory-skills/current/06-VISUAL-ENGINE.md",
     "site-factory-skills/current/07-QA-RELEASE.md"
   ],
+  "structural_memory_root": "site-factory-history/",
+  "layout_bank_root": "site-factory-layout-bank/",
+  "latest_ready_root": "site-factory-latest-ready/",
   "latest_system_changes": [
+    "GitHub is the single canonical skill source",
+    "Project Sources are bootstrap-only",
     "full useful width / canvas coverage is mandatory for major desktop sections",
     "one-sided blank fields and empty layout tracks are release blockers",
     "optional media removal must collapse and reflow the section",
-    "visible prose targets reduced by approximately 30% versus v4.9.12 high-density defaults",
-    "copy compaction preserves information roles and cannot become extra whitespace"
-  ],
-  "candidate_release": "full-width-canvas-compact-copy-v4",
-  "candidate_bundle_patch": "site-factory-skills/drafts/full-width-canvas-compact-copy-v4/PATCH.md",
-  "candidate_overrides": "site-factory-skills/drafts/full-width-canvas-compact-copy-v4/overrides.json",
-  "candidate_regressions": "site-factory-skills/drafts/full-width-canvas-compact-copy-v4/regression-cases.json",
-  "candidate_release_manifest": "site-factory-skills/releases/full-width-canvas-compact-copy-v4.json"
+    "visible prose targets reduced by approximately 30% versus v4.9.12 high-density defaults"
+  ]
 }

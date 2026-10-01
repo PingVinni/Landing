@@ -1,11 +1,7 @@
-# Skills Releases
+# Site Factory Skill Releases
 
-Release records and patch metadata live here.
+Release manifests for canonical Site Factory skill states.
 
-Each release record should include:
-- release ID/date;
-- affected bundles;
-- new rules/gates;
-- regressions added;
-- Project Source verification state;
-- related site/build issues that motivated the change.
+GitHub `main` + `site-factory-skills/CURRENT.json` determine which release is active.
+
+Project Sources are bootstrap-only and do not carry release copies.

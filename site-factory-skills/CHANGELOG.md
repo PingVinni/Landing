@@ -1,5 +1,12 @@
 # Site Factory Skills Changelog
 
+## 2026-10-02 — Git-canonical bootstrap architecture
+- Promoted `full-width-canvas-compact-copy-v4` to the canonical `site-factory-skills/current/` seven-bundle set.
+- Made GitHub `PingVinni/Landing@main` the single skill source of truth.
+- Replaced the seven-file Project Sources mirror with a bootstrap-only model.
+- Added `SITE-FACTORY-BOOTSTRAP.md` startup routing and Git-unavailable fail-safe.
+- Added exact Git blob SHA verification alongside SHA-256 bundle fingerprints.
+
 ## 2026-10-02 — full-width-canvas-compact-copy-v4 (candidate)
 - Added a hard full-useful-width / canvas-coverage rule for major desktop sections.
 - Added blockers for one-sided blank fields, empty layout tracks and false full-width inner shells.

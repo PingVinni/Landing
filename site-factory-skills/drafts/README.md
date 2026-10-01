@@ -1,13 +1,9 @@
 # Skills Drafts
 
-Use this directory for experimental or not-yet-approved systemic changes.
+Use this directory for experimental or not-yet-promoted systemic changes.
 
-A draft must not be treated as active until it is:
-1. merged into the seven files under `../current/`;
-2. packaged as a Project Sources patch;
-3. installed by the user;
-4. verified against active Project Sources.
+Drafts are not active merely because they exist.
 
-## Current candidate
+Promotion means integrating the accepted change into the seven canonical files under `../current/`, updating `../current/index.json`, `../CURRENT.json` and `../CHANGELOG.md`, committing, and verifying the resulting Git state.
 
-- `full-width-canvas-compact-copy-v4` — full-width canvas enforcement + ~30% compact-copy profile. See `full-width-canvas-compact-copy-v4/PATCH.md`.
+Project Sources contain only the bootstrap and are not a second copy of the seven bundles.

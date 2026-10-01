@@ -1,18 +1,17 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "release": "full-width-canvas-compact-copy-v4",
   "date": "2026-10-02",
-  "status": "CANDIDATE_READY_AWAITING_PROJECT_SOURCE_INSTALL_AND_VERIFY",
-  "policy_target": "Site Factory v4.9.14",
-  "candidate_root": "site-factory-skills/drafts/full-width-canvas-compact-copy-v4",
-  "patch": "site-factory-skills/drafts/full-width-canvas-compact-copy-v4/PATCH.md",
-  "overrides": "site-factory-skills/drafts/full-width-canvas-compact-copy-v4/overrides.json",
-  "regressions": "site-factory-skills/drafts/full-width-canvas-compact-copy-v4/regression-cases.json",
-  "key_changes": [
-    "full useful desktop width is a meaningful-composition requirement",
-    "one-sided blank fields and empty layout tracks are blockers",
-    "missing optional media forces track collapse + reflow",
-    "normal visible prose is reduced approximately 30% versus v4.9.12 high-density targets",
-    "copy compaction may not be replaced by extra padding, heading scale or empty canvas"
+  "status": "ACTIVE_GIT_CANONICAL",
+  "policy_baseline": "Site Factory v4.9.14",
+  "canonical_repository": "PingVinni/Landing",
+  "canonical_branch": "main",
+  "project_sources_mode": "BOOTSTRAP_ONLY",
+  "bootstrap_path": "site-factory-skills/SITE-FACTORY-BOOTSTRAP.md",
+  "current_index_path": "site-factory-skills/current/index.json",
+  "notes": [
+    "GitHub is canonical; Project Sources contain only the bootstrap.",
+    "Full-width canvas and compact-copy rules are active.",
+    "Exact bundle fingerprints live in current/index.json."
   ]
 }

@@ -1,14 +1,58 @@
 {
-  "release": "composition-diversity-self-check-v3",
-  "updated_at": "2026-10-01",
-  "state": "RELEASE_CANDIDATE_AWAITING_PROJECT_SOURCE_VERIFY",
+  "release": "full-width-canvas-compact-copy-v4",
+  "updated_at": "2026-10-02",
+  "state": "ACTIVE_GIT_CANONICAL",
+  "policy_baseline": "Site Factory v4.9.14",
+  "bootstrap_mode": "PROJECT_SOURCES_BOOTSTRAP_ONLY",
   "bundles": [
-    {"name":"01-CORE-GOVERNANCE.md","bytes":187816,"sha256":"c1e7c60373c8a8b939923ed29e444fbf9a702813752cb4655ed8478e5244dfd1"},
-    {"name":"02-DESIGN-SYSTEM-BUNDLE.md","bytes":117901,"sha256":"1f9b6cd59feed5b8a0d0e2f6fefdec78ce1843344486a88b345faeb431aa9385"},
-    {"name":"03-SITE-WORDPRESS-RUNTIME.md","bytes":55479,"sha256":"3ac1e5a92b11acf8fe834446a06b7db23450586efbb3a38e4b1334cdb24fcbf9"},
-    {"name":"04-CONTENT-LEGAL-CONTACT.md","bytes":78775,"sha256":"955b0c910e6a9b4b37619f4fca808fa948a0bf97dc7827e7a0503daa3a9038cd"},
-    {"name":"05-SEO-GLOBAL-TEXT.md","bytes":66759,"sha256":"28cc01858ec4c47d509da823e67018b3944347ac5bfc395ed6f6e9a7f60781d8"},
-    {"name":"06-VISUAL-ENGINE.md","bytes":92661,"sha256":"806432917f665ca357014df7953300340aaa4610d7b7639a20edb16dd2c2d865"},
-    {"name":"07-QA-RELEASE.md","bytes":99392,"sha256":"b167b2f5d1b872d361d63552961747dc28074fb911550aaf2ef848204a6e738d"}
+    {
+      "name": "01-CORE-GOVERNANCE.md",
+      "path": "site-factory-skills/current/01-CORE-GOVERNANCE.md",
+      "bytes": 191237,
+      "sha256": "bad36a2ad1abdeb26e603adbc30a56bd99a26f95311a47d54d6c05bde87d0fe7",
+      "git_blob_sha": "0d5114fb4522abf03ebfcff5a4f923fd33d277b8"
+    },
+    {
+      "name": "02-DESIGN-SYSTEM-BUNDLE.md",
+      "path": "site-factory-skills/current/02-DESIGN-SYSTEM-BUNDLE.md",
+      "bytes": 120468,
+      "sha256": "0ee1cc45b92b420bdce5c77a0ae4fa5a7489ba7beb030c88d3b72527ad1fc193",
+      "git_blob_sha": "9b949b0c8c562bf4d9637aacea48e55fc3881c54"
+    },
+    {
+      "name": "03-SITE-WORDPRESS-RUNTIME.md",
+      "path": "site-factory-skills/current/03-SITE-WORDPRESS-RUNTIME.md",
+      "bytes": 56928,
+      "sha256": "2b832d30b61ef2399393fe81e3cb243b13de6f8db282e9c6e010567cf6ea24ed",
+      "git_blob_sha": "40e05cd6ad3102c684b204ca8a115f9b494b2762"
+    },
+    {
+      "name": "04-CONTENT-LEGAL-CONTACT.md",
+      "path": "site-factory-skills/current/04-CONTENT-LEGAL-CONTACT.md",
+      "bytes": 80390,
+      "sha256": "0574b4512fc1a5fbb7234e93fd0a547c762d8975859a94bc6cdc36730d4e4ef7",
+      "git_blob_sha": "4621c970ff9c4c8bb4e4e6a24c29d1ba82d425d5"
+    },
+    {
+      "name": "05-SEO-GLOBAL-TEXT.md",
+      "path": "site-factory-skills/current/05-SEO-GLOBAL-TEXT.md",
+      "bytes": 66761,
+      "sha256": "134de754a3f0f703d31ea14e3266ea665d1f8100926b27dac0ad0c0e23bd5332",
+      "git_blob_sha": "81375c2447755634dc60e6252274f20ce3a0b197"
+    },
+    {
+      "name": "06-VISUAL-ENGINE.md",
+      "path": "site-factory-skills/current/06-VISUAL-ENGINE.md",
+      "bytes": 92761,
+      "sha256": "3d86a9ba836406a943c2ce49827764097df2e1eb0672d431b7272a4d545572b5",
+      "git_blob_sha": "3a3507ffbe130b6583515e3b21c710e3410153ee"
+    },
+    {
+      "name": "07-QA-RELEASE.md",
+      "path": "site-factory-skills/current/07-QA-RELEASE.md",
+      "bytes": 101940,
+      "sha256": "98a754a4aab8cd5a3149ccae5a56e68acfe3ed8f58cf260791dce5c8b8c85aa0",
+      "git_blob_sha": "af3104557c530a9aad254aa9f6e6feb022dc5ff8"
+    }
   ]
 }
