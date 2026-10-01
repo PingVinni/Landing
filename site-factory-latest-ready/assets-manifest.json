@@ -1,38 +1,265 @@
 {
   "domain": "verqino.org",
-  "version": "1.1.0",
-  "source_facts": [
-    {"url":"https://play.google.com/store/apps/details?id=no.norapps.pitchinvaders","role":"product facts / developer / support"},
-    {"url":"https://www.pitchinvade.rs/","role":"official product website"}
-  ],
-  "production_photo_assets": [
-    {"path":"assets/img/photo-hero-stadium.webp","bytes":179098,"sha256":"8eac3f8a536978e0c7475a831156fbcf0618004d12de2f2d22d7e04ea2d829bd","provenance":"factory-generated standalone editorial content photo; not gameplay screenshot"},
-    {"path":"assets/img/photo-pvp-duel.webp","bytes":263000,"sha256":"3996e40ff0ee5ff09ef72c7ee7bd22703639f6c09d791aba574cce197906af9f","provenance":"factory-generated standalone editorial content photo; not gameplay screenshot"},
-    {"path":"assets/img/photo-season-reward.webp","bytes":241370,"sha256":"de2a87749e6de34636dd93f4b27e7d6d42d5e2cc1ae6b53acb1c565d4478a1c3","provenance":"factory-generated standalone editorial content photo; not gameplay screenshot"},
-    {"path":"assets/img/photo-squad-coach.webp","bytes":227810,"sha256":"6b0664afb52cf78bc67c037f5d64ac0eb5ea153bf5a055a20481887dc1bec99c","provenance":"factory-generated standalone editorial content photo; not gameplay screenshot"},
-    {"path":"assets/img/photo-tactics-room.webp","bytes":222614,"sha256":"6bf971404d97b1d9e70d3a92ca97ff15bad3378d5bcca860cdf262f5d6fa7f13","provenance":"factory-generated standalone editorial content photo; not gameplay screenshot"}
-  ],
+  "version": "1.2.0",
+  "photo_delivery_mode": "WEBP_WITH_JPEG_FALLBACK_AND_JS_ERROR_RECOVERY",
+  "photo_families": {
+    "photo-hero-stadium": [
+      {
+        "file": "photo-hero-stadium-960.webp",
+        "bytes": 63624,
+        "sha256": "9c493d1c4892bf693ad6c5ae9d5feddb3256ad6e058f3bdee39d1449b5d7089c",
+        "width": 960,
+        "height": 540,
+        "codec": "webp"
+      },
+      {
+        "file": "photo-hero-stadium-960.jpg",
+        "bytes": 92839,
+        "sha256": "7610c8a3f708e62a7af3605a5010fb32f2bf967e55a2a56ed1ce49d011eda5cf",
+        "width": 960,
+        "height": 540,
+        "codec": "jpg"
+      },
+      {
+        "file": "photo-hero-stadium-1600.webp",
+        "bytes": 123794,
+        "sha256": "3d8742e1104ab43ed1e40ae4924ee4a407d6c0a7ed00b1b0e3d5c4229ee57fbe",
+        "width": 1600,
+        "height": 900,
+        "codec": "webp"
+      },
+      {
+        "file": "photo-hero-stadium-1600.jpg",
+        "bytes": 200437,
+        "sha256": "2f78fde20545623ee82d15b5bc914ecb976197b4079e9ef062439a6b34e008b2",
+        "width": 1600,
+        "height": 900,
+        "codec": "jpg"
+      }
+    ],
+    "photo-pvp-duel": [
+      {
+        "file": "photo-pvp-duel-960.webp",
+        "bytes": 90228,
+        "sha256": "5c580286a03b74427c336af0a6482535f7b8f06dfe88fff1e6f25929e0f399e0",
+        "width": 960,
+        "height": 540,
+        "codec": "webp"
+      },
+      {
+        "file": "photo-pvp-duel-960.jpg",
+        "bytes": 124500,
+        "sha256": "9e8b45c690b413bb44ef671304abebd8ab20b96f509a05cc6d53d3cc82833582",
+        "width": 960,
+        "height": 540,
+        "codec": "jpg"
+      },
+      {
+        "file": "photo-pvp-duel-1600.webp",
+        "bytes": 178542,
+        "sha256": "dad4549c9c2f49fe61985968bba8517ceda281b20679f3e3c8cf126951116320",
+        "width": 1600,
+        "height": 900,
+        "codec": "webp"
+      },
+      {
+        "file": "photo-pvp-duel-1600.jpg",
+        "bytes": 272233,
+        "sha256": "fbe5371b17582f85905dd79925bd938358eea4c89a871c1d5267bacda3edc886",
+        "width": 1600,
+        "height": 900,
+        "codec": "jpg"
+      }
+    ],
+    "photo-season-reward": [
+      {
+        "file": "photo-season-reward-960.webp",
+        "bytes": 88494,
+        "sha256": "a4cca2bcfd5c530acee4ac8e60c55e7e6112565798f5d8fef3b12bb1c8c06b1f",
+        "width": 960,
+        "height": 540,
+        "codec": "webp"
+      },
+      {
+        "file": "photo-season-reward-960.jpg",
+        "bytes": 123459,
+        "sha256": "11deb6ef70c0bb89440b0ee3cf09ba926351a62d730f213d0c32d0a497959d17",
+        "width": 960,
+        "height": 540,
+        "codec": "jpg"
+      },
+      {
+        "file": "photo-season-reward-1600.webp",
+        "bytes": 167636,
+        "sha256": "e1e920db98264d4faa5a7428e15b9d06db11faf0737ebca5dfa75a1cd09b03b6",
+        "width": 1600,
+        "height": 900,
+        "codec": "webp"
+      },
+      {
+        "file": "photo-season-reward-1600.jpg",
+        "bytes": 265484,
+        "sha256": "fbe2372e762bbe478b158399979ee071ce04fb1cab7da326a7d787a38eab46ec",
+        "width": 1600,
+        "height": 900,
+        "codec": "jpg"
+      }
+    ],
+    "photo-squad-coach": [
+      {
+        "file": "photo-squad-coach-960.webp",
+        "bytes": 80706,
+        "sha256": "4699fda23b46e32e8e7783ed3f4a1626b721fed42386875d6ef72a44e2e3cfb6",
+        "width": 960,
+        "height": 540,
+        "codec": "webp"
+      },
+      {
+        "file": "photo-squad-coach-960.jpg",
+        "bytes": 116497,
+        "sha256": "da08a6148a64c9f07c81bdbd6aa6dc27fb30c6170c4e24008e07c517085c46af",
+        "width": 960,
+        "height": 540,
+        "codec": "jpg"
+      },
+      {
+        "file": "photo-squad-coach-1600.webp",
+        "bytes": 153456,
+        "sha256": "006719cade2a33269ed1e437491bbf0caa5e7c60cd61e2077fb409c824c73346",
+        "width": 1600,
+        "height": 900,
+        "codec": "webp"
+      },
+      {
+        "file": "photo-squad-coach-1600.jpg",
+        "bytes": 249965,
+        "sha256": "c69bc7213c943cdce34e4356f20b928c1d7cc0149e5d90f4533fb409b35a2bf6",
+        "width": 1600,
+        "height": 900,
+        "codec": "jpg"
+      }
+    ],
+    "photo-tactics-room": [
+      {
+        "file": "photo-tactics-room-960.webp",
+        "bytes": 77470,
+        "sha256": "bef289ea8bba14001803c21902f1ccf4193b8a371719a598407f8697f9e03fb2",
+        "width": 960,
+        "height": 540,
+        "codec": "webp"
+      },
+      {
+        "file": "photo-tactics-room-960.jpg",
+        "bytes": 112245,
+        "sha256": "b30c3d07bb45eb8e9dbe1add6a9dc087477766b7f4e073b8666428778e0295d5",
+        "width": 960,
+        "height": 540,
+        "codec": "jpg"
+      },
+      {
+        "file": "photo-tactics-room-1600.webp",
+        "bytes": 149428,
+        "sha256": "998a4ce5b1dc41ad817e663c0b7a2caec5d7d16c484cbb30fe208cce5130b11d",
+        "width": 1600,
+        "height": 900,
+        "codec": "webp"
+      },
+      {
+        "file": "photo-tactics-room-1600.jpg",
+        "bytes": 241917,
+        "sha256": "337091112fb228d7b5922adfbfe068f23f074ffa31ac44e4e54d2200a295bc54",
+        "width": 1600,
+        "height": 900,
+        "codec": "jpg"
+      }
+    ]
+  },
   "major_photo_placements": [
-    {"page":"home","section":"hero","asset":"photo-hero-stadium.webp"},
-    {"page":"home","section":"read-match","asset":"photo-tactics-room.webp"},
-    {"page":"home","section":"squad","asset":"photo-squad-coach.webp"},
-    {"page":"home","section":"pvp","asset":"photo-pvp-duel.webp"},
-    {"page":"home","section":"daily","asset":"photo-season-reward.webp"},
-    {"page":"gra","section":"hero","asset":"photo-hero-stadium.webp"},
-    {"page":"taktyka","section":"hero","asset":"photo-tactics-room.webp"},
-    {"page":"sklad","section":"hero","asset":"photo-squad-coach.webp"},
-    {"page":"rywalizacja","section":"hero","asset":"photo-pvp-duel.webp"},
-    {"page":"rywalizacja","section":"quests","asset":"photo-season-reward.webp"}
+    {
+      "page": "home",
+      "section": "hero",
+      "base": "photo-hero-stadium"
+    },
+    {
+      "page": "home",
+      "section": "why",
+      "base": "photo-tactics-room"
+    },
+    {
+      "page": "home",
+      "section": "team",
+      "base": "photo-squad-coach"
+    },
+    {
+      "page": "home",
+      "section": "improve",
+      "base": "photo-pvp-duel"
+    },
+    {
+      "page": "home",
+      "section": "loop",
+      "base": "photo-season-reward"
+    },
+    {
+      "page": "studio",
+      "section": "hero",
+      "base": "photo-squad-coach"
+    },
+    {
+      "page": "studio",
+      "section": "identity",
+      "base": "photo-season-reward"
+    },
+    {
+      "page": "studio",
+      "section": "proof",
+      "base": "photo-tactics-room"
+    },
+    {
+      "page": "rozwoj",
+      "section": "hero",
+      "base": "photo-tactics-room"
+    },
+    {
+      "page": "rozwoj",
+      "section": "core",
+      "base": "photo-hero-stadium"
+    },
+    {
+      "page": "rozwoj",
+      "section": "quality",
+      "base": "photo-season-reward"
+    },
+    {
+      "page": "zespol",
+      "section": "hero",
+      "base": "photo-squad-coach"
+    },
+    {
+      "page": "zespol",
+      "section": "culture",
+      "base": "photo-pvp-duel"
+    },
+    {
+      "page": "gra",
+      "section": "hero",
+      "base": "photo-pvp-duel"
+    },
+    {
+      "page": "gra",
+      "section": "decision",
+      "base": "photo-tactics-room"
+    },
+    {
+      "page": "gra",
+      "section": "proof",
+      "base": "photo-hero-stadium"
+    }
   ],
-  "utility_assets": [
-    {"path":"assets/img/apple-touch-icon.png","bytes":11679,"sha256":"45278b058d78802696ab5da68627edb6c8de38ba0fc11073f288621a4324265d"},
-    {"path":"assets/img/favicon-192.png","bytes":13034,"sha256":"05c574c34446277e6102fc36b542610aad61913410634eff5a8f6953f2eb08a4"},
-    {"path":"assets/img/favicon-32.png","bytes":1404,"sha256":"5ad16ba4ce7b466eb50d5da47006663951991e855519584b13b3bca1e35d5a33"},
-    {"path":"assets/img/favicon-512.png","bytes":58572,"sha256":"58c523cc0d21503d52c160b6c7edca4a4d48abdf2609b0ffb34ef0a21b65fc9d"},
-    {"path":"assets/img/favicon.svg","bytes":329,"sha256":"896de8e2530ae797a45fe795566438d589d7b2b175b8dfe5820670f22542e246"},
-    {"path":"assets/img/legal-cookie.svg","bytes":1164,"sha256":"3a503963b8812fdc9d93f13f2c4479cfca5a936a5eb223e5381c226c4ed1b397"},
-    {"path":"assets/img/legal-shield.svg","bytes":1328,"sha256":"cf1287b177b319736de9217dad38ee79509a75f1e124d3572542d970a6910916"},
-    {"path":"assets/img/legal-terms.svg","bytes":1224,"sha256":"81efd34445e9434aa43b2fa41086138542029fa70407a6fd7982abc6b25ac08f"},
-    {"path":"assets/img/logo-mark.svg","bytes":329,"sha256":"896de8e2530ae797a45fe795566438d589d7b2b175b8dfe5820670f22542e246"}
-  ]
+  "major_photo_or_photoreal_ratio": 1,
+  "major_abstract_vector_or_diagram_ratio": 0,
+  "childlike_doodle_major_visual_count": 0,
+  "broken_major_image_count": 0,
+  "fallback_handler_pass": true,
+  "codec_decode_all_pass": true
 }

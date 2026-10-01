@@ -1,54 +1,56 @@
-# Verqino / Pitch Invaders PL — QA v1.1.0
+# Verqino / Pitch Invaders PL — QA v1.2.0
 
 **Domain:** verqino.org  
-**Version:** 1.1.0  
-**Theme root:** verqino-pitch-invaders-pl  
+**Version:** 1.2.0  
+**Skill release:** studio-first-photo-delivery-v5.2  
 
-## Source / truth gate
-- Source: Google Play package `no.norapps.pitchinvaders`.
-- Source developer/support owner: FotMob AS.
-- Site model: `INDEPENDENT_GAME_GUIDE`.
-- Verqino ↔ FotMob ownership/developer relationship is not asserted.
-- Generated editorial photos are explicitly described as conceptual Verqino material and not gameplay screenshots.
+## Business model
+- Mode: `OFFICIAL_GAME_STUDIO`.
+- Relationship: `OWNER_SUPPLIED_CREATOR_RELATIONSHIP`.
+- Evidence type: `USER_EXPLICIT_BUSINESS_ASSERTION`.
+- Primary entity: **Verqino / company / team**.
+- Product role: **Pitch Invaders = proof of work / promoted product**.
+- Estimated company/team/development narrative ratio: **0.77** (target >= 0.60).
+- Company-first pages: Home, Studio, Jak tworzyliśmy, Zespół, Kontakt.
+- Public Google Play listing remains recorded separately as currently showing FotMob AS; the site does not claim the marketplace independently verifies the Verqino relationship.
 
-## GEO / SEO
-- Requested: `PL / pl-PL`.
-- Runtime provisions `WPLANG = pl_PL`.
-- Front-end locale filter: `pl_PL`.
-- Final document language hook forces `lang=pl-PL`.
-- `og:locale = pl_PL`.
-- Schema `inLanguage = pl-PL`.
-- Explicit robots: `index,follow,max-image-preview:large`.
-- Static browser implementation probes: **PASS**.
+## Photo delivery
+- Photo families: **5**.
+- Each family packages `960 + 1600` WebP and JPEG variants.
+- Browser codec decode matrix: **PASS**.
+- Forced WebP failure -> JPEG JS fallback: **PASS**.
+- Broken required major images in browser QA: **0**.
+- Original oversized single-codec photo files removed.
+- Intrinsic `1600×900` dimensions are emitted in runtime markup.
 
-## Browser composition QA
-- Home viewports: 390×844, 1366×768, 1600×1000, 1920×1080.
-- Representative internal pages at 1600×1000: Taktyka, Skład, Rywalizacja.
+## Browser composition
+- Home: 390×844, 1366×768, 1600×1000, 1920×1080.
+- Studio / Development / Team / Product: 1600×1000 representative checks.
 - Browser failure count: **0**.
 - Home distinct rendered-family ratio: **1.00**.
-- Horizontal overflow failures: **0**.
-- Large one-sided blank-field failures: **0**.
 - Heading-stack failures: **0**.
+- Dead-space / coverage failures: **0**.
+- Horizontal overflow: **0**.
 
-## Media
-- Packaged adult editorial/photoreal content photos: **5**.
-- Major photo placements: **10**.
-- Major photo/photoreal ratio: **1.00**.
-- Major abstract/vector/diagram ratio: **0.00**.
-- Childlike doodle major visuals: **0**.
-- Full-page generated mockups packaged/used: **0**.
+## GEO / SEO implementation
+- GEO: PL.
+- HTML language: `pl-PL`.
+- OG locale: `pl_PL`.
+- Schema language: `pl-PL`.
+- Author: `Zespół Verqino`.
+- Publisher: `Verqino`.
+- `Organization` is primary entity; `VideoGame` is product entity.
+- Robots: `index,follow,max-image-preview:large`.
 
 ## Static QA
-- PHP syntax: PASS.
-- JSON syntax: PASS.
-- Numeric `px` in production CSS: 0.
-- Major SVG/diagram references in Global Text: 0.
-- Global Text editable option/admin screen retained.
-- Managed page manifest: 10 pages.
-- Legal pages: Privacy / Terms / Cookies.
+- PHP syntax: **PASS**.
+- JSON parse: **PASS**.
+- Numeric `px` in production CSS: **0**.
+- Managed pages: **10**.
+- Old `/taktyka/`, `/sklad/`, `/rywalizacja/` routes receive migration redirects to the new business-first architecture.
 
-## Remaining runtime gate
-A live WordPress instance was not available in the build container. Activation-level checks for final WordPress HTML, permalink provisioning, outbound mail and actual server headers remain post-install verification.
+## Remaining gate
+Live WordPress activation was not available in the build container. Final server/WordPress checks for permalink migration, outbound mail, headers and actual installed HTML remain post-install.
 
 ## Build state
-`STATIC_PASS + BROWSER_COMPOSITION_PASS + GEO_SEO_IMPLEMENTATION_PASS + ADULT_MEDIA_PASS + WORDPRESS_LIVE_NOT_RUN`
+`STATIC_PASS + BROWSER_COMPOSITION_PASS + PHOTO_DELIVERY_PASS + STUDIO_BUSINESS_MODEL_PASS + GEO_SEO_IMPLEMENTATION_PASS + WORDPRESS_LIVE_NOT_RUN`

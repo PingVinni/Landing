@@ -1,46 +1,65 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "domain": "verqino.org",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "status": "BROWSER_COMPOSITION_PASS",
   "copy_density_profile": "COMPACT_070",
   "word_counts": {
-    "home": 630,
-    "gra": 447,
-    "taktyka": 419,
-    "sklad": 429,
-    "rywalizacja": 407,
-    "faq": 409,
-    "kontakt": 282,
+    "home": 656,
+    "studio": 370,
+    "rozwoj": 400,
+    "zespol": 288,
+    "gra": 347,
+    "faq": 220,
+    "kontakt": 186,
     "legal_privacy": 348,
     "legal_terms": 297,
     "legal_cookies": 226
   },
-  "browser_qa_file": "browser-qa.json",
+  "business_model": "OFFICIAL_GAME_STUDIO",
+  "developer_relationship_status": "OWNER_SUPPLIED_CREATOR_RELATIONSHIP",
+  "business_narrative_ratio_estimate": 0.77,
+  "business_narrative_target_min": 0.6,
+  "studio_business_narrative_pass": true,
   "browser_qa_pass": true,
-  "viewports": ["390x844","1366x768","1600x1000","1920x1080"],
-  "representative_pages": ["home","taktyka","sklad","rywalizacja"],
-  "home_distinct_rendered_family_ratio": 1.0,
-  "full_width_contract": {
-    "occupied_width_ratio_min": 0.74,
-    "largest_blank_side_ratio_max": 0.26,
-    "normal_heading_visual_lines_max": 3,
-    "failure_count": 0
+  "browser_failure_count": 0,
+  "home_distinct_rendered_family_ratio": 1,
+  "key_page_first3_families": {
+    "studio-desktop": [
+      "hero-stage-photo",
+      "editorial-media",
+      "signal-rail"
+    ],
+    "rozwoj-desktop": [
+      "hero-stage-photo",
+      "loop-steps",
+      "editorial-media"
+    ],
+    "zespol-desktop": [
+      "hero-stage-photo",
+      "cards-wide",
+      "signal-rail"
+    ],
+    "gra-desktop": [
+      "hero-stage-photo",
+      "signal-rail",
+      "radar-band"
+    ]
   },
-  "adult_media": {
-    "major_photo_or_photoreal_ratio": 1.0,
-    "major_abstract_vector_or_diagram_ratio": 0.0,
-    "childlike_doodle_major_visual_count": 0,
-    "packaged_photo_assets": 5,
-    "major_photo_placements": 10
+  "photo_delivery": {
+    "broken_major_image_count": 0,
+    "fallback_handler_pass": true,
+    "codec_decode_all_pass": true,
+    "photo_family_count": 5,
+    "photo_placement_count": 16
   },
-  "image_generation_scope": {
-    "mode": "CONTENT_ASSET_ONLY",
-    "generated_full_page_mockups_packaged": 0,
-    "production_photo_assets_packaged": 5
-  },
-  "notes": [
-    "All browser QA cases pass geometry/heading/overflow/locale metadata probes in the implementation preview.",
-    "Live WordPress runtime was not available; activation-level locale/permalink/mail behavior remains a post-install check."
-  ]
+  "geo_seo": {
+    "requested_geo": "PL",
+    "requested_locale": "pl-PL",
+    "runtime_WPLANG": "pl_PL",
+    "html_lang": "pl-PL",
+    "og_locale": "pl_PL",
+    "schema_inLanguage": "pl-PL",
+    "publisher": "Verqino"
+  }
 }

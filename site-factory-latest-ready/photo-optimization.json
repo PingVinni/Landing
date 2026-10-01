@@ -1,0 +1,122 @@
+{
+  "photo-hero-stadium": {
+    "source_size": [
+      1672,
+      941
+    ],
+    "variants": [
+      {
+        "width": 960,
+        "height": 540,
+        "webp": "photo-hero-stadium-960.webp",
+        "webp_bytes": 63624,
+        "jpg": "photo-hero-stadium-960.jpg",
+        "jpg_bytes": 92839
+      },
+      {
+        "width": 1600,
+        "height": 900,
+        "webp": "photo-hero-stadium-1600.webp",
+        "webp_bytes": 123794,
+        "jpg": "photo-hero-stadium-1600.jpg",
+        "jpg_bytes": 200437
+      }
+    ]
+  },
+  "photo-tactics-room": {
+    "source_size": [
+      1672,
+      941
+    ],
+    "variants": [
+      {
+        "width": 960,
+        "height": 540,
+        "webp": "photo-tactics-room-960.webp",
+        "webp_bytes": 77470,
+        "jpg": "photo-tactics-room-960.jpg",
+        "jpg_bytes": 112245
+      },
+      {
+        "width": 1600,
+        "height": 900,
+        "webp": "photo-tactics-room-1600.webp",
+        "webp_bytes": 149428,
+        "jpg": "photo-tactics-room-1600.jpg",
+        "jpg_bytes": 241917
+      }
+    ]
+  },
+  "photo-squad-coach": {
+    "source_size": [
+      1672,
+      941
+    ],
+    "variants": [
+      {
+        "width": 960,
+        "height": 540,
+        "webp": "photo-squad-coach-960.webp",
+        "webp_bytes": 80706,
+        "jpg": "photo-squad-coach-960.jpg",
+        "jpg_bytes": 116497
+      },
+      {
+        "width": 1600,
+        "height": 900,
+        "webp": "photo-squad-coach-1600.webp",
+        "webp_bytes": 153456,
+        "jpg": "photo-squad-coach-1600.jpg",
+        "jpg_bytes": 249965
+      }
+    ]
+  },
+  "photo-pvp-duel": {
+    "source_size": [
+      1672,
+      941
+    ],
+    "variants": [
+      {
+        "width": 960,
+        "height": 540,
+        "webp": "photo-pvp-duel-960.webp",
+        "webp_bytes": 90228,
+        "jpg": "photo-pvp-duel-960.jpg",
+        "jpg_bytes": 124500
+      },
+      {
+        "width": 1600,
+        "height": 900,
+        "webp": "photo-pvp-duel-1600.webp",
+        "webp_bytes": 178542,
+        "jpg": "photo-pvp-duel-1600.jpg",
+        "jpg_bytes": 272233
+      }
+    ]
+  },
+  "photo-season-reward": {
+    "source_size": [
+      1672,
+      941
+    ],
+    "variants": [
+      {
+        "width": 960,
+        "height": 540,
+        "webp": "photo-season-reward-960.webp",
+        "webp_bytes": 88494,
+        "jpg": "photo-season-reward-960.jpg",
+        "jpg_bytes": 123459
+      },
+      {
+        "width": 1600,
+        "height": 900,
+        "webp": "photo-season-reward-1600.webp",
+        "webp_bytes": 167636,
+        "jpg": "photo-season-reward-1600.jpg",
+        "jpg_bytes": 265484
+      }
+    ]
+  }
+}

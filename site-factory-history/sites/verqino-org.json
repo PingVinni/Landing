@@ -8,18 +8,23 @@
   "updated_at": "2026-10-02",
   "build_identity": {
     "theme_package_slug": "verqino-pitch-invaders-pl",
-    "build_version": "1.1.0",
-    "structural_schema_version": "1.1"
+    "build_version": "1.2.0",
+    "structural_schema_version": "1.2"
   },
   "source": {
     "package_id": "no.norapps.pitchinvaders",
     "game_name": "Pitch Invaders",
-    "source_developer": "FotMob AS"
+    "source_developer_account": "FotMob AS",
+    "external_source_note": "Google Play currently lists FotMob AS; creator relationship for Verqino is owner-supplied and is not claimed as independently verified by Google Play."
   },
   "business_model": {
-    "mode": "INDEPENDENT_GAME_GUIDE",
-    "developer_relationship_status": "UNRESOLVED_INDEPENDENT_SITE",
-    "first_person_creator_claims_allowed": false
+    "mode": "OFFICIAL_GAME_STUDIO",
+    "developer_relationship_status": "OWNER_SUPPLIED_CREATOR_RELATIONSHIP",
+    "ownership_evidence_type": "USER_EXPLICIT_BUSINESS_ASSERTION",
+    "first_person_creator_claims_allowed": true,
+    "primary_entity": "STUDIO_COMPANY",
+    "product_role": "PROOF_OF_WORK",
+    "company_narrative_ratio_estimate": 0.77
   },
   "hero": {
     "archetype_id": "H018",
@@ -27,7 +32,7 @@
     "text_anchor": "TA03_LEFT_ANCHORED",
     "media_topology": "MT08_DOMINANT_EDITORIAL_PHOTO",
     "title_scale_tier": "DISPLAY_BALANCED",
-    "neutral_silhouette_hash": "left-copy__dominant-edge-photo__no-dead-track"
+    "neutral_silhouette_hash": "studio-first-left-copy__dominant-editorial-photo__company-thesis__no-dead-track"
   },
   "header": {
     "family": "HDR11",
@@ -40,17 +45,17 @@
     "signature": "large-brand-block__three-utility-columns__split-bottom-bar"
   },
   "home": {
-    "page_rhythm_recipe": "R44_PHOTO_STAGE_SIGNAL_EDITORIAL_CARDS_PHOTO_LEDGER_DUEL_STEPS_TRUTH_CTA",
+    "page_rhythm_recipe": "R45_STUDIO_FIRST_PHOTO_COMPANY_REASON_ROLES_WORKFLOW_ITERATION_LOOP_TRANSPARENCY_CTA",
     "section_archetypes": [
       "H018",
-      "S044",
-      "E071",
-      "C063",
-      "L041",
-      "R035",
-      "P052",
-      "T033",
-      "A021"
+      "C_COMPANY",
+      "D_PRODUCT_REASON",
+      "C_RESPONSIBILITIES",
+      "T_WORKFLOW",
+      "C_ITERATION",
+      "P_IMPROVEMENT_LOOP",
+      "T_TRANSPARENCY",
+      "A_COMPANY_CTA"
     ],
     "topology_sequence": [
       "GT31_PHOTO_STAGE_SPLIT_EDGE",
@@ -85,109 +90,108 @@
       "MT01_NONE",
       "MT01_NONE"
     ],
+    "composition_family_sequence": [
+      "hero-stage-photo",
+      "signal-rail",
+      "editorial-media",
+      "cards-wide",
+      "media-ledger",
+      "radar-band",
+      "loop-steps",
+      "truth-strip",
+      "cta-field"
+    ],
     "bigram_signature": [
-      "H018>S044",
-      "S044>E071",
-      "E071>C063",
-      "C063>L041",
-      "L041>R035",
-      "R035>P052",
-      "P052>T033",
-      "T033>A021"
+      "H018>C_COMPANY",
+      "C_COMPANY>D_PRODUCT_REASON",
+      "D_PRODUCT_REASON>C_RESPONSIBILITIES",
+      "C_RESPONSIBILITIES>T_WORKFLOW",
+      "T_WORKFLOW>C_ITERATION",
+      "C_ITERATION>P_IMPROVEMENT_LOOP",
+      "P_IMPROVEMENT_LOOP>T_TRANSPARENCY",
+      "T_TRANSPARENCY>A_COMPANY_CTA"
     ],
     "trigram_signature": [
-      "H018>S044>E071",
-      "S044>E071>C063",
-      "E071>C063>L041",
-      "C063>L041>R035",
-      "L041>R035>P052",
-      "R035>P052>T033",
-      "P052>T033>A021"
+      "H018>C_COMPANY>D_PRODUCT_REASON",
+      "C_COMPANY>D_PRODUCT_REASON>C_RESPONSIBILITIES",
+      "D_PRODUCT_REASON>C_RESPONSIBILITIES>T_WORKFLOW",
+      "C_RESPONSIBILITIES>T_WORKFLOW>C_ITERATION",
+      "T_WORKFLOW>C_ITERATION>P_IMPROVEMENT_LOOP",
+      "C_ITERATION>P_IMPROVEMENT_LOOP>T_TRANSPARENCY",
+      "P_IMPROVEMENT_LOOP>T_TRANSPARENCY>A_COMPANY_CTA"
     ],
-    "neutral_silhouette_hash": "photo-stage__signal-rail__light-editorial-photo__staggered-cards__wide-photo-ledger__duel-photo__steps-photo__truth-columns__lime-cta",
-    "composition_family_sequence": [
-      "photo_stage",
-      "signal_rail",
-      "editorial_photo",
-      "decision_cards",
-      "photo_ledger",
-      "duel_photo_band",
-      "steps_photo",
-      "truth_strip",
-      "cta_field"
-    ]
+    "neutral_silhouette_hash": "studio-photo-stage__company-signal__editorial-product-reason__responsibility-cards__workflow-photo-ledger__iteration-photo__improvement-loop__source-truth__company-cta",
+    "rendered_family_ratio": 1
   },
   "key_pages": [
     {
+      "page_key": "studio",
+      "page_grammar": "SG21_STUDIO_IDENTITY_EDITORIAL_SIGNAL",
+      "layout_sequence": [
+        "hero-stage-photo",
+        "editorial-media",
+        "signal-rail",
+        "cards-wide",
+        "media-ledger",
+        "cta-field"
+      ],
+      "neutral_silhouette_hash": "studio-photo-hero__editorial-identity__company-signal__responsibility-cards__working-photo-ledger__close"
+    },
+    {
+      "page_key": "rozwoj",
+      "page_grammar": "DG21_ITERATION_LOOP_EDITORIAL_REVIEW",
+      "layout_sequence": [
+        "hero-stage-photo",
+        "loop-steps",
+        "editorial-media",
+        "radar-band",
+        "media-ledger",
+        "cards-wide",
+        "cta-field"
+      ],
+      "neutral_silhouette_hash": "development-photo-hero__iteration-loop__editorial-reasoning__review-band__improvement-ledger__decision-cards__close"
+    },
+    {
+      "page_key": "zespol",
+      "page_grammar": "TG21_TEAM_RESPONSIBILITY_SIGNAL_COLLABORATION",
+      "layout_sequence": [
+        "hero-stage-photo",
+        "cards-wide",
+        "signal-rail",
+        "editorial-media",
+        "truth-strip",
+        "cta-field"
+      ],
+      "neutral_silhouette_hash": "team-photo-hero__role-cards__responsibility-signal__collaboration-editorial__team-truth__close"
+    },
+    {
       "page_key": "gra",
-      "page_grammar": "PG24_PHOTO_MATCH_FLOW_TEXT_REFLOW",
+      "page_grammar": "PG25_PRODUCT_AS_PROOF_SIGNAL_SYSTEMS",
       "layout_sequence": [
-        "photo_band_hero",
-        "signal_rail",
-        "full_width_text_spread",
-        "decision_cards",
-        "text_ledger",
-        "truth_strip",
-        "cta_field"
+        "hero-stage-photo",
+        "signal-rail",
+        "radar-band",
+        "cards-wide",
+        "media-ledger",
+        "truth-strip",
+        "cta-field"
       ],
-      "neutral_silhouette_hash": "photo-band__rail__text-spread__cards__ledger__truth__cta"
-    },
-    {
-      "page_key": "taktyka",
-      "page_grammar": "TG26_PHOTO_TACTICS_DECISION_MATRIX",
-      "layout_sequence": [
-        "photo_stage_hero",
-        "decision_cards",
-        "full_width_text_spread",
-        "three_point_band",
-        "four_step_runway",
-        "text_ledger",
-        "cta_field"
-      ],
-      "neutral_silhouette_hash": "photo-stage__cards__text-spread__point-band__steps__ledger__cta"
-    },
-    {
-      "page_key": "sklad",
-      "page_grammar": "SG27_PHOTO_SQUAD_ROLE_LEDGER",
-      "layout_sequence": [
-        "photo_editorial_hero",
-        "role_cards",
-        "full_width_text_spread",
-        "text_ledger",
-        "three_point_band",
-        "truth_strip",
-        "cta_field"
-      ],
-      "neutral_silhouette_hash": "photo-editorial__roles__text-spread__ledger__point-band__truth__cta"
-    },
-    {
-      "page_key": "rywalizacja",
-      "page_grammar": "RG28_DUEL_PHOTO_SERIES_FLOW",
-      "layout_sequence": [
-        "duel_photo_hero",
-        "signal_rail",
-        "full_width_text_spread",
-        "four_step_runway",
-        "photo_ledger",
-        "truth_strip",
-        "cta_field"
-      ],
-      "neutral_silhouette_hash": "duel-photo__rail__text-spread__steps__photo-ledger__truth__cta"
+      "neutral_silhouette_hash": "product-photo-hero__feature-signal__systems-band__decision-cards__product-ledger__source-truth__close"
     },
     {
       "page_key": "faq",
-      "page_grammar": "FG13_COMPACT_TEXT_ACCORDION_TRUTH",
+      "page_grammar": "FG14_STUDIO_PRODUCT_FAQ",
       "layout_sequence": [
         "compact_text_hero",
         "faq_accordion",
         "truth_strip",
         "cta_field"
       ],
-      "neutral_silhouette_hash": "compact-hero__accordion__truth__cta"
+      "neutral_silhouette_hash": "compact-studio-faq__accordion__source-truth__close"
     },
     {
       "page_key": "kontakt",
-      "page_grammar": "CG16_COMPACT_DUAL_ROUTE_FORM",
+      "page_grammar": "CG17_STUDIO_DIRECT_CONTACT",
       "layout_sequence": [
         "compact_text_hero",
         "route_cards",
@@ -196,7 +200,7 @@
         "form_field",
         "truth_strip"
       ],
-      "neutral_silhouette_hash": "compact-hero__routes__contact-grid__ledger__form__truth"
+      "neutral_silhouette_hash": "company-contact-hero__route-cards__direct-grid__routing-ledger__form__truth"
     }
   ],
   "interaction_profile": [
@@ -211,7 +215,7 @@
     "MB14_LEDGER_TO_STACK",
     "MB18_MINIMAL_REFLOW"
   ],
-  "site_fingerprint": "verqino-org-v2:H018-PG24-TG26-SG27-RG28-FG13-CG16-F007",
+  "site_fingerprint": "verqino-org-v3:STUDIOFIRST-H018-SG21-DG21-TG21-PG25-FG14-CG17-F007",
   "comparison_summary": {
     "history_available": true,
     "compared_site_count": 2,
@@ -220,7 +224,7 @@
     "threshold": 0.72,
     "reroll_count": 2,
     "new_grammar_count": 6,
-    "note": "v1.1.0 browser-proof rebuild: photo-first major media, 1.00 rendered-family ratio on Home, zero browser whitespace/heading/overflow failures, PL locale hooks and adaptive no-media reflow."
+    "note": "v1.2.0 studio-first rebuild: company/team/development/iteration/QA dominate narrative (0.77 estimate); product is proof of work; responsive WebP+JPEG photo delivery passes codec/fallback browser QA; rendered-family ratio on Home = 1.00."
   },
   "revisions": [
     {
@@ -234,6 +238,37 @@
       "timestamp": "2026-10-02",
       "structural_change": "BROWSER_PROOF_PHOTO_FIRST_REBUILD",
       "site_fingerprint": "verqino-org-v2:H018-PG24-TG26-SG27-RG28-FG13-CG16-F007"
+    },
+    {
+      "build_version": "1.2.0",
+      "timestamp": "2026-10-02",
+      "structural_change": "STUDIO_FIRST_BUSINESS_AND_RESILIENT_PHOTO_DELIVERY",
+      "site_fingerprint": "verqino-org-v3:STUDIOFIRST-H018-SG21-DG21-TG21-PG25-FG14-CG17-F007"
     }
-  ]
+  ],
+  "photo_delivery": {
+    "mode": "RESPONSIVE_WEBP_PLUS_JPEG_FALLBACK",
+    "photo_family_count": 5,
+    "responsive_variants_per_family": 4,
+    "broken_major_image_count": 0,
+    "browser_codec_decode_pass": true,
+    "forced_webp_failure_jpeg_fallback_pass": true
+  },
+  "browser_qa": {
+    "status": "PASS",
+    "failure_count": 0,
+    "home_distinct_rendered_family_ratio": 1,
+    "viewports": [
+      "390x844",
+      "1366x768",
+      "1600x1000",
+      "1920x1080"
+    ],
+    "key_pages": [
+      "studio",
+      "rozwoj",
+      "zespol",
+      "gra"
+    ]
+  }
 }
