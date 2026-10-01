@@ -1,19 +1,31 @@
 {
+  "schema_version": "2.3",
   "release": "studio-first-photo-delivery-v5.2",
-  "updated_at": "2026-10-02",
-  "state": "ACTIVE_GIT_CANONICAL",
+  "date": "2026-10-02",
+  "status": "ACTIVE_GIT_CANONICAL",
   "policy_baseline": "Site Factory v4.9.17",
-  "bootstrap_mode": "PROJECT_SOURCES_BOOTSTRAP_ONLY",
-  "mandatory_release_gates": [
-    "GEO_SEO_BROWSER_PASS",
-    "COMPOSITION_BROWSER_PASS",
-    "RENDERED_DIVERSITY_PASS",
-    "ADULT_MEDIA_PASS",
-    "MOBILE_BROWSER_PASS",
-    "CONTENT_ASSET_ONLY_IMAGE_BUDGET_PASS",
-    "MEDIA_LOAD_PASS",
-    "STUDIO_BUSINESS_NARRATIVE_PASS"
-  ],
+  "canonical_repository": "PingVinni/Landing",
+  "canonical_branch": "main",
+  "business_model": {
+    "owner_supplied_creator_relationship": true,
+    "primary_entity": "STUDIO_COMPANY",
+    "product_role": "PROOF_OF_WORK",
+    "company_narrative_ratio_target": "0.60–0.75"
+  },
+  "photo_delivery": {
+    "webp_plus_jpeg_fallback": true,
+    "responsive_variants": true,
+    "broken_major_image_count": 0,
+    "browser_decode_required": true
+  },
+  "hard_gates": {
+    "studio_business_narrative": true,
+    "media_load": true,
+    "geo_locale_final_html": true,
+    "browser_screenshot_matrix": true,
+    "rendered_silhouette_diversity": true,
+    "adult_premium_photo_dominance": true
+  },
   "bundles": [
     {
       "path": "site-factory-skills/current/01-CORE-GOVERNANCE.md",

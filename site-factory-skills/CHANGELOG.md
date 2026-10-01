@@ -1,5 +1,13 @@
 # Site Factory Skills Changelog
 
+## 2026-10-02 — studio-first-photo-delivery-v5.2
+- Added OWNER_SUPPLIED_CREATOR_RELATIONSHIP for explicit owner statements that the site company/team created the promoted product.
+- Switched official-studio business narrative priority to company/team/development/iteration/QA first, product second.
+- Added Studio/About, Development/How We Built It and Team/Workflow coverage expectations.
+- Added resilient photo delivery: responsive WebP + JPEG fallback, intrinsic dimensions, path/decode checks and zero-broken-image gate.
+- Added MEDIA-LOAD-001 and studio-business narrative release checks.
+- Preserved external marketplace developer/account data as source metadata without letting it silently override owner-supplied business identity.
+
 ## 2026-10-02 — content-photo-only-build-discipline-v5.1
 - Added CONTENT_ASSET_ONLY image-generation mode for normal BUILD.
 - Full-page/landing-page mockups are forbidden by default unless the user explicitly requests one.
