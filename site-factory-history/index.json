@@ -13,8 +13,8 @@
       "hero_archetype": "H006",
       "hero_cluster": "GT24_EDITORIAL_SPREAD",
       "footer_archetype": "F013",
-      "page_rhythm": "R17_PREMIUM_MEDIA_VALUE_TABS_EDITORIAL_RUNWAY_MECHANICS_LEVELS_METRICS_ART_TESTING_CTA",
-      "site_fingerprint": "dorevita-org-v3:H006-T004-T009-C041-D014-C036-P017-C032-M005-T011-C035-C029-A005"
+      "page_rhythm": "R18_STUDIO_TEAM_WORKFLOW_TASKS_REVIEW_PRODUCT_SYSTEMS_LEVELS_ART_QA_CTA",
+      "site_fingerprint": "dorevita-org-v5:STUDIOFIRST-H006-T004-C_TEAM-D_WORKFLOW-P_TASKS-C_REVIEW-M_PRODUCT-C_SYSTEMS-L_LEVELS-Q_QA-A_CTA"
     }
   ],
   "frequency": {
@@ -53,7 +53,7 @@
       "A005": 1
     },
     "page_rhythms": {
-      "R17_PREMIUM_MEDIA_VALUE_TABS_EDITORIAL_RUNWAY_MECHANICS_LEVELS_METRICS_ART_TESTING_CTA": 1
+      "R18_STUDIO_TEAM_WORKFLOW_TASKS_REVIEW_PRODUCT_SYSTEMS_LEVELS_ART_QA_CTA": 1
     },
     "home_bigrams": {
       "H006>T004": 1,
