@@ -1,16 +1,73 @@
 {
   "schema_version": "1.0",
-  "updated_at": null,
-  "site_count": 0,
-  "sites": [],
+  "updated_at": "2026-10-01",
+  "site_count": 1,
+  "sites": [
+    {
+      "domain": "dorevita.org",
+      "path": "site-factory-history/sites/dorevita-org.json",
+      "geo": "PL",
+      "locale": "pl-PL",
+      "niche": "gaming / casual match-3",
+      "updated_at": "2026-10-01",
+      "hero_archetype": "H006",
+      "hero_cluster": "GT24_EDITORIAL_SPREAD",
+      "footer_archetype": "F013",
+      "page_rhythm": "R16_MEDIA_TRIPTYCH_PROOF_RAIL_EDITORIAL_RUNWAY_DIRECTORY_CTA",
+      "site_fingerprint": "dorevita-org-v1:H006-T004-C036-P017-C032-M005-C035-C029-A005"
+    }
+  ],
   "frequency": {
-    "hero_archetypes": {},
-    "hero_clusters": {},
-    "footer_archetypes": {},
-    "topology_clusters": {},
-    "section_archetypes": {},
-    "page_rhythms": {},
-    "home_bigrams": {},
-    "home_trigrams": {}
+    "hero_archetypes": {
+      "H006": 1
+    },
+    "hero_clusters": {
+      "GT24_EDITORIAL_SPREAD": 1
+    },
+    "footer_archetypes": {
+      "F013": 1
+    },
+    "topology_clusters": {
+      "GT24_EDITORIAL_SPREAD": 2,
+      "GT16_LEDGER_ROWS": 1,
+      "GT19_CROSS_AXIS": 1,
+      "GT17_TIMELINE_RUNWAY": 1,
+      "GT12_RAIL_AND_STAGE": 1,
+      "GT22_VARIABLE_WIDTH_BANDS": 2,
+      "GT02_BALANCED_SPLIT": 1
+    },
+    "section_archetypes": {
+      "H006": 1,
+      "T004": 1,
+      "C036": 1,
+      "P017": 1,
+      "C032": 1,
+      "M005": 1,
+      "C035": 1,
+      "C029": 1,
+      "A005": 1
+    },
+    "page_rhythms": {
+      "R16_MEDIA_TRIPTYCH_PROOF_RAIL_EDITORIAL_RUNWAY_DIRECTORY_CTA": 1
+    },
+    "home_bigrams": {
+      "H006>T004": 1,
+      "T004>C036": 1,
+      "C036>P017": 1,
+      "P017>C032": 1,
+      "C032>M005": 1,
+      "M005>C035": 1,
+      "C035>C029": 1,
+      "C029>A005": 1
+    },
+    "home_trigrams": {
+      "H006>T004>C036": 1,
+      "T004>C036>P017": 1,
+      "C036>P017>C032": 1,
+      "P017>C032>M005": 1,
+      "C032>M005>C035": 1,
+      "M005>C035>C029": 1,
+      "C035>C029>A005": 1
+    }
   }
 }
