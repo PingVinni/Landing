@@ -1,0 +1,24 @@
+{
+  "site": "kertanzip.org",
+  "version": "1.0.2",
+  "artifact": "kertanzip-blastybubs-pl-v1.0.2.zip",
+  "binary_storage": "HASH_TRACKED_IN_REPO__CANONICAL_ZIP_OUTSIDE_TEXT_CONNECTOR",
+  "assets": [
+    {"path":"assets/img/apple-touch-icon.png","bytes":1156,"sha256":"402fd151eb06490abab8e873c967fd5b260589b04eeeaf8009953586b60ce624","width":180,"height":180,"format":"PNG"},
+    {"path":"assets/img/favicon-192.png","bytes":1260,"sha256":"f719e5f001d19125bf0179dcc47866df9fda4fb22ccebf8863f3974390f5f0f2","width":192,"height":192,"format":"PNG"},
+    {"path":"assets/img/favicon-32.png","bytes":303,"sha256":"da71dda861335f413331f8cbcfe8bc8e8907315aa0fdaa0c091070d950a3dc02","width":32,"height":32,"format":"PNG"},
+    {"path":"assets/img/favicon-512.png","bytes":4101,"sha256":"ef94078cd790fb6b62db5585d537cc709d4233ca1e2958d49f3fe64170a4cbfc","width":512,"height":512,"format":"PNG"},
+    {"path":"assets/img/favicon.ico","bytes":2049,"sha256":"0cd6ddf2ae1c967082aee187623180d72f230aff2e8183fdd9f5ca6d6c2383c5","width":32,"height":32,"format":"ICO"},
+    {"path":"assets/img/favicon.svg","bytes":486,"sha256":"1ec56e764de1978487bf646c66dffeaed13f8ff6417cc85c480d68107ea7032c","format":"SVG"},
+    {"path":"assets/img/product-device.webp","bytes":166276,"sha256":"b09773d8eb768b977dd0709210580c4e3256bbef863cdc03534e13bb1cc80417","width":1672,"height":940,"format":"WEBP"},
+    {"path":"assets/img/product-impact.webp","bytes":194662,"sha256":"ad01a447ad226287a046740c8ba74567b8a634d44645c90720a7b90af265c175","width":1672,"height":940,"format":"WEBP"},
+    {"path":"assets/img/product-powerups.webp","bytes":288944,"sha256":"65b5fce6a73b6812d22c2636c9272b23ee79be8a4c6c476395076cf927b19d52","width":1672,"height":940,"format":"WEBP"},
+    {"path":"assets/img/team-art.webp","bytes":178284,"sha256":"866f0e02b86e090660a80c728299e17c3a21233e18349e9fdf11563c636c2cd6","width":1672,"height":940,"format":"WEBP"},
+    {"path":"assets/img/team-game.webp","bytes":173422,"sha256":"2e6a17892d92f549501f51102c26ca756b53fb3a08527db2563b5f206a3ec56d","width":1672,"height":940,"format":"WEBP"},
+    {"path":"assets/img/team-home.webp","bytes":184094,"sha256":"3b415040a5c1faf0a1fead128baaa4bc6a83c0d1cf2e5e4338be55f4f849bfe4","width":1672,"height":940,"format":"WEBP"},
+    {"path":"assets/img/team-mechanics.webp","bytes":151900,"sha256":"716ec3c31178d249acce6d91fc8ce6186eeb6243463108c5781d8f5c5fc7acd1","width":1672,"height":940,"format":"WEBP"},
+    {"path":"assets/img/team-process.webp","bytes":150672,"sha256":"34d013665131c07ec66db53a49910f6f82b6e1548106a6cb1f072f4356d60af7","width":1672,"height":940,"format":"WEBP"},
+    {"path":"assets/img/team-product.webp","bytes":242650,"sha256":"556bd0cb5d4d3812806dc26a44eeade7cf5bd0b5761a66d65792c103f8a79bc9","width":1672,"height":940,"format":"WEBP"},
+    {"path":"assets/img/team-qa.webp","bytes":146978,"sha256":"118132276efb418310e86fe3914a5611661dc0159d3d0c4570558329b4e4968f","width":1536,"height":864,"format":"WEBP"}
+  ]
+}
