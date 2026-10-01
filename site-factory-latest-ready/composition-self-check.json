@@ -1,58 +1,46 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "domain": "verqino.org",
-  "version": "1.0.0",
-  "status": "COMPOSITION_SELF_CHECK_PASS",
+  "version": "1.1.0",
+  "status": "BROWSER_COMPOSITION_PASS",
   "copy_density_profile": "COMPACT_070",
   "word_counts": {
-    "home": 669,
-    "gra": 466,
-    "taktyka": 449,
-    "sklad": 454,
-    "rywalizacja": 440,
-    "faq": 413,
-    "kontakt": 293,
-    "legal_privacy": 351,
-    "legal_terms": 300,
-    "legal_cookies": 229
+    "home": 630,
+    "gra": 447,
+    "taktyka": 419,
+    "sklad": 429,
+    "rywalizacja": 407,
+    "faq": 409,
+    "kontakt": 282,
+    "legal_privacy": 348,
+    "legal_terms": 297,
+    "legal_cookies": 226
   },
+  "browser_qa_file": "browser-qa.json",
+  "browser_qa_pass": true,
+  "viewports": ["390x844","1366x768","1600x1000","1920x1080"],
+  "representative_pages": ["home","taktyka","sklad","rywalizacja"],
+  "home_distinct_rendered_family_ratio": 1.0,
   "full_width_contract": {
-    "outer_section_inline_size": "100%",
-    "inner_shell": "min(100%, 96rem) with responsive padding",
-    "major_section_canvas_coverage_target": 0.78,
-    "largest_unassigned_blank_region_ratio_max": 0.22,
-    "empty_required_media_tracks": 0,
-    "one_sided_blank_field_static_risk": false
+    "occupied_width_ratio_min": 0.74,
+    "largest_blank_side_ratio_max": 0.26,
+    "normal_heading_visual_lines_max": 3,
+    "failure_count": 0
   },
-  "layout_families": [
-    "cards-wide",
-    "contact-grid",
-    "cta-field",
-    "editorial-media",
-    "form-field",
-    "loop-steps",
-    "media-ledger",
-    "radar-band",
-    "signal-rail",
-    "truth-strip"
-  ],
-  "home_layout_sequence": [
-    "signal-rail",
-    "editorial-media",
-    "cards-wide",
-    "media-ledger",
-    "radar-band",
-    "loop-steps",
-    "truth-strip",
-    "cta-field"
-  ],
-  "adjacent_exact_layout_repeat_home": false,
-  "visual_media_count": 29,
-  "visual_browser_check": "NOT_RUN_CHROMIUM_ENVIRONMENT_UNAVAILABLE",
+  "adult_media": {
+    "major_photo_or_photoreal_ratio": 1.0,
+    "major_abstract_vector_or_diagram_ratio": 0.0,
+    "childlike_doodle_major_visual_count": 0,
+    "packaged_photo_assets": 5,
+    "major_photo_placements": 10
+  },
+  "image_generation_scope": {
+    "mode": "CONTENT_ASSET_ONLY",
+    "generated_full_page_mockups_packaged": 0,
+    "production_photo_assets_packaged": 5
+  },
   "notes": [
-    "All media-dependent grid families have media populated.",
-    "CTA/truth/contact/form families do not reserve empty media tracks.",
-    "CSS contains no numeric px units.",
-    "Browser screenshot command was unavailable in this environment; runtime/browser PASS is not claimed."
+    "All browser QA cases pass geometry/heading/overflow/locale metadata probes in the implementation preview.",
+    "Live WordPress runtime was not available; activation-level locale/permalink/mail behavior remains a post-install check."
   ]
 }

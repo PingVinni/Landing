@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "domain": "verqino.org",
+  "version": "1.1.0",
+  "status": "PASS",
+  "failure_count": 0,
+  "home_distinct_rendered_family_ratio": 1.0,
+  "cases": [
+    {"label":"home-mobile","file":"index.html","viewport":[390,844],"lang":"pl-PL","og_locale":"pl_PL","robots":"index,follow,max-image-preview:large","schema_lang_ok":true,"horizontal_overflow":false,"major_media":5,"photo_ratio":1,"min_coverage":0.918,"max_blank_side":0.041,"max_heading_lines":3},
+    {"label":"home-laptop","file":"index.html","viewport":[1366,768],"lang":"pl-PL","og_locale":"pl_PL","robots":"index,follow,max-image-preview:large","schema_lang_ok":true,"horizontal_overflow":false,"major_media":5,"photo_ratio":1,"min_coverage":0.91,"max_blank_side":0.06,"max_heading_lines":3},
+    {"label":"home-desktop","file":"index.html","viewport":[1600,1000],"lang":"pl-PL","og_locale":"pl_PL","robots":"index,follow,max-image-preview:large","schema_lang_ok":true,"horizontal_overflow":false,"major_media":5,"photo_ratio":1,"min_coverage":0.91,"max_blank_side":0.06,"max_heading_lines":3},
+    {"label":"home-wide","file":"index.html","viewport":[1920,1080],"lang":"pl-PL","og_locale":"pl_PL","robots":"index,follow,max-image-preview:large","schema_lang_ok":true,"horizontal_overflow":false,"major_media":5,"photo_ratio":1,"min_coverage":0.909,"max_blank_side":0.059,"max_heading_lines":3},
+    {"label":"taktyka-desktop","file":"taktyka.html","viewport":[1600,1000],"lang":"pl-PL","og_locale":"pl_PL","robots":"index,follow,max-image-preview:large","schema_lang_ok":true,"horizontal_overflow":false,"major_media":1,"photo_ratio":1,"min_coverage":0.919,"max_blank_side":0.051,"max_heading_lines":3},
+    {"label":"sklad-desktop","file":"sklad.html","viewport":[1600,1000],"lang":"pl-PL","og_locale":"pl_PL","robots":"index,follow,max-image-preview:large","schema_lang_ok":true,"horizontal_overflow":false,"major_media":1,"photo_ratio":1,"min_coverage":0.919,"max_blank_side":0.051,"max_heading_lines":3},
+    {"label":"rywalizacja-desktop","file":"rywalizacja.html","viewport":[1600,1000],"lang":"pl-PL","og_locale":"pl_PL","robots":"index,follow,max-image-preview:large","schema_lang_ok":true,"horizontal_overflow":false,"major_media":2,"photo_ratio":1,"min_coverage":0.939,"max_blank_side":0.031,"max_heading_lines":3}
+  ]
+}

@@ -1,53 +1,54 @@
-# Verqino / Pitch Invaders PL — QA
+# Verqino / Pitch Invaders PL — QA v1.1.0
 
 **Domain:** verqino.org  
-**Version:** 1.0.0  
+**Version:** 1.1.0  
 **Theme root:** verqino-pitch-invaders-pl  
 
 ## Source / truth gate
-
 - Source: Google Play package `no.norapps.pitchinvaders`.
-- Developer in source: FotMob AS.
-- Official product website: pitchinvade.rs.
+- Source developer/support owner: FotMob AS.
 - Site model: `INDEPENDENT_GAME_GUIDE`.
-- `first_person_creator_claims_allowed = false`.
-- Verqino ↔ FotMob relationship is not asserted.
-- Official game support is kept separate from website contact.
+- Verqino ↔ FotMob ownership/developer relationship is not asserted.
+- Generated editorial photos are explicitly described as conceptual Verqino material and not gameplay screenshots.
 
-## Contact
+## GEO / SEO
+- Requested: `PL / pl-PL`.
+- Runtime provisions `WPLANG = pl_PL`.
+- Front-end locale filter: `pl_PL`.
+- Final document language hook forces `lang=pl-PL`.
+- `og:locale = pl_PL`.
+- Schema `inLanguage = pl-PL`.
+- Explicit robots: `index,follow,max-image-preview:large`.
+- Static browser implementation probes: **PASS**.
 
-- Mode: `SYNTHETIC_GEO_CONTACT`.
-- Public email: `kontakt@verqino.org` (synthetic; deliverability not claimed).
-- Phone: `+48 58 742 16 83` (PL/Gdańsk format; display-only).
-- Address: `ul. Taktyczna 17, 80-180 Gdańsk, Polska` (synthetic presentation address; not a legal/registered office).
-- Legal operator identity: `REQUIRES_OWNER_DATA`.
+## Browser composition QA
+- Home viewports: 390×844, 1366×768, 1600×1000, 1920×1080.
+- Representative internal pages at 1600×1000: Taktyka, Skład, Rywalizacja.
+- Browser failure count: **0**.
+- Home distinct rendered-family ratio: **1.00**.
+- Horizontal overflow failures: **0**.
+- Large one-sided blank-field failures: **0**.
+- Heading-stack failures: **0**.
+
+## Media
+- Packaged adult editorial/photoreal content photos: **5**.
+- Major photo placements: **10**.
+- Major photo/photoreal ratio: **1.00**.
+- Major abstract/vector/diagram ratio: **0.00**.
+- Childlike doodle major visuals: **0**.
+- Full-page generated mockups packaged/used: **0**.
 
 ## Static QA
+- PHP syntax: PASS.
+- JSON syntax: PASS.
+- Numeric `px` in production CSS: 0.
+- Major SVG/diagram references in Global Text: 0.
+- Global Text editable option/admin screen retained.
+- Managed page manifest: 10 pages.
+- Legal pages: Privacy / Terms / Cookies.
 
-- PHP syntax: **PASS**.
-- JSON syntax: **PASS**.
-- Required theme files: **PASS**.
-- Numeric `px` in production CSS: **0 / PASS**.
-- `.example` / obvious placeholder strings: **0 / PASS**.
-- Favicon fallback SVG + PNG + Apple touch icon: **PASS**.
-- Global Text editable option/admin screen: **PASS (static)**.
-- Managed page manifest: **10 pages**.
-- Legal pages provisioned: Privacy / Terms / Cookies.
-- Theme-owned analytics/ads/tracking: **none**.
+## Remaining runtime gate
+A live WordPress instance was not available in the build container. Activation-level checks for final WordPress HTML, permalink provisioning, outbound mail and actual server headers remain post-install verification.
 
-## Composition
-
-- Home hero: full-bleed orbital pitch stage; not balanced split/editorial-spread reuse.
-- Full useful width rule: **PASS (static CSS/manifest)**.
-- Empty required media tracks: **0**.
-- Home adjacent exact layout-family repeats: **false**.
-- Original SVG visual assets: **29**.
-- Copy profile: `COMPACT_070`; page counts intentionally below historical high-density defaults where semantic coverage is complete.
-
-## Browser/runtime status
-
-Chromium screenshot/runtime execution is unavailable in the current build container, so **VISUAL_BROWSER_PASS and LIVE_WORDPRESS_RUNTIME_PASS are not claimed**. The install ZIP is statically validated and ready for WordPress activation/runtime verification.
-
-## Release state
-
-`STATIC_PASS + COMPOSITION_SELF_CHECK_PASS + RUNTIME_NOT_RUN`
+## Build state
+`STATIC_PASS + BROWSER_COMPOSITION_PASS + GEO_SEO_IMPLEMENTATION_PASS + ADULT_MEDIA_PASS + WORDPRESS_LIVE_NOT_RUN`
