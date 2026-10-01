@@ -1,9 +1,10 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "mode": "HARD_STRUCTURAL_MEMORY",
   "selection_pipeline": [
     "resolve semantic role and content shape",
-    "load GitHub structural history",
+    "load GitHub structural history index",
+    "select recent + same-niche + nearest structural comparison set",
     "build recent-role exclusion set",
     "filter bank by semantic/content/media/a11y/responsive constraints",
     "group candidates by topology cluster",
@@ -14,7 +15,11 @@
     "compare against same-page, same-site and recent cross-site fingerprints",
     "reroll or mutate when distance fails",
     "synthesize a new grammar when no distant candidate survives",
-    "persist final fingerprint to history"
+    "build and QA site",
+    "write or update canonical per-site fingerprint file",
+    "update history index frequencies and recency",
+    "read written per-site file and index back from main branch",
+    "record STRUCTURAL_MEMORY_WRITE_PASS only after read-after-write verification"
   ],
   "hard_rules": {
     "cosmetic_only_change_is_unique": false,
@@ -26,7 +31,11 @@
     "exact_structural_signature_repeat_same_site": 0,
     "adjacent_same_topology_cluster_allowed": false,
     "hero_equals_final_cta_stage_allowed": false,
-    "same_home_sequence_on_unrelated_recent_site_allowed": false
+    "same_home_sequence_on_unrelated_recent_site_allowed": false,
+    "per_site_history_file_required_after_new_build": true,
+    "history_index_update_required_after_new_build": true,
+    "read_after_write_verification_required": true,
+    "duplicate_same_domain_history_files_allowed": false
   },
   "distance_thresholds": {
     "adjacent_major_sections": 0.66,
@@ -89,5 +98,23 @@
     "inspect_same_niche_sites": 30,
     "inspect_nearest_structural_matches": 20,
     "full_detail_files_loaded_after_index_filter": 20
+  },
+  "history_write_policy": {
+    "canonical_path_pattern": "site-factory-history/sites/{normalized-domain}.json",
+    "new_domain_action": "CREATE",
+    "existing_domain_action": "UPDATE_EXISTING_CANONICAL_FILE",
+    "update_index": "site-factory-history/index.json",
+    "preserve_revision_summary": true,
+    "verify_by_refetch": true,
+    "success_state": "STRUCTURAL_MEMORY_WRITE_PASS",
+    "blocked_state": "STRUCTURAL_MEMORY_WRITE_BLOCKED",
+    "disallowed_content": [
+      "public page copy",
+      "prompts",
+      "credentials",
+      "secrets",
+      "private user data",
+      "unnecessary personal information"
+    ]
   }
 }
