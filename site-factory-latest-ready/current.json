@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-01",
+  "status": "LATEST_DELIVERED_STATIC_PASS_RUNTIME_NOT_RUN",
+  "domain": "kertanzip.org",
+  "geo": "PL",
+  "locale": "pl-PL",
+  "source_url": "https://play.google.com/store/apps/details?id=com.quickbytegames.blastybubs",
+  "package_id": "com.quickbytegames.blastybubs",
+  "theme_root": "kertanzip-blastybubs-pl",
+  "version": "1.0.2",
+  "artifact_name": "kertanzip-blastybubs-pl-v1.0.2.zip",
+  "structural_memory_domain_file": "site-factory-history/sites/kertanzip-org.json",
+  "qa_file": "site-factory-latest-ready/qa.md",
+  "build_manifest_file": "site-factory-latest-ready/build-manifest.json",
+  "source_snapshot_file": "site-factory-latest-ready/source-text-snapshot.json.gz.b64",
+  "assets_manifest_file": "site-factory-latest-ready/assets-manifest.json",
+  "binary_restore_note": "Visual binaries are integrity-tracked by SHA-256; install ZIP remains the canonical binary artifact outside the GitHub text workspace."
+}
