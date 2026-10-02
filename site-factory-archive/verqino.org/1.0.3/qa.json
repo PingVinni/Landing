@@ -1,0 +1,13 @@
+{
+  "archive_schema": "1.0",
+  "domain": "verqino.org",
+  "delivered_version": "1.0.3",
+  "artifact_sha256": "d6753d8eebf604324e2e366592794f47e5f52433ecd71bf9d5c2c8c9f9682ad6",
+  "known_state": {
+    "latest_change": "standard header hard-fix",
+    "php_header_lint": "PASS",
+    "archive_integrity": "ZIP_READABLE",
+    "live_runtime_reverification": "REQUIRED_IF_RESTORED"
+  },
+  "archive_status": "METADATA_VERIFIED_BINARY_PENDING_CONNECTOR_CAPABILITY"
+}

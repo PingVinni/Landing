@@ -1,0 +1,13 @@
+{
+  "archive_schema": "1.0",
+  "domain": "verqino.org",
+  "theme_artifact": "verqino-farm-game-pl-v1.0.3.zip",
+  "delivered_version": "1.0.3",
+  "sha256": "d6753d8eebf604324e2e366592794f47e5f52433ecd71bf9d5c2c8c9f9682ad6",
+  "zip_entries": 153,
+  "archive_reason": "USER_APPROVED_BEFORE_NEW_BUILD",
+  "business_model": "OFFICIAL_GAME_STUDIO",
+  "geo": "PL",
+  "locale": "pl-PL",
+  "note": "Manifest identifies the exact previously delivered ZIP. Binary transfer into Git is separately tracked because the active GitHub connector accepts text/blob content but no local container file reference."
+}
