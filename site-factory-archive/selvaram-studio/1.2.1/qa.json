@@ -1,0 +1,1000 @@
+{
+  "project": "Selvaram / Underground Racing",
+  "theme_version": "1.2.1",
+  "generated_at": "2026-10-02",
+  "release_state": "RUNTIME_VALIDATION_BLOCKED",
+  "package_state": "INSTALL_READY_PACKAGE",
+  "business_model": {
+    "mode": "OFFICIAL_GAME_STUDIO",
+    "developer_relationship_status": "OWNER_SUPPLIED_CREATOR_RELATIONSHIP",
+    "store_listing_account": "KALIKO",
+    "relationship_handling": "Owner-supplied Selvaram creator relationship is kept separate from marketplace account attribution."
+  },
+  "gates": {
+    "static_qa": "PASS",
+    "rendered_html_seo_qa": "PASS_PREVIEW_HARNESS",
+    "photo_package_decode_fallback_qa": "PASS",
+    "desktop_browser_1440_qa": "PASS_SELF_CONTAINED_BROWSER",
+    "wide_desktop_1920_2560_qa": "PASS_SELF_CONTAINED_BROWSER",
+    "mobile_390_qa": "PASS_SELF_CONTAINED_BROWSER",
+    "interaction_qa": "PASS_SELF_CONTAINED_BROWSER",
+    "global_text_edit_lkg_simulation": "PASS",
+    "schema_3_to_4_migration_unit_test": "PASS",
+    "wordpress_fresh_install_runtime_qa": "BLOCKED_NO_WORDPRESS_RUNTIME",
+    "wordpress_upgrade_in_place_runtime_qa": "BLOCKED_NO_WORDPRESS_RUNTIME",
+    "real_host_permalink_probe": "BLOCKED_NO_TARGET_WORDPRESS_HOST",
+    "v1_2_owner_requested_footer_nav_home_regression": "PASS_STATIC_AND_TEMPLATE_PREVIEW",
+    "schema_4_to_5_migration_unit_review": "PASS_STATIC",
+    "post_v1_2_live_wordpress_browser_qa": "BLOCKED_NO_WORDPRESS_RUNTIME",
+    "schema_5_to_6_migration_unit_review": "PASS_STATIC",
+    "v1_2_1_full_contact_address_regression": "PASS_STATIC_AND_TEMPLATE_PREVIEW"
+  },
+  "static": {
+    "numeric_px_count": 0,
+    "placeholder_hits": {},
+    "php_files": [
+      "404.php",
+      "footer.php",
+      "front-page.php",
+      "functions.php",
+      "header.php",
+      "index.php",
+      "page.php"
+    ],
+    "internal_link_preview_issues": [],
+    "template_hierarchy": {
+      "front-page.php": "delegates to index.php",
+      "page.php": "delegates to index.php",
+      "404.php": "dedicated"
+    },
+    "v1_2_php_syntax": "PASS_ALL_THEME_PHP",
+    "v1_2_global_text_json": "PASS_SCHEMA_6",
+    "v1_2_migration_snapshot_v4": "PRESENT",
+    "header_navigation_labels": [
+      "Poznaj nas",
+      "Jak tworzymy",
+      "Underground Racing",
+      "Warstwa wizualna",
+      "Testowanie",
+      "Porozmawiajmy"
+    ],
+    "footer_contact_rendering": [
+      "E-mail",
+      "Telefon",
+      "Adres"
+    ],
+    "footer_address_value": "ul. Winorośli 27B, 40-750 Katowice, Polska",
+    "home_render_families": [
+      "manifesto_asymmetric_62_38",
+      "staggered_team_triad",
+      "sticky_vertical_process_runway",
+      "asymmetric_systems_mosaic",
+      "three_zone_review_ledger",
+      "qa_media_dominant_42_58",
+      "full_bleed_art_overlay",
+      "product_board_with_fact_strip",
+      "centered_source_statement",
+      "asymmetric_finale_band"
+    ],
+    "home_exact_family_repeat": 0,
+    "home_adjacent_mirrored_qa_art_split_removed": true,
+    "v1_2_migration_snapshot_v5": "PRESENT",
+    "contact_address_value": "ul. Winorośli 27B, 40-750 Katowice, Polska",
+    "contact_address_status": "SYNTHETIC_GEO_CONTACT",
+    "contact_address_public_claim": "CONTACT_ADDRESS_NOT_REGISTERED_OFFICE"
+  },
+  "seo": {
+    "home": {
+      "title": "Selvaram — studio i rozwój Underground Racing",
+      "title_chars": 45,
+      "description_chars": 136,
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL",
+      "h1_count": 1,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "canonical": "http://127.0.0.1:8765/qa/preview.php?page=home",
+      "canonical_has_index_php": false,
+      "author": "Selvaram",
+      "publisher": "Selvaram",
+      "og_locale": "pl_PL",
+      "image_families": [
+        "home-art-material",
+        "home-qa-review",
+        "home-studio"
+      ]
+    },
+    "studio": {
+      "title": "Studio Selvaram i Underground Racing — sposób pracy",
+      "title_chars": 51,
+      "description_chars": 142,
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL",
+      "h1_count": 1,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "canonical": "http://127.0.0.1:8765/qa/preview.php?page=studio",
+      "canonical_has_index_php": false,
+      "author": "Selvaram",
+      "publisher": "Selvaram",
+      "og_locale": "pl_PL",
+      "image_families": [
+        "studio-collaboration"
+      ]
+    },
+    "development": {
+      "title": "Rozwój Underground Racing — proces studia Selvaram",
+      "title_chars": 50,
+      "description_chars": 146,
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL",
+      "h1_count": 1,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "canonical": "http://127.0.0.1:8765/qa/preview.php?page=development",
+      "canonical_has_index_php": false,
+      "author": "Selvaram",
+      "publisher": "Selvaram",
+      "og_locale": "pl_PL",
+      "image_families": [
+        "development-workflow"
+      ]
+    },
+    "game": {
+      "title": "Underground Racing — gra wyścigowa tworzona przez Selvaram",
+      "title_chars": 58,
+      "description_chars": 145,
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL",
+      "h1_count": 1,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "canonical": "http://127.0.0.1:8765/qa/preview.php?page=game",
+      "canonical_has_index_php": false,
+      "author": "Selvaram",
+      "publisher": "Selvaram",
+      "og_locale": "pl_PL",
+      "image_families": [
+        "game-pursuit"
+      ]
+    },
+    "art": {
+      "title": "Art direction Underground Racing — kierunek Selvaram",
+      "title_chars": 52,
+      "description_chars": 157,
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL",
+      "h1_count": 1,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "canonical": "http://127.0.0.1:8765/qa/preview.php?page=art",
+      "canonical_has_index_php": false,
+      "author": "Selvaram",
+      "publisher": "Selvaram",
+      "og_locale": "pl_PL",
+      "image_families": [
+        "art-city"
+      ]
+    },
+    "qa": {
+      "title": "Testy i QA Underground Racing — proces Selvaram",
+      "title_chars": 47,
+      "description_chars": 137,
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL",
+      "h1_count": 1,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "canonical": "http://127.0.0.1:8765/qa/preview.php?page=qa",
+      "canonical_has_index_php": false,
+      "author": "Selvaram",
+      "publisher": "Selvaram",
+      "og_locale": "pl_PL",
+      "image_families": [
+        "qa-testing"
+      ]
+    },
+    "contact": {
+      "title": "Kontakt z Selvaram — Underground Racing i strona",
+      "title_chars": 48,
+      "description_chars": 153,
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL",
+      "h1_count": 1,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "canonical": "http://127.0.0.1:8765/qa/preview.php?page=contact",
+      "canonical_has_index_php": false,
+      "author": "Selvaram",
+      "publisher": "Selvaram",
+      "og_locale": "pl_PL",
+      "image_families": [
+        "studio-collaboration"
+      ]
+    },
+    "privacy": {
+      "title": "Polityka prywatności Selvaram — dane i ustawienia",
+      "title_chars": 49,
+      "description_chars": 148,
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL",
+      "h1_count": 1,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "canonical": "http://127.0.0.1:8765/qa/preview.php?page=privacy",
+      "canonical_has_index_php": false,
+      "author": "Selvaram",
+      "publisher": "Selvaram",
+      "og_locale": "pl_PL",
+      "image_families": [
+        "home-studio"
+      ]
+    },
+    "terms": {
+      "title": "Warunki korzystania z witryny Selvaram — zasady",
+      "title_chars": 47,
+      "description_chars": 159,
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL",
+      "h1_count": 1,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "canonical": "http://127.0.0.1:8765/qa/preview.php?page=terms",
+      "canonical_has_index_php": false,
+      "author": "Selvaram",
+      "publisher": "Selvaram",
+      "og_locale": "pl_PL",
+      "image_families": [
+        "home-studio"
+      ]
+    },
+    "cookies": {
+      "title": "Polityka cookies Selvaram — ustawienia prywatności",
+      "title_chars": 50,
+      "description_chars": 141,
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL",
+      "h1_count": 1,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "canonical": "http://127.0.0.1:8765/qa/preview.php?page=cookies",
+      "canonical_has_index_php": false,
+      "author": "Selvaram",
+      "publisher": "Selvaram",
+      "og_locale": "pl_PL",
+      "image_families": [
+        "home-studio"
+      ]
+    }
+  },
+  "browser": {
+    "home": {
+      "horizontal_overflow": 0,
+      "h1_count": 1,
+      "h1_lines": [
+        4
+      ],
+      "max_h2_lines": 3,
+      "broken_images": 0,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "console_errors": 0,
+      "title": "Selvaram — studio i rozwój Underground Racing",
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL"
+    },
+    "studio": {
+      "horizontal_overflow": 0,
+      "h1_count": 1,
+      "h1_lines": [
+        3
+      ],
+      "max_h2_lines": 3,
+      "broken_images": 0,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "console_errors": 0,
+      "title": "Studio Selvaram i Underground Racing — sposób pracy",
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL"
+    },
+    "development": {
+      "horizontal_overflow": 0,
+      "h1_count": 1,
+      "h1_lines": [
+        4
+      ],
+      "max_h2_lines": 3,
+      "broken_images": 0,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "console_errors": 0,
+      "title": "Rozwój Underground Racing — proces studia Selvaram",
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL"
+    },
+    "game": {
+      "horizontal_overflow": 0,
+      "h1_count": 1,
+      "h1_lines": [
+        4
+      ],
+      "max_h2_lines": 3,
+      "broken_images": 0,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "console_errors": 0,
+      "title": "Underground Racing — gra wyścigowa tworzona przez Selvaram",
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL"
+    },
+    "art": {
+      "horizontal_overflow": 0,
+      "h1_count": 1,
+      "h1_lines": [
+        3
+      ],
+      "max_h2_lines": 3,
+      "broken_images": 0,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "console_errors": 0,
+      "title": "Art direction Underground Racing — kierunek Selvaram",
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL"
+    },
+    "qa": {
+      "horizontal_overflow": 0,
+      "h1_count": 1,
+      "h1_lines": [
+        4
+      ],
+      "max_h2_lines": 3,
+      "broken_images": 0,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "console_errors": 0,
+      "title": "Testy i QA Underground Racing — proces Selvaram",
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL"
+    },
+    "contact": {
+      "horizontal_overflow": 0,
+      "h1_count": 1,
+      "h1_lines": [
+        3
+      ],
+      "max_h2_lines": 3,
+      "broken_images": 0,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "console_errors": 0,
+      "title": "Kontakt z Selvaram — Underground Racing i strona",
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL"
+    },
+    "privacy": {
+      "horizontal_overflow": 0,
+      "h1_count": 1,
+      "h1_lines": [
+        1
+      ],
+      "max_h2_lines": 1,
+      "broken_images": 0,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "console_errors": 0,
+      "title": "Polityka prywatności Selvaram — dane i ustawienia",
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL"
+    },
+    "terms": {
+      "horizontal_overflow": 0,
+      "h1_count": 1,
+      "h1_lines": [
+        1
+      ],
+      "max_h2_lines": 1,
+      "broken_images": 0,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "console_errors": 0,
+      "title": "Warunki korzystania z witryny Selvaram — zasady",
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL"
+    },
+    "cookies": {
+      "horizontal_overflow": 0,
+      "h1_count": 1,
+      "h1_lines": [
+        1
+      ],
+      "max_h2_lines": 1,
+      "broken_images": 0,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "console_errors": 0,
+      "title": "Polityka cookies Selvaram — ustawienia prywatności",
+      "keyword_count": 16,
+      "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+      "lang": "pl-PL"
+    },
+    "404": {
+      "horizontal_overflow": 0,
+      "h1_count": 1,
+      "h1_lines": [
+        2
+      ],
+      "max_h2_lines": 1,
+      "broken_images": 0,
+      "missing_img_alt": 0,
+      "missing_img_title": 0,
+      "missing_link_title": 0,
+      "console_errors": 0,
+      "title": "Tej strony nie ma na trasie | Selvaram",
+      "keyword_count": 0,
+      "robots": "noindex,follow",
+      "lang": "pl-PL"
+    }
+  },
+  "mobile": {
+    "homeMobile": {
+      "pre": {
+        "scrollWidth": 390,
+        "width": 390,
+        "desktop": false,
+        "mobile": false,
+        "toggle": true,
+        "expanded": "false"
+      },
+      "post": {
+        "mobileVisible": true,
+        "expanded": "true"
+      }
+    },
+    "gameMobile": {
+      "pre": {
+        "scrollWidth": 390,
+        "width": 390,
+        "desktop": false,
+        "mobile": false,
+        "toggle": true,
+        "expanded": "false"
+      },
+      "post": {
+        "mobileVisible": true,
+        "expanded": "true"
+      }
+    },
+    "contactMobile": {
+      "pre": {
+        "scrollWidth": 390,
+        "width": 390,
+        "desktop": false,
+        "mobile": false,
+        "toggle": true,
+        "expanded": "false"
+      },
+      "post": {
+        "mobileVisible": true,
+        "expanded": "true"
+      }
+    }
+  },
+  "wide": {
+    "home-1920": {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "h1": [
+        4
+      ],
+      "h2": [
+        4,
+        3,
+        4,
+        3,
+        3,
+        2,
+        3,
+        2,
+        4,
+        3,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bodyHeight": 7571
+    },
+    "studio-1920": {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "h1": [
+        4
+      ],
+      "h2": [
+        3,
+        2,
+        4,
+        2,
+        2,
+        3,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bodyHeight": 6059
+    },
+    "development-1920": {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "h1": [
+        4
+      ],
+      "h2": [
+        3,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bodyHeight": 6076
+    },
+    "game-1920": {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "h1": [
+        4
+      ],
+      "h2": [
+        4,
+        4,
+        2,
+        2,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bodyHeight": 6224
+    },
+    "art-1920": {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "h1": [
+        4
+      ],
+      "h2": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bodyHeight": 5818
+    },
+    "qa-1920": {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "h1": [
+        4
+      ],
+      "h2": [
+        2,
+        2,
+        1,
+        2,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bodyHeight": 6023
+    },
+    "home-2560": {
+      "width": 2560,
+      "scrollWidth": 2560,
+      "h1": [
+        4
+      ],
+      "h2": [
+        4,
+        3,
+        4,
+        3,
+        3,
+        2,
+        3,
+        2,
+        4,
+        3,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bodyHeight": 7571
+    },
+    "studio-2560": {
+      "width": 2560,
+      "scrollWidth": 2560,
+      "h1": [
+        4
+      ],
+      "h2": [
+        3,
+        2,
+        4,
+        2,
+        2,
+        3,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bodyHeight": 6059
+    },
+    "development-2560": {
+      "width": 2560,
+      "scrollWidth": 2560,
+      "h1": [
+        4
+      ],
+      "h2": [
+        3,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bodyHeight": 6076
+    },
+    "game-2560": {
+      "width": 2560,
+      "scrollWidth": 2560,
+      "h1": [
+        4
+      ],
+      "h2": [
+        4,
+        4,
+        2,
+        2,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bodyHeight": 6224
+    },
+    "art-2560": {
+      "width": 2560,
+      "scrollWidth": 2560,
+      "h1": [
+        4
+      ],
+      "h2": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bodyHeight": 5818
+    },
+    "qa-2560": {
+      "width": 2560,
+      "scrollWidth": 2560,
+      "h1": [
+        4
+      ],
+      "h2": [
+        2,
+        2,
+        1,
+        2,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "bodyHeight": 6023
+    }
+  },
+  "interaction": {
+    "tabs": {
+      "initial": [
+        "true",
+        "false",
+        "false"
+      ],
+      "panels_initial_hidden": [
+        false,
+        true,
+        true
+      ],
+      "after_click": [
+        "false",
+        "true",
+        "false"
+      ],
+      "panels_after_click_hidden": [
+        true,
+        false,
+        true
+      ],
+      "after_arrow_right": [
+        "false",
+        "false",
+        "true"
+      ]
+    },
+    "consent": {
+      "banner_initial_visible": true,
+      "modal_opened": true,
+      "close_button_focused": true,
+      "escape_closes": true,
+      "focus_restored": true,
+      "save_closes_and_hides_banner": true
+    }
+  },
+  "content_depth": {
+    "home": {
+      "visible_word_estimate": 864,
+      "top_level_section_count": 11,
+      "section_class_sequence": [
+        "hero.hero-home",
+        "section.home-identity",
+        "section.section-alt.home-team",
+        "section.home-process",
+        "section.section-alt.home-systems",
+        "section.home-review",
+        "section.section-alt.home-qa",
+        "section.home-art",
+        "section.section-alt.home-product",
+        "section.home-transparency",
+        "section.home-final"
+      ]
+    },
+    "studio": {
+      "visible_word_estimate": 564,
+      "top_level_section_count": 9,
+      "section_class_sequence": [
+        "hero.hero-studio",
+        "section",
+        "section.section-alt",
+        "section",
+        "section",
+        "section.section-alt",
+        "section",
+        "section.section-alt",
+        "section"
+      ]
+    },
+    "development": {
+      "visible_word_estimate": 620,
+      "top_level_section_count": 11,
+      "section_class_sequence": [
+        "hero.hero-development",
+        "section",
+        "section.section-alt",
+        "section",
+        "section.section-alt",
+        "section.section-alt",
+        "section",
+        "section.section-alt",
+        "section",
+        "section.section-alt",
+        "section.section-alt"
+      ]
+    },
+    "game": {
+      "visible_word_estimate": 660,
+      "top_level_section_count": 10,
+      "section_class_sequence": [
+        "hero.hero-game",
+        "section",
+        "section.section-alt",
+        "section",
+        "section",
+        "section.section-alt",
+        "section",
+        "section",
+        "section.section-alt",
+        "section"
+      ]
+    },
+    "art": {
+      "visible_word_estimate": 500,
+      "top_level_section_count": 10,
+      "section_class_sequence": [
+        "hero.hero-art",
+        "section",
+        "section.section-alt",
+        "section",
+        "section.section-alt",
+        "section",
+        "section.section-alt",
+        "section.section-alt",
+        "section",
+        "section.section-alt"
+      ]
+    },
+    "qa": {
+      "visible_word_estimate": 615,
+      "top_level_section_count": 10,
+      "section_class_sequence": [
+        "hero.hero-qa",
+        "section",
+        "section.section-alt",
+        "section",
+        "section.section-alt",
+        "section",
+        "section.section-alt",
+        "section.section-alt",
+        "section",
+        "section.section-alt"
+      ]
+    },
+    "contact": {
+      "visible_word_estimate": 412,
+      "top_level_section_count": 7,
+      "section_class_sequence": [
+        "hero.hero-contact",
+        "section",
+        "section.section-alt",
+        "section",
+        "section",
+        "section.section-alt",
+        "section"
+      ]
+    },
+    "privacy": {
+      "visible_word_estimate": 463,
+      "top_level_section_count": 2,
+      "section_class_sequence": [
+        "hero.hero-legal",
+        "section"
+      ]
+    },
+    "terms": {
+      "visible_word_estimate": 369,
+      "top_level_section_count": 2,
+      "section_class_sequence": [
+        "hero.hero-legal",
+        "section"
+      ]
+    },
+    "cookies": {
+      "visible_word_estimate": 312,
+      "top_level_section_count": 2,
+      "section_class_sequence": [
+        "hero.hero-legal",
+        "section"
+      ]
+    }
+  },
+  "media": {
+    "family_count": 8,
+    "unique_major_1600_hashes": 8,
+    "exact_major_reuse": 0,
+    "generated_visible_raster_ratio": 1.0,
+    "web_visible_raster_ratio": 0.0,
+    "responsive_delivery": "640/960/1600 AVIF + WebP + JPEG",
+    "decode_failures": [],
+    "families": [
+      "art-city",
+      "development-workflow",
+      "game-pursuit",
+      "home-art-material",
+      "home-qa-review",
+      "home-studio",
+      "qa-testing",
+      "studio-collaboration"
+    ]
+  },
+  "typography_research": {
+    "geo": "Poland",
+    "locale": "pl-PL",
+    "direction": "screen-first sans; strong bold headings; readable left-aligned body copy",
+    "delivery": "Inter-preferred system stack; no remote font dependency; robust system fallbacks",
+    "glyph_support_note": "Inter official metadata includes latin-ext; Polish diacritics covered.",
+    "references": [
+      "Culture.pl — Polish typography history / Lato context",
+      "Gov.pl typography guidance — Open Sans/Lexend, readability and left alignment",
+      "Inter official repository / Google Fonts metadata — screen readability and latin-ext"
