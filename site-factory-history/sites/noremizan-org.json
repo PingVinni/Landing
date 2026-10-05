@@ -4,7 +4,7 @@
   "geo": "DE",
   "locale": "de-DE",
   "niche": "AI / interactive media / creative technology studio",
-  "build_identity": "2026-10-05-v1.1.0",
+  "build_identity": "2026-10-05-v1.2.0",
   "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
   "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
   "hero": {
@@ -55,9 +55,9 @@
       "collaboration-orbit>ethics-boundary>signal-final",
       "ethics-boundary>signal-final>signal-faq"
     ],
-    "neutral_silhouette_hash": "noremizan-org-v1.1:SIGNAL-CAPABILITYMATRIX-LABWINDOW-LABMOSAIC-RESEARCHRUNWAY-SYSTEMLEDGER-COLLABORATIONORBIT-ETHICSBOUNDARY-SIGNALFINAL-FAQ"
+    "neutral_silhouette_hash": "noremizan-org-v1.2:SIGNAL-CAPABILITYMATRIX-LABWINDOW-LABDETAIL-LABMOSAIC-RESEARCHRUNWAY-SYSTEMLEDGER-PROTOTYPEBOUNDARY-COLLABORATIONORBIT-ETHICSBOUNDARY-STUDIOBOUNDARY-SIGNALFINAL-FAQ"
   },
-  "site_fingerprint": "noremizan-org-v1.1:SIGNAL-CAPABILITYMATRIX-LABWINDOW-LABMOSAIC-RESEARCHRUNWAY-SYSTEMLEDGER-COLLABORATIONORBIT-ETHICSBOUNDARY-SIGNALFINAL-FAQ",
+  "site_fingerprint": "noremizan-org-v1.2:SIGNAL-CAPABILITYMATRIX-LABWINDOW-LABDETAIL-LABMOSAIC-RESEARCHRUNWAY-SYSTEMLEDGER-PROTOTYPEBOUNDARY-COLLABORATIONORBIT-ETHICSBOUNDARY-STUDIOBOUNDARY-SIGNALFINAL-FAQ",
   "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
   "exact_home_layout_repeat": 0,
   "host_runtime_state": "PENDING_DEPLOYMENT_RUNTIME_PROBE",
@@ -65,8 +65,14 @@
     {
       "version": "1.1.0",
       "change": "DE localization, interactive-lab media, richer copy, footer and heading corrections"
+    },
+    {
+      "version": "1.2.0",
+      "change": "Fixed literal newline separator artifact, added unique favicon set, expanded thin internal pages, added contextual section media and new non-repeating section morphologies."
     }
   ],
   "public_language": "DE",
-  "generated_site_mockups_used": 0
+  "generated_site_mockups_used": 0,
+  "favicon_set": "PASS",
+  "n_separator_artifacts": 0
 }
