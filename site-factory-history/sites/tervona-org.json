@@ -1,10 +1,10 @@
 {
   "schema_version": "2.0",
   "domain": "tervona.org",
-  "geo": "UK",
-  "locale": "en-GB",
+  "geo": "DE",
+  "locale": "de-DE",
   "niche": "movement / yoga / mindful wellbeing studio",
-  "build_identity": "2026-10-05",
+  "build_identity": "2026-10-05-v1.1.0",
   "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
   "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
   "hero": {
@@ -20,6 +20,7 @@
       "body-orbit",
       "class-ribbon",
       "session-wave",
+      "practice-photo",
       "practice-mosaic",
       "studio-ledger",
       "calm-band",
@@ -29,6 +30,7 @@
       "body-orbit",
       "class-ribbon",
       "session-wave",
+      "practice-photo",
       "practice-mosaic",
       "studio-ledger",
       "calm-band",
@@ -49,11 +51,18 @@
       "practice-mosaic>studio-ledger>calm-band",
       "studio-ledger>calm-band>line-faq"
     ],
-    "neutral_silhouette_hash": "tervona-org-v1:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-PRACTICEMOSAIC-STUDIOLEDGER-CALMBAND-FAQ"
+    "neutral_silhouette_hash": "tervona-org-v1.1:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-PRACTICEPHOTO-PRACTICEMOSAIC-STUDIOLEDGER-CALMBAND-FAQ"
   },
-  "site_fingerprint": "tervona-org-v1:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-PRACTICEMOSAIC-STUDIOLEDGER-CALMBAND-FAQ",
+  "site_fingerprint": "tervona-org-v1.1:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-PRACTICEPHOTO-PRACTICEMOSAIC-STUDIOLEDGER-CALMBAND-FAQ",
   "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
   "exact_home_layout_repeat": 0,
   "host_runtime_state": "PENDING_DEPLOYMENT_RUNTIME_PROBE",
-  "revisions": []
+  "revisions": [
+    {
+      "version": "1.1.0",
+      "change": "DE localization, section photo, richer copy, footer and heading corrections"
+    }
+  ],
+  "public_language": "DE",
+  "generated_site_mockups_used": 0
 }
