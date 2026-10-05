@@ -5,7 +5,7 @@
   "geo": "DE",
   "locale": "de-DE",
   "niche": "Minecraft server / survival / events / moderated community",
-  "build_identity": "2026-10-05-v2.1.0",
+  "build_identity": "2026-10-05-v2.2.0",
   "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
   "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
   "hero": {
@@ -39,9 +39,9 @@
       "quiet-field",
       "soft-faq"
     ],
-    "neutral_silhouette_hash": "silvaniq-org-v2.1:MINECRAFT-PANORAMA-CANOPY-SERVERMODEL-MODEMOSAIC-JOINRUNWAY-MARKETMEDIA-OPSLEDGER-COMMUNITYVISTA-SERVERPULSE-FAQ"
+    "neutral_silhouette_hash": "silvaniq-org-v2.2:TEAMBUILT-MINECRAFT-HERO-ORIGINSTORY-BUSINESSLEDGER-MODEMOSAIC-JOINRUNWAY-MARKETMEDIA-OPSLEDGER-COMMUNITYVISTA-TEAMOPS-CTA-FAQ"
   },
-  "site_fingerprint": "silvaniq-org-v2.1:MINECRAFT-PANORAMA-CANOPY-SERVERMODEL-MODEMOSAIC-JOINRUNWAY-MARKETMEDIA-OPSLEDGER-COMMUNITYVISTA-SERVERPULSE-FAQ",
+  "site_fingerprint": "silvaniq-org-v2.2:TEAMBUILT-MINECRAFT-HERO-ORIGINSTORY-BUSINESSLEDGER-MODEMOSAIC-JOINRUNWAY-MARKETMEDIA-OPSLEDGER-COMMUNITYVISTA-TEAMOPS-CTA-FAQ",
   "public_language": "DE",
   "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
   "generated_site_mockups_used": 0,
@@ -59,8 +59,14 @@
     {
       "version": "2.1.0",
       "change": "Corrected project business model and niche; expanded internal-page content depth; rebuilt hero crop; added contextual production media; diversified section morphology across the four-site batch."
+    },
+    {
+      "version": "2.2.0",
+      "change": "Strengthened team/operator narrative and business-model framing, especially on Home: why we created the product, what we built ourselves, how the operating model works, and what the team runs continuously."
     }
   ],
   "favicon_set": "PASS",
-  "n_separator_artifacts": 0
+  "n_separator_artifacts": 0,
+  "team_operator_narrative": "PASS",
+  "business_model_home": "PASS"
 }
