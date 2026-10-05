@@ -1,0 +1,71 @@
+{
+  "schema_version": "2.0",
+  "domain": "morvello.org",
+  "geo": "DE",
+  "locale": "de-DE",
+  "niche": "local VR rooms / group sessions / events",
+  "build_identity": "2026-10-05",
+  "memory_state": "BUILD_ACCEPTED_RUNTIME_LEGAL_PENDING",
+  "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
+  "hero": {
+    "archetype_id": "H_MORVELLO_ORBIT_PHOTO",
+    "topology_cluster": "GT_MORVELLO_ORBIT_PHOTO_STAGE"
+  },
+  "footer": {
+    "archetype_id": "FSTD-A_CONTACT_LEDGER"
+  },
+  "home": {
+    "page_rhythm_recipe": "R_MORVELLO_ORBIT_BELT_RUNWAY_LEDGER_MOSAIC_SIGNAL_STAGE_SASH_FAQ_CONSOLE",
+    "section_archetypes": [
+      "hero-orbit-photo-stage",
+      "staggered-format-belt",
+      "sticky-runway",
+      "hygiene-ledger-media-breakout",
+      "decision-board-mosaic",
+      "birthday-signal-edge",
+      "team-stage-wide-photo-facts-vertical-cta",
+      "gift-sash-stack",
+      "faq-cascade",
+      "booking-console"
+    ],
+    "topology_sequence": [
+      "hero-orbit-photo-stage",
+      "staggered-format-belt",
+      "sticky-runway",
+      "hygiene-ledger-media-breakout",
+      "decision-board-mosaic",
+      "birthday-signal-edge",
+      "team-stage-wide-photo-facts-vertical-cta",
+      "gift-sash-stack",
+      "faq-cascade",
+      "booking-console"
+    ],
+    "bigram_signature": [
+      "hero-orbit-photo-stage>staggered-format-belt",
+      "staggered-format-belt>sticky-runway",
+      "sticky-runway>hygiene-ledger-media-breakout",
+      "hygiene-ledger-media-breakout>decision-board-mosaic",
+      "decision-board-mosaic>birthday-signal-edge",
+      "birthday-signal-edge>team-stage-wide-photo-facts-vertical-cta",
+      "team-stage-wide-photo-facts-vertical-cta>gift-sash-stack",
+      "gift-sash-stack>faq-cascade",
+      "faq-cascade>booking-console"
+    ],
+    "trigram_signature": [
+      "hero-orbit-photo-stage>staggered-format-belt>sticky-runway",
+      "staggered-format-belt>sticky-runway>hygiene-ledger-media-breakout",
+      "sticky-runway>hygiene-ledger-media-breakout>decision-board-mosaic",
+      "hygiene-ledger-media-breakout>decision-board-mosaic>birthday-signal-edge",
+      "decision-board-mosaic>birthday-signal-edge>team-stage-wide-photo-facts-vertical-cta",
+      "birthday-signal-edge>team-stage-wide-photo-facts-vertical-cta>gift-sash-stack",
+      "team-stage-wide-photo-facts-vertical-cta>gift-sash-stack>faq-cascade",
+      "gift-sash-stack>faq-cascade>booking-console"
+    ],
+    "neutral_silhouette_hash": "morvello-org-v1.1:ORBITPHOTO-BELT-RUNWAY-HYGIENELEDGER-DECISIONMOSAIC-BDAYEDGE-TEAMSTAGE-GIFTSASH-FAQ-BOOKING"
+  },
+  "site_fingerprint": "morvello-org-v1.1:ORBITPHOTO-BELT-RUNWAY-HYGIENELEDGER-DECISIONMOSAIC-BDAYEDGE-TEAMSTAGE-GIFTSASH-FAQ-BOOKING",
+  "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
+  "exact_home_layout_repeat": 0,
+  "host_runtime_state": "PENDING_DEPLOYMENT_RUNTIME_PROBE",
+  "revisions": []
+}
