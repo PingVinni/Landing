@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "domain": "bremtous.org",
+  "domain": "silvaniq.org",
   "brand": "Silvaniq",
   "geo": "DE",
   "locale": "de-DE",
-  "niche": "nature retreats / guided outdoor wellbeing",
-  "build_identity": "2026-10-05-v1.2.0",
+  "niche": "Minecraft server / survival / events / moderated community",
+  "build_identity": "2026-10-05-v2.1.0",
   "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
   "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
   "hero": {
@@ -18,26 +18,30 @@
   "home": {
     "page_rhythm_recipe": "R_SILVANIQ_CANOPY_MOSAIC_RUNWAY_FIELDNOTE_LEDGER_QUIET_FAQ",
     "section_archetypes": [
+      "minecraft-panorama-hero",
       "canopy-manifesto",
       "retreat-mosaic",
       "path-runway",
       "field-note",
       "season-ledger",
+      "community-vista",
       "quiet-field",
       "soft-faq"
     ],
     "topology_sequence": [
+      "minecraft-panorama-hero",
       "canopy-manifesto",
       "retreat-mosaic",
       "path-runway",
       "field-note",
       "season-ledger",
+      "community-vista",
       "quiet-field",
       "soft-faq"
     ],
-    "neutral_silhouette_hash": "bremtous-org-v1.2:CANOPY-MANIFESTO-RETREATMOSAIC-PATHRUNWAY-RETREATBRIEF-FIELDNOTE-WEATHERBRIEF-PLACEWINDOW-SEASONLEDGER-RESPONSIBILITYRUNWAY-QUIETFIELD-FAQ"
+    "neutral_silhouette_hash": "silvaniq-org-v2.1:MINECRAFT-PANORAMA-CANOPY-SERVERMODEL-MODEMOSAIC-JOINRUNWAY-MARKETMEDIA-OPSLEDGER-COMMUNITYVISTA-SERVERPULSE-FAQ"
   },
-  "site_fingerprint": "bremtous-org-v1.2:CANOPY-MANIFESTO-RETREATMOSAIC-PATHRUNWAY-RETREATBRIEF-FIELDNOTE-WEATHERBRIEF-PLACEWINDOW-SEASONLEDGER-RESPONSIBILITYRUNWAY-QUIETFIELD-FAQ",
+  "site_fingerprint": "silvaniq-org-v2.1:MINECRAFT-PANORAMA-CANOPY-SERVERMODEL-MODEMOSAIC-JOINRUNWAY-MARKETMEDIA-OPSLEDGER-COMMUNITYVISTA-SERVERPULSE-FAQ",
   "public_language": "DE",
   "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
   "generated_site_mockups_used": 0,
@@ -51,6 +55,10 @@
     {
       "version": "1.2.0",
       "change": "Fixed literal newline separator artifact, added unique favicon set, expanded thin internal pages, added contextual section media and new non-repeating section morphologies."
+    },
+    {
+      "version": "2.1.0",
+      "change": "Corrected project business model and niche; expanded internal-page content depth; rebuilt hero crop; added contextual production media; diversified section morphology across the four-site batch."
     }
   ],
   "favicon_set": "PASS",
