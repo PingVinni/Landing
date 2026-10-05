@@ -1,0 +1,13 @@
+{
+  "domain": "lumvexa.org",
+  "theme_name": "Lumvexa Studio",
+  "theme_slug": "lumvexa-studio",
+  "version": "3.2.0",
+  "zip_filename": "lumvexa-studio-v3.2.0.zip",
+  "sha256": "46cc56ef661d40955907f6a4f648eb093a8fda36813a809867ac6075386beccd",
+  "size_bytes": 10957553,
+  "zip_entries": 83,
+  "archive_mode": "GIT_METADATA_ARCHIVE",
+  "binary_zip_location": "user Library / delivered conversation artifact",
+  "binary_committed_to_git": false
+}
