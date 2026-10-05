@@ -1,10 +1,10 @@
 {
   "schema_version": "2.0",
   "domain": "valmorto.org",
-  "geo": "UK",
-  "locale": "en-GB",
+  "geo": "DE",
+  "locale": "de-DE",
   "niche": "independent game studio / original IP",
-  "build_identity": "2026-10-05",
+  "build_identity": "2026-10-05-v1.1.0",
   "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
   "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
   "hero": {
@@ -20,20 +20,20 @@
       "studio-thesis",
       "discipline-ledger",
       "build-spine",
+      "world-window",
       "systems-board",
       "world-orbit",
       "qa-band",
-      "product-cta",
       "dark-faq"
     ],
     "topology_sequence": [
       "studio-thesis",
       "discipline-ledger",
       "build-spine",
+      "world-window",
       "systems-board",
       "world-orbit",
       "qa-band",
-      "product-cta",
       "dark-faq"
     ],
     "bigram_signature": [
@@ -53,11 +53,18 @@
       "world-orbit>qa-band>product-cta",
       "qa-band>product-cta>dark-faq"
     ],
-    "neutral_silhouette_hash": "valmorto-org-v1:WORLDSTAGE-STUDIOTHESIS-DISCIPLINELEDGER-BUILDSPINE-SYSTEMSBOARD-WORLDORBIT-QABAND-CTA-FAQ"
+    "neutral_silhouette_hash": "valmorto-org-v1.1:WORLDSTAGE-STUDIOTHESIS-DISCIPLINELEDGER-BUILDSPINE-WORLDWINDOW-SYSTEMSBOARD-WORLDORBIT-QABAND-FAQ"
   },
-  "site_fingerprint": "valmorto-org-v1:WORLDSTAGE-STUDIOTHESIS-DISCIPLINELEDGER-BUILDSPINE-SYSTEMSBOARD-WORLDORBIT-QABAND-CTA-FAQ",
+  "site_fingerprint": "valmorto-org-v1.1:WORLDSTAGE-STUDIOTHESIS-DISCIPLINELEDGER-BUILDSPINE-WORLDWINDOW-SYSTEMSBOARD-WORLDORBIT-QABAND-FAQ",
   "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
   "exact_home_layout_repeat": 0,
   "host_runtime_state": "PENDING_DEPLOYMENT_RUNTIME_PROBE",
-  "revisions": []
+  "revisions": [
+    {
+      "version": "1.1.0",
+      "change": "DE localization, world media breakout, richer copy, footer and heading corrections"
+    }
+  ],
+  "public_language": "DE",
+  "generated_site_mockups_used": 0
 }
