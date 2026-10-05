@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "domain": "valmorto.org",
+  "geo": "UK",
+  "locale": "en-GB",
+  "niche": "independent game studio / original IP",
+  "build_identity": "2026-10-05",
+  "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
+  "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
+  "hero": {
+    "archetype_id": "H_VALMORTO_WORLDSTAGE",
+    "topology_cluster": "GT_WORLDSTAGE_CUTOUT"
+  },
+  "footer": {
+    "archetype_id": "FSTD-A_CONTACT_LEDGER"
+  },
+  "home": {
+    "page_rhythm_recipe": "R_VALMORTO_THESIS_LEDGER_SPINE_BOARD_ORBIT_QA_CTA_FAQ",
+    "section_archetypes": [
+      "studio-thesis",
+      "discipline-ledger",
+      "build-spine",
+      "systems-board",
+      "world-orbit",
+      "qa-band",
+      "product-cta",
+      "dark-faq"
+    ],
+    "topology_sequence": [
+      "studio-thesis",
+      "discipline-ledger",
+      "build-spine",
+      "systems-board",
+      "world-orbit",
+      "qa-band",
+      "product-cta",
+      "dark-faq"
+    ],
+    "bigram_signature": [
+      "studio-thesis>discipline-ledger",
+      "discipline-ledger>build-spine",
+      "build-spine>systems-board",
+      "systems-board>world-orbit",
+      "world-orbit>qa-band",
+      "qa-band>product-cta",
+      "product-cta>dark-faq"
+    ],
+    "trigram_signature": [
+      "studio-thesis>discipline-ledger>build-spine",
+      "discipline-ledger>build-spine>systems-board",
+      "build-spine>systems-board>world-orbit",
+      "systems-board>world-orbit>qa-band",
+      "world-orbit>qa-band>product-cta",
+      "qa-band>product-cta>dark-faq"
+    ],
+    "neutral_silhouette_hash": "valmorto-org-v1:WORLDSTAGE-STUDIOTHESIS-DISCIPLINELEDGER-BUILDSPINE-SYSTEMSBOARD-WORLDORBIT-QABAND-CTA-FAQ"
+  },
+  "site_fingerprint": "valmorto-org-v1:WORLDSTAGE-STUDIOTHESIS-DISCIPLINELEDGER-BUILDSPINE-SYSTEMSBOARD-WORLDORBIT-QABAND-CTA-FAQ",
+  "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
+  "exact_home_layout_repeat": 0,
+  "host_runtime_state": "PENDING_DEPLOYMENT_RUNTIME_PROBE",
+  "revisions": []
+}
