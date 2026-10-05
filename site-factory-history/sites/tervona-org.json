@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.0",
+  "domain": "tervona.org",
+  "geo": "UK",
+  "locale": "en-GB",
+  "niche": "movement / yoga / mindful wellbeing studio",
+  "build_identity": "2026-10-05",
+  "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
+  "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
+  "hero": {
+    "archetype_id": "H_TERVONA_ARC",
+    "topology_cluster": "GT_WELLNESS_ARC_FIELD"
+  },
+  "footer": {
+    "archetype_id": "FSTD-C_BRAND_CONTACT_COLUMN"
+  },
+  "home": {
+    "page_rhythm_recipe": "R_TERVONA_ORBIT_RIBBON_WAVE_MOSAIC_LEDGER_CALM_FAQ",
+    "section_archetypes": [
+      "body-orbit",
+      "class-ribbon",
+      "session-wave",
+      "practice-mosaic",
+      "studio-ledger",
+      "calm-band",
+      "line-faq"
+    ],
+    "topology_sequence": [
+      "body-orbit",
+      "class-ribbon",
+      "session-wave",
+      "practice-mosaic",
+      "studio-ledger",
+      "calm-band",
+      "line-faq"
+    ],
+    "bigram_signature": [
+      "body-orbit>class-ribbon",
+      "class-ribbon>session-wave",
+      "session-wave>practice-mosaic",
+      "practice-mosaic>studio-ledger",
+      "studio-ledger>calm-band",
+      "calm-band>line-faq"
+    ],
+    "trigram_signature": [
+      "body-orbit>class-ribbon>session-wave",
+      "class-ribbon>session-wave>practice-mosaic",
+      "session-wave>practice-mosaic>studio-ledger",
+      "practice-mosaic>studio-ledger>calm-band",
+      "studio-ledger>calm-band>line-faq"
+    ],
+    "neutral_silhouette_hash": "tervona-org-v1:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-PRACTICEMOSAIC-STUDIOLEDGER-CALMBAND-FAQ"
+  },
+  "site_fingerprint": "tervona-org-v1:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-PRACTICEMOSAIC-STUDIOLEDGER-CALMBAND-FAQ",
+  "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
+  "exact_home_layout_repeat": 0,
+  "host_runtime_state": "PENDING_DEPLOYMENT_RUNTIME_PROBE",
+  "revisions": []
+}
