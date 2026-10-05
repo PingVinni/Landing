@@ -4,7 +4,7 @@
   "geo": "DE",
   "locale": "de-DE",
   "niche": "Rust server / wipes / clans / events / moderated survival community",
-  "build_identity": "2026-10-05-v2.2.0",
+  "build_identity": "2026-10-05-v2.6.0",
   "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
   "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
   "hero": {
@@ -59,7 +59,7 @@
     ],
     "neutral_silhouette_hash": "noremizan-org-v2.2:OPERATOR-RUST-HERO-ORIGINSIGNAL-SEASONBUSINESS-OUTPOSTWINDOW-COREMOSAIC-JOINRUNWAY-COASTLINESTAGE-OPSLEDGER-PLAYSTYLEORBIT-COMMANDGRID-RUSTSIGNAL-FAQ"
   },
-  "site_fingerprint": "noremizan-org-v2.2:OPERATOR-RUST-HERO-ORIGINSIGNAL-SEASONBUSINESS-OUTPOSTWINDOW-COREMOSAIC-JOINRUNWAY-COASTLINESTAGE-OPSLEDGER-PLAYSTYLEORBIT-COMMANDGRID-RUSTSIGNAL-FAQ",
+  "site_fingerprint": "noremizan-v2.6:BUSINESSHOME-SEASONSTACK-IDEA-OPSBASE-OPERATORGRID-PHASELEDGER-GENERALINFO",
   "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
   "exact_home_layout_repeat": 0,
   "host_runtime_state": "PENDING_DEPLOYMENT_RUNTIME_PROBE",
@@ -79,6 +79,10 @@
     {
       "version": "2.2.0",
       "change": "Strengthened team/operator narrative and business-model framing, especially on Home: why we created the product, what we built ourselves, how the operating model works, and what the team runs continuously."
+    },
+    {
+      "version": "2.6.0",
+      "change": "Created a new dedicated business-model Home with team, operating model and development stages; moved previous Home into Allgemeine Informationen; shortened headings and added systemic typography overflow safeguards."
     }
   ],
   "public_language": "DE",
@@ -86,5 +90,7 @@
   "favicon_set": "PASS",
   "n_separator_artifacts": 0,
   "team_operator_narrative": "PASS",
-  "business_model_home": "PASS"
+  "business_model_home": "PASS",
+  "home_strategy": "Dedicated business-model/team home; previous home preserved as Allgemeine Informationen",
+  "typography_overflow_fix": "PASS"
 }
