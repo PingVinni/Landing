@@ -1,0 +1,52 @@
+{
+  "schema_version": "2.0",
+  "domain": "bremtous.org",
+  "brand": "Silvaniq",
+  "geo": "DE",
+  "locale": "de-DE",
+  "niche": "nature retreats / guided outdoor wellbeing",
+  "build_identity": "2026-10-05-v1.1.0",
+  "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
+  "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
+  "hero": {
+    "archetype_id": "H_SILVANIQ_CANOPY",
+    "topology_cluster": "GT_CANOPY_EDITORIAL_ARC"
+  },
+  "footer": {
+    "archetype_id": "FSTD-B_CONTACT_BAND"
+  },
+  "home": {
+    "page_rhythm_recipe": "R_SILVANIQ_CANOPY_MOSAIC_RUNWAY_FIELDNOTE_LEDGER_QUIET_FAQ",
+    "section_archetypes": [
+      "canopy-manifesto",
+      "retreat-mosaic",
+      "path-runway",
+      "field-note",
+      "season-ledger",
+      "quiet-field",
+      "soft-faq"
+    ],
+    "topology_sequence": [
+      "canopy-manifesto",
+      "retreat-mosaic",
+      "path-runway",
+      "field-note",
+      "season-ledger",
+      "quiet-field",
+      "soft-faq"
+    ],
+    "neutral_silhouette_hash": "bremtous-org-v1.1:CANOPY-MANIFESTO-RETREATMOSAIC-PATHRUNWAY-FIELDNOTE-SEASONLEDGER-QUIETFIELD-FAQ"
+  },
+  "site_fingerprint": "bremtous-org-v1.1:CANOPY-MANIFESTO-RETREATMOSAIC-PATHRUNWAY-FIELDNOTE-SEASONLEDGER-QUIETFIELD-FAQ",
+  "public_language": "DE",
+  "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
+  "generated_site_mockups_used": 0,
+  "exact_home_layout_repeat": 0,
+  "host_runtime_state": "PENDING_DEPLOYMENT_RUNTIME_PROBE",
+  "revisions": [
+    {
+      "version": "1.1.0",
+      "change": "DE localization, richer copy, footer correction, wider headings"
+    }
+  ]
+}
