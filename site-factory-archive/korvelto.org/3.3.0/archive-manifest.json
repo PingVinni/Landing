@@ -1,0 +1,13 @@
+{
+  "domain": "korvelto.org",
+  "theme_name": "Korvelto Studio",
+  "theme_slug": "korvelto-studio",
+  "version": "3.3.0",
+  "zip_filename": "korvelto-studio-v3.3.0.zip",
+  "sha256": "473a236161197c6b98cdfef2d54443737b6d723ce368842d51fafd7f401eb808",
+  "size_bytes": 15358367,
+  "zip_entries": 115,
+  "archive_mode": "GIT_METADATA_ARCHIVE",
+  "binary_zip_location": "user Library / delivered conversation artifact",
+  "binary_committed_to_git": false
+}
