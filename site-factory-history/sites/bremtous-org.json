@@ -5,7 +5,7 @@
   "geo": "DE",
   "locale": "de-DE",
   "niche": "Minecraft server / survival / events / moderated community",
-  "build_identity": "2026-10-05-v2.2.0",
+  "build_identity": "2026-10-05-v2.6.0",
   "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
   "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
   "hero": {
@@ -41,7 +41,7 @@
     ],
     "neutral_silhouette_hash": "silvaniq-org-v2.2:TEAMBUILT-MINECRAFT-HERO-ORIGINSTORY-BUSINESSLEDGER-MODEMOSAIC-JOINRUNWAY-MARKETMEDIA-OPSLEDGER-COMMUNITYVISTA-TEAMOPS-CTA-FAQ"
   },
-  "site_fingerprint": "silvaniq-org-v2.2:TEAMBUILT-MINECRAFT-HERO-ORIGINSTORY-BUSINESSLEDGER-MODEMOSAIC-JOINRUNWAY-MARKETMEDIA-OPSLEDGER-COMMUNITYVISTA-TEAMOPS-CTA-FAQ",
+  "site_fingerprint": "silvaniq-v2.6:BUSINESSHOME-ORIGIN-MODEL-5PHASE-TEAMWINDOW-RESPONSIBILITY-GENERALINFO",
   "public_language": "DE",
   "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
   "generated_site_mockups_used": 0,
@@ -63,10 +63,16 @@
     {
       "version": "2.2.0",
       "change": "Strengthened team/operator narrative and business-model framing, especially on Home: why we created the product, what we built ourselves, how the operating model works, and what the team runs continuously."
+    },
+    {
+      "version": "2.6.0",
+      "change": "Created a new dedicated business-model Home with team, operating model and development stages; moved previous Home into Allgemeine Informationen; shortened headings and added systemic typography overflow safeguards."
     }
   ],
   "favicon_set": "PASS",
   "n_separator_artifacts": 0,
   "team_operator_narrative": "PASS",
-  "business_model_home": "PASS"
+  "business_model_home": "PASS",
+  "home_strategy": "Dedicated business-model/team home; previous home preserved as Allgemeine Informationen",
+  "typography_overflow_fix": "PASS"
 }
