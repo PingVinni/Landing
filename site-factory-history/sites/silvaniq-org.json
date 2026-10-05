@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.0",
+  "domain": "silvaniq.org",
+  "geo": "UK",
+  "locale": "en-GB",
+  "niche": "nature retreats / guided outdoor wellbeing",
+  "build_identity": "2026-10-05",
+  "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
+  "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
+  "hero": {
+    "archetype_id": "H_SILVANIQ_CANOPY",
+    "topology_cluster": "GT_CANOPY_EDITORIAL_ARC"
+  },
+  "footer": {
+    "archetype_id": "FSTD-B_CONTACT_BAND"
+  },
+  "home": {
+    "page_rhythm_recipe": "R_SILVANIQ_CANOPY_MOSAIC_RUNWAY_FIELDNOTE_LEDGER_QUIET_FAQ",
+    "section_archetypes": [
+      "canopy-manifesto",
+      "retreat-mosaic",
+      "path-runway",
+      "field-note",
+      "season-ledger",
+      "quiet-field",
+      "soft-faq"
+    ],
+    "topology_sequence": [
+      "canopy-manifesto",
+      "retreat-mosaic",
+      "path-runway",
+      "field-note",
+      "season-ledger",
+      "quiet-field",
+      "soft-faq"
+    ],
+    "bigram_signature": [
+      "canopy-manifesto>retreat-mosaic",
+      "retreat-mosaic>path-runway",
+      "path-runway>field-note",
+      "field-note>season-ledger",
+      "season-ledger>quiet-field",
+      "quiet-field>soft-faq"
+    ],
+    "trigram_signature": [
+      "canopy-manifesto>retreat-mosaic>path-runway",
+      "retreat-mosaic>path-runway>field-note",
+      "path-runway>field-note>season-ledger",
+      "field-note>season-ledger>quiet-field",
+      "season-ledger>quiet-field>soft-faq"
+    ],
+    "neutral_silhouette_hash": "silvaniq-org-v1:CANOPY-MANIFESTO-RETREATMOSAIC-PATHRUNWAY-FIELDNOTE-SEASONLEDGER-QUIETFIELD-FAQ"
+  },
+  "site_fingerprint": "silvaniq-org-v1:CANOPY-MANIFESTO-RETREATMOSAIC-PATHRUNWAY-FIELDNOTE-SEASONLEDGER-QUIETFIELD-FAQ",
+  "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
+  "exact_home_layout_repeat": 0,
+  "host_runtime_state": "PENDING_DEPLOYMENT_RUNTIME_PROBE",
+  "revisions": []
+}
