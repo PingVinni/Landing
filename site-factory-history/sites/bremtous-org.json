@@ -5,7 +5,7 @@
   "geo": "DE",
   "locale": "de-DE",
   "niche": "nature retreats / guided outdoor wellbeing",
-  "build_identity": "2026-10-05-v1.1.0",
+  "build_identity": "2026-10-05-v1.2.0",
   "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
   "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
   "hero": {
@@ -35,9 +35,9 @@
       "quiet-field",
       "soft-faq"
     ],
-    "neutral_silhouette_hash": "bremtous-org-v1.1:CANOPY-MANIFESTO-RETREATMOSAIC-PATHRUNWAY-FIELDNOTE-SEASONLEDGER-QUIETFIELD-FAQ"
+    "neutral_silhouette_hash": "bremtous-org-v1.2:CANOPY-MANIFESTO-RETREATMOSAIC-PATHRUNWAY-RETREATBRIEF-FIELDNOTE-WEATHERBRIEF-PLACEWINDOW-SEASONLEDGER-RESPONSIBILITYRUNWAY-QUIETFIELD-FAQ"
   },
-  "site_fingerprint": "bremtous-org-v1.1:CANOPY-MANIFESTO-RETREATMOSAIC-PATHRUNWAY-FIELDNOTE-SEASONLEDGER-QUIETFIELD-FAQ",
+  "site_fingerprint": "bremtous-org-v1.2:CANOPY-MANIFESTO-RETREATMOSAIC-PATHRUNWAY-RETREATBRIEF-FIELDNOTE-WEATHERBRIEF-PLACEWINDOW-SEASONLEDGER-RESPONSIBILITYRUNWAY-QUIETFIELD-FAQ",
   "public_language": "DE",
   "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
   "generated_site_mockups_used": 0,
@@ -47,6 +47,12 @@
     {
       "version": "1.1.0",
       "change": "DE localization, richer copy, footer correction, wider headings"
+    },
+    {
+      "version": "1.2.0",
+      "change": "Fixed literal newline separator artifact, added unique favicon set, expanded thin internal pages, added contextual section media and new non-repeating section morphologies."
     }
-  ]
+  ],
+  "favicon_set": "PASS",
+  "n_separator_artifacts": 0
 }
