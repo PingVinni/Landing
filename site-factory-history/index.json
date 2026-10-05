@@ -62,24 +62,10 @@
       "site_fingerprint": "morvello-org-v1.1:ORBITPHOTO-BELT-RUNWAY-HYGIENELEDGER-DECISIONMOSAIC-BDAYEDGE-TEAMSTAGE-GIFTSASH-FAQ-BOOKING"
     },
     {
-      "domain": "silvaniq.org",
-      "path": "site-factory-history/sites/silvaniq-org.json",
-      "geo": "UK",
-      "locale": "en-GB",
-      "niche": "nature retreats / guided outdoor wellbeing",
-      "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
-      "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
-      "hero_archetype": "H_SILVANIQ_CANOPY",
-      "hero_cluster": "GT_CANOPY_EDITORIAL_ARC",
-      "footer_archetype": "FSTD-B_CONTACT_BAND",
-      "page_rhythm": "R_SILVANIQ_CANOPY_MOSAIC_RUNWAY_FIELDNOTE_LEDGER_QUIET_FAQ",
-      "site_fingerprint": "silvaniq-org-v1:CANOPY-MANIFESTO-RETREATMOSAIC-PATHRUNWAY-FIELDNOTE-SEASONLEDGER-QUIETFIELD-FAQ"
-    },
-    {
       "domain": "tervona.org",
       "path": "site-factory-history/sites/tervona-org.json",
-      "geo": "UK",
-      "locale": "en-GB",
+      "geo": "DE",
+      "locale": "de-DE",
       "niche": "movement / yoga / mindful wellbeing studio",
       "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
       "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
@@ -87,13 +73,13 @@
       "hero_cluster": "GT_WELLNESS_ARC_FIELD",
       "footer_archetype": "FSTD-C_BRAND_CONTACT_COLUMN",
       "page_rhythm": "R_TERVONA_ORBIT_RIBBON_WAVE_MOSAIC_LEDGER_CALM_FAQ",
-      "site_fingerprint": "tervona-org-v1:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-PRACTICEMOSAIC-STUDIOLEDGER-CALMBAND-FAQ"
+      "site_fingerprint": "tervona-org-v1.1:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-PRACTICEPHOTO-PRACTICEMOSAIC-STUDIOLEDGER-CALMBAND-FAQ"
     },
     {
       "domain": "valmorto.org",
       "path": "site-factory-history/sites/valmorto-org.json",
-      "geo": "UK",
-      "locale": "en-GB",
+      "geo": "DE",
+      "locale": "de-DE",
       "niche": "independent game studio / original IP",
       "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
       "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
@@ -101,13 +87,13 @@
       "hero_cluster": "GT_WORLDSTAGE_CUTOUT",
       "footer_archetype": "FSTD-A_CONTACT_LEDGER",
       "page_rhythm": "R_VALMORTO_THESIS_LEDGER_SPINE_BOARD_ORBIT_QA_CTA_FAQ",
-      "site_fingerprint": "valmorto-org-v1:WORLDSTAGE-STUDIOTHESIS-DISCIPLINELEDGER-BUILDSPINE-SYSTEMSBOARD-WORLDORBIT-QABAND-CTA-FAQ"
+      "site_fingerprint": "valmorto-org-v1.1:WORLDSTAGE-STUDIOTHESIS-DISCIPLINELEDGER-BUILDSPINE-WORLDWINDOW-SYSTEMSBOARD-WORLDORBIT-QABAND-FAQ"
     },
     {
       "domain": "noremizan.org",
       "path": "site-factory-history/sites/noremizan-org.json",
-      "geo": "UK",
-      "locale": "en-GB",
+      "geo": "DE",
+      "locale": "de-DE",
       "niche": "AI / interactive media / creative technology studio",
       "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
       "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
@@ -115,7 +101,21 @@
       "hero_cluster": "GT_SIGNAL_GRID_ORBIT",
       "footer_archetype": "FSTD-B_CONTACT_BAND",
       "page_rhythm": "R_NOREMIZAN_CAPABILITY_LAB_RUNWAY_SYSTEM_ORBIT_BOUNDARY_SIGNAL_FAQ",
-      "site_fingerprint": "noremizan-org-v1:SIGNAL-CAPABILITYMATRIX-LABMOSAIC-RESEARCHRUNWAY-SYSTEMLEDGER-COLLABORATIONORBIT-ETHICSBOUNDARY-SIGNALFINAL-FAQ"
+      "site_fingerprint": "noremizan-org-v1.1:SIGNAL-CAPABILITYMATRIX-LABWINDOW-LABMOSAIC-RESEARCHRUNWAY-SYSTEMLEDGER-COLLABORATIONORBIT-ETHICSBOUNDARY-SIGNALFINAL-FAQ"
+    },
+    {
+      "domain": "bremtous.org",
+      "path": "site-factory-history/sites/bremtous-org.json",
+      "geo": "DE",
+      "locale": "de-DE",
+      "niche": "nature retreats / guided outdoor wellbeing",
+      "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
+      "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
+      "hero_archetype": "H_SILVANIQ_CANOPY",
+      "hero_cluster": "GT_CANOPY_EDITORIAL_ARC",
+      "footer_archetype": "FSTD-B_CONTACT_BAND",
+      "page_rhythm": "R_SILVANIQ_CANOPY_MOSAIC_RUNWAY_FIELDNOTE_LEDGER_QUIET_FAQ",
+      "site_fingerprint": "bremtous-org-v1.1:CANOPY-MANIFESTO-RETREATMOSAIC-PATHRUNWAY-FIELDNOTE-SEASONLEDGER-QUIETFIELD-FAQ"
     }
   ],
   "frequency": {
