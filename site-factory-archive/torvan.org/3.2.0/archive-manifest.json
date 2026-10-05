@@ -1,0 +1,13 @@
+{
+  "domain": "torvan.org",
+  "theme_name": "Torvan Studio",
+  "theme_slug": "torvan-studio",
+  "version": "3.2.0",
+  "zip_filename": "torvan-studio-v3.2.0.zip",
+  "sha256": "d2d332b186c9e333e4850bf6e59936bfc8e6a741529b84943545a95aac2f31cd",
+  "size_bytes": 9976339,
+  "zip_entries": 143,
+  "archive_mode": "GIT_METADATA_ARCHIVE",
+  "binary_zip_location": "user Library / delivered conversation artifact",
+  "binary_committed_to_git": false
+}
