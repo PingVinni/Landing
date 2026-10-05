@@ -3,8 +3,8 @@
   "domain": "tervona.org",
   "geo": "DE",
   "locale": "de-DE",
-  "niche": "movement / yoga / mindful wellbeing studio",
-  "build_identity": "2026-10-05-v1.2.0",
+  "niche": "children's game camp / supervised gaming / creative workshops",
+  "build_identity": "2026-10-05-v2.1.0",
   "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
   "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
   "hero": {
@@ -17,21 +17,25 @@
   "home": {
     "page_rhythm_recipe": "R_TERVONA_ORBIT_RIBBON_WAVE_MOSAIC_LEDGER_CALM_FAQ",
     "section_archetypes": [
+      "camp-editorial-hero",
       "body-orbit",
       "class-ribbon",
       "session-wave",
       "practice-photo",
       "practice-mosaic",
+      "workshop-window",
       "studio-ledger",
       "calm-band",
       "line-faq"
     ],
     "topology_sequence": [
+      "camp-editorial-hero",
       "body-orbit",
       "class-ribbon",
       "session-wave",
       "practice-photo",
       "practice-mosaic",
+      "workshop-window",
       "studio-ledger",
       "calm-band",
       "line-faq"
@@ -51,9 +55,9 @@
       "practice-mosaic>studio-ledger>calm-band",
       "studio-ledger>calm-band>line-faq"
     ],
-    "neutral_silhouette_hash": "tervona-org-v1.2:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-CLASSFIT-METHODFLOW-STUDIOPORTRAIT-PRACTICEMOSAIC-ROOMPRINCIPLES-CALMBAND-FAQ"
+    "neutral_silhouette_hash": "tervona-org-v2.1:GAMECAMP-EDITORIALARC-BODYORBIT-CLASSRIBBON-DAYWAVE-PRACTICEPHOTO-PROJECTMOSAIC-WORKSHOPWINDOW-PARENTLEDGER-CAMPFINALE-FAQ"
   },
-  "site_fingerprint": "tervona-org-v1.2:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-CLASSFIT-METHODFLOW-STUDIOPORTRAIT-PRACTICEMOSAIC-ROOMPRINCIPLES-CALMBAND-FAQ",
+  "site_fingerprint": "tervona-org-v2.1:GAMECAMP-EDITORIALARC-BODYORBIT-CLASSRIBBON-DAYWAVE-PRACTICEPHOTO-PROJECTMOSAIC-WORKSHOPWINDOW-PARENTLEDGER-CAMPFINALE-FAQ",
   "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
   "exact_home_layout_repeat": 0,
   "host_runtime_state": "PENDING_DEPLOYMENT_RUNTIME_PROBE",
@@ -65,6 +69,10 @@
     {
       "version": "1.2.0",
       "change": "Fixed literal newline separator artifact, added unique favicon set, expanded thin internal pages, added contextual section media and new non-repeating section morphologies."
+    },
+    {
+      "version": "2.1.0",
+      "change": "Corrected project business model and niche; expanded internal-page content depth; rebuilt hero crop; added contextual production media; diversified section morphology across the four-site batch."
     }
   ],
   "public_language": "DE",
