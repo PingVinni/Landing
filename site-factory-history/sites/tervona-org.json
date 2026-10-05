@@ -4,7 +4,7 @@
   "geo": "DE",
   "locale": "de-DE",
   "niche": "movement / yoga / mindful wellbeing studio",
-  "build_identity": "2026-10-05-v1.1.0",
+  "build_identity": "2026-10-05-v1.2.0",
   "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
   "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
   "hero": {
@@ -51,9 +51,9 @@
       "practice-mosaic>studio-ledger>calm-band",
       "studio-ledger>calm-band>line-faq"
     ],
-    "neutral_silhouette_hash": "tervona-org-v1.1:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-PRACTICEPHOTO-PRACTICEMOSAIC-STUDIOLEDGER-CALMBAND-FAQ"
+    "neutral_silhouette_hash": "tervona-org-v1.2:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-CLASSFIT-METHODFLOW-STUDIOPORTRAIT-PRACTICEMOSAIC-ROOMPRINCIPLES-CALMBAND-FAQ"
   },
-  "site_fingerprint": "tervona-org-v1.1:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-PRACTICEPHOTO-PRACTICEMOSAIC-STUDIOLEDGER-CALMBAND-FAQ",
+  "site_fingerprint": "tervona-org-v1.2:ARC-BODYORBIT-CLASSRIBBON-SESSIONWAVE-CLASSFIT-METHODFLOW-STUDIOPORTRAIT-PRACTICEMOSAIC-ROOMPRINCIPLES-CALMBAND-FAQ",
   "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
   "exact_home_layout_repeat": 0,
   "host_runtime_state": "PENDING_DEPLOYMENT_RUNTIME_PROBE",
@@ -61,8 +61,14 @@
     {
       "version": "1.1.0",
       "change": "DE localization, section photo, richer copy, footer and heading corrections"
+    },
+    {
+      "version": "1.2.0",
+      "change": "Fixed literal newline separator artifact, added unique favicon set, expanded thin internal pages, added contextual section media and new non-repeating section morphologies."
     }
   ],
   "public_language": "DE",
-  "generated_site_mockups_used": 0
+  "generated_site_mockups_used": 0,
+  "favicon_set": "PASS",
+  "n_separator_artifacts": 0
 }
