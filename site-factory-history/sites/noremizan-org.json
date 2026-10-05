@@ -1,0 +1,63 @@
+{
+  "schema_version": "2.0",
+  "domain": "noremizan.org",
+  "geo": "UK",
+  "locale": "en-GB",
+  "niche": "AI / interactive media / creative technology studio",
+  "build_identity": "2026-10-05",
+  "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
+  "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
+  "hero": {
+    "archetype_id": "H_NOREMIZAN_SIGNAL",
+    "topology_cluster": "GT_SIGNAL_GRID_ORBIT"
+  },
+  "footer": {
+    "archetype_id": "FSTD-B_CONTACT_BAND"
+  },
+  "home": {
+    "page_rhythm_recipe": "R_NOREMIZAN_CAPABILITY_LAB_RUNWAY_SYSTEM_ORBIT_BOUNDARY_SIGNAL_FAQ",
+    "section_archetypes": [
+      "capability-matrix",
+      "lab-mosaic",
+      "research-runway",
+      "system-ledger",
+      "collaboration-orbit",
+      "ethics-boundary",
+      "signal-final",
+      "signal-faq"
+    ],
+    "topology_sequence": [
+      "capability-matrix",
+      "lab-mosaic",
+      "research-runway",
+      "system-ledger",
+      "collaboration-orbit",
+      "ethics-boundary",
+      "signal-final",
+      "signal-faq"
+    ],
+    "bigram_signature": [
+      "capability-matrix>lab-mosaic",
+      "lab-mosaic>research-runway",
+      "research-runway>system-ledger",
+      "system-ledger>collaboration-orbit",
+      "collaboration-orbit>ethics-boundary",
+      "ethics-boundary>signal-final",
+      "signal-final>signal-faq"
+    ],
+    "trigram_signature": [
+      "capability-matrix>lab-mosaic>research-runway",
+      "lab-mosaic>research-runway>system-ledger",
+      "research-runway>system-ledger>collaboration-orbit",
+      "system-ledger>collaboration-orbit>ethics-boundary",
+      "collaboration-orbit>ethics-boundary>signal-final",
+      "ethics-boundary>signal-final>signal-faq"
+    ],
+    "neutral_silhouette_hash": "noremizan-org-v1:SIGNAL-CAPABILITYMATRIX-LABMOSAIC-RESEARCHRUNWAY-SYSTEMLEDGER-COLLABORATIONORBIT-ETHICSBOUNDARY-SIGNALFINAL-FAQ"
+  },
+  "site_fingerprint": "noremizan-org-v1:SIGNAL-CAPABILITYMATRIX-LABMOSAIC-RESEARCHRUNWAY-SYSTEMLEDGER-COLLABORATIONORBIT-ETHICSBOUNDARY-SIGNALFINAL-FAQ",
+  "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
+  "exact_home_layout_repeat": 0,
+  "host_runtime_state": "PENDING_DEPLOYMENT_RUNTIME_PROBE",
+  "revisions": []
+}
