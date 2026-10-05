@@ -1,0 +1,13 @@
+{
+  "domain": "ravemio.org",
+  "theme_name": "Ravemio Studio",
+  "theme_slug": "ravemio-studio",
+  "version": "3.2.0",
+  "zip_filename": "ravemio-studio-v3.2.0.zip",
+  "sha256": "f30cc224ecf85d3df6eabef4132558d3cfc3b6b1d54203ba230b01134f6e1264",
+  "size_bytes": 9433950,
+  "zip_entries": 74,
+  "archive_mode": "GIT_METADATA_ARCHIVE",
+  "binary_zip_location": "user Library / delivered conversation artifact",
+  "binary_committed_to_git": false
+}
