@@ -3,8 +3,8 @@
   "domain": "noremizan.org",
   "geo": "DE",
   "locale": "de-DE",
-  "niche": "AI / interactive media / creative technology studio",
-  "build_identity": "2026-10-05-v1.2.0",
+  "niche": "Rust server / wipes / clans / events / moderated survival community",
+  "build_identity": "2026-10-05-v2.1.0",
   "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
   "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
   "hero": {
@@ -17,25 +17,27 @@
   "home": {
     "page_rhythm_recipe": "R_NOREMIZAN_CAPABILITY_LAB_RUNWAY_SYSTEM_ORBIT_BOUNDARY_SIGNAL_FAQ",
     "section_archetypes": [
+      "rust-stacked-hero",
       "capability-matrix",
       "lab-window",
       "lab-mosaic",
       "research-runway",
+      "coastline-stage",
       "system-ledger",
       "collaboration-orbit",
       "ethics-boundary",
-      "signal-final",
       "signal-faq"
     ],
     "topology_sequence": [
+      "rust-stacked-hero",
       "capability-matrix",
       "lab-window",
       "lab-mosaic",
       "research-runway",
+      "coastline-stage",
       "system-ledger",
       "collaboration-orbit",
       "ethics-boundary",
-      "signal-final",
       "signal-faq"
     ],
     "bigram_signature": [
@@ -55,9 +57,9 @@
       "collaboration-orbit>ethics-boundary>signal-final",
       "ethics-boundary>signal-final>signal-faq"
     ],
-    "neutral_silhouette_hash": "noremizan-org-v1.2:SIGNAL-CAPABILITYMATRIX-LABWINDOW-LABDETAIL-LABMOSAIC-RESEARCHRUNWAY-SYSTEMLEDGER-PROTOTYPEBOUNDARY-COLLABORATIONORBIT-ETHICSBOUNDARY-STUDIOBOUNDARY-SIGNALFINAL-FAQ"
+    "neutral_silhouette_hash": "noremizan-org-v2.1:RUST-STACKEDSIGNAL-SERVERMODEL-OUTPOSTWINDOW-COREMOSAIC-JOINRUNWAY-COASTLINESTAGE-OPSLEDGER-PLAYSTYLEORBIT-RUSTSIGNAL-FAQ"
   },
-  "site_fingerprint": "noremizan-org-v1.2:SIGNAL-CAPABILITYMATRIX-LABWINDOW-LABDETAIL-LABMOSAIC-RESEARCHRUNWAY-SYSTEMLEDGER-PROTOTYPEBOUNDARY-COLLABORATIONORBIT-ETHICSBOUNDARY-STUDIOBOUNDARY-SIGNALFINAL-FAQ",
+  "site_fingerprint": "noremizan-org-v2.1:RUST-STACKEDSIGNAL-SERVERMODEL-OUTPOSTWINDOW-COREMOSAIC-JOINRUNWAY-COASTLINESTAGE-OPSLEDGER-PLAYSTYLEORBIT-RUSTSIGNAL-FAQ",
   "financial_copy_policy": "NO_FINANCIAL_MENTIONS",
   "exact_home_layout_repeat": 0,
   "host_runtime_state": "PENDING_DEPLOYMENT_RUNTIME_PROBE",
@@ -69,6 +71,10 @@
     {
       "version": "1.2.0",
       "change": "Fixed literal newline separator artifact, added unique favicon set, expanded thin internal pages, added contextual section media and new non-repeating section morphologies."
+    },
+    {
+      "version": "2.1.0",
+      "change": "Corrected project business model and niche; expanded internal-page content depth; rebuilt hero crop; added contextual production media; diversified section morphology across the four-site batch."
     }
   ],
   "public_language": "DE",
