@@ -4,7 +4,7 @@
   "geo": "HU",
   "locale": "hu-HU",
   "niche": "gaming furniture retail / chairs / desks / spatial planning",
-  "build_identity": "2026-10-06-v1.3.0",
+  "build_identity": "2026-10-06-v1.4.0",
   "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
   "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
   "hero": {
@@ -29,7 +29,7 @@
     ],
     "neutral_silhouette_hash": "ravipozna-v1.3:SHOWROOM-FULLBLEED-WORKSHOP-BLUEPRINT-RUNWAY-DARKCHAIR-MOSAIC-PACKDOCK-FAQ-FINAL"
   },
-  "site_fingerprint": "ravipozna-v1.3:HU-GAMING-FURNITURE-FULLBLEED-HERO-BLUEPRINT-MODIFIERS-TABLES-ARCHITECTURAL-FOOTER",
+  "site_fingerprint": "ravipozna-v1.3:HU-GAMING-FURNITURE-FULLBLEED-HERO-BLUEPRINT-MODIFIERS-TABLES-ARCHITECTURAL-FOOTER-CONTENTFLOOR300-CLEANUP-MOBILEFOOTER",
   "business_model_family": "TEAM_OPERATED_SERVICE_RETAIL",
   "public_language": "HU",
   "generated_site_mockups_used": 0,
@@ -42,6 +42,16 @@
     {
       "version": "1.3.0",
       "change": "Expanded product and planning pages with spatial decision tables; enriched legal pages; introduced modifier-driven architectural layouts, full-bleed showroom hero and compact address-first footer."
+    },
+    {
+      "version": "1.4.0",
+      "change": "Added hard 300-word public-page floor, stale/duplicate factory-page cleanup, true 404 fallback, compact unique footer revision, and 390/430/768/1024 mobile-tablet layout QA."
     }
-  ]
+  ],
+  "public_page_min_words": 300,
+  "thin_page_gate": "PASS",
+  "stale_factory_page_cleanup": "IMPLEMENTED_PENDING_RUNTIME",
+  "unknown_page_behavior": "404_NOT_HOME",
+  "mobile_tablet_qa": "PASS_390_430_768_1024",
+  "footer_revision": "v1.4 compact unique"
 }
