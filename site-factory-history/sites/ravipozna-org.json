@@ -4,7 +4,7 @@
   "geo": "HU",
   "locale": "hu-HU",
   "niche": "gaming furniture retail / chairs / desks / spatial planning",
-  "build_identity": "2026-10-06-v1.4.0",
+  "build_identity": "2026-10-06-v1.5.0",
   "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
   "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
   "hero": {
@@ -46,6 +46,10 @@
     {
       "version": "1.4.0",
       "change": "Added hard 300-word public-page floor, stale/duplicate factory-page cleanup, true 404 fallback, compact unique footer revision, and 390/430/768/1024 mobile-tablet layout QA."
+    },
+    {
+      "version": "1.5.0",
+      "change": "Hardened managed WordPress pages against blank canonical slugs and slug-2 duplicates, added 300+ word post_content fallbacks, widened long-form copy, converted phone tables to cards, and rebuilt the footer composition."
     }
   ],
   "public_page_min_words": 300,
@@ -53,5 +57,11 @@
   "stale_factory_page_cleanup": "IMPLEMENTED_PENDING_RUNTIME",
   "unknown_page_behavior": "404_NOT_HOME",
   "mobile_tablet_qa": "PASS_390_430_768_1024",
-  "footer_revision": "v1.4 compact unique"
+  "footer_revision": "architectural dark footer / wide-copy legal / canonical page adoption",
+  "rendered_visible_min_words": 483,
+  "canonical_slug_adoption": "IMPLEMENTED",
+  "post_content_fallback": "IMPLEMENTED",
+  "complete_stylesheet_graph_qa": "PASS",
+  "mobile_table_cards": "PASS",
+  "desktop_narrow_long_copy": "PASS"
 }
