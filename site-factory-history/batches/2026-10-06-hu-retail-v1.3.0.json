@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "batch": "2026-10-06-hu-retail-v1.3.0",
+  "locale": "hu-HU",
+  "sites": [
+    "yelvaris.org",
+    "ravipozna.org",
+    "pelnoyard.org"
+  ],
+  "cross_site_registry": {
+    "yelvaris": {
+      "hero": "FLOATING_EDITORIAL_CARD_OVER_IMAGE",
+      "home_sequence": "STATEMENT>TIMELINE>MOSAIC>MEDIA>LEDGER>MEDIA>MOSAIC>FAQ>QUOTE",
+      "footer": "BOUTIQUE_3COL"
+    },
+    "ravipozna": {
+      "hero": "FULLBLEED_SHOWROOM_OVERLAY_PANEL",
+      "home_sequence": "MEDIA>STATEMENT>STEPS>LEDGER>MEDIA>MOSAIC>MEDIA>FAQ>QUOTE",
+      "footer": "ARCHITECTURAL_BAR"
+    },
+    "pelnoyard": {
+      "hero": "DARK_TECH_SPLIT_CLIPPED_IMAGE",
+      "home_sequence": "STATEMENT>LEDGER>MEDIA>TIMELINE>MOSAIC>MEDIA>MEDIA>FAQ>QUOTE",
+      "footer": "SIGNAL_GRID"
+    }
+  },
+  "gates": {
+    "home_sequences_unique": "PASS",
+    "primary_category_sequences_unique": "PASS",
+    "hero_topologies_unique": "PASS",
+    "footer_markup_unique": "PASS",
+    "layout_modifier_engine": "PASS",
+    "browser_layout_static": "PASS",
+    "wordpress_runtime": "BLOCKED_UNTIL_DEPLOYMENT"
+  }
+}
