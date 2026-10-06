@@ -1,0 +1,47 @@
+{
+  "schema_version": "2.0",
+  "domain": "ravipozna.org",
+  "geo": "HU",
+  "locale": "hu-HU",
+  "niche": "gaming furniture retail / chairs / desks / spatial planning",
+  "build_identity": "2026-10-06-v1.3.0",
+  "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
+  "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
+  "hero": {
+    "archetype_id": "H_RAVIPOZNA_FULLBLEED_SHOWROOM",
+    "topology_cluster": "FULLBLEED_SHOWROOM_OVERLAY_PANEL"
+  },
+  "footer": {
+    "archetype_id": "F_RAVIPOZNA_ARCHITECTURAL_BAR"
+  },
+  "home": {
+    "page_rhythm_recipe": "MEDIA_STATEMENT_STEPS_LEDGER_MEDIA_MOSAIC_MEDIA_FAQ_QUOTE",
+    "topology_sequence": [
+      "media",
+      "statement",
+      "steps",
+      "ledger",
+      "media",
+      "mosaic",
+      "media",
+      "faq",
+      "quote"
+    ],
+    "neutral_silhouette_hash": "ravipozna-v1.3:SHOWROOM-FULLBLEED-WORKSHOP-BLUEPRINT-RUNWAY-DARKCHAIR-MOSAIC-PACKDOCK-FAQ-FINAL"
+  },
+  "site_fingerprint": "ravipozna-v1.3:HU-GAMING-FURNITURE-FULLBLEED-HERO-BLUEPRINT-MODIFIERS-TABLES-ARCHITECTURAL-FOOTER",
+  "business_model_family": "TEAM_OPERATED_SERVICE_RETAIL",
+  "public_language": "HU",
+  "generated_site_mockups_used": 0,
+  "layout_modifier_engine": "PASS",
+  "content_depth": "PASS",
+  "brand_logo_integrated": "PASS",
+  "footer_contact": "PASS",
+  "runtime_state": "BLOCKED_UNTIL_DEPLOYMENT",
+  "revisions": [
+    {
+      "version": "1.3.0",
+      "change": "Expanded product and planning pages with spatial decision tables; enriched legal pages; introduced modifier-driven architectural layouts, full-bleed showroom hero and compact address-first footer."
+    }
+  ]
+}
