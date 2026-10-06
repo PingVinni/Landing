@@ -1,0 +1,47 @@
+{
+  "schema_version": "2.0",
+  "domain": "yelvaris.org",
+  "geo": "HU",
+  "locale": "hu-HU",
+  "niche": "specialty card-game and tabletop accessories retail",
+  "build_identity": "2026-10-06-v1.3.0",
+  "memory_state": "BUILD_COMPLETE_PENDING_DEPLOYMENT",
+  "reuse_policy": "COMPARE_ONLY_NEVER_COPY",
+  "hero": {
+    "archetype_id": "H_YELVARIS_FLOATING_EDITORIAL",
+    "topology_cluster": "FLOATING_EDITORIAL_CARD_OVER_IMAGE"
+  },
+  "footer": {
+    "archetype_id": "F_YELVARIS_BOUTIQUE_3COL"
+  },
+  "home": {
+    "page_rhythm_recipe": "STATEMENT_TIMELINE_MOSAIC_MEDIA_LEDGER_MEDIA_MOSAIC_FAQ_QUOTE",
+    "topology_sequence": [
+      "statement",
+      "timeline",
+      "mosaic",
+      "media",
+      "ledger",
+      "media",
+      "mosaic",
+      "faq",
+      "quote"
+    ],
+    "neutral_silhouette_hash": "yelvaris-v1.3:BOUTIQUE-FLOAT-CARD-TIMELINE-PAPER-MOSAIC-PACKWINDOW-LEDGER-DARKMEDIA-FAQ-FINAL"
+  },
+  "site_fingerprint": "yelvaris-v1.3:HU-CARD-RETAIL-FLOATING-HERO-PAPER-MODIFIERS-TABLES-BOUTIQUE-FOOTER",
+  "business_model_family": "TEAM_OPERATED_SERVICE_RETAIL",
+  "public_language": "HU",
+  "generated_site_mockups_used": 0,
+  "layout_modifier_engine": "PASS",
+  "content_depth": "PASS",
+  "brand_logo_integrated": "PASS",
+  "footer_contact": "PASS",
+  "runtime_state": "BLOCKED_UNTIL_DEPLOYMENT",
+  "revisions": [
+    {
+      "version": "1.3.0",
+      "change": "Expanded all internal pages with decision tables and denser copy; enriched Privacy/Terms/Cookies; introduced modifier-driven section morphology, distinct floating editorial hero and simplified boutique footer."
+    }
+  ]
+}
